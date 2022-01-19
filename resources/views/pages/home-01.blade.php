@@ -539,12 +539,6 @@
                 <li class="nav-item">
                   <a class="nav-link pl-3 px-2" data-toggle="modal" href="#login-register-modal">SIGN IN</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link px-2 position-relative" href="#">
-                    <i class="fal fa-heart fs-large-4"></i>
-                    <span class="badge badge-primary badge-circle badge-absolute">1</span>
-                  </a>
-                </li>
               </ul>
             </div>
           </nav>
@@ -1675,7 +1669,7 @@
                   <div class="card-img-overlay p-2 d-flex flex-column">
                     <div>
                       <span class="badge mr-2 badge-orange">featured</span>
-                      <span class="badge mr-2 badge-indigo">for Sale</span>
+                      <span class="badge mr-2 badge-indigo">for Rent</span>
                     </div>
                     <ul class="list-inline mb-0 mt-auto hover-image">
                       <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
@@ -1753,7 +1747,7 @@
 						     alt="Affordable Urban House">
                   <div class="card-img-overlay p-2 d-flex flex-column">
                     <div>
-                      <span class="badge mr-2 badge-indigo">for Sale</span>
+                      <span class="badge mr-2 badge-indigo">for Rent</span>
                     </div>
                     <ul class="list-inline mb-0 mt-auto hover-image">
                       <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
@@ -1831,7 +1825,7 @@
 						     alt="Villa on Hollywood Boulevard">
                   <div class="card-img-overlay p-2 d-flex flex-column">
                     <div>
-                      <span class="badge mr-2 badge-indigo">for Sale</span>
+                      <span class="badge mr-2 badge-indigo">for Rent</span>
                     </div>
                     <ul class="list-inline mb-0 mt-auto hover-image">
                       <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
@@ -1910,7 +1904,7 @@
                   <div class="card-img-overlay p-2 d-flex flex-column">
                     <div>
                       <span class="badge mr-2 badge-orange">featured</span>
-                      <span class="badge mr-2 badge-indigo">for Sale</span>
+                      <span class="badge mr-2 badge-indigo">for Rent</span>
                     </div>
                     <ul class="list-inline mb-0 mt-auto hover-image">
                       <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
@@ -1989,7 +1983,7 @@
                   <div class="card-img-overlay p-2 d-flex flex-column">
                     <div>
                       <span class="badge mr-2 badge-orange">featured</span>
-                      <span class="badge mr-2 badge-indigo">for Sale</span>
+                      <span class="badge mr-2 badge-indigo">for Rent</span>
                     </div>
                     <ul class="list-inline mb-0 mt-auto hover-image">
                       <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
