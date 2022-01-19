@@ -16635,11 +16635,11 @@ a.text-indigo:hover, a.text-indigo:focus {
   z-index: 1050;
 }
 
-.header-hidden {
+/* .header-hidden {
   -webkit-transform: translate(0, -100%);
           transform: translate(0, -100%);
   box-shadow: none !important;
-}
+} */
 
 .navbar-light .sticky-area {
   background-color: #fff;

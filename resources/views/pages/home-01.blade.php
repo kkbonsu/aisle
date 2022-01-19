@@ -44,7 +44,7 @@
     <meta property="og:image:height" content="630">
   </head>
   <body>
-    <header class="main-header position-absolute fixed-top m-0 navbar-dark header-sticky header-sticky-smart header-mobile-xl">
+    {{-- <header class="main-header position-absolute fixed-top m-0 navbar-dark header-sticky header-sticky-smart header-mobile-xl">
       <div class="sticky-area">
         <div class="container container-xxl">
           <div class="d-flex align-items-center">
@@ -405,325 +405,779 @@
           </div>
         </div>
       </div>
-    </header>
+    </header> --}}
     
-    <main id="content">
-      <section class="d-flex flex-column">
-        <div style="background-image: url('images/bg-home-01.jpg')"
-	     class="bg-cover d-flex align-items-center custom-vh-100">
-          <div class="container pt-lg-15 py-8" data-animate="zoomIn">
-            <p class="text-white fs-md-22 fs-18 font-weight-500 letter-spacing-367 mb-6 text-center text-uppercase">Let
-              us guide your home</p>
-            <h2 class="text-white display-2 text-center mb-sm-13 mb-8">Find Your Dream Home</h2>
-            <form class="property-search py-lg-0 z-index-2 position-relative d-none d-lg-block">
-              <div class="row no-gutters">
-                <div class="col-md-5 col-lg-4 col-xl-3">
-                  <input class="search-field" type="hidden" name="status" value="for-sale"
-						       data-default-value="">
-                  <ul class="nav nav-pills property-search-status-tab">
-                    <li class="nav-item bg-secondary rounded-top" role="presentation">
-                      <a href="#" role="tab" aria-selected="true"
-								   class="nav-link btn shadow-none rounded-bottom-0 text-white text-btn-focus-secondary text-uppercase d-flex align-items-center fs-13 rounded-bottom-0 bg-active-white text-active-secondary letter-spacing-087 flex-md-1 px-4 py-2 active"
-								   data-toggle="pill" data-value="for-sale">
-                        <svg class="icon icon-villa fs-22 mr-2">
-                          <use xlink:href="#icon-villa"></use>
-                        </svg>
-                        for sale
+
+    <header class="main-header navbar-dark bg-secondary pb-lg-9 header-sticky header-sticky-smart header-mobile-lg">
+      <div class="sticky-area bg-secondary">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg bg-transparent px-0">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo-white.png" alt="HomeID">
+            </a>
+            <div class="d-flex d-lg-none ml-auto">
+             
+              <button class="navbar-toggler border-0 px-0" type="button" data-toggle="collapse"
+                            data-target="#primaryMenu06"
+                            aria-controls="primaryMenu06" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="text-white fs-24"><i class="fal fa-bars"></i></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse mt-3 mt-lg-0 flex-grow-0 mx-auto" id="primaryMenu06">
+              <ul class="navbar-nav hover-menu main-menu px-0 mx-lg-n4">
+
+
+                <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
+        class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
+                  <a class="nav-link dropdown-toggle p-0"
+           href="index.html" data-toggle="dropdown" >
+           For Rent
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu pt-3 pb-0 pb-lg-3" aria-labelledby="navbar-item-home">
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-01"
+                   class="dropdown-link"
+                   href="home-01.html" >
+                   Apartments For Rent
                       </a>
                     </li>
-                    <li class="nav-item bg-secondary rounded-top" role="presentation">
-                      <a href="#" role="tab" aria-selected="true"
-								   class="nav-link btn shadow-none rounded-bottom-0 text-white text-btn-focus-secondary text-uppercase d-flex align-items-center fs-13 rounded-bottom-0 bg-active-white text-active-secondary letter-spacing-087 flex-md-1 px-4 py-2"
-								   data-toggle="pill" data-value="for-rent">
-                        <svg class="icon icon-building fs-22 mr-2">
-                          <use xlink:href="#icon-building"></use>
-                        </svg>
-                        for rent
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-02"
+                   class="dropdown-link"
+                   href="home-02.html" >
+                   Houses For Rent
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-03"
+                   class="dropdown-link"
+                   href="home-03.html" >
+                   Office Spaces For Rent
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-04"
+                   class="dropdown-link"
+                   href="home-04.html" >
+                   Rented Properties
                       </a>
                     </li>
                   </ul>
-                </div>
+                </li>
+
+
+                 
+                <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
+        class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
+                  <a class="nav-link dropdown-toggle p-0"
+           href="index.html" data-toggle="dropdown" >
+           For Sale
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu pt-3 pb-0 pb-lg-3" aria-labelledby="navbar-item-home">
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-01"
+                   class="dropdown-link"
+                   href="home-01.html" >
+                   Apartments For Sale                     </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-02"
+                   class="dropdown-link"
+                   href="home-02.html" >
+                   Houses For Sale                     </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-03"
+                   class="dropdown-link"
+                   href="home-03.html" >
+                   Office Spaces For Sale                     </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-04"
+                   class="dropdown-link"
+                   href="home-04.html" >
+                   Sold Properties
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+
+                <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
+                class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
+                          <a class="nav-link  p-0"
+                   href="land.html" data-toggle="dropdown" >
+                   Land
+                          </a>
+                </li>
+
+                <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
+                class="nav-item  py-2 py-lg-5 px-0 px-lg-4">
+                          <a class="nav-link  p-0"
+                   href="investment.html" data-toggle="dropdown" >
+                   Investment</a>
+                </li>
+
+
+              </ul>
+              <div class="d-block d-lg-none">
+                <ul class="navbar-nav flex-row ml-auto align-items-center justify-content-lg-end flex-wrap py-2">
+                 
+                  <li class="divider"></li>
+                  <li class="nav-item">
+                    <a class="nav-link pl-3 px-2" data-toggle="modal" href="#login-register-modal">SIGN IN</a>
+                  </li>
+                </ul>
               </div>
-              <div class="bg-white px-6 rounded-bottom rounded-top-right pb-6 pb-lg-0">
-                <div class="row align-items-center"
-					     id="accordion-4">
-                  <div class="col-md-6 col-lg-3 col-xl-3 pt-6 pt-lg-0 order-1">
-                    <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">Property Type</label>
+            </div>
+            <div class="d-none d-lg-block">
+              <ul class="navbar-nav flex-row ml-auto align-items-center justify-content-lg-end flex-wrap py-2">
+              
+                <li class="divider"></li>
+                <li class="nav-item">
+                  <a class="nav-link pl-3 px-2" data-toggle="modal" href="#login-register-modal">SIGN IN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-2 position-relative" href="#">
+                    <i class="fal fa-heart fs-large-4"></i>
+                    <span class="badge badge-primary badge-circle badge-absolute">1</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main id="content">
+      <section>
+        <div class="container">
+          <form class="property-search position-relative d-none d-lg-block">
+            <div class="row align-items-center ml-lg-0 py-lg-0 shadow-sm-2 rounded bg-white position-lg-absolute top-lg-n50px py-lg-0 py-6 px-3 z-index-1 w-md-100"
+			     data-animate="fadeInDown" id="accordion-3">
+              <div class="col-md-6 col-lg-3 order-1">
+                <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">Home Type</label>
+                <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-color-input"
+					        title="Select" data-style="p-0 h-24 lh-17 text-dark" name="type">
+                  <option>Condominium</option>
+                  <option>Single-Family Home</option>
+                  <option>Townhouse</option>
+                  <option>Multi-Family Home</option>
+                </select>
+              </div>
+
+              <div class="col-md-6 col-lg-3 order-1">
+                <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">Home Type</label>
+                <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-color-input"
+					        title="Select" data-style="p-0 h-24 lh-17 text-dark" name="type">
+                  <option>Condominium</option>
+                  <option>Single-Family Home</option>
+                  <option>Townhouse</option>
+                  <option>Multi-Family Home</option>
+                </select>
+              </div>
+
+            
+              <div class="col-sm pr-lg-0 pt-6 pt-lg-0 order-3">
+                <a href="#advanced-search-filters-3"
+					   class="btn advanced-search btn-accent h-lg-100 w-100 shadow-none text-secondary rounded-0 fs-14 fs-sm-16 font-weight-600 text-left d-flex align-items-center collapsed"
+					   data-toggle="collapse" data-target="#advanced-search-filters-3" aria-expanded="true"
+					   aria-controls="advanced-search-filters-3">
+                  Advanced Search
+                </a>
+              </div>
+              <div class="col-sm pt-6 pt-lg-0 order-sm-4 order-5">
+                <button type="submit"
+					        class="btn btn-primary shadow-none fs-16 font-weight-600 w-100 py-lg-3">
+                  Search
+                </button>
+              </div>
+              <div id="advanced-search-filters-3" class="col-12 py-sm-4 order-4 order-sm-5 collapse"
+				     data-parent="#accordion-3">
+                <div class="row">
+                  <div class="col-sm-6 col-lg-3 pt-6">
+                    <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">Bedrooms</label>
                     <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-color-input"
-							        title="Select" data-style="p-0 h-24 lh-17 text-dark" name="type">
-                      <option>House</option>
-                      <option>Apartment</option>
-                      <option>Guest House</option>
-                      <option>Land</option>
-                      <option>Office</option>
-                      <option>Warehouse</option>
-                      <option>Shop</option>
-                      <!-- <option>Retail</option>
-                      <option>Commercial Space</option> -->
+							        name="bedroom"
+							        title="All Bedrooms" data-style="p-0 h-24 lh-17 text-dark">
+                      <option>All Bedrooms</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
                     </select>
                   </div>
-                  <div class="col-md-6 col-lg-4 col-xl-5 pt-6 pt-lg-0 order-2">
-                    <label class="text-uppercase font-weight-500 letter-spacing-093">Search Property</label>
-                    <div class="position-relative">
-                      <input type="text" name="search"
-								       class="form-control bg-transparent shadow-none border-top-0 border-right-0 border-left-0 border-bottom rounded-0 h-24 lh-17 pl-0 pr-4 font-weight-600 border-color-input placeholder-muted"
-								       placeholder="Find something...">
-                      <i class="far fa-search position-absolute pos-fixed-right-center pr-0 fs-18 mt-n3"></i>
+                  <div class="col-sm-6 col-lg-3 pt-6">
+                    <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">Bathrooms</label>
+                    <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-color-input"
+							        title="All Bathrooms" data-style="p-0 h-24 lh-17 text-dark" name="bathroom">
+                      <option>All Bathrooms</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6 col-lg-3 pt-6">
+                    <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">Cities</label>
+                    <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-color-input"
+							        name="city"
+							        title="All Cities" data-style="p-0 h-24 lh-17 text-dark">
+                      <option>All Cities</option>
+                      <option>New York</option>
+                      <option>Los Angeles</option>
+                      <option>Chicago</option>
+                      <option>Houston</option>
+                      <option>San Diego</option>
+                      <option>Las Vegas</option>
+                      <option>Las Vegas</option>
+                      <option>Atlanta</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6 col-lg-3 pt-6">
+                    <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">All Areas</label>
+                    <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-color-input"
+							        name="areas"
+							        title="All Areas" data-style="p-0 h-24 lh-17 text-dark">
+                      <option>All Areas</option>
+                      <option>Albany Park</option>
+                      <option>Altgeld Gardens</option>
+                      <option>Andersonville</option>
+                      <option>Beverly</option>
+                      <option>Brickel</option>
+                      <option>Central City</option>
+                      <option>Coconut Grove</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row pt-2">
+                  <div class="col-md-6 col-lg-4 pt-6 slider-range slider-range-secondary">
+                    <label for="price-1-3" class="mb-4 text-gray-light">Price Range</label>
+                    <div data-slider="true"
+							     data-slider-options='{"min":0,"max":1000000,"values":[100000,700000],"type":"currency"}'></div>
+                    <div class="text-center mt-2">
+                      <input id="price-1-3" type="text" readonly name="price"
+								       class="border-0 amount text-center text-body font-weight-500">
                     </div>
                   </div>
-                  <div class="col-sm pr-lg-0 pt-6 pt-lg-0 order-3">
-                    <a href="#advanced-search-filters-4"
-							   class="btn advanced-search btn-accent h-lg-100 w-100 shadow-none text-secondary rounded-0 fs-14 fs-sm-16 font-weight-600 text-left d-flex align-items-center collapsed"
-							   data-toggle="collapse" data-target="#advanced-search-filters-4" aria-expanded="true"
-							   aria-controls="advanced-search-filters-4">
-                      Advanced Search
+                  <div class="col-md-6 col-lg-4 pt-6 slider-range slider-range-secondary">
+                    <label for="area-size-3" class="mb-4 text-gray-light">Area Size</label>
+                    <div data-slider="true"
+							     data-slider-options='{"min":0,"max":15000,"values":[0,13000],"type":"sqrt"}'></div>
+                    <div class="text-center mt-2">
+                      <input id="area-size-3" type="text" readonly name="price"
+								       class="border-0 amount text-center text-body font-weight-500">
+                    </div>
+                  </div>
+                  <div class="col-sm-6 col-lg-4 pt-6">
+                    <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">Property
+                      ID</label>
+                    <input type="text" name="search"
+							       class="form-control bg-transparent shadow-none border-top-0 border-right-0 border-left-0 border-bottom rounded-0 h-24 lh-17 p-0 font-weight-600 border-color-input"
+							       placeholder="Enter ID...">
+                  </div>
+                  <div class="col-12 pt-6 pb-2">
+                    <a class="lh-17 d-inline-block other-feature collapsed" data-toggle="collapse"
+							   href="#other-feature-3"
+							   role="button"
+							   aria-expanded="false" aria-controls="other-feature-3">
+                      <span class="fs-15 text-heading font-weight-500 hover-primary">Other Features</span>
                     </a>
                   </div>
-                  <div class="col-sm pt-6 pt-lg-0 order-sm-4 order-5">
-                    <button type="submit"
-							        class="btn btn-primary shadow-none fs-16 font-weight-600 w-100 py-lg-2 lh-213">
-                      Search
-                    </button>
-                  </div>
-                  <div id="advanced-search-filters-4" class="col-12 pt-4 pb-sm-4 order-sm-5 order-4 collapse"
-						     data-parent="#accordion-4">
-                    <div class="row">
-                      <div class="col-sm-6 col-lg-3 pt-6">
-                        <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">Bedrooms</label>
-                        <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-color-input"
-									        name="bedroom"
-									        title="All Bedrooms" data-style="p-0 h-24 lh-17 text-dark">
-                          <option>All Bedrooms</option>
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                          <option>5</option>
-                          <option>6</option>
-                        </select>
-                      </div>
-                      <div class="col-sm-6 col-lg-3 pt-6">
-                        <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">Bathrooms</label>
-                        <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-color-input"
-									        title="All Bathrooms" data-style="p-0 h-24 lh-17 text-dark" name="bathroom">
-                          <option>All Bathrooms</option>
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                          <option>5</option>
-                        </select>
-                      </div>
-                      <div class="col-sm-6 col-lg-3 pt-6">
-                        <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">All
-                          Areas</label>
-                        <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-color-input"
-									        name="city"
-									        title="Select areas in Accra" data-style="p-0 h-24 lh-17 text-dark">
-                          <option >Legon</option>
-                          <option>Dansoman</option>
-                          <option>East Legon</option>
-                          <option>North Legon</option>
-                          <option>Airport Residential</option>
-                          <option>Madina</option>
-                          <option>Shiashie</option>
-                          <option>Dzowulu</option>
-                          <option>Abeka Lapaz</option>
-                          <option>Kwashieman</option>
-                          <option>Santa Maria</option>
-                          <option>Ave Maria</option>
-                          <option>Adenta</option>
-                          <option>Nungua</option>
-                        </select>
-                      </div>
-                      <div class="col-sm-6 col-lg-3 pt-6">
-                        <div class=" slider-range slider-range-secondary">
-                          <label for="price-1-4" class="mb-4 text-gray-light">Price Range</label>
-                          <div data-slider="true"
-                         data-slider-options='{"min":0,"max":1000000,"values":[100000,700000],"type":"currency"}'></div>
-                          <div class="text-center mt-2">
-                            <input id="price-1-4" type="text" readonly name="price"
-                             class="border-0 amount text-center text-body font-weight-500 bg-transparent">
-                          </div>
-                        </div>
+                  <div class="collapse row mx-0" id="other-feature-3">
+                    <div class="col-sm-6 col-md-4 col-lg-3 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check1-3" name="features[]">
+                        <label class="custom-control-label" for="check1-3">Air Conditioning</label>
                       </div>
                     </div>
-                    <div class="row pt-2">
-                      <div class="col-12 pt-6 pb-2">
-                        <a class="lh-17 d-inline-block other-feature collapsed" data-toggle="collapse"
-									   href="#other-feature-4"
-									   role="button"
-									   aria-expanded="false" aria-controls="other-feature-4">
-                          <span class="fs-15 text-heading font-weight-500 hover-primary">Other Features</span>
-                        </a>
+                    <div class="col-sm-6 col-md-4 col-lg-3 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check2-3" name="features[]">
+                        <label class="custom-control-label" for="check2-3">Laundry</label>
                       </div>
-                      <div class="collapse row mx-0 w-100" id="other-feature-4">
-                        <div class="col-sm-6 col-md-4 col-lg-3 py-2">
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="check6-4"
-											       name="features[]">
-                            <label class="custom-control-label" for="check6-4">Lawn</label>
-                          </div>
-                        </div>
-                       <div class="col-sm-6 col-md-4 col-lg-3 py-2">
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="check11-4"
-											       name="features[]">
-                            <label class="custom-control-label" for="check11-4">Swimming Pool</label>
-                          </div>
-                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check4-3" name="features[]">
+                        <label class="custom-control-label" for="check4-3">Washer</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check5-3" name="features[]">
+                        <label class="custom-control-label" for="check5-3">Barbeque</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check6-3" name="features[]">
+                        <label class="custom-control-label" for="check6-3">Lawn</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check7-3" name="features[]">
+                        <label class="custom-control-label" for="check7-3">Sauna</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check8-3" name="features[]">
+                        <label class="custom-control-label" for="check8-3">WiFi</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check9-3" name="features[]">
+                        <label class="custom-control-label" for="check9-3">Dryer</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check10-3"
+									       name="features[]">
+                        <label class="custom-control-label" for="check10-3">Microwave</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check11-3"
+									       name="features[]">
+                        <label class="custom-control-label" for="check11-3">Swimming Pool</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check12-3"
+									       name="features[]">
+                        <label class="custom-control-label" for="check12-3">Window Coverings</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check13-3"
+									       name="features[]">
+                        <label class="custom-control-label" for="check13-3">Gym</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check14-3"
+									       name="features[]">
+                        <label class="custom-control-label" for="check14-3">Outdoor Shower</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check15-3"
+									       name="features[]">
+                        <label class="custom-control-label" for="check15-3">TV Cable</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check16-3"
+									       name="features[]">
+                        <label class="custom-control-label" for="check16-3">Refrigerator</label>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </form>
-            <form class="property-search property-search-mobile d-lg-none z-index-2 position-relative bg-white rounded mx-md-10">
-              <div class="row align-items-lg-center" id="accordion-4-mobile">
-                <div class="col-12">
-                  <div class="form-group mb-0 position-relative">
-                    <a href="#advanced-search-filters-4-mobile"
-							   class="text-secondary btn advanced-search shadow-none pr-3 pl-0 d-flex align-items-center position-absolute pos-fixed-left-center py-0 h-100 border-right collapsed"
-							   data-toggle="collapse" data-target="#advanced-search-filters-4-mobile"
-							   aria-expanded="true"
-							   aria-controls="advanced-search-filters-4-mobile">
-                    </a>
-                    <input type="text"
-							       class="form-control form-control-lg border shadow-none pr-9 pl-11 bg-white placeholder-muted"
-							       name="key-word"
-							       placeholder="Search...">
-                    <button type="submit"
-							        class="btn position-absolute pos-fixed-right-center p-0 text-heading fs-20 px-3 shadow-none h-100 border-left">
-                      <i class="far fa-search"></i>
-                    </button>
+            </div>
+          </form>
+          <form class="property-search property-search-mobile d-lg-none py-6">
+            <div class="row align-items-lg-center" id="accordion-3-mobile">
+              <div class="col-12">
+                <div class="form-group mb-0 position-relative">
+                  <a href="#advanced-search-filters-3-mobile"
+						   class="text-secondary btn advanced-search shadow-none pr-3 pl-0 d-flex align-items-center position-absolute pos-fixed-left-center py-0 h-100 border-right collapsed"
+						   data-toggle="collapse" data-target="#advanced-search-filters-3-mobile"
+						   aria-expanded="true"
+						   aria-controls="advanced-search-filters-3-mobile">
+                  </a>
+                  <input type="text"
+						       class="form-control form-control-lg border shadow-none pr-9 pl-11 bg-white placeholder-muted"
+						       name="key-word"
+						       placeholder="Search...">
+                  <button type="submit"
+						        class="btn position-absolute pos-fixed-right-center p-0 text-heading fs-20 px-3 shadow-none h-100 border-left">
+                    <i class="far fa-search"></i>
+                  </button>
+                </div>
+              </div>
+              <div id="advanced-search-filters-3-mobile" class="col-12 pt-2 collapse"
+				     data-parent="#accordion-3-mobile">
+                <div class="row mx-n2">
+                  <div class="col-sm-6 pt-4 px-2">
+                    <select class="form-control border shadow-none form-control-lg selectpicker bg-transparent"
+							        title="Select" data-style="btn-lg py-2 h-52 bg-transparent" name="type">
+                      <option>All status</option>
+                      <option>For Rent</option>
+                      <option>For Sale</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6 pt-4 px-2">
+                    <select class="form-control border shadow-none form-control-lg selectpicker bg-transparent"
+							        title="All Types" data-style="btn-lg py-2 h-52 bg-transparent" name="type">
+                      <option>Condominium</option>
+                      <option>Single-Family Home</option>
+                      <option>Townhouse</option>
+                      <option>Multi-Family Home</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6 pt-4 px-2">
+                    <select class="form-control border shadow-none form-control-lg selectpicker bg-transparent"
+							        name="bedroom"
+							        title="Bedrooms" data-style="btn-lg py-2 h-52 bg-transparent">
+                      <option>All Bedrooms</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6 pt-4 px-2">
+                    <select class="form-control border shadow-none form-control-lg selectpicker bg-transparent"
+							        name="bathrooms"
+							        title="Bathrooms" data-style="btn-lg py-2 h-52 bg-transparent">
+                      <option>All Bathrooms</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6 pt-4 px-2">
+                    <select class="form-control border shadow-none form-control-lg selectpicker bg-transparent"
+							        title="All Cities" data-style="btn-lg py-2 h-52 bg-transparent" name="city">
+                      <option>All Cities</option>
+                      <option>New York</option>
+                      <option>Los Angeles</option>
+                      <option>Chicago</option>
+                      <option>Houston</option>
+                      <option>San Diego</option>
+                      <option>Las Vegas</option>
+                      <option>Las Vegas</option>
+                      <option>Atlanta</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6 pt-4 px-2">
+                    <select class="form-control border shadow-none form-control-lg selectpicker bg-transparent"
+							        name="areas"
+							        title="All Areas" data-style="btn-lg py-2 h-52 bg-transparent">
+                      <option>All Areas</option>
+                      <option>Albany Park</option>
+                      <option>Altgeld Gardens</option>
+                      <option>Andersonville</option>
+                      <option>Beverly</option>
+                      <option>Brickel</option>
+                      <option>Central City</option>
+                      <option>Coconut Grove</option>
+                    </select>
                   </div>
                 </div>
-                <div id="advanced-search-filters-4-mobile" class="col-12 pt-2 px-7 collapse"
-					     data-parent="#accordion-4-mobile">
-                  <div class="row mx-n2">
-                    <div class="col-sm-6 pt-4 px-2">
-                      <select class="form-control border shadow-none form-control-lg selectpicker bg-transparent"
-								        title="Select" data-style="btn-lg py-2 h-52 bg-transparent" name="type">
-                        <option>All Properties</option>
-                        <option>For Rent</option>
-                        <option>For Sale</option>
-                      </select>
-                    </div>
-                    <div class="col-sm-6 pt-4 px-2">
-                      <select class="form-control border shadow-none form-control-lg selectpicker bg-transparent"
-								        title="Property Types" data-style="btn-lg py-2 h-52 bg-transparent" name="type">
-                        <option>House</option>
-                        <option>Apartment</option>
-                        <option>Guest House</option>
-                        <option>Land</option>
-                        <option>Office</option>
-                        <option>Warehouse</option>
-                        <option>Shop</option>
-                      </select>
-                    </div>
-                    <div class="col-sm-6 pt-4 px-2">
-                      <select class="form-control border shadow-none form-control-lg selectpicker bg-transparent"
-								        name="bedroom"
-								        title="Bedrooms" data-style="btn-lg py-2 h-52 bg-transparent">
-                        <option>All Bedrooms</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                        <option>6</option>
-                        <option>7</option>
-                        <option>8</option>
-                        <option>9</option>
-                        <option>10</option>
-                      </select>
-                    </div>
-                    <div class="col-sm-6 pt-4 px-2">
-                      <select class="form-control border shadow-none form-control-lg selectpicker bg-transparent"
-								        name="bathrooms"
-								        title="Bathrooms" data-style="btn-lg py-2 h-52 bg-transparent">
-                        <option>All Bathrooms</option>
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      
-                      </select>
-                    </div>
-                    <div class="col-sm-6 pt-4 px-2">
-                      <select class="form-control border shadow-none form-control-lg selectpicker bg-transparent"
-								        title="All Areas in Accra" data-style="btn-lg py-2 h-52 bg-transparent" name="city">
-                        <option >Legon</option>
-                        <option>Dansoman</option>
-                        <option>East Legon</option>
-                        <option>North Legon</option>
-                        <option>Airport Residential</option>
-                        <option>Madina</option>
-                        <option>Shiashie</option>
-                        <option>Dzowulu</option>
-                        <option>Abeka Lapaz</option>
-                        <option>Kwashieman</option>
-                        <option>Santa Maria</option>
-                        <option>Ave Maria</option>
-                        <option>Adenta</option>
-                        <option>Nungua</option>
-                      </select>
+                <div class="row">
+                  <div class="col-md-6 pt-6 slider-range slider-range-secondary">
+                    <label for="price-3-mobile" class="mb-4 text-white">Price Range</label>
+                    <div data-slider="true"
+							     data-slider-options='{"min":0,"max":1000000,"values":[100000,700000],"type":"currency"}'></div>
+                    <div class="text-center mt-2">
+                      <input id="price-3-mobile" type="text" readonly
+								       class="border-0 amount text-center bg-transparent font-weight-500"
+								       name="price">
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-md-6 pt-6 slider-range slider-range-secondary">
-                      <label for="price-4-mobile" class="mb-4 text-white">Price Range</label>
-                      <div data-slider="true"
-								     data-slider-options='{"min":0,"max":1000000,"values":[100000,700000],"type":"currency"}'></div>
-                      <div class="text-center mt-2">
-                        <input id="price-4-mobile" type="text" readonly
-									       class="border-0 amount text-center bg-transparent font-weight-500"
-									       name="price">
+                  <div class="col-md-6 pt-6 slider-range slider-range-secondary">
+                    <label for="area-size-3-mobile" class="mb-4">Area Size</label>
+                    <div data-slider="true"
+							     data-slider-options='{"min":0,"max":15000,"values":[0,12000],"type":"sqrt"}'></div>
+                    <div class="text-center mt-2">
+                      <input id="area-size-3-mobile" type="text" readonly
+								       class="border-0 amount text-center bg-transparent font-weight-500"
+								       name="area">
+                    </div>
+                  </div>
+                  <div class="col-12 pt-4 pb-2">
+                    <a class="lh-17 d-inline-block other-feature collapsed" data-toggle="collapse"
+							   href="#other-feature-3-mobile"
+							   role="button"
+							   aria-expanded="false" aria-controls="other-feature-3-mobile">
+                      <span class="fs-15 font-weight-500 hover-primary">Other Features</span>
+                    </a>
+                  </div>
+                  <div class="collapse row mx-0" id="other-feature-3-mobile">
+                    <div class="col-sm-6 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check1-3-mobile"
+									       name="feature[]">
+                        <label class="custom-control-label" for="check1-3-mobile">Air
+                          Conditioning</label>
                       </div>
                     </div>
-                    <div class="col-md-6 pt-6 slider-range slider-range-secondary">
-                      <label for="area-size-4-mobile" class="mb-4">Area Size</label>
-                      <div data-slider="true" data-slider-options='{"min":0,"max":15000,"values":[0,12000],"type":"sqrt"}'></div>
-                      <div class="text-center mt-2">
-                        <input id="area-size-4-mobile" type="text" readonly
-									       class="border-0 amount text-center bg-transparent font-weight-500"
-									       name="area">
+                    <div class="col-sm-6 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="check2-3-mobile"
+									       name="feature[]">
+                        <label class="custom-control-label" for="check2-3-mobile">Laundry</label>
                       </div>
                     </div>
-                    <div class="col-12 pt-4 pb-2">
-                      <a class="lh-17 d-inline-block other-feature collapsed" data-toggle="collapse"
-								   href="#other-feature-4-mobile"
-								   role="button"
-								   aria-expanded="false" aria-controls="other-feature-4-mobile">
-                        <span class="fs-15 font-weight-500 hover-primary">Other Features</span>
-                      </a>
-                    </div>
-                    <div class="collapse row mx-0 w-100" id="other-feature-4-mobile">
-                      <div class="col-sm-6 py-2">
-                        <div class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" name="features[]"
-										       id="check1-4-mobile">
-                          <label class="custom-control-label" for="check1-4-mobile">Lawn</label>
-                        </div>
+                    <div class="col-sm-6 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input"
+									       id="check4-3-mobile" name="feature[]">
+                        <label class="custom-control-label" for="check4-3-mobile">Washer</label>
                       </div>
-                      <div class="col-sm-6 py-2">
-                        <div class="custom-control custom-checkbox">
-                          <input type="checkbox" class="custom-control-input" name="features[]"
-										       id="check11-4-mobile">
-                          <label class="custom-control-label" for="check11-4-mobile">Swimming
-                            Pool</label>
-                        </div>
+                    </div>
+                    <div class="col-sm-6 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input"
+									       id="check5-3-mobile" name="feature[]">
+                        <label class="custom-control-label" for="check5-3-mobile">Barbeque</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input"
+									       id="check6-3-mobile" name="feature[]">
+                        <label class="custom-control-label" for="check6-3-mobile">Lawn</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input"
+									       id="check7-3-mobile" name="feature[]">
+                        <label class="custom-control-label" for="check7-3-mobile">Sauna</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input"
+									       id="check8-3-mobile" name="feature[]">
+                        <label class="custom-control-label" for="check8-3-mobile">WiFi</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input"
+									       id="check9-3-mobile" name="feature[]">
+                        <label class="custom-control-label" for="check9-3-mobile">Dryer</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input"
+									       id="check10-3-mobile" name="feature[]">
+                        <label class="custom-control-label" for="check10-3-mobile">Microwave</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input"
+									       id="check11-3-mobile" name="feature[]">
+                        <label class="custom-control-label" for="check11-3-mobile">Swimming
+                          Pool</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input"
+									       id="check12-3-mobile" name="feature[]">
+                        <label class="custom-control-label" for="check12-3-mobile">Window
+                          Coverings</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input"
+									       id="check13-3-mobile" name="feature[]">
+                        <label class="custom-control-label" for="check13-3-mobile">Gym</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input"
+									       id="check14-3-mobile" name="feature[]">
+                        <label class="custom-control-label" for="check14-3-mobile">Outdoor
+                          Shower</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input"
+									       id="check15-3-mobile" name="feature[]">
+                        <label class="custom-control-label" for="check15-3-mobile">TV Cable</label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 py-2">
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input"
+									       id="check16-3-mobile" name="feature[]">
+                        <label class="custom-control-label"
+									       for="check16-3-mobile">Refrigerator</label>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </form>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section>
+        <div class="slick-slider mx-0" data-slick-options='{"slidesToShow": 1, "autoplay":false,"dots":false,"arrows":false}'>
+          <div class="box px-0 d-flex flex-column">
+            <div class="bg-cover custom-vh-04 d-flex align-items-center" style="background-image: url('images/properties-slider-04.jpg')">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-5 offset-lg-7 col-md-6 offset-md-3 col-sm-8 offset-sm-2 mt-xl-1 py-8 pt-lg-12">
+                    <div class="bg-white  px-7 pt-6 pb-4 rounded-lg ml-lg-n1 mb-xl-15" data-animate="flipInX">
+                      <div class="mt-n7 position-absolute">
+                        <span class="badge badge-orange">Featured</span>
+                      </div>
+                      <h2 class="my-0"><a href="single-property-1.html" class="fs-30 lh-12 text-dark hover-primary">Villa on Hollywood Boulevard</a></h2>
+                      <p class="my-3 font-weight-500 text-gray-light lh-15">1421 San Pedro St, Los Angeles</p>
+                      <p class="fs-14 font-weight-500 letter-spacing-087 text-primary text-uppercase lh-15 mb-1">
+                        For Sale</p>
+                      <p class="fs-22 font-weight-bold text-heading">$1.250.000</p>
+                      <ul class="list-inline d-flex mb-0 flex-wrap border-top justify-content-between pt-4 mr-n2">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-2" data-toggle="tooltip" title="3 Bedroom">
+                          <svg class="icon icon-bedroom fs-18 text-primary mr-2">
+                            <use xlink:href="#icon-bedroom"></use>
+                          </svg>
+                          3 Bedrooms
+                        </li>
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-2" data-toggle="tooltip" title="3 Bathrooms">
+                          <svg class="icon icon-shower fs-18 text-primary mr-2">
+                            <use xlink:href="#icon-shower"></use>
+                          </svg>
+                          3 Bathrooms
+                        </li>
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-2" data-toggle="tooltip" title="Size">
+                          <svg class="icon icon-square fs-18 text-primary mr-2">
+                            <use xlink:href="#icon-square"></use>
+                          </svg>
+                          2300 Sq.Ft
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box px-0 d-flex flex-column">
+            <div class="bg-cover custom-vh-04 d-flex align-items-center" style="background-image: url('images/properties-slider-05.jpg')">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-5 offset-lg-7 col-md-6 offset-md-3 col-sm-8 offset-sm-2 mt-xl-1 py-8 pt-lg-12">
+                    <div class="bg-white  px-7 pt-6 pb-4 rounded-lg ml-lg-n1 mb-xl-15" data-animate="flipInX">
+                      <div class="mt-n7 position-absolute">
+                        <span class="badge badge-orange">Featured</span>
+                      </div>
+                      <h2 class="my-0"><a href="single-property-1.html" class="fs-30 lh-12 text-dark hover-primary">Hollywood Boulevard</a></h2>
+                      <p class="my-3 font-weight-500 text-gray-light lh-15">1421 San Pedro St, Los Angeles</p>
+                      <p class="fs-14 font-weight-500 letter-spacing-087 text-primary text-uppercase lh-15 mb-1">
+                        For Sale</p>
+                      <p class="fs-22 font-weight-bold text-heading">$1.250.000</p>
+                      <ul class="list-inline d-flex mb-0 flex-wrap border-top justify-content-between pt-4 mr-n2">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-2" data-toggle="tooltip" title="3 Bedroom">
+                          <svg class="icon icon-bedroom fs-18 text-primary mr-2">
+                            <use xlink:href="#icon-bedroom"></use>
+                          </svg>
+                          3 Bedrooms
+                        </li>
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-2" data-toggle="tooltip" title="3 Bathrooms">
+                          <svg class="icon icon-shower fs-18 text-primary mr-2">
+                            <use xlink:href="#icon-shower"></use>
+                          </svg>
+                          3 Bathrooms
+                        </li>
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-2" data-toggle="tooltip" title="Size">
+                          <svg class="icon icon-square fs-18 text-primary mr-2">
+                            <use xlink:href="#icon-square"></use>
+                          </svg>
+                          2300 Sq.Ft
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box px-0 d-flex flex-column">
+            <div class="bg-cover custom-vh-04 d-flex align-items-center" style="background-image: url('images/properties-slider-06.jpg')">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-5 offset-lg-7 col-md-6 offset-md-3 col-sm-8 offset-sm-2 mt-xl-1 py-8 pt-lg-12">
+                    <div class="bg-white  px-7 pt-6 pb-4 rounded-lg ml-lg-n1 mb-xl-15" data-animate="flipInX">
+                      <div class="mt-n7 position-absolute">
+                        <span class="badge badge-orange">Featured</span>
+                      </div>
+                      <h2 class="my-0"><a href="single-property-1.html" class="fs-30 lh-12 text-dark hover-primary">Villa on Hollywood Boulevard</a></h2>
+                      <p class="my-3 font-weight-500 text-gray-light lh-15">1421 San Pedro St, Los Angeles</p>
+                      <p class="fs-14 font-weight-500 letter-spacing-087 text-primary text-uppercase lh-15 mb-1">
+                        For Sale</p>
+                      <p class="fs-22 font-weight-bold text-heading">$1.250.000</p>
+                      <ul class="list-inline d-flex mb-0 flex-wrap border-top justify-content-between pt-4 mr-n2">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-2" data-toggle="tooltip" title="3 Bedroom">
+                          <svg class="icon icon-bedroom fs-18 text-primary mr-2">
+                            <use xlink:href="#icon-bedroom"></use>
+                          </svg>
+                          3 Bedrooms
+                        </li>
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-2" data-toggle="tooltip" title="3 Bathrooms">
+                          <svg class="icon icon-shower fs-18 text-primary mr-2">
+                            <use xlink:href="#icon-shower"></use>
+                          </svg>
+                          3 Bathrooms
+                        </li>
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-2" data-toggle="tooltip" title="Size">
+                          <svg class="icon icon-square fs-18 text-primary mr-2">
+                            <use xlink:href="#icon-square"></use>
+                          </svg>
+                          2300 Sq.Ft
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <section class="pt-lg-12 pb-lg-10 py-11">
+
+
+       <section class="pt-lg-12 pb-lg-10 py-11">
         <div class="container container-xxl">
           <div class="row">
             <div class="col-md-6">
