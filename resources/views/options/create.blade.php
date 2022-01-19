@@ -6,7 +6,7 @@
     <meta name="description" content="Aisle Properties">
     <meta name="author" content="">
     <meta name="generator" content="Jekyll">
-    <title>Categories Management</title>
+    <title>Lease Options Management</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
@@ -57,10 +57,10 @@
                   <div class="d-flex align-items-center d-xl-none">
                     <div class="dropdown px-3">
                       <a href="#" class="dropdown-toggle d-flex align-items-center text-heading"
-                           data-toggle="dropdown">
+                          data-toggle="dropdown">
                         <div class="w-48px">
                           <img src="/images/testimonial-5.jpg"
-                                     alt="{{ Auth::user()->name }}" class="rounded-circle">
+                                    alt="{{ Auth::user()->name }}" class="rounded-circle">
                         </div>
                         <span class="fs-13 font-weight-500 d-none d-sm-inline ml-2">
                           {{ Auth::user()->name }}
@@ -71,7 +71,7 @@
                           @csrf
       
                           <x-jet-responsive-nav-link href="{{ route('logout') }}"
-                                         onclick="event.preventDefault();
+                                        onclick="event.preventDefault();
                                           this.closest('form').submit();">
                               {{ __('Log Out') }}
                           </x-jet-responsive-nav-link>
@@ -94,7 +94,7 @@
                                 class="far fa-search"></i></button>
                     </div>
                     <input type="text" class="form-control border-0 form-control-lg shadow-none"
-                           placeholder="Search for..." name="search">
+                          placeholder="Search for..." name="search">
                   </div>
                 </form> --}}
                 <ul class="list-group list-group-flush w-100">
@@ -115,7 +115,7 @@
                     <ul class="list-group list-group-no-border rounded-lg">
                       {{-- <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="dashboard-add-new-property.html"
-                               class="text-heading lh-1 sidebar-link">
+                              class="text-heading lh-1 sidebar-link">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20 fs-20">
                             <svg class="icon icon-add-new"><use
                                             xlink:href="#icon-add-new"></use></svg></span>
@@ -124,7 +124,7 @@
                       </li> --}}
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('properties.index') }}"
-                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-my-properties"><use
                                             xlink:href="#icon-my-properties"></use></svg>
@@ -135,7 +135,7 @@
                       </li>
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('categories.index') }}"
-                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-my-properties"><use
                                             xlink:href="#icon-my-properties"></use></svg>
@@ -146,7 +146,7 @@
                       </li>
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('types.index') }}"
-                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-my-properties"><use
                                             xlink:href="#icon-my-properties"></use></svg>
@@ -157,7 +157,7 @@
                       </li>
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('amenities.index') }}"
-                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-my-properties"><use
                                             xlink:href="#icon-my-properties"></use></svg>
@@ -168,7 +168,7 @@
                       </li>
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('options.index') }}"
-                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-my-properties"><use
                                             xlink:href="#icon-my-properties"></use></svg>
@@ -179,7 +179,7 @@
                       </li>
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('users.index') }}"
-                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-my-properties"><use
                                             xlink:href="#icon-my-properties"></use></svg>
@@ -190,7 +190,7 @@
                       </li>
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('roles.index') }}"
-                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-my-properties"><use
                                             xlink:href="#icon-my-properties"></use></svg>
@@ -201,7 +201,7 @@
                       </li>
                       {{-- <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="dashboard-my-favorites.html"
-                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
                           </span>
@@ -211,7 +211,7 @@
                       </li> --}}
                       {{-- <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="dashboard-save-search.html"
-                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-save-search"><use xlink:href="#icon-save-search"></use></svg>
                           </span>
@@ -221,7 +221,7 @@
                       </li> --}}
                       {{-- <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="dashboard-reviews.html"
-                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-review"><use xlink:href="#icon-review"></use></svg>
                           </span>
@@ -231,8 +231,8 @@
                       </li> --}}
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="#invoice_collapse"
-                                   class="text-heading lh-1 sidebar-link d-flex align-items-center"
-                                   data-toggle="collapse" aria-haspopup="true" aria-expanded="false">
+                                  class="text-heading lh-1 sidebar-link d-flex align-items-center"
+                                  data-toggle="collapse" aria-haspopup="true" aria-expanded="false">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <i class="fal fa-file-invoice"></i>
                           </span>
@@ -339,16 +339,26 @@
           </header>
           <main id="content" class="bg-gray-01">
             <div class="px-3 px-lg-6 px-xxl-13 py-5 py-lg-10">
+              @if (count($errors) > 0)
+                <div class="alert alert-danger">
+                  <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                  <ul>
+                    @foreach ($errors->all() as $error)
+                      <li>{{ $error }}</li>
+                    @endforeach
+                  </ul>
+                </div>
+              @endif
               <div class="d-flex flex-wrap flex-md-nowrap mb-6">
                 <div class="mr-0 mr-md-auto">
-                  <h2 class="mb-0 text-heading fs-22 lh-15">{{ $category->name }}'s Details
+                  <h2 class="mb-0 text-heading fs-22 lh-15">Create Lease Option
                       {{-- <span
                     class="badge badge-white badge-pill text-primary fs-18 font-weight-bold ml-2">{{ $user_count }}</span> --}}
                   </h2>
                   {{-- <p>Lorem ipsum dolor sit amet, consec tetur cing elit. Suspe ndisse suscipit</p> --}}
                 </div>
                 <div>
-                  <a href="{{ route('categories.index') }}" class="btn btn-dark btn-lg">
+                  <a href="{{ route('options.index') }}" class="btn btn-dark btn-lg">
                     <span>Back</span>
                     <span class="d-inline-block ml-1 fs-20 lh-1"><svg class="icon icon-add-new"><use
                         xlink:href="#icon-add-new"></use></svg></span>
@@ -364,22 +374,19 @@
                   </div>
                 </form> --}}
               </div>
+              {!! Form::open(array('route' => 'options.store', 'method'=>'POST')) !!}
               <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="form-group">
-                        <strong>Name:</strong>
-                        {{ $category->name }}
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="form-group">
-                        <strong>Properties under this type:</strong>
-                          @foreach($properties as $property)
-                              <label class="label label-success">{{ $property->name }},</label>
-                          @endforeach
-                    </div>
-                </div>
-            </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                      <div class="form-group">
+                          <strong>Name of Lease Option:</strong>
+                          {!! Form::text('name', null, array('placeholder' => 'Name','class' => 'form-control')) !!}
+                      </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                      <button type="submit" class="btn btn-success">Create</button>
+                  </div>
+              </div>
+              {!! Form::close() !!}
           </main>
         </div>
       </div>

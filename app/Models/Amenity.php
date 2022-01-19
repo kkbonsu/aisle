@@ -13,4 +13,6 @@ class Amenity extends Model
     {
         return $this->belongsToMany(Property::class);
     }
+    
+    protected $fillable = array('name');
 }

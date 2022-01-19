@@ -6,7 +6,7 @@
     <meta name="description" content="Aisle Properties">
     <meta name="author" content="">
     <meta name="generator" content="Jekyll">
-    <title>Categories Management</title>
+    <title>Properties Management</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
@@ -339,46 +339,90 @@
           </header>
           <main id="content" class="bg-gray-01">
             <div class="px-3 px-lg-6 px-xxl-13 py-5 py-lg-10">
+              @if ($message = Session::get('success'))
+              <div class="alert alert-success">
+                <p>{{ $message }}</p>
+              </div>
+              @endif
               <div class="d-flex flex-wrap flex-md-nowrap mb-6">
                 <div class="mr-0 mr-md-auto">
-                  <h2 class="mb-0 text-heading fs-22 lh-15">{{ $category->name }}'s Details
-                      {{-- <span
-                    class="badge badge-white badge-pill text-primary fs-18 font-weight-bold ml-2">{{ $user_count }}</span> --}}
+                  <h2 class="mb-0 text-heading fs-22 lh-15">Properties<span
+                    class="badge badge-white badge-pill text-primary fs-18 font-weight-bold ml-2">
+                    {{ $property_count }}</span>
                   </h2>
                   {{-- <p>Lorem ipsum dolor sit amet, consec tetur cing elit. Suspe ndisse suscipit</p> --}}
                 </div>
+                {{-- <div class="form-inline justify-content-md-end mx-n2">
+                  <div class="p-2">
+                    <div class="input-group input-group-lg bg-white border">
+                      <div class="input-group-prepend">
+                        <button class="btn pr-0 shadow-none" type="button"><i class="far fa-search"></i></button>
+                      </div>
+                      <input type="text" class="form-control bg-transparent border-0 shadow-none text-body"
+                           placeholder="Search listing" name="search">
+                    </div>
+                  </div>
+                </div> --}}
                 <div>
-                  <a href="{{ route('categories.index') }}" class="btn btn-dark btn-lg">
-                    <span>Back</span>
+                  <a href="{{ route('properties.create') }}" class="btn btn-success btn-lg">
+                    <span>Add New Property</span>
                     <span class="d-inline-block ml-1 fs-20 lh-1"><svg class="icon icon-add-new"><use
                         xlink:href="#icon-add-new"></use></svg></span>
                   </a>
                 </div>
-                {{-- <form class="form">
-                  <div class="input-group input-group-lg bg-white border">
-                    <div class="input-group-prepend">
-                      <button class="btn pr-0 shadow-none" type="button"><i class="far fa-search"></i></button>
-                    </div>
-                    <input type="text" class="form-control bg-transparent border-0 shadow-none text-body"
-                           placeholder="Search listing" name="search">
-                  </div>
-                </form> --}}
               </div>
-              <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="form-group">
-                        <strong>Name:</strong>
-                        {{ $category->name }}
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="form-group">
-                        <strong>Properties under this type:</strong>
-                          @foreach($properties as $property)
-                              <label class="label label-success">{{ $property->name }},</label>
-                          @endforeach
-                    </div>
-                </div>
+              <div class="table-responsive">
+                <table class="table table-hover bg-white border rounded-lg">
+                  <thead class="thead-sm thead-black">
+                    <tr>
+                      <th scope="col" class="border-top-0 px-6 pt-5 pb-4">No.</th>
+                      <th scope="col" class="border-top-0 px-6 pt-5 pb-4">Property Title</th>
+                      <th scope="col" class="border-top-0 pt-5 pb-4">Date Published</th>
+                      <th scope="col" class="border-top-0 pt-5 pb-4">Property Type</th>
+                      <th scope="col" class="border-top-0 pt-5 pb-4">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      @foreach ($data as $key => $property)
+                      <tr class="shadow-hover-xs-2 bg-hover-white">
+                        <td class="align-middle">{{ ++$i }}</td>
+                        <td class="align-middle pt-6 pb-4 px-6">
+                          <div class="media">
+                            <div class="w-120px mr-4 position-relative">
+                              <a href="#">
+                                <img src="/images/my-properties-01.jpg"
+                                           alt="{{ $property->address }}">
+                              </a>
+                              <span class="badge badge-indigo position-absolute pos-fixed-top">
+                                {{ $property->category->name }}</span>
+                            </div>
+                            <div class="media-body">
+                              <a href="#" class="text-dark hover-primary">
+                                <h5 class="fs-16 mb-0 lh-18">{{ $property->name }}</h5>
+                              </a>
+                              <p class="mb-1 font-weight-500">{{ $property->address }}</p>
+                              <span class="text-heading lh-15 font-weight-bold fs-17">&#8373;{{ $property->price }}</span>
+                              <span class="text-gray-light">/month</span>
+                            </div>
+                          </div>
+                        </td>
+                        <td class="align-middle">{{ $property->created_at }}</td>
+                        <td class="align-middle">
+                          <span
+                                  class="badge text-capitalize font-weight-normal fs-12 badge-yellow">{{ $property->type->name }}</span>
+                        </td>
+                        <td class="align-middle">
+                            <a class="btn btn-info" href="{{ route('properties.show', $property->id) }}">Show</a>
+                            <a class="btn btn-primary" href="{{ route('properties.edit',$property->id) }}">Edit</a>
+                            {!! Form::open(['method' => 'DELETE','route' => ['properties.destroy', $property->id],'style'=>'display:inline']) !!}
+                                {!! Form::submit('Delete', ['class' => 'btn btn-danger']) !!}
+                            {!! Form::close() !!}
+                        </td>
+                      </tr>
+                      @endforeach
+                  </tbody>
+                </table>
+              </div>
             </div>
           </main>
         </div>

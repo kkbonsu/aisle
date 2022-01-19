@@ -6,7 +6,7 @@
     <meta name="description" content="Aisle Properties">
     <meta name="author" content="">
     <meta name="generator" content="Jekyll">
-    <title>Categories Management</title>
+    <title>Properties Management</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
@@ -339,16 +339,26 @@
           </header>
           <main id="content" class="bg-gray-01">
             <div class="px-3 px-lg-6 px-xxl-13 py-5 py-lg-10">
+              @if (count($errors) > 0)
+                <div class="alert alert-danger">
+                  <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                  <ul>
+                    @foreach ($errors->all() as $error)
+                      <li>{{ $error }}</li>
+                    @endforeach
+                  </ul>
+                </div>
+              @endif
               <div class="d-flex flex-wrap flex-md-nowrap mb-6">
                 <div class="mr-0 mr-md-auto">
-                  <h2 class="mb-0 text-heading fs-22 lh-15">{{ $category->name }}'s Details
+                  <h2 class="mb-0 text-heading fs-22 lh-15">Edit Property
                       {{-- <span
                     class="badge badge-white badge-pill text-primary fs-18 font-weight-bold ml-2">{{ $user_count }}</span> --}}
                   </h2>
                   {{-- <p>Lorem ipsum dolor sit amet, consec tetur cing elit. Suspe ndisse suscipit</p> --}}
                 </div>
                 <div>
-                  <a href="{{ route('categories.index') }}" class="btn btn-dark btn-lg">
+                  <a href="{{ route('properties.index') }}" class="btn btn-dark btn-lg">
                     <span>Back</span>
                     <span class="d-inline-block ml-1 fs-20 lh-1"><svg class="icon icon-add-new"><use
                         xlink:href="#icon-add-new"></use></svg></span>
@@ -364,22 +374,87 @@
                   </div>
                 </form> --}}
               </div>
+              {!! Form::model($property, ['method' => 'PATCH','route' => ['properties.update', $property->id]]) !!}
               <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="col-xs-6 col-sm-6 col-md-6">
                     <div class="form-group">
-                        <strong>Name:</strong>
-                        {{ $category->name }}
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="form-group">
-                        <strong>Properties under this type:</strong>
-                          @foreach($properties as $property)
-                              <label class="label label-success">{{ $property->name }},</label>
+                        <strong>Property Type*:</strong>
+                        <select name="type_id" class="form-control" id="type_id">
+                          @foreach ($types as $type)
+                              <option value="{{ $type->id }}">{{ $type->name }}</option>
                           @endforeach
+                        </select>
                     </div>
                 </div>
-            </div>
+                <div class="col-xs-6 col-sm-6 col-md-6">
+                    <div class="form-group">
+                        <strong>Property Category*:</strong>
+                        <select name="category_id" class="form-control" id="category_id">
+                          @foreach ($categories as $category)
+                              <option value="{{ $category->id }}">{{ $category->name }}</option>
+                          @endforeach
+                        </select>
+                    </div>
+                </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                      <div class="form-group">
+                          <strong>Property Title*:</strong>
+                          {!! Form::text('name', null, array('placeholder' => '','class' => 'form-control')) !!}
+                      </div>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                      <div class="form-group">
+                          <strong>Area/Location*:</strong>
+                          {!! Form::text('area', null, array('placeholder' => '','class' => 'form-control')) !!}
+                      </div>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                      <div class="form-group">
+                          <strong>Property Address*:</strong>
+                          {!! Form::text('address', null, array('placeholder' => '','class' => 'form-control')) !!}
+                      </div>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                      <div class="form-group">
+                          <strong>Property Price*:</strong>
+                          {!! Form::number('price', null, array('placeholder' => '', 'class' => 'form-control')) !!}
+                      </div>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4">
+                      <div class="form-group">
+                          <strong>Number of bedrooms:</strong>
+                          {!! Form::text('bedrooms', null, array('placeholder' => '','class' => 'form-control')) !!}
+                      </div>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4">
+                      <div class="form-group">
+                          <strong>Number of garages:</strong>
+                          {!! Form::text('garages', null, array('placeholder' => '','class' => 'form-control')) !!}
+                      </div>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4">
+                      <div class="form-group">
+                          <strong>Number of bathrooms:</strong>
+                          {!! Form::text('bathrooms', null, array('placeholder' => '','class' => 'form-control')) !!}
+                      </div>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                      <div class="form-group">
+                          <strong>Furnished (Yes/No):</strong>
+                          {!! Form::select('furnished', ['Yes' => 'Yes', 'No' => 'No']); !!}
+                      </div>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                      <div class="form-group">
+                          <strong>Negotiable (Yes/No):</strong>
+                          {!! Form::select('negotiable', ['Yes' => 'Yes', 'No' => 'No']); !!}
+                      </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                      <button type="submit" class="btn btn-primary">Edit</button>
+                  </div>
+              </div>
+              {!! Form::close() !!}
           </main>
         </div>
       </div>

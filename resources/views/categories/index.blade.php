@@ -6,7 +6,7 @@
     <meta name="description" content="Aisle Properties">
     <meta name="author" content="">
     <meta name="generator" content="Jekyll">
-    <title>Role Management</title>
+    <title>Categories Management</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
@@ -314,7 +314,7 @@
                        class="dropdown-toggle text-heading pr-3 pr-sm-6 d-flex align-items-center justify-content-end"
                        data-toggle="dropdown">
                       <div class="mr-4 w-48px">
-                        <img src="images/testimonial-5.jpg"
+                        <img src="/images/testimonial-5.jpg"
                                  alt="{{ Auth::user()->name }}" class="rounded-circle">
                       </div>
                       <div class="fs-13 font-weight-500 lh-1">
@@ -346,15 +346,15 @@
               @endif
               <div class="d-flex flex-wrap flex-md-nowrap mb-6">
                 <div class="mr-0 mr-md-auto">
-                  <h2 class="mb-0 text-heading fs-22 lh-15">Roles
+                  <h2 class="mb-0 text-heading fs-22 lh-15">Categories
                       <span
-                    class="badge badge-white badge-pill text-primary fs-18 font-weight-bold ml-2">{{ $role_count }}</span>
+                    class="badge badge-white badge-pill text-primary fs-18 font-weight-bold ml-2">{{ $category_count }}</span>
                   </h2>
                   {{-- <p>Lorem ipsum dolor sit amet, consec tetur cing elit. Suspe ndisse suscipit</p> --}}
                 </div>
                 <div>
-                  <a href="{{ route('roles.create') }}" class="btn btn-success btn-lg">
-                    <span>Add New Role</span>
+                  <a href="{{ route('categories.create') }}" class="btn btn-success btn-lg">
+                    <span>Add New Category</span>
                     <span class="d-inline-block ml-1 fs-20 lh-1"><svg class="icon icon-add-new"><use
                         xlink:href="#icon-add-new"></use></svg></span>
                   </a>
@@ -381,19 +381,19 @@
                     </tr>
                   </thead>
                   <tbody>
-                      @foreach ($roles as $key => $role)
+                      @foreach ($data as $key => $category)
                       <tr class="shadow-hover-xs-2 bg-hover-white">
                         <td class="align-middle">{{ ++$i}}</td>
                         <td class="align-middle p-6">
                         <a href="#"
-                            class="text-dark font-weight-500 hover-primary pt-1">{{ $role->name }}</a>
+                            class="text-dark font-weight-500 hover-primary pt-1">{{ $category->name }}</a>
                         </td>
                         <td class="align-middle">
-                            <a class="btn btn-info" href="{{ route('roles.show',$role->id) }}">Show</a>
-                            <a class="btn btn-primary" href="{{ route('roles.edit',$role->id) }}">Edit</a>
-                             {!! Form::open(['method' => 'DELETE','route' => ['roles.destroy', $role->id],'style'=>'display:inline']) !!}
-                                 {!! Form::submit('Delete', ['class' => 'btn btn-danger']) !!}
-                             {!! Form::close() !!}
+                            <a class="btn btn-info" href="{{ route('categories.show',$category->id) }}">Show</a>
+                            <a class="btn btn-primary" href="{{ route('categories.edit',$category->id) }}">Edit</a>
+                            {!! Form::open(['method' => 'DELETE','route' => ['categories.destroy', $category->id],'style'=>'display:inline']) !!}
+                                {!! Form::submit('Delete', ['class' => 'btn btn-danger']) !!}
+                            {!! Form::close() !!}
                         </td>
                       </tr>
                       @endforeach

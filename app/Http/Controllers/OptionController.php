@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Option;
 use Illuminate\Http\Request;
 
 class OptionController extends Controller
@@ -11,9 +12,13 @@ class OptionController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        //
+        $option_count = Option::count();
+        $data = Option::orderBy('id','DESC')->paginate(5);
+
+        return view('options.index',compact('data','option_count'))
+            ->with('i', ($request->input('page', 1) - 1) * 5);
     }
 
     /**
@@ -23,7 +28,7 @@ class OptionController extends Controller
      */
     public function create()
     {
-        //
+        return view('options.create');
     }
 
     /**
@@ -34,7 +39,16 @@ class OptionController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'name' => 'required',
+        ]);
+    
+        $input = $request->all();
+    
+        $option = Option::create($input);
+    
+        return redirect()->route('options.index')
+                        ->with('success','Option created successfully');
     }
 
     /**
@@ -45,7 +59,9 @@ class OptionController extends Controller
      */
     public function show($id)
     {
-        //
+        $option = Option::find($id);
+
+        return view('options.show', compact('option'));
     }
 
     /**
@@ -56,7 +72,9 @@ class OptionController extends Controller
      */
     public function edit($id)
     {
-        //
+        $option = Option::find($id);
+    
+        return view('options.edit', compact('option'));
     }
 
     /**
@@ -68,7 +86,17 @@ class OptionController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $this->validate($request, [
+            'name' => 'required',
+        ]);
+    
+        $input = $request->all();
+        
+        $option = Option::find($id);
+        $option->update($input);
+    
+        return redirect()->route('options.index')
+                        ->with('success','Option updated successfully');
     }
 
     /**
@@ -79,6 +107,8 @@ class OptionController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Option::find($id)->delete();
+        return redirect()->route('options.index')
+                        ->with('success', 'Option deleted successfully');
     }
 }

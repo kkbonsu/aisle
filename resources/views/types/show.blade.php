@@ -374,10 +374,9 @@
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="form-group">
                         <strong>Properties under this type:</strong>
-                            @foreach($properties as $property)
-                                <label class="label label-success">{{ $property->name }},</label>
-                            @endforeach
-                        @endif
+                          @foreach($properties as $property)
+                              <label class="label label-success">{{ $property->name }},</label>
+                          @endforeach
                     </div>
                 </div>
             </div>

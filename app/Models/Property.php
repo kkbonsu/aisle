@@ -33,4 +33,6 @@ class Property extends Model
     {
         return $this->belongsToMany(Amenity::class);
     }
+
+    protected $fillable = array('name', 'price', 'area', 'address', 'bedrooms', 'garages', 'bathrooms', 'furnished', 'negotiable', 'type_id', 'category_id');
 }

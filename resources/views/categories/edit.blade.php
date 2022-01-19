@@ -6,7 +6,7 @@
     <meta name="description" content="Aisle Properties">
     <meta name="author" content="">
     <meta name="generator" content="Jekyll">
-    <title>Role Management</title>
+    <title>Categories Management</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
@@ -351,14 +351,14 @@
               @endif
               <div class="d-flex flex-wrap flex-md-nowrap mb-6">
                 <div class="mr-0 mr-md-auto">
-                  <h2 class="mb-0 text-heading fs-22 lh-15">Roles
+                  <h2 class="mb-0 text-heading fs-22 lh-15">Edit Category
                       {{-- <span
                     class="badge badge-white badge-pill text-primary fs-18 font-weight-bold ml-2">{{ $user_count }}</span> --}}
                   </h2>
                   {{-- <p>Lorem ipsum dolor sit amet, consec tetur cing elit. Suspe ndisse suscipit</p> --}}
                 </div>
                 <div>
-                  <a href="{{ route('roles.index') }}" class="btn btn-dark btn-lg">
+                  <a href="{{ route('categories.index') }}" class="btn btn-dark btn-lg">
                     <span>Back</span>
                     <span class="d-inline-block ml-1 fs-20 lh-1"><svg class="icon icon-add-new"><use
                         xlink:href="#icon-add-new"></use></svg></span>
@@ -374,7 +374,7 @@
                   </div>
                 </form> --}}
               </div>
-              {!! Form::model($role, ['method' => 'PATCH','route' => ['roles.update', $role->id]]) !!}
+              {!! Form::model($category, ['method' => 'PATCH','route' => ['categories.update', $category->id]]) !!}
               <div class="row">
                   <div class="col-xs-12 col-sm-12 col-md-12">
                       <div class="form-group">
@@ -382,19 +382,8 @@
                           {!! Form::text('name', null, array('placeholder' => 'Name','class' => 'form-control')) !!}
                       </div>
                   </div>
-                  <div class="col-xs-12 col-sm-12 col-md-12">
-                      <div class="form-group">
-                          <strong>Permission:</strong>
-                          <br/>
-                          @foreach($permission as $value)
-                              <label>{{ Form::checkbox('permission[]', $value->id, in_array($value->id, $rolePermissions) ? true : false, array('class' => 'name')) }}
-                              {{ $value->name }}</label>
-                          <br/>
-                          @endforeach
-                      </div>
-                  </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                      <button type="submit" class="btn btn-primary">Submit</button>
+                      <button type="submit" class="btn btn-primary">Edit</button>
                   </div>
               </div>
               {!! Form::close() !!}

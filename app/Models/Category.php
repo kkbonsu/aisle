@@ -13,4 +13,6 @@ class Category extends Model
     {
         return $this->hasMany(Property::class);
     }
+    
+    protected $fillable = array('name');
 }

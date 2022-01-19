@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\AmenityController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\OptionController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PropertyController;
 use App\Http\Controllers\RoleController;
@@ -30,7 +32,7 @@ Route::middleware(['auth:sanctum', 'auth'])->get('/dashboard', function () {
 Route::group(['middleware' => ['auth']], function() {
     Route::resource('properties', PropertyController::class);
     Route::resource('categories', CategoryController::class);
-    Route::resource('amenities', CategoryController::class);
+    Route::resource('amenities', AmenityController::class);
     Route::resource('users', UserController::class);
     Route::resource('types', TypeController::class);
     Route::resource('roles', RoleController::class);

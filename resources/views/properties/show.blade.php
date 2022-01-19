@@ -6,7 +6,7 @@
     <meta name="description" content="Aisle Properties">
     <meta name="author" content="">
     <meta name="generator" content="Jekyll">
-    <title>Categories Management</title>
+    <title>Properties Management</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
@@ -51,7 +51,7 @@
             <div class="sticky-area shadow-xs-1 py-3">
               <div class="d-flex px-3 px-xl-6 w-100">
                 <a class="navbar-brand" href="index.html">
-                  <img src="/images/logo.png" alt="HomeID">
+                  <img src="/images/logo.png" alt="logo">
                 </a>
                 <div class="ml-auto d-flex align-items-center ">
                   <div class="d-flex align-items-center d-xl-none">
@@ -341,14 +341,14 @@
             <div class="px-3 px-lg-6 px-xxl-13 py-5 py-lg-10">
               <div class="d-flex flex-wrap flex-md-nowrap mb-6">
                 <div class="mr-0 mr-md-auto">
-                  <h2 class="mb-0 text-heading fs-22 lh-15">{{ $category->name }}'s Details
+                  <h2 class="mb-0 text-heading fs-22 lh-15">{{ $property->name }}'s Details
                       {{-- <span
                     class="badge badge-white badge-pill text-primary fs-18 font-weight-bold ml-2">{{ $user_count }}</span> --}}
                   </h2>
                   {{-- <p>Lorem ipsum dolor sit amet, consec tetur cing elit. Suspe ndisse suscipit</p> --}}
                 </div>
                 <div>
-                  <a href="{{ route('categories.index') }}" class="btn btn-dark btn-lg">
+                  <a href="{{ route('properties.index') }}" class="btn btn-dark btn-lg">
                     <span>Back</span>
                     <span class="d-inline-block ml-1 fs-20 lh-1"><svg class="icon icon-add-new"><use
                         xlink:href="#icon-add-new"></use></svg></span>
@@ -367,17 +367,85 @@
               <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="form-group">
-                        <strong>Name:</strong>
-                        {{ $category->name }}
+                        <strong>Property Title:</strong>
+                        {{ $property->name }}
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>Area/Location:</strong>
+                        {{ $property->area }}
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>Address:</strong>
+                        {{ $property->address }}
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>Property Price:</strong>
+                        &#8373;{{ $property->price }}
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>Furnished:</strong>
+                        {{ $property->furnished }}
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>Negotiable:</strong>
+                        {{ $property->negotiable }}
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>Number of bedroooms:</strong>
+                        {{ $property->bedrooms }}
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>Number of bathrooms:</strong>
+                        {{ $property->bathrooms }}
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>Number of garages:</strong>
+                        {{ $property->garages }}
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>Property Type:</strong>
+                        {{ $property->type->name }}
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>Property Category:</strong>
+                        {{ $property->category->name }}
+                    </div>
+                </div>
+                {{-- <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="form-group">
                         <strong>Properties under this type:</strong>
                           @foreach($properties as $property)
                               <label class="label label-success">{{ $property->name }},</label>
                           @endforeach
                     </div>
+                </div> --}}
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-gorup">
+                      <strong>Pictures:</strong>
+                      <img src="" alt="">
+                    </div>
+                  </div>
                 </div>
             </div>
           </main>

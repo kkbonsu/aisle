@@ -6,7 +6,7 @@
     <meta name="description" content="Aisle Properties">
     <meta name="author" content="">
     <meta name="generator" content="Jekyll">
-    <title>Categories Management</title>
+    <title>Amenities Management</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
@@ -339,16 +339,26 @@
           </header>
           <main id="content" class="bg-gray-01">
             <div class="px-3 px-lg-6 px-xxl-13 py-5 py-lg-10">
+              @if (count($errors) > 0)
+                <div class="alert alert-danger">
+                  <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                  <ul>
+                    @foreach ($errors->all() as $error)
+                      <li>{{ $error }}</li>
+                    @endforeach
+                  </ul>
+                </div>
+              @endif
               <div class="d-flex flex-wrap flex-md-nowrap mb-6">
                 <div class="mr-0 mr-md-auto">
-                  <h2 class="mb-0 text-heading fs-22 lh-15">{{ $category->name }}'s Details
+                  <h2 class="mb-0 text-heading fs-22 lh-15">Edit Amenity
                       {{-- <span
                     class="badge badge-white badge-pill text-primary fs-18 font-weight-bold ml-2">{{ $user_count }}</span> --}}
                   </h2>
                   {{-- <p>Lorem ipsum dolor sit amet, consec tetur cing elit. Suspe ndisse suscipit</p> --}}
                 </div>
                 <div>
-                  <a href="{{ route('categories.index') }}" class="btn btn-dark btn-lg">
+                  <a href="{{ route('amenities.index') }}" class="btn btn-dark btn-lg">
                     <span>Back</span>
                     <span class="d-inline-block ml-1 fs-20 lh-1"><svg class="icon icon-add-new"><use
                         xlink:href="#icon-add-new"></use></svg></span>
@@ -364,22 +374,19 @@
                   </div>
                 </form> --}}
               </div>
+              {!! Form::model($amenity, ['method' => 'PATCH','route' => ['amenities.update', $amenity->id]]) !!}
               <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="form-group">
-                        <strong>Name:</strong>
-                        {{ $category->name }}
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="form-group">
-                        <strong>Properties under this type:</strong>
-                          @foreach($properties as $property)
-                              <label class="label label-success">{{ $property->name }},</label>
-                          @endforeach
-                    </div>
-                </div>
-            </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                      <div class="form-group">
+                          <strong>Name:</strong>
+                          {!! Form::text('name', null, array('placeholder' => 'Name','class' => 'form-control')) !!}
+                      </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                      <button type="submit" class="btn btn-primary">Edit</button>
+                  </div>
+              </div>
+              {!! Form::close() !!}
           </main>
         </div>
       </div>
