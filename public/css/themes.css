@@ -7636,6 +7636,11 @@ button.bg-primary:focus {
   background-color: #010427 !important;
 }
 
+.bg-secondary1{
+  background-color: #ff6d00 !important;
+
+}
+
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
@@ -18271,7 +18276,7 @@ a.text-indigo:hover, a.text-indigo:focus {
 }
 
 .slider-range-primary .ui-slider-range {
-  background-color: #0ec6d5;
+  background-color: #010427;
 }
 
 .agent-3:hover {
@@ -21196,11 +21201,11 @@ button.text-btn-focus-secondary:focus {
 
 .bg-active-primary.active,
 .bg-active-primary:focus.active {
-  background-color: #0ec6d5 !important;
+  background-color: #010427 !important;
 }
 
 .btn-active-primary.active {
-  background-color: #0ec6d5 !important;
+  background-color: #010427 !important;
 }
 
 .placeholder-light::-webkit-input-placeholder {
@@ -21483,7 +21488,7 @@ button.bg-active-white:focus {
 
 .icon-primary:before,
 .icon-primary:after {
-  color: #0ec6d5 !important;
+  color: #010427 !important;
 }
 
 .icon-secondary:before,
@@ -21496,7 +21501,7 @@ button.bg-active-white:focus {
 }
 
 .hover-primary:hover {
-  color: #0ec6d5 !important;
+  color: #010427 !important;
 }
 
 .hover-secondary:hover {

@@ -44,371 +44,7 @@
     <meta property="og:image:height" content="630">
   </head>
   <body>
-    {{-- <header class="main-header position-absolute fixed-top m-0 navbar-dark header-sticky header-sticky-smart header-mobile-xl">
-      <div class="sticky-area">
-        <div class="container container-xxl">
-          <div class="d-flex align-items-center">
-            <nav class="navbar navbar-expand-xl bg-transparent px-0 w-100 w-xl-auto">
-              <a class="navbar-brand mr-7" href="/">
-                <img src="images/logo-white.png" alt="AISLA" class="normal-logo">
-                <img src="images/logo.png" alt="AISLA"
-                             class="sticky-logo">
-              </a>
-              <a class="d-block d-xl-none ml-auto mr-4 position-relative text-white p-2" href="#">
-                <i class="fal fa-heart fs-large-4"></i>
-                <span class="badge badge-primary badge-circle badge-absolute">1</span>
-              </a>
-              <button class="navbar-toggler border-0 px-0" type="button" data-toggle="collapse"
-                            data-target="#primaryMenu02"
-                            aria-controls="primaryMenu02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="text-white fs-24"><i class="fal fa-bars"></i></span>
-              </button>
-              <div class="collapse navbar-collapse mt-3 mt-xl-0" id="primaryMenu02">
-                <ul class="navbar-nav hover-menu main-menu px-0 mx-xl-n4">
-                  <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
-        class="nav-item dropdown py-2 py-xl-5 px-0 px-xl-4">
-                    <a class="nav-link dropdown-toggle p-0"
-           href="index.html" data-toggle="dropdown" >
-                      For Rent
-                      <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu pt-3 pb-0 pb-xl-3" aria-labelledby="navbar-item-home">
-                      <li class="dropdown-item active">
-                        <a id="navbar-link-home-01"
-                   class="dropdown-link"
-                   href="home-01.html" >
-                          Apartments For Rent
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a id="navbar-link-home-02"
-                   class="dropdown-link"
-                   href="home-02.html" >
-                          Houses For Rent
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a id="navbar-link-home-03"
-                   class="dropdown-link"
-                   href="home-03.html" >
-                   Office Spaces For Rent
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a id="navbar-link-home-04"
-                   class="dropdown-link"
-                   href="home-04.html" >
-                        Rented Properties
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  
-                  <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
-        class="nav-item dropdown py-2 py-xl-5 px-0 px-xl-4">
-                    <a class="nav-link dropdown-toggle p-0"
-           href="index.html" data-toggle="dropdown" >
-                      For Sale
-                      <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu pt-3 pb-0 pb-xl-3" aria-labelledby="navbar-item-home">
-                      <li class="dropdown-item active">
-                        <a id="navbar-link-home-01"
-                   class="dropdown-link"
-                   href="home-01.html" >
-                          Apartments For Sale
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a id="navbar-link-home-02"
-                   class="dropdown-link"
-                   href="home-02.html" >
-                          Houses For Sale
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a id="navbar-link-home-03"
-                   class="dropdown-link"
-                   href="home-03.html" >
-                   Office Spaces For Sale
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a id="navbar-link-home-04"
-                   class="dropdown-link"
-                   href="home-04.html" >
-                        Sold Properties
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  
-                  <li id="navbar-item-dashboard" aria-haspopup="true" aria-expanded="false"
-        class="nav-item py-2 py-xl-5 px-0 px-xl-4">
-                    <a class="nav-link p-0"
-           href="#">Land</a>
-                  </li>
-
-                  <li id="navbar-item-dashboard" aria-haspopup="true" aria-expanded="false"
-                  class="nav-item py-2 py-xl-5 px-0 px-xl-4">
-                              <a class="nav-link p-0"
-                     href="#">Investment</a>
-                            </li>
-
-                  <li id="navbar-item-dashboard" aria-haspopup="true" aria-expanded="false"
-        class="nav-item dropdown py-2 py-xl-5 px-0 px-xl-4">
-                    <a class="nav-link dropdown-toggle p-0"
-           href="#" data-toggle="dropdown" >
-                      Dashboard
-                      <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu pt-3 pb-0 pb-xl-3" aria-labelledby="navbar-item-dashboard">
-                      <li class="dropdown-item">
-                        <a id="navbar-link-dashboard"
-                   class="dropdown-link"
-                   href="dashboard.html" >
-                          Dashboard
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a id="navbar-link-add-new-property"
-                   class="dropdown-link"
-                   href="dashboard-add-new-property.html" >
-                          Add New Property
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a id="navbar-link-my-properties"
-                   class="dropdown-link"
-                   href="dashboard-my-properties.html" >
-                          My Properties
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a id="navbar-link-my-favorites"
-                   class="dropdown-link"
-                   href="dashboard-my-favorites.html" >
-                          My Favorites
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a id="navbar-link-save-search"
-                   class="dropdown-link"
-                   href="dashboard-save-search.html" >
-                          Save Search
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a id="navbar-link-reviews"
-                   class="dropdown-link"
-                   href="dashboard-reviews.html" >
-                          Reviews
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a id="navbar-link-my-package"
-                   class="dropdown-link"
-                   href="dashboard-my-packages.html" >
-                          My Package
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a id="navbar-link-my-profile"
-                   class="dropdown-link"
-                   href="dashboard-my-profiles.html" >
-                          My Profile
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a id="navbar-link-signup-and-login"
-                   class="dropdown-link"
-                   href="signup-and-login.html" >
-                          Signup and login
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a id="navbar-link-password-recovery"
-                   class="dropdown-link"
-                   href="password-recovery.html" >
-                          Password Recovery
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li id="navbar-item-pages" aria-haspopup="true" aria-expanded="false"
-        class="nav-item dropdown py-2 py-xl-5 px-0 px-xl-4">
-                    <a class="nav-link dropdown-toggle p-0"
-           href="#" data-toggle="dropdown" >
-                      Pages
-                      <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu pt-3 pb-0 pb-xl-3" aria-labelledby="navbar-item-pages">
-                      <li class="dropdown-item dropdown dropright">
-                        <a id="navbar-link-news"
-                   class="dropdown-link dropdown-toggle"
-                   href="#" data-toggle="dropdown" >
-                          News
-                        </a>
-                        <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-xl-3"
-                    aria-labelledby="navbar-link-news">
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="blog-classic.html">Blog classic</a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="blog-grid.html">Blog grid</a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="blog-grid-with-sidebar.html">Blog grid with sidebar</a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="blog-list-width-sidebar.html">Blog list with sidebar</a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="blog-details-1.html">Blog details 1</a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="blog-details-2.html">Blog details 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown-item">
-                        <a id="navbar-link-about-us"
-                   class="dropdown-link"
-                   href="about-us.html" >
-                          About us
-                        </a>
-                      </li>
-                      <li class="dropdown-item dropdown dropright">
-                        <a id="navbar-link-service"
-                   class="dropdown-link dropdown-toggle"
-                   href="#" data-toggle="dropdown" >
-                          Service
-                        </a>
-                        <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-xl-3"
-                    aria-labelledby="navbar-link-service">
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="services.html">Services</a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="services-with-sidebar.html">Services with sidebar</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown-item dropdown dropright">
-                        <a id="navbar-link-contact-us"
-                   class="dropdown-link dropdown-toggle"
-                   href="#" data-toggle="dropdown" >
-                          Contact us
-                        </a>
-                        <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-xl-3"
-                    aria-labelledby="navbar-link-contact-us">
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="contact-us-1.html">Contact us 1</a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="contact-us-2.html">Contact us 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown-item dropdown dropright">
-                        <a id="navbar-link-agent"
-                   class="dropdown-link dropdown-toggle"
-                   href="#" data-toggle="dropdown" >
-                          Agent
-                        </a>
-                        <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-xl-3"
-                    aria-labelledby="navbar-link-agent">
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="agents-grid-1.html">Agents grid 1</a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="agents-grid-2.html">Agents grid 2</a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="agents-grid-with-sidebar.html">Agents grid with sidebar</a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="agents-list.html">Agents list</a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="agent-details-1.html">Agent detais 1</a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="agent-details-2.html">Agent detais 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown-item dropdown dropright">
-                        <a id="navbar-link-agency"
-                   class="dropdown-link dropdown-toggle"
-                   href="#" data-toggle="dropdown" >
-                          Agency
-                        </a>
-                        <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-xl-3"
-                    aria-labelledby="navbar-link-agency">
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="agency-grid.html">Agency grid</a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="agency-list.html">Agency list</a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="agency-details-1.html">Agency details 1</a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a class="dropdown-link" href="agency-details-2.html">Agency details 2</a>
-                          </li>
-                        </ul>
-                      </li>
-                    
-                      <li class="dropdown-item">
-                        <a id="navbar-link-page-404"
-                   class="dropdown-link"
-                   href="page-404.html" >
-                          Page 404
-                        </a>
-                      </li>
-                      <li class="dropdown-item">
-                        <a id="navbar-link-packages"
-                   class="dropdown-link"
-                   href="packages.html" >
-                          Packages
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-                <div class="d-block d-xl-none">
-                  <ul class="navbar-nav flex-row ml-auto align-items-center justify-content-lg-end flex-wrap py-2">
-                
-                    <li class="divider"></li>
-                    <li class="nav-item ">
-                      <a class="nav-link pl-3 pr-2" data-toggle="modal" href="#login-register-modal">SIGN IN</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-            <div class="ml-auto d-none d-xl-block">
-              <ul class="navbar-nav flex-row ml-auto align-items-center justify-content-lg-end flex-wrap py-2">
-                <li class="nav-item ">
-                  <a class="nav-link pl-3 pr-2" data-toggle="modal" href="#login-register-modal">SIGN IN</a>
-                </li>
-                <li class="nav-item mr-auto mr-lg-6">
-                  <a class="nav-link px-2 position-relative" href="#">
-                    <i class="fal fa-heart fs-large-4"></i>
-                    <span class="badge badge-primary badge-circle badge-absolute">1</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header> --}}
-    
-
-    <header class="main-header navbar-dark bg-secondary pb-lg-9 header-sticky header-sticky-smart header-mobile-lg">
+     <header class="main-header navbar-dark bg-secondary pb-lg-9 header-sticky header-sticky-smart header-mobile-lg">
       <div class="sticky-area bg-secondary">
         <div class="container">
           <nav class="navbar navbar-expand-lg bg-transparent px-0">
@@ -426,6 +62,7 @@
             <div class="collapse navbar-collapse mt-3 mt-lg-0 flex-grow-0 mx-auto" id="primaryMenu06">
               <ul class="navbar-nav hover-menu main-menu px-0 mx-lg-n4">
 
+                
 
                 <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
         class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
@@ -546,56 +183,89 @@
       </div>
     </header>
     <main id="content">
-      <section>
+
+      <section class="bg-secondary1">
         <div class="container">
-          <form class="property-search position-relative d-none d-lg-block">
-            <div class="row align-items-center ml-lg-0 py-lg-0 shadow-sm-2 rounded bg-white position-lg-absolute top-lg-n50px py-lg-0 py-6 px-3 z-index-1 w-md-100"
-			     data-animate="fadeInDown" id="accordion-3">
-              <div class="col-md-6 col-lg-3 order-1">
-                <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">Home Type</label>
-                <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-color-input"
-					        title="Select" data-style="p-0 h-24 lh-17 text-dark" name="type">
-                  <option>Condominium</option>
-                  <option>Single-Family Home</option>
-                  <option>Townhouse</option>
-                  <option>Multi-Family Home</option>
+          <form class="property-search d-none d-lg-block">
+            <div class="row align-items-lg-center" id="accordion-2">
+              <div class="col-xl-2 col-lg-3 col-md-4">
+                <div class="property-search-status-tab d-flex flex-row">
+                  <input class="search-field" type="hidden" name="status" value="for-rent"
+                               data-default-value="">
+                  <button type="button" data-value="for-rent"
+                                class="btn shadow-none btn-active-primary text-white rounded-0 hover-white text-uppercase h-lg-80 border-right-0 border-top-0 border-bottom-0 border-left border-white-opacity-03 active flex-md-1">
+                                <svg class="icon icon-villa fs-22 mr-2">
+                                  <use xlink:href="#icon-villa"></use>
+                                </svg>
+                    Rent
+                  </button>
+                  <button type="button" data-value="for-sale"
+                                class="btn shadow-none btn-active-primary text-white rounded-0 hover-white text-uppercase h-lg-80 border-left-0 border-top-0 border-bottom-0 border-right border-white-opacity-03 flex-md-1">
+
+                                <svg class="icon icon-building fs-22 mr-2">
+                                  <use xlink:href="#icon-building"></use>
+                                </svg>
+                    Sale
+                  </button>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-7 mr-4 d-md-flex">
+               
+                
+                <div class="form-group mb-0 flex-md-3 mt-3 mr-4 mt-md-0">
+                 <select class="form-control shadow-none form-control-lg selectpicker rounded-right-md-0 rounded-md-top-left-0 rounded-lg-top-left flex-md-1 mt-3 mt-md-0" title="Property Type" data-style="btn-lg py-2 h-52 border-right bg-white" id="type-1" name="type">
+                  <option>House</option>
+                  <option>Apartment</option>
+                  <option>Office Spaces</option>
+                  <option>Warehouse</option>
+                  <option>Guest House</option>
+                  <option>Shop</option>
+                  <option>Commercial Space</option>
+                  <option>Land</option>
                 </select>
+                </div>
+
+                <div class="form-group mb-0 flex-md-3 mt-3 mt-md-0">
+                  <select class="form-control shadow-none form-control-lg selectpicker rounded-right-md-0 rounded-md-top-left-0 rounded-lg-top-left flex-md-1 mt-3 mt-md-0" title="Property Location" data-style="btn-lg py-2 h-52 border-right bg-white" id="type-1" name="type">
+                   <option>Osu</option>
+                   <option>Tema</option>
+                   <option>Dansoman</option>
+                   <option>East Legon</option>
+                   <option>North Legon</option>
+                   <option>Cantoment</option>
+                   <option>Burma Camp</option>
+                   <option>Airport Residential</option>
+                   <option>Dzowulu</option>
+                   <option>Lapaz</option>
+                   <option>Mallam</option>
+                   <option>West Hills</option>
+                   <option>Mcarthy Hills</option>
+                 </select>
+                 </div>
               </div>
 
-              <div class="col-md-6 col-lg-3 order-1">
-                <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">Home Type</label>
-                <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-color-input"
-					        title="Select" data-style="p-0 h-24 lh-17 text-dark" name="type">
-                  <option>Condominium</option>
-                  <option>Single-Family Home</option>
-                  <option>Townhouse</option>
-                  <option>Multi-Family Home</option>
-                </select>
-              </div>
-
-            
-              <div class="col-sm pr-lg-0 pt-6 pt-lg-0 order-3">
-                <a href="#advanced-search-filters-3"
-					   class="btn advanced-search btn-accent h-lg-100 w-100 shadow-none text-secondary rounded-0 fs-14 fs-sm-16 font-weight-600 text-left d-flex align-items-center collapsed"
-					   data-toggle="collapse" data-target="#advanced-search-filters-3" aria-expanded="true"
-					   aria-controls="advanced-search-filters-3">
-                  Advanced Search
+              <div class="col-lg">
+                <a href="#advanced-search-filters-2"
+                       class="icon-primary btn advanced-search w-100 shadow-none text-white text-left rounded-0 fs-14 font-weight-600 position-relative collapsed px-0 d-flex align-items-center"
+                       data-toggle="collapse" data-target="#advanced-search-filters-2" aria-expanded="true"
+                       aria-controls="advanced-search-filters-2">
+                  Open
                 </a>
+
+               
+                
               </div>
-              <div class="col-sm pt-6 pt-lg-0 order-sm-4 order-5">
-                <button type="submit"
-					        class="btn btn-primary shadow-none fs-16 font-weight-600 w-100 py-lg-3">
-                  Search
-                </button>
+              <div>
+                <button type="submit" class="btn btn-primary ml-2 btn-lg ">Submit</button>
               </div>
-              <div id="advanced-search-filters-3" class="col-12 py-sm-4 order-4 order-sm-5 collapse"
-				     data-parent="#accordion-3">
-                <div class="row">
-                  <div class="col-sm-6 col-lg-3 pt-6">
-                    <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">Bedrooms</label>
-                    <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-color-input"
-							        name="bedroom"
-							        title="All Bedrooms" data-style="p-0 h-24 lh-17 text-dark">
+             
+
+              <div id="advanced-search-filters-2" class="col-12 pb-6 pt-lg-2 collapse" data-parent="#accordion-2">
+                <div class="row mx-n2">
+                  <div class="col-sm-6 col-md-4 pt-4 px-2">
+                    <select class="form-control border-0 shadow-none form-control-lg selectpicker bg-white"
+                                    name="bedroom"
+                                    title="Bedrooms" data-style="btn-lg py-2 h-52 bg-white">
                       <option>All Bedrooms</option>
                       <option>1</option>
                       <option>2</option>
@@ -609,10 +279,10 @@
                       <option>10</option>
                     </select>
                   </div>
-                  <div class="col-sm-6 col-lg-3 pt-6">
-                    <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">Bathrooms</label>
-                    <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-color-input"
-							        title="All Bathrooms" data-style="p-0 h-24 lh-17 text-dark" name="bathroom">
+                  <div class="col-sm-6 col-md-4 pt-4 px-2">
+                    <select class="form-control border-0 shadow-none form-control-lg selectpicker bg-white"
+                                    name="bathrooms"
+                                    title="Bathrooms" data-style="btn-lg py-2 h-52 bg-white">
                       <option>All Bathrooms</option>
                       <option>1</option>
                       <option>2</option>
@@ -626,168 +296,123 @@
                       <option>10</option>
                     </select>
                   </div>
-                  <div class="col-sm-6 col-lg-3 pt-6">
-                    <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">Cities</label>
-                    <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-color-input"
-							        name="city"
-							        title="All Cities" data-style="p-0 h-24 lh-17 text-dark">
-                      <option>All Cities</option>
-                      <option>New York</option>
-                      <option>Los Angeles</option>
-                      <option>Chicago</option>
-                      <option>Houston</option>
-                      <option>San Diego</option>
-                      <option>Las Vegas</option>
-                      <option>Las Vegas</option>
-                      <option>Atlanta</option>
-                    </select>
+              
+
+                  <div class="col-md-6 col-lg pt-2 slider-range slider-range-primary">
+                    <label for="price-2" class="mb-4 text-white">Price Range</label>
+                    <div data-slider="true"
+                                 data-slider-options='{"min":0,"max":1000000,"values":[100000,700000],"type":"currency"}'></div>
+                    <div class="text-center mt-2">
+                      <input id="price-2" type="text" readonly
+                                       class="border-0 amount text-center text-white bg-transparent font-weight-500"
+                                       name="price">
+                    </div>
                   </div>
-                  <div class="col-sm-6 col-lg-3 pt-6">
-                    <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">All Areas</label>
-                    <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-color-input"
-							        name="areas"
-							        title="All Areas" data-style="p-0 h-24 lh-17 text-dark">
-                      <option>All Areas</option>
-                      <option>Albany Park</option>
-                      <option>Altgeld Gardens</option>
-                      <option>Andersonville</option>
-                      <option>Beverly</option>
-                      <option>Brickel</option>
-                      <option>Central City</option>
-                      <option>Coconut Grove</option>
-                    </select>
-                  </div>
+                  
                 </div>
-                <div class="row pt-2">
-                  <div class="col-md-6 col-lg-4 pt-6 slider-range slider-range-secondary">
-                    <label for="price-1-3" class="mb-4 text-gray-light">Price Range</label>
-                    <div data-slider="true"
-							     data-slider-options='{"min":0,"max":1000000,"values":[100000,700000],"type":"currency"}'></div>
-                    <div class="text-center mt-2">
-                      <input id="price-1-3" type="text" readonly name="price"
-								       class="border-0 amount text-center text-body font-weight-500">
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-lg-4 pt-6 slider-range slider-range-secondary">
-                    <label for="area-size-3" class="mb-4 text-gray-light">Area Size</label>
-                    <div data-slider="true"
-							     data-slider-options='{"min":0,"max":15000,"values":[0,13000],"type":"sqrt"}'></div>
-                    <div class="text-center mt-2">
-                      <input id="area-size-3" type="text" readonly name="price"
-								       class="border-0 amount text-center text-body font-weight-500">
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-lg-4 pt-6">
-                    <label class="text-uppercase font-weight-500 letter-spacing-093 mb-1">Property
-                      ID</label>
-                    <input type="text" name="search"
-							       class="form-control bg-transparent shadow-none border-top-0 border-right-0 border-left-0 border-bottom rounded-0 h-24 lh-17 p-0 font-weight-600 border-color-input"
-							       placeholder="Enter ID...">
-                  </div>
-                  <div class="col-12 pt-6 pb-2">
+                <div class="row">
+                  <div class="col-12 pt-4 pb-2">
                     <a class="lh-17 d-inline-block other-feature collapsed" data-toggle="collapse"
-							   href="#other-feature-3"
-							   role="button"
-							   aria-expanded="false" aria-controls="other-feature-3">
-                      <span class="fs-15 text-heading font-weight-500 hover-primary">Other Features</span>
+                               href="#other-feature-2"
+                               role="button"
+                               aria-expanded="false" aria-controls="other-feature-2">
+                      <span class="fs-15 text-white font-weight-500 hover-primary">Other Features</span>
                     </a>
                   </div>
-                  <div class="collapse row mx-0" id="other-feature-3">
+                  <div class="collapse row mx-0 w-100" id="other-feature-2">
                     <div class="col-sm-6 col-md-4 col-lg-3 py-2">
                       <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check1-3" name="features[]">
-                        <label class="custom-control-label" for="check1-3">Air Conditioning</label>
+                        <input type="checkbox" class="custom-control-input" id="check1-2" name="feature[]">
+                        <label class="custom-control-label text-white" for="check1-2">Air
+                          Conditioning</label>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 py-2">
                       <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check2-3" name="features[]">
-                        <label class="custom-control-label" for="check2-3">Laundry</label>
+                        <input type="checkbox" class="custom-control-input" id="check2-2" name="feature[]">
+                        <label class="custom-control-label text-white" for="check2-2">Laundry</label>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 py-2">
                       <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check4-3" name="features[]">
-                        <label class="custom-control-label" for="check4-3">Washer</label>
+                        <input type="checkbox" class="custom-control-input" id="check4-2" name="feature[]">
+                        <label class="custom-control-label text-white" for="check4-2">Washer</label>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 py-2">
                       <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check5-3" name="features[]">
-                        <label class="custom-control-label" for="check5-3">Barbeque</label>
+                        <input type="checkbox" class="custom-control-input" id="check5-2" name="feature[]">
+                        <label class="custom-control-label text-white" for="check5-2">Barbeque</label>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 py-2">
                       <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check6-3" name="features[]">
-                        <label class="custom-control-label" for="check6-3">Lawn</label>
+                        <input type="checkbox" class="custom-control-input" id="check6-2" name="feature[]">
+                        <label class="custom-control-label text-white" for="check6-2">Lawn</label>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 py-2">
                       <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check7-3" name="features[]">
-                        <label class="custom-control-label" for="check7-3">Sauna</label>
+                        <input type="checkbox" class="custom-control-input" id="check7-2" name="feature[]">
+                        <label class="custom-control-label text-white" for="check7-2">Sauna</label>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 py-2">
                       <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check8-3" name="features[]">
-                        <label class="custom-control-label" for="check8-3">WiFi</label>
+                        <input type="checkbox" class="custom-control-input" id="check8-2" name="feature[]">
+                        <label class="custom-control-label text-white" for="check8-2">WiFi</label>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 py-2">
                       <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check9-3" name="features[]">
-                        <label class="custom-control-label" for="check9-3">Dryer</label>
+                        <input type="checkbox" class="custom-control-input" id="check9-2" name="feature[]">
+                        <label class="custom-control-label text-white" for="check9-2">Dryer</label>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 py-2">
                       <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check10-3"
-									       name="features[]">
-                        <label class="custom-control-label" for="check10-3">Microwave</label>
+                        <input type="checkbox" class="custom-control-input" id="check10-2" name="feature[]">
+                        <label class="custom-control-label text-white" for="check10-2">Microwave</label>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 py-2">
                       <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check11-3"
-									       name="features[]">
-                        <label class="custom-control-label" for="check11-3">Swimming Pool</label>
+                        <input type="checkbox" class="custom-control-input" id="check11-2" name="feature[]">
+                        <label class="custom-control-label text-white" for="check11-2">Swimming
+                          Pool</label>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 py-2">
                       <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check12-3"
-									       name="features[]">
-                        <label class="custom-control-label" for="check12-3">Window Coverings</label>
+                        <input type="checkbox" class="custom-control-input" id="check12-2" name="feature[]">
+                        <label class="custom-control-label text-white" for="check12-2">Window
+                          Coverings</label>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 py-2">
                       <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check13-3"
-									       name="features[]">
-                        <label class="custom-control-label" for="check13-3">Gym</label>
+                        <input type="checkbox" class="custom-control-input" id="check13-2" name="feature[]">
+                        <label class="custom-control-label text-white" for="check13-2">Gym</label>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 py-2">
                       <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check14-3"
-									       name="features[]">
-                        <label class="custom-control-label" for="check14-3">Outdoor Shower</label>
+                        <input type="checkbox" class="custom-control-input" id="check14-2" name="feature[]">
+                        <label class="custom-control-label text-white" for="check14-2">Outdoor
+                          Shower</label>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 py-2">
                       <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check15-3"
-									       name="features[]">
-                        <label class="custom-control-label" for="check15-3">TV Cable</label>
+                        <input type="checkbox" class="custom-control-input" id="check15-2" name="feature[]">
+                        <label class="custom-control-label text-white" for="check15-2">TV Cable</label>
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 py-2">
                       <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check16-3"
-									       name="features[]">
-                        <label class="custom-control-label" for="check16-3">Refrigerator</label>
+                        <input type="checkbox" class="custom-control-input" id="check16-2" name="feature[]">
+                        <label class="custom-control-label text-white"
+                                           for="check16-2">Refrigerator</label>
                       </div>
                     </div>
                   </div>
@@ -796,49 +421,72 @@
             </div>
           </form>
           <form class="property-search property-search-mobile d-lg-none py-6">
-            <div class="row align-items-lg-center" id="accordion-3-mobile">
+            <div class="row align-items-lg-center" id="accordion-2-mobile">
               <div class="col-12">
                 <div class="form-group mb-0 position-relative">
-                  <a href="#advanced-search-filters-3-mobile"
-						   class="text-secondary btn advanced-search shadow-none pr-3 pl-0 d-flex align-items-center position-absolute pos-fixed-left-center py-0 h-100 border-right collapsed"
-						   data-toggle="collapse" data-target="#advanced-search-filters-3-mobile"
-						   aria-expanded="true"
-						   aria-controls="advanced-search-filters-3-mobile">
+                  <a href="#advanced-search-filters-2-mobile"
+                           class="icon-primary btn advanced-search shadow-none pr-3 pl-0 d-flex align-items-center position-absolute pos-fixed-left-center py-0 h-100 border-right collapsed"
+                           data-toggle="collapse" data-target="#advanced-search-filters-2-mobile"
+                           aria-expanded="true"
+                           aria-controls="advanced-search-filters-2-mobile">
                   </a>
-                  <input type="text"
-						       class="form-control form-control-lg border shadow-none pr-9 pl-11 bg-white placeholder-muted"
-						       name="key-word"
-						       placeholder="Search...">
-                  <button type="submit"
-						        class="btn position-absolute pos-fixed-right-center p-0 text-heading fs-20 px-3 shadow-none h-100 border-left">
-                    <i class="far fa-search"></i>
-                  </button>
+                  <input type="text disabled"
+                               class="form-control form-control-lg border-0 shadow-none pr-9 pl-11 bg-white placeholder-muted"
+                               name="key-word"
+                               placeholder= "Expand to search ..."disabled>
+                               
+                  
                 </div>
               </div>
-              <div id="advanced-search-filters-3-mobile" class="col-12 pt-2 collapse"
-				     data-parent="#accordion-3-mobile">
+              <div id="advanced-search-filters-2-mobile" class="col-12 pt-2 collapse"
+                     data-parent="#accordion-2-mobile">
                 <div class="row mx-n2">
                   <div class="col-sm-6 pt-4 px-2">
-                    <select class="form-control border shadow-none form-control-lg selectpicker bg-transparent"
-							        title="Select" data-style="btn-lg py-2 h-52 bg-transparent" name="type">
-                      <option>All status</option>
+                    <select class="form-control border-0 shadow-none form-control-lg selectpicker bg-white"
+                                    title="All status" data-style="btn-lg py-2 h-52 bg-white" name="type">
+                      <option disabled>All status</option>
                       <option>For Rent</option>
                       <option>For Sale</option>
                     </select>
+
                   </div>
                   <div class="col-sm-6 pt-4 px-2">
-                    <select class="form-control border shadow-none form-control-lg selectpicker bg-transparent"
-							        title="All Types" data-style="btn-lg py-2 h-52 bg-transparent" name="type">
-                      <option>Condominium</option>
-                      <option>Single-Family Home</option>
-                      <option>Townhouse</option>
-                      <option>Multi-Family Home</option>
+                    <select class="form-control border-0 shadow-none form-control-lg selectpicker bg-white" title="Property Types" data-style="btn-lg py-2 h-52 bg-white" name="type">
+                      <option>House</option>
+                      <option>Apartment</option>
+                      <option>Office Spaces</option>
+                      <option>Warehouse</option>
+                      <option>Guest House</option>
+                      <option>Shop</option>
+                      <option>Commercial Space</option>
+                      <option>Land</option>
                     </select>
                   </div>
+
                   <div class="col-sm-6 pt-4 px-2">
-                    <select class="form-control border shadow-none form-control-lg selectpicker bg-transparent"
-							        name="bedroom"
-							        title="Bedrooms" data-style="btn-lg py-2 h-52 bg-transparent">
+                    <select class="form-control border-0 shadow-none form-control-lg selectpicker bg-white"
+                                    title="All Cities" data-style="btn-lg py-2 h-52 bg-white" name="city">
+                      <option disabled>Location</option>
+                      <option>Osu</option>
+                      <option>Tema</option>
+                      <option>Dansoman</option>
+                      <option>East Legon</option>
+                      <option>North Legon</option>
+                      <option>Cantoment</option>
+                      <option>Burma Camp</option>
+                      <option>Airport Residential</option>
+                      <option>Dzowulu</option>
+                      <option>Lapaz</option>
+                      <option>Mallam</option>
+                      <option>West Hills</option>
+                      <option>Mcarthy Hills</option>
+                    </select>
+                  </div>
+
+                  <div class="col-sm-6 pt-4 px-2">
+                    <select class="form-control border-0 shadow-none form-control-lg selectpicker bg-white"
+                                    name="bedroom"
+                                    title="Bedrooms" data-style="btn-lg py-2 h-52 bg-white">
                       <option>All Bedrooms</option>
                       <option>1</option>
                       <option>2</option>
@@ -853,9 +501,9 @@
                     </select>
                   </div>
                   <div class="col-sm-6 pt-4 px-2">
-                    <select class="form-control border shadow-none form-control-lg selectpicker bg-transparent"
-							        name="bathrooms"
-							        title="Bathrooms" data-style="btn-lg py-2 h-52 bg-transparent">
+                    <select class="form-control border-0 shadow-none form-control-lg selectpicker bg-white"
+                                    name="bathrooms"
+                                    title="Bathrooms" data-style="btn-lg py-2 h-52 bg-white">
                       <option>All Bathrooms</option>
                       <option>1</option>
                       <option>2</option>
@@ -869,173 +517,145 @@
                       <option>10</option>
                     </select>
                   </div>
-                  <div class="col-sm-6 pt-4 px-2">
-                    <select class="form-control border shadow-none form-control-lg selectpicker bg-transparent"
-							        title="All Cities" data-style="btn-lg py-2 h-52 bg-transparent" name="city">
-                      <option>All Cities</option>
-                      <option>New York</option>
-                      <option>Los Angeles</option>
-                      <option>Chicago</option>
-                      <option>Houston</option>
-                      <option>San Diego</option>
-                      <option>Las Vegas</option>
-                      <option>Las Vegas</option>
-                      <option>Atlanta</option>
-                    </select>
-                  </div>
-                  <div class="col-sm-6 pt-4 px-2">
-                    <select class="form-control border shadow-none form-control-lg selectpicker bg-transparent"
-							        name="areas"
-							        title="All Areas" data-style="btn-lg py-2 h-52 bg-transparent">
-                      <option>All Areas</option>
-                      <option>Albany Park</option>
-                      <option>Altgeld Gardens</option>
-                      <option>Andersonville</option>
-                      <option>Beverly</option>
-                      <option>Brickel</option>
-                      <option>Central City</option>
-                      <option>Coconut Grove</option>
-                    </select>
-                  </div>
+               
+                 
                 </div>
                 <div class="row">
-                  <div class="col-md-6 pt-6 slider-range slider-range-secondary">
-                    <label for="price-3-mobile" class="mb-4 text-white">Price Range</label>
+                  <div class="col-md-6 pt-6 slider-range slider-range-primary">
+                    <label for="price-2-mobile" class="mb-4 text-white">Price Range</label>
                     <div data-slider="true"
-							     data-slider-options='{"min":0,"max":1000000,"values":[100000,700000],"type":"currency"}'></div>
+                                 data-slider-options='{"min":0,"max":1000000,"values":[100000,700000],"type":"currency"}'></div>
                     <div class="text-center mt-2">
-                      <input id="price-3-mobile" type="text" readonly
-								       class="border-0 amount text-center bg-transparent font-weight-500"
-								       name="price">
+                      <input id="price-2-mobile" type="text" readonly
+                                       class="border-0 amount text-center text-white bg-transparent font-weight-500"
+                                       name="price">
                     </div>
                   </div>
-                  <div class="col-md-6 pt-6 slider-range slider-range-secondary">
-                    <label for="area-size-3-mobile" class="mb-4">Area Size</label>
-                    <div data-slider="true"
-							     data-slider-options='{"min":0,"max":15000,"values":[0,12000],"type":"sqrt"}'></div>
-                    <div class="text-center mt-2">
-                      <input id="area-size-3-mobile" type="text" readonly
-								       class="border-0 amount text-center bg-transparent font-weight-500"
-								       name="area">
-                    </div>
+                
+
+                  <div class="container">
+                    <button type="submit" class="btn btn-primary mt-6 mb-6 btn-lg btn-block">Submit</button>
                   </div>
                   <div class="col-12 pt-4 pb-2">
                     <a class="lh-17 d-inline-block other-feature collapsed" data-toggle="collapse"
-							   href="#other-feature-3-mobile"
-							   role="button"
-							   aria-expanded="false" aria-controls="other-feature-3-mobile">
-                      <span class="fs-15 font-weight-500 hover-primary">Other Features</span>
+                               href="#other-feature-2-mobile"
+                               role="button"
+                               aria-expanded="false" aria-controls="other-feature-2-mobile">
+                      <span class="fs-15 text-white font-weight-500 hover-primary">Other Features</span>
                     </a>
                   </div>
-                  <div class="collapse row mx-0" id="other-feature-3-mobile">
+                  <div class="collapse row mx-0 w-100" id="other-feature-2-mobile">
                     <div class="col-sm-6 py-2">
                       <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check1-3-mobile"
-									       name="feature[]">
-                        <label class="custom-control-label" for="check1-3-mobile">Air
+                        <input type="checkbox" class="custom-control-input"
+                                           id="check1-2-mobile" name="feature[]">
+                        <label class="custom-control-label text-white" for="check1-2-mobile">Air
                           Conditioning</label>
                       </div>
                     </div>
                     <div class="col-sm-6 py-2">
                       <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="check2-3-mobile"
-									       name="feature[]">
-                        <label class="custom-control-label" for="check2-3-mobile">Laundry</label>
+                        <input type="checkbox" class="custom-control-input"
+                                           id="check2-2-mobile" name="feature[]">
+                        <label class="custom-control-label text-white" for="check2-2-mobile">Laundry</label>
                       </div>
                     </div>
                     <div class="col-sm-6 py-2">
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input"
-									       id="check4-3-mobile" name="feature[]">
-                        <label class="custom-control-label" for="check4-3-mobile">Washer</label>
+                                           id="check4-2-mobile" name="feature[]">
+                        <label class="custom-control-label text-white" for="check4-2-mobile">Washer</label>
                       </div>
                     </div>
                     <div class="col-sm-6 py-2">
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input"
-									       id="check5-3-mobile" name="feature[]">
-                        <label class="custom-control-label" for="check5-3-mobile">Barbeque</label>
+                                           id="check5-2-mobile" name="feature[]">
+                        <label class="custom-control-label text-white"
+                                           for="check5-2-mobile">Barbeque</label>
                       </div>
                     </div>
                     <div class="col-sm-6 py-2">
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input"
-									       id="check6-3-mobile" name="feature[]">
-                        <label class="custom-control-label" for="check6-3-mobile">Lawn</label>
+                                           id="check6-2-mobile" name="feature[]">
+                        <label class="custom-control-label text-white" for="check6-2-mobile">Lawn</label>
                       </div>
                     </div>
                     <div class="col-sm-6 py-2">
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input"
-									       id="check7-3-mobile" name="feature[]">
-                        <label class="custom-control-label" for="check7-3-mobile">Sauna</label>
+                                           id="check7-2-mobile" name="feature[]">
+                        <label class="custom-control-label text-white" for="check7-2-mobile">Sauna</label>
                       </div>
                     </div>
                     <div class="col-sm-6 py-2">
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input"
-									       id="check8-3-mobile" name="feature[]">
-                        <label class="custom-control-label" for="check8-3-mobile">WiFi</label>
+                                           id="check8-2-mobile" name="feature[]">
+                        <label class="custom-control-label text-white" for="check8-2-mobile">WiFi</label>
                       </div>
                     </div>
                     <div class="col-sm-6 py-2">
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input"
-									       id="check9-3-mobile" name="feature[]">
-                        <label class="custom-control-label" for="check9-3-mobile">Dryer</label>
+                                           id="check9-2-mobile" name="feature[]">
+                        <label class="custom-control-label text-white" for="check9-2-mobile">Dryer</label>
                       </div>
                     </div>
                     <div class="col-sm-6 py-2">
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input"
-									       id="check10-3-mobile" name="feature[]">
-                        <label class="custom-control-label" for="check10-3-mobile">Microwave</label>
+                                           id="check10-2-mobile" name="feature[]">
+                        <label class="custom-control-label text-white"
+                                           for="check10-2-mobile">Microwave</label>
                       </div>
                     </div>
                     <div class="col-sm-6 py-2">
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input"
-									       id="check11-3-mobile" name="feature[]">
-                        <label class="custom-control-label" for="check11-3-mobile">Swimming
+                                           id="check11-2-mobile" name="feature[]">
+                        <label class="custom-control-label text-white" for="check11-2-mobile">Swimming
                           Pool</label>
                       </div>
                     </div>
                     <div class="col-sm-6 py-2">
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input"
-									       id="check12-3-mobile" name="feature[]">
-                        <label class="custom-control-label" for="check12-3-mobile">Window
+                                           id="check12-2-mobile" name="feature[]">
+                        <label class="custom-control-label text-white" for="check12-2-mobile">Window
                           Coverings</label>
                       </div>
                     </div>
                     <div class="col-sm-6 py-2">
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input"
-									       id="check13-3-mobile" name="feature[]">
-                        <label class="custom-control-label" for="check13-3-mobile">Gym</label>
+                                           id="check13-2-mobile" name="feature[]">
+                        <label class="custom-control-label text-white" for="check13-2-mobile">Gym</label>
                       </div>
                     </div>
                     <div class="col-sm-6 py-2">
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input"
-									       id="check14-3-mobile" name="feature[]">
-                        <label class="custom-control-label" for="check14-3-mobile">Outdoor
+                                           id="check14-2-mobile" name="feature[]">
+                        <label class="custom-control-label text-white" for="check14-2-mobile">Outdoor
                           Shower</label>
                       </div>
                     </div>
                     <div class="col-sm-6 py-2">
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input"
-									       id="check15-3-mobile" name="feature[]">
-                        <label class="custom-control-label" for="check15-3-mobile">TV Cable</label>
+                                           id="check15-2-mobile" name="feature[]">
+                        <label class="custom-control-label text-white" for="check15-2-mobile">TV
+                          Cable</label>
                       </div>
                     </div>
                     <div class="col-sm-6 py-2">
                       <div class="custom-control custom-checkbox">
                         <input type="checkbox" class="custom-control-input"
-									       id="check16-3-mobile" name="feature[]">
-                        <label class="custom-control-label"
-									       for="check16-3-mobile">Refrigerator</label>
+                                           id="check16-2-mobile" name="feature[]">
+                        <label class="custom-control-label text-white"
+                                           for="check16-2-mobile">Refrigerator</label>
                       </div>
                     </div>
                   </div>
@@ -1045,6 +665,8 @@
           </form>
         </div>
       </section>
+
+
       <section>
         <div class="slick-slider mx-0" data-slick-options='{"slidesToShow": 1, "autoplay":false,"dots":false,"arrows":false}'>
           <div class="box px-0 d-flex flex-column">
