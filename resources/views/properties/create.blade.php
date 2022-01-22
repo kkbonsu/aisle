@@ -450,6 +450,32 @@
                           {!! Form::select('negotiable', ['Yes' => 'Yes', 'No' => 'No']); !!}
                       </div>
                   </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>Select Amenities:</strong><br>
+                        <div class="row">
+                        @foreach ($amenities as $amenity)
+                            <div class="col-xs-12 col-sm-12 col-md-3">
+                                <label for="">{{$amenity->name}}</label>
+                                {{ Form::checkbox('amenities[]', $amenity->id, false, array('class' => 'name')) }}<br>
+                            </div>
+                        @endforeach
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>Select Lease Options:</strong><br>
+                        <div class="row">
+                        @foreach ($options as $option)
+                            <div class="col-xs-12 col-sm-12 col-md-3">
+                                <label for="">{{$option->name}}</label>
+                                {{ Form::checkbox('options[]', $option->id, false, array('class' => 'name')) }}<br>
+                            </div>
+                        @endforeach
+                        </div>
+                    </div>
+                  </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                       <button type="submit" class="btn btn-success">Create</button>
                   </div>
