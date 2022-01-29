@@ -13,6 +13,4 @@ class Option extends Model
     {
         return $this->belongsToMany(Property::class);
     }
-    
-    protected $fillable = array('name');
 }

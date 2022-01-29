@@ -3,462 +3,1463 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Aisle Properties">
+    <meta name="description" content="Real Estate Html Template">
     <meta name="author" content="">
     <meta name="generator" content="Jekyll">
-    <title>Properties Management</title>
+    <title>Single Property 9 - HomeID</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="/vendors/fontawesome-pro-5/css/all.css">
-    <link rel="stylesheet" href="/vendors/bootstrap-select/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="/vendors/slick/slick.min.css">
-    <link rel="stylesheet" href="/vendors/magnific-popup/magnific-popup.min.css">
-    <link rel="stylesheet" href="/vendors/jquery-ui/jquery-ui.min.css">
-    <link rel="stylesheet" href="/vendors/chartjs/Chart.min.css">
-    <link rel="stylesheet" href="/vendors/dropzone/css/dropzone.min.css">
-    <link rel="stylesheet" href="/vendors/animate.css">
-    <link rel="stylesheet" href="/vendors/timepicker/bootstrap-timepicker.min.css">
-    <link rel="stylesheet" href="/vendors/mapbox-gl/mapbox-gl.min.css">
-    <link rel="stylesheet" href="/vendors/dataTables/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="vendors/fontawesome-pro-5/css/all.css">
+    <link rel="stylesheet" href="vendors/bootstrap-select/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="vendors/slick/slick.min.css">
+    <link rel="stylesheet" href="vendors/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="vendors/chartjs/Chart.min.css">
+    <link rel="stylesheet" href="vendors/dropzone/css/dropzone.min.css">
+    <link rel="stylesheet" href="vendors/animate.css">
+    <link rel="stylesheet" href="vendors/timepicker/bootstrap-timepicker.min.css">
+    <link rel="stylesheet" href="vendors/mapbox-gl/mapbox-gl.min.css">
+    <link rel="stylesheet" href="vendors/dataTables/jquery.dataTables.min.css">
     <!-- Themes core CSS -->
-    <link rel="stylesheet" href="/css/themes.css">
+    <link rel="stylesheet" href="css/themes.css">
     <!-- Favicons -->
-    <link rel="icon" href="/images/favicon.ico">
+    <link rel="icon" href="images/favicon.ico">
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@">
-    <meta name="twitter:title" content="">
-    <meta name="twitter:description" content="Aisle Properties">
-    <meta name="twitter:image" content="/images/homeid-social-logo.png">
+    <meta name="twitter:title" content="Single Property 9">
+    <meta name="twitter:description" content="Real Estate Html Template">
+    <meta name="twitter:image" content="images/homeid-social-logo.png">
     <!-- Facebook -->
-    <meta property="og:url" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="Aisle Properties">
+    <meta property="og:url" content="single-property-9.html">
+    <meta property="og:title" content="Single Property 9">
+    <meta property="og:description" content="Real Estate Html Template">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="/images/homeid-social.png">
+    <meta property="og:image" content="images/homeid-social.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
   </head>
   <body>
-    <div class="wrapper dashboard-wrapper">
-      <div class="d-flex flex-wrap flex-xl-nowrap">
-        <div class="db-sidebar bg-white">
-          <nav class="navbar navbar-expand-xl navbar-light d-block px-0 header-sticky dashboard-nav py-0">
-            <div class="sticky-area shadow-xs-1 py-3">
-              <div class="d-flex px-3 px-xl-6 w-100">
-                <a class="navbar-brand" href="index.html">
-                  <img src="/images/logo.png" alt="HomeID">
-                </a>
-                <div class="ml-auto d-flex align-items-center ">
-                  <div class="d-flex align-items-center d-xl-none">
-                    <div class="dropdown px-3">
-                      <a href="#" class="dropdown-toggle d-flex align-items-center text-heading"
-                          data-toggle="dropdown">
-                        <div class="w-48px">
-                          <img src="/images/testimonial-5.jpg"
-                                    alt="{{ Auth::user()->name }}" class="rounded-circle">
-                        </div>
-                        <span class="fs-13 font-weight-500 d-none d-sm-inline ml-2">
-                          {{ Auth::user()->name }}
-                        </span>
+    <header class="main-header navbar-light header-sticky header-sticky-smart header-mobile-lg">
+      <div class="sticky-area">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg px-0">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" alt="HomeID"
+                         class="d-none d-lg-inline-block">
+              <img src="images/logo-white.png" alt="HomeID"
+                         class="d-inline-block d-lg-none">
+            </a>
+            <div class="d-flex d-lg-none ml-auto">
+              <a class="mr-4 position-relative text-white p-2" href="#">
+                <i class="fal fa-heart fs-large-4"></i>
+                <span class="badge badge-primary badge-circle badge-absolute">1</span>
+              </a>
+              <button class="navbar-toggler border-0 px-0" type="button" data-toggle="collapse"
+                            data-target="#primaryMenu01"
+                            aria-controls="primaryMenu01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="text-white fs-24"><i class="fal fa-bars"></i></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse mt-3 mt-lg-0 mx-auto flex-grow-0" id="primaryMenu01">
+              <ul class="navbar-nav hover-menu main-menu px-0 mx-lg-n4">
+                <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
+        class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
+                  <a class="nav-link dropdown-toggle p-0"
+           href="index.html" data-toggle="dropdown" >
+                    Home
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu pt-3 pb-0 pb-lg-3" aria-labelledby="navbar-item-home">
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-01"
+                   class="dropdown-link"
+                   href="home-01.html" >
+                        Home 01
                       </a>
-                      <div class="dropdown-menu dropdown-menu-right">
-                        <form method="POST" action="{{ route('logout') }}">
-                          @csrf
-      
-                          <x-jet-responsive-nav-link href="{{ route('logout') }}"
-                                        onclick="event.preventDefault();
-                                          this.closest('form').submit();">
-                              {{ __('Log Out') }}
-                          </x-jet-responsive-nav-link>
-                      </form>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-02"
+                   class="dropdown-link"
+                   href="home-02.html" >
+                        Home 02
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-03"
+                   class="dropdown-link"
+                   href="home-03.html" >
+                        Home 03
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-04"
+                   class="dropdown-link"
+                   href="home-04.html" >
+                        Home 04
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-05"
+                   class="dropdown-link"
+                   href="home-05.html" >
+                        Home 05
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-06"
+                   class="dropdown-link"
+                   href="home-06.html" >
+                        Home 06
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-07"
+                   class="dropdown-link"
+                   href="home-07.html" >
+                        Home 07
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-08"
+                   class="dropdown-link"
+                   href="home-08.html" >
+                        Home 08
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li id="navbar-item-property" aria-haspopup="true" aria-expanded="false"
+        class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
+                  <a class="nav-link dropdown-toggle p-0"
+           href="listing.html" data-toggle="dropdown" >
+                    Property
+                    <span class="caret"></span>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-xxl px-0 py-3 dropdown-menu-listing" aria-labelledby="navbar-item-property">
+                    <div class="row no-gutters">
+                      <div class="col-lg-3">
+                        <!-- Heading -->
+                        <h4 class="dropdown-header text-dark fs-16 mb-2">
+                          List view
+                        </h4>
+                        <!-- List -->
+                        <a class="dropdown-item" href="listing-full-width-list.html">
+                          Full width list
+                        </a>
+                        <a class="dropdown-item" href="listing-with-left-filter.html">
+                          List with left filter
+                        </a>
+                        <a class="dropdown-item" href="listing-with-right-filter.html">
+                          List with right filter
+                        </a>
+                        <a class="dropdown-item" href="listing-with-left-sidebar.html">
+                          List with left sidebar
+                        </a>
+                        <!-- List -->
+                        <a class="dropdown-item" href="listing-with-right-sidebar.html">
+                          List with right sidebar
+                        </a>
+                      </div>
+                      <div class="col-lg-3">
+                        <!-- Heading -->
+                        <h4 class="dropdown-header text-dark fs-16 mb-2">
+                          Grid view
+                        </h4>
+                        <!-- List -->
+                        <a class="dropdown-item" href="listing-full-width-grid-1.html">
+                          Full width grid 1
+                        </a>
+                        <a class="dropdown-item" href="listing-full-width-grid-2.html">
+                          Full width grid 2
+                        </a>
+                        <a class="dropdown-item" href="listing-full-width-grid-3.html">
+                          Full width grid 3
+                        </a>
+                        <a class="dropdown-item" href="listing-grid-with-left-filter.html">
+                          Grid with left filter
+                        </a>
+                        <a class="dropdown-item" href="listing-grid-with-right-filter.html">
+                          Grid with right filter
+                        </a>
+                        <a class="dropdown-item" href="listing-grid-with-left-sidebar.html">
+                          Grid with left sidebar
+                        </a>
+                        <a class="dropdown-item" href="listing-grid-with-right-sidebar.html">
+                          Grid with right sidebar
+                        </a>
+                      </div>
+                      <div class="col-lg-3">
+                        <!-- Heading -->
+                        <h4 class="dropdown-header text-dark fs-16 mb-2">
+                          Map style
+                        </h4>
+                        <!-- List -->
+                        <a class="dropdown-item" href="listing-half-map-list-layout-1.html">
+                          Half map list layout 1
+                        </a>
+                        <a class="dropdown-item" href="listing-half-map-list-layout-2.html">
+                          Half map list layout 2
+                        </a>
+                        <a class="dropdown-item" href="listing-half-map-grid-layout-1.html">
+                          Half map grid layout 1
+                        </a>
+                        <a class="dropdown-item" href="listing-half-map-grid-layout-2.html">
+                          Half map grid layout 2
+                        </a>
+                        <a class="dropdown-item" href="listing-full-map-1.html">
+                          Full map 1
+                        </a>
+                        <a class="dropdown-item" href="listing-full-map-2.html">
+                          Full map 2
+                        </a>
+                        <a class="dropdown-item" href="listing-full-map-with-sidebar.html">
+                          Full Map with sidebar
+                        </a>
+                      </div>
+                      <div class="col-lg-3">
+                        <!-- Heading -->
+                        <h4 class="dropdown-header text-dark fs-16 mb-2">
+                          Single Property
+                        </h4>
+                        <!-- List -->
+                        <a class="dropdown-item" href="single-property-1.html">
+                          Single Property 1
+                        </a>
+                        <a class="dropdown-item" href="single-property-2.html">
+                          Single Property 2
+                        </a>
+                        <a class="dropdown-item" href="single-property-3.html">
+                          Single Property 3
+                        </a>
+                        <a class="dropdown-item" href="single-property-4.html">
+                          Single Property 4
+                        </a>
+                        <a class="dropdown-item" href="single-property-5.html">
+                          Single Property 5
+                        </a>
+                        <a class="dropdown-item" href="single-property-6.html">
+                          Single Property 6
+                        </a>
+                        <a class="dropdown-item" href="single-property-7.html">
+                          Single Property 7
+                        </a>
+                        <a class="dropdown-item" href="single-property-8.html">
+                          Single Property 8
+                        </a>
+                        <a class="dropdown-item" href="single-property-9.html">
+                          Single Property 9
+                        </a>
                       </div>
                     </div>
+                     <!-- / .row -->
                   </div>
-                  <button class="navbar-toggler border-0 px-0" type="button" data-toggle="collapse"
-                        data-target="#primaryMenuSidebar"
-                        aria-controls="primaryMenuSidebar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                </div>
-              </div>
-              <div class="collapse navbar-collapse bg-white" id="primaryMenuSidebar">
-                {{-- <form class="d-block d-xl-none pt-5 px-3">
-                  <div class="input-group">
-                    <div class="input-group-prepend mr-0 bg-input">
-                      <button class="btn border-0 shadow-none fs-20 text-muted pr-0" type="submit"><i
-                                class="far fa-search"></i></button>
+                </li>
+                <li id="navbar-item-dashboard" aria-haspopup="true" aria-expanded="false"
+        class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
+                  <a class="nav-link dropdown-toggle p-0"
+           href="#" data-toggle="dropdown" >
+                    Dashboard
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu pt-3 pb-0 pb-lg-3" aria-labelledby="navbar-item-dashboard">
+                    <li class="dropdown-item">
+                      <a id="navbar-link-dashboard"
+                   class="dropdown-link"
+                   href="dashboard.html" >
+                        Dashboard
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-add-new-property"
+                   class="dropdown-link"
+                   href="dashboard-add-new-property.html" >
+                        Add New Property
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-my-properties"
+                   class="dropdown-link"
+                   href="dashboard-my-properties.html" >
+                        My Properties
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-my-favorites"
+                   class="dropdown-link"
+                   href="dashboard-my-favorites.html" >
+                        My Favorites
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-save-search"
+                   class="dropdown-link"
+                   href="dashboard-save-search.html" >
+                        Save Search
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-reviews"
+                   class="dropdown-link"
+                   href="dashboard-reviews.html" >
+                        Reviews
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-my-package"
+                   class="dropdown-link"
+                   href="dashboard-my-packages.html" >
+                        My Package
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-my-profile"
+                   class="dropdown-link"
+                   href="dashboard-my-profiles.html" >
+                        My Profile
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-signup-and-login"
+                   class="dropdown-link"
+                   href="signup-and-login.html" >
+                        Signup and login
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-password-recovery"
+                   class="dropdown-link"
+                   href="password-recovery.html" >
+                        Password Recovery
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li id="navbar-item-pages" aria-haspopup="true" aria-expanded="false"
+        class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
+                  <a class="nav-link dropdown-toggle p-0"
+           href="#" data-toggle="dropdown" >
+                    Pages
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu pt-3 pb-0 pb-lg-3" aria-labelledby="navbar-item-pages">
+                    <li class="dropdown-item dropdown dropright">
+                      <a id="navbar-link-news"
+                   class="dropdown-link dropdown-toggle"
+                   href="#" data-toggle="dropdown" >
+                        News
+                      </a>
+                      <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-lg-3"
+                    aria-labelledby="navbar-link-news">
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="blog-classic.html">Blog classic</a>
+                        </li>
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="blog-grid.html">Blog grid</a>
+                        </li>
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="blog-grid-with-sidebar.html">Blog grid with sidebar</a>
+                        </li>
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="blog-list-width-sidebar.html">Blog list with sidebar</a>
+                        </li>
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="blog-details-1.html">Blog details 1</a>
+                        </li>
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="blog-details-2.html">Blog details 2</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-about-us"
+                   class="dropdown-link"
+                   href="about-us.html" >
+                        About us
+                      </a>
+                    </li>
+                    <li class="dropdown-item dropdown dropright">
+                      <a id="navbar-link-service"
+                   class="dropdown-link dropdown-toggle"
+                   href="#" data-toggle="dropdown" >
+                        Service
+                      </a>
+                      <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-lg-3"
+                    aria-labelledby="navbar-link-service">
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="services.html">Services</a>
+                        </li>
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="services-with-sidebar.html">Services with sidebar</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item dropdown dropright">
+                      <a id="navbar-link-contact-us"
+                   class="dropdown-link dropdown-toggle"
+                   href="#" data-toggle="dropdown" >
+                        Contact us
+                      </a>
+                      <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-lg-3"
+                    aria-labelledby="navbar-link-contact-us">
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="contact-us-1.html">Contact us 1</a>
+                        </li>
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="contact-us-2.html">Contact us 2</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item dropdown dropright">
+                      <a id="navbar-link-agent"
+                   class="dropdown-link dropdown-toggle"
+                   href="#" data-toggle="dropdown" >
+                        Agent
+                      </a>
+                      <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-lg-3"
+                    aria-labelledby="navbar-link-agent">
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="agents-grid-1.html">Agents grid 1</a>
+                        </li>
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="agents-grid-2.html">Agents grid 2</a>
+                        </li>
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="agents-grid-with-sidebar.html">Agents grid with sidebar</a>
+                        </li>
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="agents-list.html">Agents list</a>
+                        </li>
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="agent-details-1.html">Agent detais 1</a>
+                        </li>
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="agent-details-2.html">Agent detais 2</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item dropdown dropright">
+                      <a id="navbar-link-agency"
+                   class="dropdown-link dropdown-toggle"
+                   href="#" data-toggle="dropdown" >
+                        Agency
+                      </a>
+                      <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-lg-3"
+                    aria-labelledby="navbar-link-agency">
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="agency-grid.html">Agency grid</a>
+                        </li>
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="agency-list.html">Agency list</a>
+                        </li>
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="agency-details-1.html">Agency details 1</a>
+                        </li>
+                        <li class="dropdown-item">
+                          <a class="dropdown-link" href="agency-details-2.html">Agency details 2</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-faqs"
+                   class="dropdown-link"
+                   href="faqs.html" >
+                        FAQs
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-page-404"
+                   class="dropdown-link"
+                   href="page-404.html" >
+                        Page 404
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-checkout"
+                   class="dropdown-link"
+                   href="checkout-complete-1.html" >
+                        Checkout
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-payment-completed"
+                   class="dropdown-link"
+                   href="checkout-complete-2.html" >
+                        Payment Completed
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-compare"
+                   class="dropdown-link"
+                   href="compare-details.html" >
+                        Compare
+                      </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-packages"
+                   class="dropdown-link"
+                   href="packages.html" >
+                        Packages
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li id="navbar-item-docs" aria-haspopup="true" aria-expanded="false"
+        class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
+                  <a class="nav-link dropdown-toggle p-0"
+           href="#" data-toggle="dropdown" >
+                    Docs
+                    <span class="caret"></span>
+                  </a>
+                  <div class="dropdown-menu px-0 pt-3 dropdown-menu-docs">
+                    <div class="dropdown-body">
+                      <a class="dropdown-item py-1"
+           href="docs/getting-started/dev-environment-setup.html">
+                        <div class="media">
+                          <div class="fs-20 mr-3">
+                            <i class="fal fa-file-alt"></i>
+                          </div>
+                          <div class="media-body">
+                            <span class="d-block lh-15">Documentation</span>
+                            <small class="d-block">Kick-start customization</small>
+                          </div>
+                        </div>
+                      </a>
+                      <div class="dropdown-divider m-0"></div>
+                      <a class="dropdown-item py-1"
+           href="docs/content/typography.html">
+                        <div class="media">
+                          <div class="fs-20 mr-3">
+                            <i class="fal fa-layer-group"></i>
+                          </div>
+                          <div class="media-body">
+                            <span class="d-block lh-15">UI Kit<span
+                            class="badge badge-danger ml-2">50+</span></span>
+                            <small class="d-block">Flexible components</small>
+                          </div>
+                        </div>
+                      </a>
+                      <div class="dropdown-divider m-0"></div>
+                      <a class="dropdown-item py-1"
+           href="docs/getting-started/changelog.html">
+                        <div class="media">
+                          <div class="fs-20 mr-3">
+                            <i class="fal fa-edit"></i>
+                          </div>
+                          <div class="media-body">
+                            <span class="d-block lh-15">Changelog<span
+                            class="badge badge-success ml-2">v1.0.1</span></span>
+                            <small class="d-block">Regular updates</small>
+                          </div>
+                        </div>
+                      </a>
+                      <div class="dropdown-divider m-0"></div>
+                      <a class="dropdown-item py-1"
+           href="https://sp.g5plus.net/" target="_blank">
+                        <div class="media">
+                          <div class="fs-20 mr-3">
+                            <i class="fal fa-life-ring"></i>
+                          </div>
+                          <div class="media-body">
+                            <span class="d-block lh-15">Support</span>
+                            <small class="d-block">https://sp.g5plus.net/</small>
+                          </div>
+                        </div>
+                      </a>
                     </div>
-                    <input type="text" class="form-control border-0 form-control-lg shadow-none"
-                          placeholder="Search for..." name="search">
                   </div>
-                </form> --}}
-                <ul class="list-group list-group-flush w-100">
-                  <li class="list-group-item pt-6 pb-4">
-                    <h5 class="fs-13 letter-spacing-087 text-muted mb-3 text-uppercase px-3">Main</h5>
-                    <ul class="list-group list-group-no-border rounded-lg">
-                      <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                        <a href="/dashboard" class="text-heading lh-1 sidebar-link">
-                          <span class="sidebar-item-icon d-inline-block mr-3 fs-20"><i
-                                        class="fal fa-cog"></i></span>
-                          <span class="sidebar-item-text">Dashboard</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="list-group-item pt-6 pb-4">
-                    <h5 class="fs-13 letter-spacing-087 text-muted mb-3 text-uppercase px-3">Management</h5>
-                    <ul class="list-group list-group-no-border rounded-lg">
-                      {{-- <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                        <a href="dashboard-add-new-property.html"
-                              class="text-heading lh-1 sidebar-link">
-                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20 fs-20">
-                            <svg class="icon icon-add-new"><use
-                                            xlink:href="#icon-add-new"></use></svg></span>
-                          <span class="sidebar-item-text">Add new</span>
-                        </a>
-                      </li> --}}
-                      <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                        <a href="{{ route('properties.index') }}"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
-                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
-                            <svg class="icon icon-my-properties"><use
-                                            xlink:href="#icon-my-properties"></use></svg>
-                          </span>
-                          <span class="sidebar-item-text">Properties</span>
-                          {{-- <span class="sidebar-item-number ml-auto text-primary fs-15 font-weight-bold">29</span> --}}
-                        </a>
-                      </li>
-                      <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                        <a href="{{ route('categories.index') }}"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
-                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
-                            <svg class="icon icon-my-properties"><use
-                                            xlink:href="#icon-my-properties"></use></svg>
-                          </span>
-                          <span class="sidebar-item-text">Categories</span>
-                          {{-- <span class="sidebar-item-number ml-auto text-primary fs-15 font-weight-bold">29</span> --}}
-                        </a>
-                      </li>
-                      <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                        <a href="{{ route('types.index') }}"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
-                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
-                            <svg class="icon icon-my-properties"><use
-                                            xlink:href="#icon-my-properties"></use></svg>
-                          </span>
-                          <span class="sidebar-item-text">Property Types</span>
-                          {{-- <span class="sidebar-item-number ml-auto text-primary fs-15 font-weight-bold">29</span> --}}
-                        </a>
-                      </li>
-                      <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                        <a href="{{ route('amenities.index') }}"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
-                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
-                            <svg class="icon icon-my-properties"><use
-                                            xlink:href="#icon-my-properties"></use></svg>
-                          </span>
-                          <span class="sidebar-item-text">Amenities</span>
-                          {{-- <span class="sidebar-item-number ml-auto text-primary fs-15 font-weight-bold">29</span> --}}
-                        </a>
-                      </li>
-                      <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                        <a href="{{ route('options.index') }}"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
-                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
-                            <svg class="icon icon-my-properties"><use
-                                            xlink:href="#icon-my-properties"></use></svg>
-                          </span>
-                          <span class="sidebar-item-text">Lease Options</span>
-                          {{-- <span class="sidebar-item-number ml-auto text-primary fs-15 font-weight-bold">29</span> --}}
-                        </a>
-                      </li>
-                      <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                        <a href="{{ route('users.index') }}"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
-                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
-                            <svg class="icon icon-my-properties"><use
-                                            xlink:href="#icon-my-properties"></use></svg>
-                          </span>
-                          <span class="sidebar-item-text">Users</span>
-                          {{-- <span class="sidebar-item-number ml-auto text-primary fs-15 font-weight-bold">29</span> --}}
-                        </a>
-                      </li>
-                      <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                        <a href="{{ route('roles.index') }}"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
-                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
-                            <svg class="icon icon-my-properties"><use
-                                            xlink:href="#icon-my-properties"></use></svg>
-                          </span>
-                          <span class="sidebar-item-text">Roles</span>
-                          {{-- <span class="sidebar-item-number ml-auto text-primary fs-15 font-weight-bold">29</span> --}}
-                        </a>
-                      </li>
-                      {{-- <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                        <a href="dashboard-my-favorites.html"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
-                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
-                            <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
-                          </span>
-                          <span class="sidebar-item-text">My Favorites</span>
-                          <span class="sidebar-item-number ml-auto text-primary fs-15 font-weight-bold">5</span>
-                        </a>
-                      </li> --}}
-                      {{-- <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                        <a href="dashboard-save-search.html"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
-                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
-                            <svg class="icon icon-save-search"><use xlink:href="#icon-save-search"></use></svg>
-                          </span>
-                          <span class="sidebar-item-text">Save Search</span>
-                          <span class="sidebar-item-number ml-auto text-primary fs-15 font-weight-bold">5</span>
-                        </a>
-                      </li> --}}
-                      {{-- <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                        <a href="dashboard-reviews.html"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
-                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
-                            <svg class="icon icon-review"><use xlink:href="#icon-review"></use></svg>
-                          </span>
-                          <span class="sidebar-item-text">Reviews</span>
-                          <span class="sidebar-item-number ml-auto text-primary fs-15 font-weight-bold">29</span>
-                        </a>
-                      </li> --}}
-                      <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                        <a href="#invoice_collapse"
-                                  class="text-heading lh-1 sidebar-link d-flex align-items-center"
-                                  data-toggle="collapse" aria-haspopup="true" aria-expanded="false">
-                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
-                            <i class="fal fa-file-invoice"></i>
-                          </span>
-                          <span class="sidebar-item-text">Invoice</span>
-                          <span class="d-inline-block ml-auto"><i class="fal fa-angle-down"></i></span>
-                        </a>
-                      </li>
-                    </ul>
-                    <div class="collapse" id="invoice_collapse">
-                      <div class="card card-body border-0 bg-transparent py-0 pl-6">
-                        <ul class="list-group list-group-flush list-group-no-border">
-                          <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                            <a class="text-heading lh-1 sidebar-link"
-                                       href="dashboard-invoice-listing.html">Listing Invoice</a>
-                          </li>
-                          <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                            <a class="text-heading lh-1 sidebar-link"
-                                       href="dashboard-add-new-invoice.html">Add New Invoice</a>
-                          </li>
-                          <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                            <a class="text-heading lh-1 sidebar-link" href="dashboard-edit-invoice.html">Edit
-                              Invoice</a>
-                          </li>
-                          <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                            <a class="text-heading lh-1 sidebar-link"
-                                       href="dashboard-preview-invoice.html">Preview Invoice</a>
-                          </li>
-                        </ul>
-                      </div>
+                </li>
+              </ul>
+              <div class="d-block d-lg-none">
+                <ul class="navbar-nav flex-row justify-content-lg-end d-flex flex-wrap py-2">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle mr-md-2 pr-2 pl-0 pl-lg-2"
+           href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      ENG
+                    </a>
+                    <div class="dropdown-menu dropdown-sm dropdown-menu-left">
+                      <a class="dropdown-item" href="#">VN</a>
+                      <a class="dropdown-item active" href="#">ENG</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">ARB</a>
+                      <a class="dropdown-item" href="#">KR</a>
+                      <a class="dropdown-item" href="#">JN</a>
                     </div>
                   </li>
-                  {{-- <li class="list-group-item pt-6 pb-4">
-                    <h5 class="fs-13 letter-spacing-087 text-muted mb-3 text-uppercase px-3">Manage Acount</h5>
-                    <ul class="list-group list-group-no-border rounded-lg">
-                      <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                        <a href="dashboard-my-packages.html"
-                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
-                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
-                            <svg class="icon icon-my-package"><use xlink:href="#icon-my-package"></use></svg>
-                          </span>
-                          <span class="sidebar-item-text">My Package</span>
-                          <span class="sidebar-item-number ml-auto text-primary fs-15 font-weight-bold">5</span>
-                        </a>
-                      </li>
-                      <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                        <a href="dashboard-my-profiles.html"
-                               class="text-heading lh-1 sidebar-link">
-                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
-                            <svg class="icon icon-my-profile"><use xlink:href="#icon-my-profile"></use></svg>
-                          </span>
-                          <span class="sidebar-item-text">My Profile</span>
-                        </a>
-                      </li>
-                      <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                        <a href="#" class="text-heading lh-1 sidebar-link">
-                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
-                            <svg class="icon icon-log-out"><use xlink:href="#icon-log-out"></use></svg>
-                          </span>
-                          <span class="sidebar-item-text">Log Out</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </li> --}}
+                  <li class="nav-item">
+                    <a class="nav-link  px-2" data-toggle="modal" href="#login-register-modal">SIGN IN</a>
+                  </li>
                 </ul>
               </div>
             </div>
+            <div class="d-none d-lg-block">
+              <ul class="navbar-nav flex-row justify-content-lg-end d-flex flex-wrap text-body py-2">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle mr-md-2 pr-2 pl-0 pl-lg-2"
+           href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ENG
+                  </a>
+                  <div class="dropdown-menu dropdown-sm dropdown-menu-right">
+                    <a class="dropdown-item" href="#">VN</a>
+                    <a class="dropdown-item active" href="#">ENG</a>
+                    <a class="dropdown-item" href="#">ARB</a>
+                    <a class="dropdown-item" href="#">KR</a>
+                    <a class="dropdown-item" href="#">JN</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  px-2" data-toggle="modal" href="#login-register-modal">SIGN IN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-2 position-relative" href="#">
+                    <i class="fal fa-heart fs-large-4"></i>
+                    <span class="badge badge-primary badge-circle badge-absolute">1</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </nav>
         </div>
-        <div class="page-content">
-          <header class="main-header shadow-none shadow-lg-xs-1 bg-white position-relative d-none d-xl-block">
-            <div class="container-fluid">
-              <nav class="navbar navbar-light py-0 row no-gutters px-3 px-lg-0">
-                <div class="col-md-4 px-0 px-md-6 order-1 order-md-0">
-                  
-                </div>
-                <div class="col-md-6 d-flex flex-wrap justify-content-md-end order-0 order-md-1">
-                  <div class="dropdown border-md-right border-0 py-3 text-right">
-                    <a href="#"
-                       class="dropdown-toggle text-heading pr-3 pr-sm-6 d-flex align-items-center justify-content-end"
-                       data-toggle="dropdown">
-                      <div class="mr-4 w-48px">
-                        <img src="/images/testimonial-5.jpg"
-                                 alt="{{ Auth::user()->name }}" class="rounded-circle">
-                      </div>
-                      <div class="fs-13 font-weight-500 lh-1">
-                        {{ Auth::user()->name }}
-                      </div>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right w-100">
-                      <form method="POST" action="{{ route('logout') }}">
-                        @csrf
-    
-                        <x-jet-responsive-nav-link href="{{ route('logout') }}"
-                                       onclick="event.preventDefault();
-                                        this.closest('form').submit();">
-                            {{ __('Log Out') }}
-                        </x-jet-responsive-nav-link>
-                    </form>
-                    </div>
+      </div>
+    </header>
+    <main id="content">
+      <section class="bg-secondary px-md-6 py-8 p-lg-0">
+        <div class="container">
+          <form class="search-form d-none d-md-block">
+            <div class="row align-items-center">
+              <div class="col-lg-5">
+                <div class="row">
+                  <div class="col-md-6">
+                    <label class="text-uppercase font-weight-500 opacity-7 text-white letter-spacing-093 mb-1">Home
+                      Type</label>
+                    <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-input-opacity-02"
+							        name="type"
+							        title="Select" data-style="p-0 h-24 lh-17 text-white" id="hometype">
+                      <option>Condominium</option>
+                      <option>Single-Family Home</option>
+                      <option>Townhouse</option>
+                      <option>Multi-Family Home</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6 pl-md-3 pt-md-0 pt-6">
+                    <label class="text-uppercase font-weight-500 opacity-7 text-white letter-spacing-093 mb-1">Location</label>
+                    <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-input-opacity-02"
+							        name="location"
+							        title="Select" data-style="p-0 h-24 lh-17 text-white" id="location">
+                      <option>Austin</option>
+                      <option>Boston</option>
+                      <option>Chicago</option>
+                      <option>Denver</option>
+                      <option>Los Angeles</option>
+                      <option>New York</option>
+                      <option>San Francisco</option>
+                    </select>
                   </div>
                 </div>
-              </nav>
+              </div>
+              <div class="col-12 col-lg-5 pt-lg-0 pt-6">
+                <label class="text-uppercase font-weight-500 opacity-7 text-white letter-spacing-093">Search</label>
+                <div class="position-relative">
+                  <input type="text" name="search"
+						       class="form-control bg-transparent shadow-none border-top-0 border-right-0 border-left-0 border-bottom rounded-0 h-24 lh-17 p-0 pr-md-5 text-white placeholder-light font-weight-500 border-input-opacity-02"
+						       placeholder="Enter an address, neighbourhood...">
+                  <i class="far fa-search position-absolute pos-fixed-right-center pr-0 fs-18 text-white pb-2 d-none d-md-block"></i>
+                </div>
+              </div>
+              <div class="col-12 col-lg-2 pt-lg-0 pt-7">
+                <button type="submit"
+					        class="btn bg-white-opacity-01 bg-white-hover-opacity-03 h-lg-100 w-100 shadow-none text-white rounded-0 fs-16 font-weight-600">
+                  Search
+                </button>
+              </div>
             </div>
-          </header>
-          <main id="content" class="bg-gray-01">
-            <div class="px-3 px-lg-6 px-xxl-13 py-5 py-lg-10">
-              @if (count($errors) > 0)
-                <div class="alert alert-danger">
-                  <strong>Whoops!</strong> There were some problems with your input.<br><br>
-                  <ul>
-                    @foreach ($errors->all() as $error)
-                      <li>{{ $error }}</li>
-                    @endforeach
-                  </ul>
-                </div>
-              @endif
-              <div class="d-flex flex-wrap flex-md-nowrap mb-6">
-                <div class="mr-0 mr-md-auto">
-                  <h2 class="mb-0 text-heading fs-22 lh-15">Create Property
-                      {{-- <span
-                    class="badge badge-white badge-pill text-primary fs-18 font-weight-bold ml-2">{{ $user_count }}</span> --}}
-                  </h2>
-                  {{-- <p>Lorem ipsum dolor sit amet, consec tetur cing elit. Suspe ndisse suscipit</p> --}}
-                </div>
-                <div>
-                  <a href="{{ route('properties.index') }}" class="btn btn-dark btn-lg">
-                    <span>Back</span>
-                    <span class="d-inline-block ml-1 fs-20 lh-1"><svg class="icon icon-add-new"><use
-                        xlink:href="#icon-add-new"></use></svg></span>
+          </form>
+          <form class="property-search property-search-mobile d-md-none py-8">
+            <div class="row align-items-lg-center" id="accordion-mobile">
+              <div class="col-12">
+                <div class="form-group mb-0 position-relative">
+                  <a href="#advanced-search-filters-mobile"
+						   class="icon-primary btn advanced-search shadow-none pr-3 pl-0 d-flex align-items-center position-absolute pos-fixed-left-center py-0 h-100 border-right collapsed"
+						   data-toggle="collapse" data-target="#advanced-search-filters-mobile"
+						   aria-expanded="true"
+						   aria-controls="advanced-search-filters-mobile">
                   </a>
+                  <input type="text"
+						       class="form-control form-control-lg border-0 shadow-none pr-9 pl-11 bg-white placeholder-muted"
+						       name="key-word"
+						       placeholder="Search...">
+                  <button type="submit"
+						        class="btn position-absolute pos-fixed-right-center p-0 text-heading fs-20 px-3 shadow-none h-100 border-left bg-white">
+                    <i class="far fa-search"></i>
+                  </button>
                 </div>
-                {{-- <form class="form">
-                  <div class="input-group input-group-lg bg-white border">
-                    <div class="input-group-prepend">
-                      <button class="btn pr-0 shadow-none" type="button"><i class="far fa-search"></i></button>
-                    </div>
-                    <input type="text" class="form-control bg-transparent border-0 shadow-none text-body"
-                           placeholder="Search listing" name="search">
-                  </div>
-                </form> --}}
               </div>
-              {!! Form::open(array('route' => 'properties.store', 'method' => 'POST')) !!}
-              <div class="row">
-                <div class="col-xs-6 col-sm-6 col-md-6">
-                    <div class="form-group">
-                        <strong>Property Type*:</strong>
-                        <select name="type_id" class="form-control" id="type_id">
-                          @foreach ($types as $type)
-                              <option value="{{ $type->id }}">{{ $type->name }}</option>
-                          @endforeach
-                        </select>
-                    </div>
+              <div id="advanced-search-filters-mobile" class="col-12 pt-2 collapse"
+				     data-parent="#accordion-mobile">
+                <div class="row mx-n2">
+                  <div class="col-sm-6 pt-4 px-2">
+                    <select class="form-control border-0 shadow-none form-control-lg selectpicker bg-white"
+							        title="Home Types" data-style="btn-lg py-2 h-52 bg-white" name="type">
+                      <option>Condominium</option>
+                      <option>Single-Family Home</option>
+                      <option>Townhouse</option>
+                      <option>Multi-Family Home</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6 pt-4 px-2">
+                    <select class="form-control border-0 shadow-none form-control-lg selectpicker bg-white"
+							        name="bedroom"
+							        title="Location" data-style="btn-lg py-2 h-52 bg-white">
+                      <option>Austin</option>
+                      <option>Boston</option>
+                      <option>Chicago</option>
+                      <option>Denver</option>
+                      <option>Los Angeles</option>
+                      <option>New York</option>
+                      <option>San Francisco</option>
+                    </select>
+                  </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-6">
-                    <div class="form-group">
-                        <strong>Property Category*:</strong>
-                        <select name="category_id" class="form-control" id="category_id">
-                          @foreach ($categories as $category)
-                              <option value="{{ $category->id }}">{{ $category->name }}</option>
-                          @endforeach
-                        </select>
-                    </div>
-                </div>
-                  <div class="col-xs-6 col-sm-6 col-md-6">
-                      <div class="form-group">
-                          <strong>Property Title*:</strong>
-                          {!! Form::text('name', null, array('placeholder' => '','class' => 'form-control')) !!}
-                      </div>
-                  </div>
-                  <div class="col-xs-6 col-sm-6 col-md-6">
-                      <div class="form-group">
-                          <strong>Area/Location*:</strong>
-                          {!! Form::text('area', null, array('placeholder' => '','class' => 'form-control')) !!}
-                      </div>
-                  </div>
-                  <div class="col-xs-6 col-sm-6 col-md-6">
-                      <div class="form-group">
-                          <strong>Property Address*:</strong>
-                          {!! Form::text('address', null, array('placeholder' => '','class' => 'form-control')) !!}
-                      </div>
-                  </div>
-                  <div class="col-xs-6 col-sm-6 col-md-6">
-                      <div class="form-group">
-                          <strong>Property Price*:</strong>
-                          {!! Form::number('price', null, array('placeholder' => '', 'class' => 'form-control')) !!}
-                      </div>
-                  </div>
-                  <div class="col-xs-4 col-sm-4 col-md-4">
-                      <div class="form-group">
-                          <strong>Number of bedrooms:</strong>
-                          {!! Form::text('bedrooms', null, array('placeholder' => '','class' => 'form-control')) !!}
-                      </div>
-                  </div>
-                  <div class="col-xs-4 col-sm-4 col-md-4">
-                      <div class="form-group">
-                          <strong>Number of garages:</strong>
-                          {!! Form::text('garages', null, array('placeholder' => '','class' => 'form-control')) !!}
-                      </div>
-                  </div>
-                  <div class="col-xs-4 col-sm-4 col-md-4">
-                      <div class="form-group">
-                          <strong>Number of bathrooms:</strong>
-                          {!! Form::text('bathrooms', null, array('placeholder' => '','class' => 'form-control')) !!}
-                      </div>
-                  </div>
-                  <div class="col-xs-6 col-sm-6 col-md-6">
-                      <div class="form-group">
-                          <strong>Furnished (Yes/No):</strong>
-                          {!! Form::select('furnished', ['Yes' => 'Yes', 'No' => 'No']); !!}
-                      </div>
-                  </div>
-                  <div class="col-xs-6 col-sm-6 col-md-6">
-                      <div class="form-group">
-                          <strong>Negotiable (Yes/No):</strong>
-                          {!! Form::select('negotiable', ['Yes' => 'Yes', 'No' => 'No']); !!}
-                      </div>
-                  </div>
-                  <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                      <button type="submit" class="btn btn-success">Create</button>
-                  </div>
               </div>
-              {!! Form::close() !!}
-          </main>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="pb-6 shadow-5">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb py-3">
+              <li class="breadcrumb-item letter-spacing-1">
+                <a href=".">Home</a>
+              </li>
+              <li class="breadcrumb-item letter-spacing-1">
+                <a href="listing-grid-with-left-filter.html">Listing</a>
+              </li>
+              <li class="breadcrumb-item letter-spacing-1 active">Villa on Hollywood Boulevard</li>
+            </ol>
+          </nav>
+          <div class="d-md-flex justify-content-md-between mb-1">
+            <ul class="list-inline d-sm-flex align-items-sm-center mb-0">
+              <li class="list-inline-item badge badge-orange mr-2">Featured</li>
+              <li class="list-inline-item badge badge-primary mr-3">For Sale</li>
+              <li class="list-inline-item mr-2 mt-2 mt-sm-0"><i class="fal fa-clock mr-1"></i>2 months ago</li>
+              <li class="list-inline-item mt-2 mt-sm-0"><i class="fal fa-eye mr-1"></i>1039 views</li>
+            </ul>
+            <ul class="list-inline mb-0 mr-n2 my-4 my-md-0">
+              <li class="list-inline-item mr-2">
+                <a href="#" class="btn btn-outline-light px-3 text-body d-flex align-items-center h-32 border">
+                  <i class="far fa-heart mr-2 fs-15 text-primary"></i>Save
+                </a>
+              </li>
+              <li class="list-inline-item mr-2">
+                <a href="#" class="btn btn-outline-light px-3 text-body d-flex align-items-center h-32 border">
+                  <i class="far fa-share-alt mr-2 fs-15 text-primary"></i>Share
+                </a>
+              </li>
+              <li class="list-inline-item mr-2">
+                <a href="#" class="btn btn-outline-light px-3 text-body d-flex align-items-center h-32 border">
+                  <i class="far fa-print mr-2 fs-15 text-primary"></i>Print
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="d-md-flex justify-content-md-between mb-2">
+            <div>
+              <h2 class="fs-35 font-weight-600 lh-15 text-heading">Villa Called Archangel</h2>
+              <p class="mb-0"><i class="fal fa-map-marker-alt mr-2"></i>398 Pete Pascale Pl, New York</p>
+            </div>
+            <div class="mt-2 text-md-right">
+              <p class="fs-22 text-heading font-weight-bold mb-0">$1.250.000</p>
+              <p class="mb-0">$9350/SqFt</p>
+            </div>
+          </div>
+        </div>
+        <div class="galleries">
+          <div class="container position-relative">
+            <ul class="nav nav-pills position-absolute pos-fixed-top-right z-index-3 pt-4 pr-5 flex-nowrap nav-gallery"
+			    role="tablist">
+              <li class="nav-item mr-2" role="presentation">
+                <a class="nav-link p-0 active d-flex align-items-center justify-content-center w-48px h-48 bg-white text-heading bg-hover-primary hover-white rounded-circle fs-18"
+					   data-toggle="pill" href="#image-1" role="tab"
+					   aria-selected="true">
+                  <i class="fal fa-camera"></i>
+                </a>
+              </li>
+              <li class="nav-item mr-2" role="presentation">
+                <a class="nav-link p-0 d-flex align-items-center justify-content-center w-48px h-48 bg-white text-heading bg-hover-primary hover-white rounded-circle fs-18"
+					   data-toggle="pill" href="#map-view-1" role="tab"
+					   aria-selected="false">
+                  <i class="fal fa-map-marked-alt"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-content p-0 shadow-none">
+            <div class="tab-pane fade show active" id="image-1" role="tabpanel">
+              <div class="slick-slider mx-0"
+				     data-slick-options='{"slidesToShow": 1, "autoplay":false,"centerMode":true,"infinite":true,"arrows":false,"centerPadding":"350px","responsive":[{"breakpoint": 1200,"settings": {"centerMode":false}}]}'>
+                <div class="box px-xl-5">
+                  <div class="item item-size-3-2">
+                    <div class="card p-0">
+                      <div class="card-img"
+								     style="background-image:url('images/single-property-21.jpg')">
+                      </div>
+                      <div class="card-img-overlay d-flex align-items-center justify-content-center p-4">
+                        <a href="http://www.youtube.com/watch?v=0O2aH4XLbto"
+									   class="d-inline-block position-relative play-animation"
+									   data-gtf-mfp="true" data-mfp-options='{"type":"iframe"}'>
+                          <span class="text-primary bg-white w-78px h-78 rounded-circle d-flex align-items-center justify-content-center">
+                            <i class="fas fa-play"></i>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box px-lg-5">
+                  <div class="item item-size-3-2">
+                    <div class="card p-0">
+                      <div class="card-img"
+								     style="background-image:url('images/single-property-20.jpg')">
+                      </div>
+                      <div class="card-img-overlay d-flex align-items-center justify-content-center p-4">
+                        <a href="http://www.youtube.com/watch?v=0O2aH4XLbto"
+									   class="d-inline-block position-relative play-animation"
+									   data-gtf-mfp="true" data-mfp-options='{"type":"iframe"}'>
+                          <span class="text-primary bg-white w-78px h-78 rounded-circle d-flex align-items-center justify-content-center">
+                            <i class="fas fa-play"></i>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="box px-lg-5">
+                  <div class="item item-size-3-2">
+                    <div class="card p-0">
+                      <div class="card-img"
+								     style="background-image:url('images/single-property-lg-1.jpg')">
+                      </div>
+                      <div class="card-img-overlay d-flex align-items-center justify-content-center p-4">
+                        <a href="http://www.youtube.com/watch?v=0O2aH4XLbto"
+									   class="d-inline-block position-relative play-animation"
+									   data-gtf-mfp="true" data-mfp-options='{"type":"iframe"}'>
+                          <span class="text-primary bg-white w-78px h-78 rounded-circle d-flex align-items-center justify-content-center">
+                            <i class="fas fa-play"></i>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="map-view-1" role="tabpanel">
+              <div id="map-01" class="mapbox-gl" style="height:620px;"
+				     data-mapbox-access-token="pk.eyJ1IjoiZHVvbmdsaCIsImEiOiJjanJnNHQ4czExMzhyNDVwdWo5bW13ZmtnIn0.f1bmXQsS6o4bzFFJc8RCcQ"
+				     data-mapbox-options='{"center":[-73.981566, 40.739011],"setLngLat":[-73.981566, 40.739011],"container":"map-01"}'>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="street-view-1" role="tabpanel">
+              <div class="py-10" style="background-image: url('images/BG2.jpg');background-size: cover;background-position: center"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <article class="bg-gray-01 pt-8 pb-lg-13 pb-11">
+        <div class="container">
+          <div class="row">
+            <section class="col-lg-8">
+              <div class="collapse-tabs">
+                <ul class="nav nav-tabs tabs-04 d-md-flex d-none" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#details" role="tab">Details</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#facts" role="tab">Facts & Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tour" role="tab">Virtual Tour</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#mortgage" role="tab">Mortgage Calculator</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#nearby" role="tab">What's nearby?</a>
+                  </li>
+                </ul>
+                <div class="tab-content bg-white-md shadow-none px-md-5 py-md-6 p-0">
+                  <div id="collapse-tabs-accordion-01">
+                    <div class="tab-pane tab-pane-parent fade show active mb-md-0 mb-2" id="details" role="tabpanel">
+                      <div class="card border-0 bg-transparent">
+                        <div class="card-header border-0 d-block d-md-none bg-transparent px-0 py-1"
+									     id="headingDetails-01">
+                          <h5 class="mb-0">
+                            <button class="btn lh-2 fs-18 py-1 px-6 shadow-none w-100 collapse-parent border"
+											        data-toggle="collapse"
+											        data-target="#details-collapse-01"
+											        aria-expanded="true"
+											        aria-controls="details-collapse-01">
+                              Details
+                            </button>
+                          </h5>
+                        </div>
+                        <div id="details-collapse-01" class="collapse show collapsible"
+									     aria-labelledby="headingDetails-01"
+									     data-parent="#collapse-tabs-accordion-01">
+                          <div id="accordion-style-01" class="accordion accordion-01 border-md-0 border p-md-0 p-6">
+                            <h4 class="fs-22 text-heading mb-3 mt-1 lh-15">Description</h4>
+                            <p class="mb-0 lh-214">Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus
+                              scelerisque eleifend donec.
+                              Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper
+                              quis lectus. Turpis in eu mi bibendum neque
+                              egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales
+                              ut eu sem. Nibh mauris cursus mattis molestie a
+                              iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.</p>
+                            <p class="fs-16 lh-2 font-weight-500 text-heading pl-xl-8 my-5">Insight Lux Villa’s innovative range of modular build homes, and Mansion House are the first apartments in the range.</p>
+                            <p class="mb-3 lh-214">Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque
+                              eleifend donec. Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac
+                              tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque.
+                              Nibh mauris cursus mattis molestie a iaculis at erat pellentesque. Massa tempor nec feugiat
+                              nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec. Porta nibh
+                              venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis
+                              lectus.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane tab-pane-parent fade mb-md-0 mb-2" id="facts" role="tabpanel">
+                      <div class="card border-0 bg-transparent">
+                        <div class="card-header border-0 d-block d-md-none bg-transparent px-0 py-1"
+									     id="headingfacts-01">
+                          <h5 class="mb-0">
+                            <button class="btn lh-2 fs-18 py-1 px-6 shadow-none w-100 collapse-parent border collapsed"
+											        data-toggle="collapse"
+											        data-target="#facts-collapse-01"
+											        aria-expanded="true"
+											        aria-controls="facts-collapse-01">
+                              Facts & Features
+                            </button>
+                          </h5>
+                        </div>
+                        <div id="facts-collapse-01" class="collapse collapsible"
+									     aria-labelledby="headingfacts-01"
+									     data-parent="#collapse-tabs-accordion-01">
+                          <div id="accordion-style-01-2" class="accordion accordion-01 border-md-0 border p-md-0 p-6">
+                            <div class="row">
+                              <div class="col-lg-3 col-sm-4 mb-6">
+                                <div class="media">
+                                  <div class="p-2 shadow-xxs-1 rounded-lg mr-2">
+                                    <svg class="icon icon-family fs-32 text-primary"><use xlink:href="#icon-family"></use></svg>
+                                  </div>
+                                  <div class="media-body">
+                                    <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Type</h5>
+                                    <p class="mb-0 fs-13 font-weight-bold text-heading">Single Family</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-sm-4 mb-6">
+                                <div class="media">
+                                  <div class="p-2 shadow-xxs-1 rounded-lg mr-2">
+                                    <svg class="icon icon-year fs-32 text-primary"><use xlink:href="#icon-year"></use></svg>
+                                  </div>
+                                  <div class="media-body">
+                                    <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">year built</h5>
+                                    <p class="mb-0 fs-13 font-weight-bold text-heading">2020</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-sm-4 mb-6">
+                                <div class="media">
+                                  <div class="p-2 shadow-xxs-1 rounded-lg mr-2">
+                                    <svg class="icon icon-heating fs-32 text-primary"><use xlink:href="#icon-heating"></use></svg>
+                                  </div>
+                                  <div class="media-body">
+                                    <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">heating</h5>
+                                    <p class="mb-0 fs-13 font-weight-bold text-heading">Radiant</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-sm-4 mb-6">
+                                <div class="media">
+                                  <div class="p-2 shadow-xxs-1 rounded-lg mr-2">
+                                    <svg class="icon icon-price fs-32 text-primary"><use xlink:href="#icon-price"></use></svg>
+                                  </div>
+                                  <div class="media-body">
+                                    <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">SQFT</h5>
+                                    <p class="mb-0 fs-13 font-weight-bold text-heading">979.0</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-sm-4 mb-6">
+                                <div class="media">
+                                  <div class="p-2 shadow-xxs-1 rounded-lg mr-2">
+                                    <svg class="icon icon-bedroom fs-32 text-primary"><use xlink:href="#icon-bedroom"></use></svg>
+                                  </div>
+                                  <div class="media-body">
+                                    <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Bedrooms</h5>
+                                    <p class="mb-0 fs-13 font-weight-bold text-heading">3</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-sm-4 mb-6">
+                                <div class="media">
+                                  <div class="p-2 shadow-xxs-1 rounded-lg mr-2">
+                                    <svg class="icon icon-sofa fs-32 text-primary"><use xlink:href="#icon-sofa"></use></svg>
+                                  </div>
+                                  <div class="media-body">
+                                    <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">bathrooms</h5>
+                                    <p class="mb-0 fs-13 font-weight-bold text-heading">2</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-sm-4 mb-6">
+                                <div class="media">
+                                  <div class="p-2 shadow-xxs-1 rounded-lg mr-2">
+                                    <svg class="icon icon-Garage fs-32 text-primary"><use xlink:href="#icon-Garage"></use></svg>
+                                  </div>
+                                  <div class="media-body">
+                                    <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">GARAGE</h5>
+                                    <p class="mb-0 fs-13 font-weight-bold text-heading">1</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-sm-4 mb-6">
+                                <div class="media">
+                                  <div class="p-2 shadow-xxs-1 rounded-lg mr-2">
+                                    <svg class="icon icon-status fs-32 text-primary"><use xlink:href="#icon-status"></use></svg>
+                                  </div>
+                                  <div class="media-body">
+                                    <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Status</h5>
+                                    <p class="mb-0 fs-13 font-weight-bold text-heading">Active</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane tab-pane-parent fade mb-md-0 mb-2" id="tour" role="tabpanel">
+                      <div class="card border-0 bg-transparent">
+                        <div class="card-header border-0 d-block d-md-none bg-transparent px-0 py-1"
+									     id="headingtour-01">
+                          <h5 class="mb-0">
+                            <button class="btn lh-2 fs-18 py-1 px-6 shadow-none w-100 collapse-parent border collapsed"
+											        data-toggle="collapse"
+											        data-target="#tour-collapse-01"
+											        aria-expanded="true"
+											        aria-controls="tour-collapse-01">
+                              Virtual Tour
+                            </button>
+                          </h5>
+                        </div>
+                        <div id="tour-collapse-01" class="collapse collapsible"
+									     aria-labelledby="headingfacts-01"
+									     data-parent="#collapse-tabs-accordion-01">
+                          <div id="accordion-style-01-3" class="accordion accordion-01 border-md-0 border p-md-0 p-6">
+                            <h4 class="fs-22 text-heading mb-6">Virtual Tour</h4>
+                            <iframe height="430" src="https://my.matterport.com/show/?m=wWcGxjuUuSb&amp;utm_source=hit-content-embed" allowfullscreen="" class="w-100"></iframe>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane tab-pane-parent fade mb-md-0 mb-2" id="mortgage" role="tabpanel">
+                      <div class="card border-0 bg-transparent">
+                        <div class="card-header border-0 d-block d-md-none bg-transparent px-0 py-1"
+									     id="headingmortgage-01">
+                          <h5 class="mb-0">
+                            <button class="btn lh-2 fs-18 py-1 px-6 shadow-none w-100 collapse-parent border collapsed"
+											        data-toggle="collapse"
+											        data-target="#mortgage-collapse-01"
+											        aria-expanded="true"
+											        aria-controls="mortgage-collapse-01">
+                              Mortgage Calculator
+                            </button>
+                          </h5>
+                        </div>
+                        <div id="mortgage-collapse-01" class="collapse collapsible"
+									     aria-labelledby="headingmortgage-01"
+									     data-parent="#collapse-tabs-accordion-01">
+                          <form class="border-md-0 border p-md-0 p-6">
+                            <div class="row">
+                              <div class="col-md-6 mb-4">
+                                <label>Total Amount</label>
+                                <div class="position-relative">
+                                  <input type="number" class="form-control border-0 pr-3 h-52 pl-7" value="345" name="total-amount">
+                                  <span class="position-absolute pl-3 pos-fixed-left-center fs-13 font-weight-600">$</span>
+                                </div>
+                              </div>
+                              <div class="col-md-6 mb-4">
+                                <label>Down Payment</label>
+                                <div class="position-relative">
+                                  <input type="number" class="form-control border-0 pr-3 h-52 pl-7" value="0" name="down-payment">
+                                  <span class="position-absolute pl-3 pos-fixed-left-center fs-13 font-weight-600">$</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-6 mb-4">
+                                <label>Interest Rate</label>
+                                <div class="position-relative">
+                                  <input type="number" class="form-control border-0 pr-3 h-52 pl-7" value="2.500" step="0.25" name="interest-rate">
+                                  <span class="position-absolute pl-3 pos-fixed-left-center fs-13 font-weight-600">%</span>
+                                </div>
+                              </div>
+                              <div class="col-md-6 mb-4">
+                                <label>Number of years</label>
+                                <input type="number" class="form-control border-0 px-3 h-52" value="25" name="years">
+                              </div>
+                            </div>
+                            <div class="form-group mb-6">
+                              <label>Payment Period</label>
+                              <select class="form-control selectpicker" data-style="btn-lg h-52 px-3" name="payment-period">
+                                <option selected>Monthly</option>
+                                <option>Yearly</option>
+                              </select>
+                            </div>
+                            <button class="btn btn-primary fs-14 h-52 px-8" type="submit">Caculate</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane tab-pane-parent fade mb-md-0 mb-2" id="nearby" role="tabpanel">
+                      <div class="card border-0 bg-transparent">
+                        <div class="card-header border-0 d-block d-md-none bg-transparent px-0 py-1"
+									     id="headingnearby-01">
+                          <h5 class="mb-0">
+                            <button class="btn lh-2 fs-18 py-1 px-6 shadow-none w-100 collapse-parent border collapsed"
+											        data-toggle="collapse"
+											        data-target="#nearby-collapse-01"
+											        aria-expanded="true"
+											        aria-controls="nearby-collapse-01">
+                              What's nearby?
+                            </button>
+                          </h5>
+                        </div>
+                        <div id="nearby-collapse-01" class="collapse collapsible"
+									     aria-labelledby="headingnearby-01"
+									     data-parent="#collapse-tabs-accordion-01">
+                          <div id="accordion-style-01-5" class="accordion accordion-01 border-md-0 border px-md-0 pb-md-0 px-6 pb-6 mt-lg-n5">
+                            <h6 class="mb-0 mt-5"><a href="#" class="fs-16 lh-2 text-heading border-bottom border-primary pb-1">Restaurants</a></h6>
+                            <div class="border-top pt-2">
+                              <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
+                                <div class="media align-items-sm-center d-sm-flex d-block">
+                                  <a href="#" class="hover-shine">
+                                    <img src="images/single-detail-property-02.jpg" class="mr-sm-4 rounded-lg w-sm-90" alt="Bacchanal Buffet-Temporarily Closed">
+                                  </a>
+                                  <div class="media-body mt-sm-0 mt-2">
+                                    <h4 class="my-0"><a href="#" class="lh-186 fs-15 text-heading hover-primary">Bacchanal Buffet-Temporarily Closed</a></h4>
+                                    <p class="lh-186 fs-15 font-weight-500 mb-0">3570 S Las Vegas BlvdLas Vegas, NV 89109</p>
+                                  </div>
+                                </div>
+                                <div class="text-lg-right mt-lg-0 mt-2">
+                                  <p class="mb-2 mb-0 lh-13">120 Reviews</p>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                </div>
+                              </div>
+                              <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
+                                <div class="media align-items-sm-center d-sm-flex d-block">
+                                  <a href="#" class="hover-shine">
+                                    <img src="images/single-detail-property-03.jpg" class="mr-sm-4 rounded-lg w-sm-90" alt="Bacchanal Buffet-Temporarily Closed">
+                                  </a>
+                                  <div class="media-body mt-sm-0 mt-2">
+                                    <h4 class="my-0"><a href="#" class="lh-186 fs-15 text-heading hover-primary">Bacchanal Buffet-Temporarily Closed</a></h4>
+                                    <p class="lh-186 fs-15 font-weight-500 mb-0">3084 S Highland DrSte C</p>
+                                  </div>
+                                </div>
+                                <div class="text-lg-right mt-lg-0 mt-2">
+                                  <p class="mb-2 mb-0 lh-13">120 Reviews</p>
+                                  <div class="text-lg-right mt-lg-0 mt-2">
+                                    <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
+                                    <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
+                                    <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
+                                    <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
+                                    <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-1"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
+                                <div class="media align-items-sm-center d-sm-flex d-block">
+                                  <a href="#" class="hover-shine">
+                                    <img src="images/single-detail-property-04.jpg" class="mr-sm-4 rounded-lg w-sm-90" alt="Bacchanal Buffet-Temporarily Closed">
+                                  </a>
+                                  <div class="media-body mt-sm-0 mt-2">
+                                    <h4 class="my-0"><a href="#" class="lh-186 fs-15 text-heading hover-primary">Bacchanal Buffet-Temporarily Closed</a></h4>
+                                    <p class="lh-186 fs-15 font-weight-500 mb-0">3570 S Las Vegas BlvdLas Vegas, NV 89109</p>
+                                  </div>
+                                </div>
+                                <div class="text-lg-right mt-lg-0 mt-2">
+                                  <p class="mb-2 mb-0 lh-13">120 Reviews</p>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                </div>
+                              </div>
+                            </div>
+                            <h6 class="mb-0 mt-5"><a href="#" class="fs-16 lh-2 text-heading border-bottom border-primary pb-1">Education</a></h6>
+                            <div class="border-top pt-2">
+                              <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
+                                <div class="media align-items-sm-center d-sm-flex d-block">
+                                  <a href="#" class="hover-shine">
+                                    <img src="images/single-detail-property-07.jpg" class="mr-sm-4 rounded-lg w-sm-90" alt="Bacchanal Buffet-Temporarily Closed">
+                                  </a>
+                                  <div class="media-body mt-sm-0 mt-2">
+                                    <h4 class="my-0"><a href="#" class="lh-186 fs-15 text-heading hover-primary">Safe Direction Firearms Training</a></h4>
+                                    <p class="lh-186 fs-15 font-weight-500 mb-0">3570 S Las Vegas BlvdLas Vegas, NV 89109</p>
+                                  </div>
+                                </div>
+                                <div class="text-lg-right mt-lg-0 mt-2">
+                                  <p class="mb-2 mb-0 lh-13">120 Reviews</p>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                </div>
+                              </div>
+                              <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
+                                <div class="media align-items-sm-center d-sm-flex d-block">
+                                  <a href="#" class="hover-shine">
+                                    <img src="images/single-detail-property-08.jpg" class="mr-sm-4 rounded-lg w-sm-90" alt="Bacchanal Buffet-Temporarily Closed">
+                                  </a>
+                                  <div class="media-body mt-sm-0 mt-2">
+                                    <h4 class="my-0"><a href="#" class="lh-186 fs-15 text-heading hover-primary">Rabbi Shai Specht-Sandler</a></h4>
+                                    <p class="lh-186 fs-15 font-weight-500 mb-0">3084 S Highland DrSte C</p>
+                                  </div>
+                                </div>
+                                <div class="text-lg-right mt-lg-0 mt-2">
+                                  <p class="mb-2 mb-0 lh-13">120 Reviews</p>
+                                  <div class="text-lg-right mt-lg-0 mt-2">
+                                    <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
+                                    <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
+                                    <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
+                                    <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
+                                    <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-1"></i>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
+                                <div class="media align-items-sm-center d-sm-flex d-block">
+                                  <a href="#" class="hover-shine">
+                                    <img src="images/single-detail-property-09.jpg" class="mr-sm-4 rounded-lg w-sm-90" alt="Bacchanal Buffet-Temporarily Closed">
+                                  </a>
+                                  <div class="media-body mt-sm-0 mt-2">
+                                    <h4 class="my-0"><a href="#" class="lh-186 fs-15 text-heading hover-primary">Safe Direction Firearms Training</a></h4>
+                                    <p class="lh-186 fs-15 font-weight-500 mb-0">3570 S Las Vegas BlvdLas Vegas, NV 89109</p>
+                                  </div>
+                                </div>
+                                <div class="text-lg-right mt-lg-0 mt-2">
+                                  <p class="mb-2 mb-0 lh-13">120 Reviews</p>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                  <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <aside class="col-lg-4 primary-sidebar sidebar-sticky mt-lg-0 mt-6" id="sidebar">
+              <div class="primary-sidebar-inner">
+                <div class="p-6 bg-white rounded-lg">
+                  <div class="media align-items-center mb-4">
+                    <img src="images/Oliver-Beddows.jpg" class="mr-3" alt="Oliver Beddows">
+                    <div class="media-body">
+                      <h5 class="mb-0 fs-16 text-dark ">Oliver Beddows</h5>
+                      <p class="mb-0">Sales Excutive</p>
+                      <p class="mb-0"><i class="fal fa-phone fs-15 font-weight-light text-primary mr-1"></i>123 900 68668</p>
+                    </div>
+                  </div>
+                  <form>
+                    <div class="form-group mb-2">
+                      <label for="name" class="sr-only">Name</label>
+                      <input type="text" class="form-control form-control-lg border-0 shadow-none" id="name" placeholder="First Name, Last Name">
+                    </div>
+                    <div class="form-group mb-2">
+                      <label for="email" class="sr-only">Email</label>
+                      <input type="text" class="form-control form-control-lg border-0 shadow-none" id="email" placeholder="Your email">
+                    </div>
+                    <div class="form-group mb-2">
+                      <label for="phone" class="sr-only">Phone</label>
+                      <input type="text" class="form-control form-control-lg border-0 shadow-none" id="phone" placeholder="Your phone">
+                    </div>
+                    <div class="form-group mb-4">
+                      <label for="message" class="sr-only">Message</label>
+                      <textarea class="form-control form-control-lg border-0 shadow-none h-120" id="message" placeholder="Hello, I'm interested in Villa Called Archangel"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-outline-primary btn-lg btn-block rounded border text-muted border-hover-primary hover-white">Request Info</button>
+                    <button type="submit" class="btn btn-outline-primary btn-lg btn-block rounded border text-muted border-hover-primary hover-white mt-2">Send Direct Message</button>
+                  </form>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </article>
+      <section>
+        <div class="d-flex bottom-bar-action bottom-bar-action-01 py-2 px-4 bg-gray-01 align-items-center position-fixed fixed-bottom d-sm-none">
+          <div class="media align-items-center">
+            <img src="images/irene-wallace.png" alt="Irene Wallace" class="mr-4 rounded-circle">
+            <div class="media-body">
+              <a href="#" class="d-block text-dark fs-15 font-weight-500 lh-15">Irene Wallace</a>
+              <span class="fs-13 lh-2">Sales Excutive</span>
+            </div>
+          </div>
+          <div class="ml-auto">
+            <button type="button" class="btn btn-primary fs-18 p-2 lh-1 mr-1 mb-1 shadow-none" data-toggle="modal" data-target="#modal-messenger"><i class="fal fa-comment"></i></button>
+            <a href="tel:(+84)2388-969-888" class="btn btn-primary fs-18 p-2 lh-1 mb-1 shadow-none" target ="_blank"><i class="fal fa-phone"></i></a>
+          </div>
+        </div>
+        <div class="modal fade" id="modal-messenger" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header border-0 pb-0">
+                <h4 class="modal-title text-heading" id="exampleModalLabel">Contact Form</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body pb-6">
+                <div class="form-group mb-2">
+                  <input type="text" class="form-control form-control-lg border-0" placeholder="First Name, Last Name">
+                </div>
+                <div class="form-group mb-2">
+                  <input type="email" class="form-control form-control-lg border-0" placeholder="Your Email">
+                </div>
+                <div class="form-group mb-2">
+                  <input type="tel" class="form-control form-control-lg border-0" placeholder="Your phone">
+                </div>
+                <div class="form-group mb-2">
+                  <textarea class="form-control border-0" rows="4">Hello, I'm interested in Villa Called Archangel</textarea>
+                </div>
+                <div class="form-group form-check mb-4">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                  <label class="form-check-label fs-13" for="exampleCheck3">Egestas fringilla phasellus faucibus scelerisque eleifend donec.</label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block rounded">Request Info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark pt-8 pb-6 footer text-muted">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-6 mb-md-0">
+            <a class="d-block mb-2" href="#">
+              <img src="images/logo-white-primary.png" alt="HomeID">
+            </a>
+            <div class="lh-26 font-weight-500">
+              <p class="mb-0">58 Howard Street #2 San Francisco</p>
+              <a class="d-block text-muted hover-white" href="mailto:contact@homeid.com">contact@homeid.com</a>
+              <a class="d-block text-lighter font-weight-bold fs-15 hover-white"
+                       href="tel:(+68)122109876">(+68)1221
+                09876</a>
+              <a class="d-block text-muted hover-white" href=".">www.homeid.com</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2 mb-6 mb-md-0">
+            <h4 class="text-white fs-16 my-4 font-weight-500">Popular Searches</h4>
+            <ul class="list-group list-group-flush list-group-no-border">
+              <li class="list-group-item bg-transparent p-0">
+                <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Apartment for Rent</a>
+              </li>
+              <li class="list-group-item bg-transparent p-0">
+                <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Apartment Low to
+                  hide</a>
+              </li>
+              <li class="list-group-item bg-transparent p-0">
+                <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Offices for Buy</a>
+              </li>
+              <li class="list-group-item bg-transparent p-0">
+                <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Offices for Rent</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-2 mb-6 mb-md-0">
+            <h4 class="text-white fs-16 my-4 font-weight-500">Quick links</h4>
+            <ul class="list-group list-group-flush list-group-no-border">
+              <li class="list-group-item bg-transparent p-0">
+                <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Terms of Use</a>
+              </li>
+              <li class="list-group-item bg-transparent p-0">
+                <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Privacy Policy</a>
+              </li>
+              <li class="list-group-item bg-transparent p-0">
+                <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Contact Support</a>
+              </li>
+              <li class="list-group-item bg-transparent p-0">
+                <a href="#" class="text-muted lh-26 hover-white font-weight-500">Careers</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-6 mb-md-0">
+            <h4 class="text-white fs-16 my-4 font-weight-500">Sign Up for Our Newsletter</h4>
+            <p class="font-weight-500 text-muted lh-184">Lorem ipsum dolor sit amet, consecte tur cing elit.
+              Suspe ndisse suscipit sagittis </p>
+            <form>
+              <div class="input-group input-group-lg mb-6">
+                <input type="text" name="email" required class="form-control bg-white shadow-none border-0 z-index-1" placeholder="Your email">
+                <div class="input-group-append">
+                  <button class="btn btn-primary" type="submit">Subscribe</button>
+                </div>
+              </div>
+            </form>
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item mr-0">
+                <a href="#" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
+                                class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item mr-0">
+                <a href="#" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
+                                class="fab fa-facebook-f"></i></a>
+              </li>
+              <li class="list-inline-item mr-0">
+                <a href="#" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
+                                class="fab fa-skype"></i></a>
+              </li>
+              <li class="list-inline-item mr-0">
+                <a href="#" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
+                                class="fab fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-0 mt-md-10 row">
+          <ul class="list-inline mb-0 col-md-6 mr-auto">
+            <li class="list-inline-item mr-6">
+              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Terms of Use</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Privacy Policy</a>
+            </li>
+          </ul>
+          <p class="col-md-auto mb-0 text-muted">
+            © 2020 homeID. All Rights Reserved
+          </p>
         </div>
       </div>
-    </div>
+    </footer>
     <!-- Vendors scripts -->
     <script src="vendors/jquery.min.js"></script>
     <script src="vendors/jquery-ui/jquery-ui.min.js"></script>
@@ -881,5 +1882,11 @@
         </symbol>
       </defs>
     </svg>
+    <div class="position-fixed pos-fixed-bottom-right p-6 z-index-10">
+      <a href="#"
+       class="gtf-back-to-top bg-white text-primary hover-white bg-hover-primary shadow p-0 w-52px h-52 rounded-circle fs-20 d-flex align-items-center justify-content-center"
+       title="Back To Top"><i
+            class="fal fa-arrow-up"></i></a>
+    </div>
   </body>
 </html>

@@ -57,13 +57,6 @@ class PropertyController extends Controller
     
         $property = Property::create($input);
     
-        if ($request->has('amenities')) {
-            $property->amenities()->attach($request->input('amenities'));
-        }
-        if ($request->has('options')) {
-            $property->options()->attach($request->input('options'));
-        }
-
         return redirect()->route('properties.index')
                         ->with('success','Property created successfully');
     }
