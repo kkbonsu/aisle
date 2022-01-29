@@ -678,7 +678,7 @@
                       <div class="mt-n7 position-absolute">
                         <span class="badge badge-orange">Featured</span>
                       </div>
-                      <h2 class="my-0"><a href="single-property-1.html" class="fs-30 lh-12 text-dark hover-primary">Villa on Hollywood Boulevard</a></h2>
+                      <h2 class="my-0"><a href="single-property-1" class="fs-30 lh-12 text-dark hover-primary">Villa on Hollywood Boulevard</a></h2>
                       <p class="my-3 font-weight-500 text-gray-light lh-15">1421 San Pedro St, Los Angeles</p>
                       <p class="fs-14 font-weight-500 letter-spacing-087 text-primary text-uppercase lh-15 mb-1">
                         For Sale</p>
@@ -802,7 +802,7 @@
               <p class="mb-6">Lorem ipsum dolor sit amet, consec tetur cing elit. Suspe ndisse suscipit</p>
             </div>
             <div class="col-md-6 text-md-right">
-              <a href="listing-grid-with-left-filter.html"
+              <a href="all-properties-for-sale"
 				   class="btn fs-14 text-secondary btn-accent py-3 lh-15 px-7 mb-6 mb-lg-0">See all properties
                 <i class="far fa-long-arrow-right ml-1"></i>
               </a>
@@ -1275,7 +1275,7 @@
               <p class="mb-6">Lorem ipsum dolor sit amet, consec tetur cing elit. Suspe ndisse suscipit</p>
             </div>
             <div class="col-md-6 text-md-right">
-              <a href="listing-grid-with-left-filter.html"
+              <a href="all-properties-for-rent"
 				   class="btn fs-14 text-secondary btn-accent py-3 lh-15 px-7 mb-6 mb-lg-0">See all properties
                 <i class="far fa-long-arrow-right ml-1"></i>
               </a>

@@ -6,7 +6,7 @@
     <meta name="description" content="Real Estate Html Template">
     <meta name="author" content="">
     <meta name="generator" content="Jekyll">
-    <title>Single Property 2 - HomeID</title>
+    <title>Single Property 6 - HomeID</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
@@ -30,12 +30,12 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@">
-    <meta name="twitter:title" content="Single Property 2">
+    <meta name="twitter:title" content="Single Property 6">
     <meta name="twitter:description" content="Real Estate Html Template">
     <meta name="twitter:image" content="images/homeid-social-logo.png">
     <!-- Facebook -->
-    <meta property="og:url" content="single-property-2.html">
-    <meta property="og:title" content="Single Property 2">
+    <meta property="og:url" content="single-property-6.html">
+    <meta property="og:title" content="Single Property 6">
     <meta property="og:description" content="Real Estate Html Template">
     <meta property="og:type" content="website">
     <meta property="og:image" content="images/homeid-social.png">
@@ -727,209 +727,180 @@
           </form>
         </div>
       </section>
-      <section class="bg-white shadow-5 pb-1">
+      <section class="bg-gray-01 py-8 py-lg-0">
         <div class="container">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb py-3">
-              <li class="breadcrumb-item fs-12 letter-spacing-087">
+              <li class="breadcrumb-item letter-spacing-1">
                 <a href=".">Home</a>
               </li>
-              <li class="breadcrumb-item fs-12 letter-spacing-087">
+              <li class="breadcrumb-item letter-spacing-1">
                 <a href="listing-grid-with-left-filter.html">Listing</a>
               </li>
-              <li class="breadcrumb-item fs-12 letter-spacing-087 active">Villa on Hollywood Boulevard</li>
+              <li class="breadcrumb-item letter-spacing-1 active">Villa on Hollywood Boulevard</li>
             </ol>
           </nav>
-          <div class="galleries position-relative" data-animate="zoomIn">
-            <div class="position-absolute pos-fixed-top-right z-index-3">
-              <ul class="list-inline pt-4 pr-5">
-                <li class="list-inline-item mr-2">
-                  <a href="#" data-toggle="tooltip" title="" class="d-flex align-items-center justify-content-center w-40px h-40 bg-white text-heading bg-hover-primary hover-white rounded-circle" data-original-title="Favourite">
-                    <i class="far fa-heart"></i></a>
-                </li>
-                <li class="list-inline-item mr-2">
-                  <button type="button"
-						        class="btn btn-white p-0 d-flex align-items-center justify-content-center w-40px h-40 text-heading bg-hover-primary hover-white rounded-circle border-0 shadow-none"
-						        data-container="body"
-						        data-toggle="popover" data-placement="top" data-html="true" data-content=' <ul class="list-inline mb-0">
-                    <li class="list-inline-item">
-                      <a href="#" class="text-muted fs-15 hover-dark lh-1 px-2"><i
-                                                class="fab fa-twitter"></i></a>
+        </div>
+      </section>
+      <div class="primary-content bg-gray-01 pb-12">
+        <div class="container">
+          <div class="row">
+            <article class="col-lg-8">
+              <section>
+                <div class="galleries position-relative">
+                  <div class="position-absolute pos-fixed-top-right z-index-3">
+                    <ul class="list-inline pt-4 pr-5">
+                      <li class="list-inline-item mr-2">
+                        <a href="#" data-toggle="tooltip" title="Favourite"
+									   class="d-flex align-items-center justify-content-center w-40px h-40 bg-white text-heading bg-hover-primary hover-white rounded-circle">
+                          <i class="far fa-heart"></i></a>
+                      </li>
+                      <li class="list-inline-item mr-2">
+                        <button type="button"
+									        class="btn btn-white p-0 d-flex align-items-center justify-content-center w-40px h-40 text-heading bg-hover-primary hover-white rounded-circle border-0 shadow-none"
+									        data-container="body"
+									        data-toggle="popover" data-placement="top" data-html="true" data-content=' <ul class="list-inline mb-0">
+                          <li class="list-inline-item">
+                            <a href="#" class="text-muted fs-15 hover-dark lh-1 px-2"><i
+	                                                        class="fab fa-twitter"></i></a>
+                          </li>
+                          <li class="list-inline-item ">
+                            <a href="#" class="text-muted fs-15 hover-dark lh-1 px-2"><i
+	                                                        class="fab fa-facebook-f"></i></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="#" class="text-muted fs-15 hover-dark lh-1 px-2"><i
+	                                                        class="fab fa-instagram"></i></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="#" class="text-muted fs-15 hover-dark lh-1 px-2"><i
+	                                                        class="fab fa-youtube"></i></a>
+                          </li>
+                        </ul>
+                        '>
+                        <i class="far fa-share-alt"></i>
+                      </button>
                     </li>
-                    <li class="list-inline-item ">
-                      <a href="#" class="text-muted fs-15 hover-dark lh-1 px-2"><i
-                                                class="fab fa-facebook-f"></i></a>
-                    </li>
                     <li class="list-inline-item">
-                      <a href="#" class="text-muted fs-15 hover-dark lh-1 px-2"><i
-                                                class="fab fa-instagram"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="#" class="text-muted fs-15 hover-dark lh-1 px-2"><i
-                                                class="fab fa-youtube"></i></a>
+                      <a href="#" data-toggle="tooltip" title="Print"
+									   class="d-flex align-items-center justify-content-center w-40px h-40 bg-white text-heading bg-hover-primary hover-white rounded-circle">
+                        <i class="far fa-print"></i>
+                      </a>
                     </li>
                   </ul>
-                  '>
-                  <i class="far fa-share-alt"></i>
-                </button>
-              </li>
-              <li class="list-inline-item">
-                <a href="#" data-toggle="tooltip" title="" class="d-flex align-items-center justify-content-center w-40px h-40 bg-white text-heading bg-hover-primary hover-white rounded-circle" data-original-title="Print">
-                  <i class="far fa-print"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="slick-slider slider-for"
-			     data-slick-options='{"slidesToShow": 1, "autoplay":false,"dots":false,"arrows":false,"asNavFor": ".slider-nav"}'>
-            <div class="box">
-              <div class="item item-size-3-2">
-                <div class="card p-0 hover-change-image">
-                  <a href="images/single-property-lg-1.jpg" class="card-img"
-							   data-gtf-mfp="true"
-							   data-gallery-id="02"
-							   style="background-image:url('images/single-property-lg-1.jpg')">
-                  </a>
+                </div>
+                <div class="slick-slider slider-for-01 arrow-haft-inner mx-0"
+						     data-slick-options='{"slidesToShow": 1, "autoplay":false,"dots":false,"arrows":false,"asNavFor": ".slider-nav-01"}'>
+                  <div class="box px-0">
+                    <div class="item item-size-3-2">
+                      <div class="card p-0 hover-change-image">
+                        <a href="images/single-property-lg-1.jpg" class="card-img"
+										   data-gtf-mfp="true"
+										   data-gallery-id="04"
+										   style="background-image:url('images/single-property-lg-1.jpg')">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box px-0">
+                    <div class="item item-size-3-2">
+                      <div class="card p-0 hover-change-image">
+                        <a href="images/single-property-lg-4.jpg" class="card-img"
+										   data-gtf-mfp="true"
+										   data-gallery-id="04"
+										   style="background-image:url('images/single-property-lg-4.jpg')">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box px-0">
+                    <div class="item item-size-3-2">
+                      <div class="card p-0 hover-change-image">
+                        <a href="images/single-property-lg-3.jpg" class="card-img"
+										   data-gtf-mfp="true"
+										   data-gallery-id="04"
+										   style="background-image:url('images/single-property-lg-3.jpg')">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box px-0">
+                    <div class="item item-size-3-2">
+                      <div class="card p-0 hover-change-image">
+                        <a href="images/single-property-lg-2.jpg" class="card-img"
+										   data-gtf-mfp="true"
+										   data-gallery-id="04"
+										   style="background-image:url('images/single-property-lg-2.jpg')">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box px-0">
+                    <div class="item item-size-3-2">
+                      <div class="card p-0 hover-change-image">
+                        <a href="images/single-property-lg-9.jpg" class="card-img"
+										   data-gtf-mfp="true"
+										   data-gallery-id="04"
+										   style="background-image:url('images/single-property-lg-9.jpg')">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box px-0">
+                    <div class="item item-size-3-2">
+                      <div class="card p-0 hover-change-image">
+                        <a href="images/single-property-lg-10.jpg" class="card-img"
+										   data-gtf-mfp="true"
+										   data-gallery-id="04"
+										   style="background-image:url('images/single-property-lg-10.jpg')">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slick-slider slider-nav-01 mt-4 mx-n1 arrow-haft-inner"
+						     data-slick-options='{"slidesToShow": 5, "autoplay":false,"dots":false,"arrows":false,"asNavFor": ".slider-for-01","focusOnSelect": true,"responsive":[{"breakpoint": 768,"settings": {"slidesToShow": 4}},{"breakpoint": 576,"settings": {"slidesToShow": 2}}]}'>
+                  <div class="box pb-6 px-0">
+                    <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
+                      <img src="images/single-property-sm-7.jpg" alt="Gallery 01"
+									     class="h-100 w-100 rounded-lg">
+                    </div>
+                  </div>
+                  <div class="box pb-6 px-0">
+                    <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
+                      <img src="images/single-property-sm-2.jpg" alt="Gallery 02"
+									     class="h-100 w-100 rounded-lg">
+                    </div>
+                  </div>
+                  <div class="box pb-6 px-0">
+                    <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
+                      <img src="images/single-property-sm-4.jpg" alt="Gallery 03"
+									     class="h-100 w-100 rounded-lg">
+                    </div>
+                  </div>
+                  <div class="box pb-6 px-0">
+                    <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
+                      <img src="images/single-property-sm-1.jpg" alt="Gallery 04"
+									     class="h-100 w-100 rounded-lg">
+                    </div>
+                  </div>
+                  <div class="box pb-6 px-0">
+                    <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
+                      <img src="images/single-property-9.jpg" alt="Gallery 05"
+									     class="h-100 w-100 rounded-lg">
+                    </div>
+                  </div>
+                  <div class="box pb-6 px-0">
+                    <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
+                      <img src="images/single-property-1.jpg" alt="Gallery 06"
+									     class="h-100 w-100 rounded-lg">
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="box">
-              <div class="item item-size-3-2">
-                <div class="card p-0 hover-change-image">
-                  <a href="images/single-property-lg-4.jpg" class="card-img"
-							   data-gtf-mfp="true"
-							   data-gallery-id="02"
-							   style="background-image:url('images/single-property-lg-4.jpg')">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="box">
-              <div class="item item-size-3-2">
-                <div class="card p-0 hover-change-image">
-                  <a href="images/single-property-17.jpg" class="card-img"
-							   data-gtf-mfp="true"
-							   data-gallery-id="02"
-							   style="background-image:url('images/single-property-17.jpg')">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="box">
-              <div class="item item-size-3-2">
-                <div class="card p-0 hover-change-image">
-                  <a href="images/single-property-lg-3.jpg" class="card-img"
-							   data-gtf-mfp="true"
-							   data-gallery-id="02"
-							   style="background-image:url('images/single-property-lg-3.jpg')">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="box">
-              <div class="item item-size-3-2">
-                <div class="card p-0 hover-change-image">
-                  <a href="images/single-property-7.jpg" class="card-img"
-							   data-gtf-mfp="true"
-							   data-gallery-id="02"
-							   style="background-image:url('images/single-property-7.jpg')">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="box">
-              <div class="item item-size-3-2">
-                <div class="card p-0 hover-change-image">
-                  <a href="images/single-property-18.jpg" class="card-img"
-							   data-gtf-mfp="true"
-							   data-gallery-id="02"
-							   style="background-image:url('images/single-property-18.jpg')">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="box">
-              <div class="item item-size-3-2">
-                <div class="card p-0 hover-change-image">
-                  <a href="images/single-property-8.jpg" class="card-img"
-							   data-gtf-mfp="true"
-							   data-gallery-id="02"
-							   style="background-image:url('images/single-property-8.jpg')">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="slick-slider slider-nav mt-1 mx-n1 arrow-haft-inner"
-			     data-slick-options='{"slidesToShow": 6, "autoplay":false,"dots":false,"arrows":true,"asNavFor": ".slider-for","focusOnSelect": true,"responsive":[{"breakpoint": 1200,"settings": {"slidesToShow": 4,"arrows":false}},{"breakpoint": 768,"settings": {"slidesToShow": 4,"arrows":false}},{"breakpoint": 576,"settings": {"slidesToShow": 2,"arrows":false}}]}'>
-            <div class="box pb-6 px-0">
-              <div class="bg-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
-                <img src="images/single-property-sm-7.jpg" alt="Gallery 01"
-						     class="h-100 w-100 rounded-lg">
-              </div>
-            </div>
-            <div class="box pb-6 px-0">
-              <div class="bg-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
-                <img src="images/single-property-sm-2.jpg" alt="Gallery 02"
-						     class="h-100 w-100 rounded-lg">
-              </div>
-            </div>
-            <div class="box pb-6 px-0">
-              <div class="bg-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
-                <img src="images/single-property-sm-3.jpg" alt="Gallery 03"
-						     class="h-100 w-100 rounded-lg">
-              </div>
-            </div>
-            <div class="box pb-6 px-0">
-              <div class="bg-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
-                <img src="images/single-property-sm-4.jpg" alt="Gallery 04"
-						     class="h-100 w-100 rounded-lg">
-              </div>
-            </div>
-            <div class="box pb-6 px-0">
-              <div class="bg-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
-                <img src="images/single-property-sm-5.jpg" alt="Gallery 05"
-						     class="h-100 w-100 rounded-lg">
-              </div>
-            </div>
-            <div class="box pb-6 px-0">
-              <div class="bg-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
-                <img src="images/single-property-sm-6.jpg" alt="Gallery 06"
-						     class="h-100 w-100 rounded-lg">
-              </div>
-            </div>
-            <div class="box pb-6 px-0">
-              <div class="bg-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
-                <img src="images/single-property-sm-8.jpg" alt="Gallery 07"
-						     class="h-100 w-100 rounded-lg">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="primary-content bg-gray-01 pt-7 pb-12">
-      <div class="container">
-        <div class="row">
-          <article class="col-lg-8">
-            <section class="pb-8 px-6 pt-6 bg-white rounded-lg">
-              <ul class="list-inline d-sm-flex align-items-sm-center mb-2">
-                <li class="list-inline-item badge badge-orange mr-2">Featured</li>
-                <li class="list-inline-item badge badge-primary mr-3">For Sale</li>
-                <li class="list-inline-item mr-2 mt-2 mt-sm-0"><i class="fal fa-clock mr-1"></i>2 months ago</li>
-                <li class="list-inline-item mt-2 mt-sm-0"><i class="fal fa-eye mr-1"></i>1039 views</li>
-              </ul>
-              <div class="d-sm-flex justify-content-sm-between">
-                <div>
-                  <h2 class="fs-35 font-weight-600 lh-15 text-heading">Villa on Hollywood Boulevard</h2>
-                  <p class="mb-0"><i class="fal fa-map-marker-alt mr-2"></i>398 Pete Pascale Pl, New York</p>
-                </div>
-                <div class="mt-2 text-lg-right">
-                  <p class="fs-22 text-heading font-weight-bold mb-0">$1.250.000</p>
-                  <p class="mb-0">$9350/SqFt</p>
-                </div>
-              </div>
-              <h4 class="fs-22 text-heading mt-6 mb-2">Description</h4>
+            </section>
+            <section class="pb-8 px-6 pt-5 bg-white rounded-lg">
+              <h4 class="fs-22 text-heading mb-3">Description</h4>
               <p class="mb-0 lh-214">Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus
                 scelerisque eleifend donec.
                 Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper
@@ -1769,13 +1740,15 @@
             <section class="mt-2 pb-6 px-6 pt-6 bg-white rounded-lg" >
               <h4 class="fs-22 text-heading mb-6">Location</h4>
               <div class="position-relative">
-                <div id="map" class="mapbox-gl map-point-animate"
-						     data-mapbox-access-token="pk.eyJ1IjoiZHVvbmdsaCIsImEiOiJjanJnNHQ4czExMzhyNDVwdWo5bW13ZmtnIn0.f1bmXQsS6o4bzFFJc8RCcQ"
-						     data-mapbox-options='{"center":[-73.9927227, 40.6741035],"setLngLat":[-73.9927227, 40.6741035]}'
-						     data-mapbox-marker='[{"position":[-73.9927227, 40.6741035],"className":"marker","backgroundImage":"images/googlle-market-01.png","backgroundRepeat":"no-repeat","width":"30px","height":"40px"}]'>
+                <div class="position-relative">
+                  <div id="map" class="mapbox-gl map-point-animate"
+							     data-mapbox-access-token="pk.eyJ1IjoiZHVvbmdsaCIsImEiOiJjanJnNHQ4czExMzhyNDVwdWo5bW13ZmtnIn0.f1bmXQsS6o4bzFFJc8RCcQ"
+							     data-mapbox-options='{"center":[-73.9927227, 40.6741035],"setLngLat":[-73.9927227, 40.6741035]}'
+							     data-mapbox-marker='[{"position":[-73.9927227, 40.6741035],"className":"marker","backgroundImage":"images/googlle-market-01.png","backgroundRepeat":"no-repeat","width":"30px","height":"40px"}]'>
+                  </div>
+                  <p class="mb-0 p-3 bg-white shadow rounded-lg position-absolute pos-fixed-bottom mb-4 ml-4 lh-17 z-index-2">62 Gresham St, Victoria Park <br/>
+                     WA 6100, Australia</p>
                 </div>
-                <p class="mb-0 p-3 bg-white shadow rounded-lg position-absolute pos-fixed-bottom mb-4 ml-4 lh-17 z-index-2">62 Gresham St, Victoria Park <br/>
-                   WA 6100, Australia</p>
               </div>
             </section>
             <section class="mt-2 pb-7 px-6 pt-6 bg-white rounded-lg">
@@ -1844,119 +1817,117 @@
                 </div>
               </form>
             </section>
-            <section class="mt-2 pb-4 px-6 pt-6 bg-white rounded-lg">
-              <div class="chart">
-                <div class="card border-0">
-                  <div class="card-body p-0 collapse-tabs" >
-                    <div class="d-flex align-items-center mb-5">
-                      <h2 class="mb-0 text-heading fs-22 lh-15 mr-auto">Page statistics</h2>
-                      <ul class="nav nav-pills justify-content-end d-none d-sm-flex nav-pills-01"
-										    role="tablist">
-                        <li class="nav-item px-5 py-1">
-                          <a class="nav-link active bg-transparent shadow-none p-0 letter-spacing-1"
-												   id="hours-tab" data-toggle="tab"
-												   href="#hours"
-												   role="tab"
-												   aria-controls="hours" aria-selected="true">Hours</a>
-                        </li>
-                        <li class="nav-item px-5 py-1">
-                          <a class="nav-link bg-transparent shadow-none p-0 letter-spacing-1" id="weekly-tab"
-												   data-toggle="tab"
-												   href="#weekly"
-												   role="tab"
-												   aria-controls="weekly" aria-selected="false">Weekly</a>
-                        </li>
-                        <li class="nav-item px-5 py-1">
-                          <a class="nav-link bg-transparent shadow-none p-0 letter-spacing-1" id="monthly-tab"
-												   data-toggle="tab"
-												   href="#monthly"
-												   role="tab"
-												   aria-controls="monthly" aria-selected="false">Monthly</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="tab-content shadow-none p-0">
-                      <div id="collapse-tabs-accordion">
-                        <div class="tab-pane tab-pane-parent fade show active px-0" id="hours"
-											     role="tabpanel"
-											     aria-labelledby="hours-tab">
-                          <div class="card bg-transparent mb-sm-0 border-0">
-                            <div class="card-header d-block d-sm-none bg-transparent px-0 py-1 border-bottom-0"
-													     id="headingHours">
-                              <h5 class="mb-0">
-                                <button class="btn collapse-parent font-size-h5 btn-block border shadow-none"
-															        data-toggle="collapse"
-															        data-target="#hours-collapse"
-															        aria-expanded="true"
-															        aria-controls="hours-collapse">
-                                  Hours
-                                </button>
-                              </h5>
-                            </div>
-                            <div id="hours-collapse" class="collapse show collapsible"
-													     aria-labelledby="headingHours"
-													     data-parent="#collapse-tabs-accordion">
-                              <div class="card-body p-0 py-4">
-                                <canvas class="chartjs" data-chart-options="[]"
+            <section class="mt-2 pb-4 px-6 pt-6 bg-white rounded-lg chart">
+              <div class="card border-0">
+                <div class="card-body p-0 collapse-tabs" >
+                  <div class="d-flex align-items-center mb-5">
+                    <h2 class="mb-0 text-heading fs-22 lh-15 mr-auto">Page statistics</h2>
+                    <ul class="nav nav-pills nav-pills-01 justify-content-end d-none d-sm-flex"
+								    role="tablist">
+                      <li class="nav-item px-5 py-1">
+                        <a class="nav-link active bg-transparent shadow-none p-0 letter-spacing-1"
+										   id="hours-tab" data-toggle="tab"
+										   href="#hours"
+										   role="tab"
+										   aria-controls="hours" aria-selected="true">Hours</a>
+                      </li>
+                      <li class="nav-item px-5 py-1">
+                        <a class="nav-link bg-transparent shadow-none p-0 letter-spacing-1" id="weekly-tab"
+										   data-toggle="tab"
+										   href="#weekly"
+										   role="tab"
+										   aria-controls="weekly" aria-selected="false">Weekly</a>
+                      </li>
+                      <li class="nav-item px-5 py-1">
+                        <a class="nav-link bg-transparent shadow-none p-0 letter-spacing-1" id="monthly-tab"
+										   data-toggle="tab"
+										   href="#monthly"
+										   role="tab"
+										   aria-controls="monthly" aria-selected="false">Monthly</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="tab-content shadow-none p-0">
+                    <div id="collapse-tabs-accordion">
+                      <div class="tab-pane tab-pane-parent fade show active px-0" id="hours"
+									     role="tabpanel"
+									     aria-labelledby="hours-tab">
+                        <div class="card bg-transparent mb-sm-0 border-0">
+                          <div class="card-header d-block d-sm-none bg-transparent px-0 py-1 border-bottom-0"
+											     id="headingHours">
+                            <h5 class="mb-0">
+                              <button class="btn collapse-parent font-size-h5 btn-block border shadow-none"
+													        data-toggle="collapse"
+													        data-target="#hours-collapse"
+													        aria-expanded="true"
+													        aria-controls="hours-collapse">
+                                Hours
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="hours-collapse" class="collapse show collapsible"
+											     aria-labelledby="headingHours"
+											     data-parent="#collapse-tabs-accordion">
+                            <div class="card-body p-0 py-4">
+                              <canvas class="chartjs" data-chart-options="[]"
                                                     data-chart-labels='["05h","08h","11h","14h","17h","20h","23h"]'
                                                     data-chart-datasets='[{"label":"Clicked","data":[0,7,10,3,15,30,10],"backgroundColor":"rgba(105, 105, 235, 0.1)","borderColor":"#6969eb","borderWidth":3,"fill":true},{"label":"View","data":[10,9,18,20,28,40,27],"backgroundColor":"rgba(254, 91, 52, 0.1)","borderColor":"#ff6935","borderWidth":3,"fill":true}]'>
-                                </canvas>
-                              </div>
+                              </canvas>
                             </div>
                           </div>
                         </div>
-                        <div class="tab-pane tab-pane-parent fade px-0" id="weekly"
-											     role="tabpanel"
-											     aria-labelledby="weekly-tab">
-                          <div class="card bg-transparent mb-sm-0 border-0">
-                            <div class="card-header d-block d-sm-none bg-transparent px-0 py-1 border-bottom-0"
-													     id="headingWeekly">
-                              <h5 class="mb-0">
-                                <button class="btn collapse-parent font-size-h5 btn-block collapsed border shadow-none"
-															        data-toggle="collapse"
-															        data-target="#weekly-collapse"
-															        aria-expanded="true"
-															        aria-controls="weekly-collapse">
-                                  Weekly
-                                </button>
-                              </h5>
-                            </div>
-                            <div id="weekly-collapse" class="collapse collapsible"
-													     aria-labelledby="headingWeekly"
-													     data-parent="#collapse-tabs-accordion">
-                              <div class="card-body p-0 py-4">
-                                <canvas class="chartjs" data-chart-options="[]"
-                                                    data-chart-labels='["05h","08h","11h","14h","17h","20h","23h"]'
-                                                    data-chart-datasets='[{"label":"Clicked","data":[0,7,10,3,15,30,10],"backgroundColor":"rgba(105, 105, 235, 0.1)","borderColor":"#6969eb","borderWidth":3,"fill":true},{"label":"View","data":[10,9,18,20,28,40,27],"backgroundColor":"rgba(254, 91, 52, 0.1)","borderColor":"#ff6935","borderWidth":3,"fill":true}]'>
-                                </canvas>
-                              </div>
+                      </div>
+                      <div class="tab-pane tab-pane-parent fade px-0" id="weekly"
+									     role="tabpanel"
+									     aria-labelledby="weekly-tab">
+                        <div class="card bg-transparent mb-sm-0 border-0">
+                          <div class="card-header d-block d-sm-none bg-transparent px-0 py-1 border-bottom-0"
+											     id="headingWeekly">
+                            <h5 class="mb-0">
+                              <button class="btn collapse-parent font-size-h5 btn-block collapsed border shadow-none"
+													        data-toggle="collapse"
+													        data-target="#weekly-collapse"
+													        aria-expanded="true"
+													        aria-controls="weekly-collapse">
+                                Weekly
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="weekly-collapse" class="collapse collapsible"
+											     aria-labelledby="headingWeekly"
+											     data-parent="#collapse-tabs-accordion">
+                            <div class="card-body p-0 py-4">
+                              <canvas class="chartjs" data-chart-options="[]"
+                                                    data-chart-labels='["Mar 12","Mar 13","Mar 14","Mar 15","Mar 16","Mar 17","Mar 18","Mar 19"]'
+                                                    data-chart-datasets='[{"label":"Clicked","data":[0,13,9,3,15,15,10,0],"backgroundColor":"rgba(105, 105, 235, 0.1)","borderColor":"#6969eb","borderWidth":3,"fill":true},{"label":"View","data":[10,20,18,15,28,33,27,10],"backgroundColor":"rgba(254, 91, 52, 0.1)","borderColor":"#ff6935","borderWidth":3,"fill":true}]'>
+                              </canvas>
                             </div>
                           </div>
                         </div>
-                        <div class="tab-pane tab-pane-parent fade px-0" id="monthly" role="tabpanel"
-											     aria-labelledby="monthly-tab">
-                          <div class="card bg-transparent mb-sm-0 border-0">
-                            <div class="card-header d-block d-sm-none bg-transparent px-0 py-1 border-bottom-0"
-													     id="headingMonthly">
-                              <h5 class="mb-0">
-                                <button class="btn btn-block collapse-parent collapsed border shadow-none"
-															        data-toggle="collapse"
-															        data-target="#monthly-collapse"
-															        aria-expanded="true"
-															        aria-controls="monthly-collapse">
-                                  Monthly
-                                </button>
-                              </h5>
-                            </div>
-                            <div id="monthly-collapse" class="collapse collapsible"
-													     aria-labelledby="headingMonthly"
-													     data-parent="#collapse-tabs-accordion">
-                              <div class="card-body p-0 py-4">
-                                <canvas class="chartjs" data-chart-options="[]"
-                                                    data-chart-labels='["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]'
-                                                    data-chart-datasets='[{"label":"Clicked","data":[2,15,20,10,15,20,10,0,20,30,10,0],"backgroundColor":"rgba(105, 105, 235, 0.1)","borderColor":"#6969eb","borderWidth":3,"fill":true},{"label":"View","data":[10,20,18,15,28,33,27,10,20,30,10,0],"backgroundColor":"rgba(254, 91, 52, 0.1)","borderColor":"#ff6935","borderWidth":3,"fill":true}]'>
-                                </canvas>
-                              </div>
+                      </div>
+                      <div class="tab-pane tab-pane-parent fade px-0" id="monthly" role="tabpanel"
+									     aria-labelledby="monthly-tab">
+                        <div class="card bg-transparent mb-sm-0 border-0">
+                          <div class="card-header d-block d-sm-none bg-transparent px-0 py-1 border-bottom-0"
+											     id="headingMonthly">
+                            <h5 class="mb-0">
+                              <button class="btn btn-block collapse-parent collapsed border shadow-none"
+													        data-toggle="collapse"
+													        data-target="#monthly-collapse"
+													        aria-expanded="true"
+													        aria-controls="monthly-collapse">
+                                Monthly
+                              </button>
+                            </h5>
+                          </div>
+                          <div id="monthly-collapse" class="collapse collapsible"
+											     aria-labelledby="headingMonthly"
+											     data-parent="#collapse-tabs-accordion">
+                            <div class="card-body p-0 py-4">
+                              <canvas class="chartjs" data-chart-options="[]"
+													        data-chart-labels='["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]'
+													        data-chart-datasets='[{"label":"Clicked","data":[2,15,20,10,15,20,10,0,20,30,10,0],"backgroundColor":"rgba(105, 105, 235, 0.1)","borderColor":"#6969eb","borderWidth":3,"fill":true},{"label":"View","data":[10,20,18,15,28,33,27,10,20,30,10,0],"backgroundColor":"rgba(254, 91, 52, 0.1)","borderColor":"#ff6935","borderWidth":3,"fill":true}]'>
+                              </canvas>
                             </div>
                           </div>
                         </div>
@@ -1971,7 +1942,7 @@
               <div class="slick-slider"
 					     data-slick-options='{"slidesToShow": 2, "dots":false,"responsive":[{"breakpoint": 1200,"settings": {"slidesToShow":2,"arrows":false}},{"breakpoint": 992,"settings": {"slidesToShow":2}},{"breakpoint": 768,"settings": {"slidesToShow": 1}},{"breakpoint": 576,"settings": {"slidesToShow": 1}}]}'>
                 <div class="box">
-                  <div class="card shadow-hover-2">
+                  <div class="card shadow-hover-2 =">
                     <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
                       <img src="images/properties-grid-38.jpg"
 									     alt="Home in Metric Way">
@@ -1996,17 +1967,17 @@
                     <div class="card-body pt-3">
                       <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html" class="text-dark hover-primary">Home in Metric Way</a></h2>
                       <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St, Los Angeles</p>
-                      <ul class="list-inline d-flex mb-0 flex-wrap mr-n5">
-                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5" data-toggle="tooltip" title="3 Bedroom">
+                      <ul class="list-inline d-flex mb-0 flex-wrap mr-n4">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="3 Bedroom">
                           <svg class="icon icon-bedroom fs-18 text-primary mr-1"><use xlink:href="#icon-bedroom"></use></svg>3 Br
                         </li>
-                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5" data-toggle="tooltip" title="3 Bathrooms">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="3 Bathrooms">
                           <svg class="icon icon-shower fs-18 text-primary mr-1"><use xlink:href="#icon-shower"></use></svg>3 Ba
                         </li>
-                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5-2" data-toggle="tooltip" title="Size">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="Size">
                           <svg class="icon icon-square fs-18 text-primary mr-1"><use xlink:href="#icon-square"></use></svg>2300 Sq.Ft
                         </li>
-                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5" data-toggle="tooltip" title="1 Garage">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="1 Garage">
                           <svg class="icon icon-Garage fs-18 text-primary mr-1"><use xlink:href="#icon-Garage"></use></svg>1 Gr
                         </li>
                       </ul>
@@ -2029,7 +2000,7 @@
                   </div>
                 </div>
                 <div class="box">
-                  <div class="card shadow-hover-2">
+                  <div class="card shadow-hover-2 =">
                     <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
                       <img src="images/properties-grid-01.jpg"
 									     alt="Garden Gingerbread House">
@@ -2055,17 +2026,17 @@
                     <div class="card-body pt-3">
                       <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html" class="text-dark hover-primary">Garden Gingerbread House</a></h2>
                       <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St, Los Angeles</p>
-                      <ul class="list-inline d-flex mb-0 flex-wrap mr-n5">
-                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5" data-toggle="tooltip" title="3 Bedroom">
+                      <ul class="list-inline d-flex mb-0 flex-wrap mr-n4">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="3 Bedroom">
                           <svg class="icon icon-bedroom fs-18 text-primary mr-1"><use xlink:href="#icon-bedroom"></use></svg>3 Br
                         </li>
-                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5" data-toggle="tooltip" title="3 Bathrooms">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="3 Bathrooms">
                           <svg class="icon icon-shower fs-18 text-primary mr-1"><use xlink:href="#icon-shower"></use></svg>3 Ba
                         </li>
-                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5-2" data-toggle="tooltip" title="Size">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="Size">
                           <svg class="icon icon-square fs-18 text-primary mr-1"><use xlink:href="#icon-square"></use></svg>2300 Sq.Ft
                         </li>
-                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5" data-toggle="tooltip" title="1 Garage">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="1 Garage">
                           <svg class="icon icon-Garage fs-18 text-primary mr-1"><use xlink:href="#icon-Garage"></use></svg>1 Gr
                         </li>
                       </ul>
@@ -2088,7 +2059,7 @@
                   </div>
                 </div>
                 <div class="box">
-                  <div class="card shadow-hover-2">
+                  <div class="card shadow-hover-2 =">
                     <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
                       <img src="images/properties-grid-02.jpg"
 									     alt="Affordable Urban House">
@@ -2113,17 +2084,17 @@
                     <div class="card-body pt-3">
                       <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html" class="text-dark hover-primary">Affordable Urban House</a></h2>
                       <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St, Los Angeles</p>
-                      <ul class="list-inline d-flex mb-0 flex-wrap mr-n5">
-                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5" data-toggle="tooltip" title="3 Bedroom">
+                      <ul class="list-inline d-flex mb-0 flex-wrap mr-n4">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="3 Bedroom">
                           <svg class="icon icon-bedroom fs-18 text-primary mr-1"><use xlink:href="#icon-bedroom"></use></svg>3 Br
                         </li>
-                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5" data-toggle="tooltip" title="3 Bathrooms">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="3 Bathrooms">
                           <svg class="icon icon-shower fs-18 text-primary mr-1"><use xlink:href="#icon-shower"></use></svg>3 Ba
                         </li>
-                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5-2" data-toggle="tooltip" title="Size">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="Size">
                           <svg class="icon icon-square fs-18 text-primary mr-1"><use xlink:href="#icon-square"></use></svg>2300 Sq.Ft
                         </li>
-                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5" data-toggle="tooltip" title="1 Garage">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="1 Garage">
                           <svg class="icon icon-Garage fs-18 text-primary mr-1"><use xlink:href="#icon-Garage"></use></svg>1 Gr
                         </li>
                       </ul>
@@ -2150,184 +2121,67 @@
           </article>
           <aside class="col-lg-4 pl-xl-4 primary-sidebar sidebar-sticky" id="sidebar">
             <div class="primary-sidebar-inner">
-              <div class="card border-0 widget-request-tour bg-transparent">
-                <ul class="nav nav-tabs d-flex" role="tablist">
-                  <li class="nav-item">
-                    <a class="nav-link active px-3" data-toggle="tab" href="#schedule" role="tab"
-							   aria-selected="true">Schedule
-                      A Tour</a>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <a class="nav-link px-3" data-toggle="tab" href="#request-info" role="tab"
-							   aria-selected="false">Request
-                      Info</a>
-                  </li>
+              <div class="bg-white rounded-lg py-lg-6 pl-lg-6 pr-lg-3 p-4">
+                <ul class="list-inline d-sm-flex align-items-sm-center mb-2">
+                  <li class="list-inline-item badge badge-orange mr-2">Featured</li>
+                  <li class="list-inline-item badge badge-primary mr-3">For Sale</li>
                 </ul>
-                <div class="card-body px-sm-6 shadow-xxs-2 pb-5 pt-0 bg-white">
-                  <form>
-                    <div class="tab-content pt-1 pb-0 px-0 shadow-none">
-                      <div class="tab-pane fade show active" id="schedule" role="tabpanel">
-                        <div class="slick-slider calendar arrow-hide-disable mx-n1"
-									     data-slick-options='{"slidesToShow": 5, "autoplay":false,"dots":false}'>
-                          <div class="box px-1 py-4">
-                            <div class="card pointer active border-0 shadow-xxs-1" data-date="March 17, 2020">
-                              <div class="card-body p-1 text-center">
-                                <p class="day fs-12 text-muted lh-2 mb-0">Tue</p>
-                                <p class="date fs-18 text-heading lh-173 mb-0 font-weight-bold">17</p>
-                                <p class="month fs-13 letter-spacing-087 mb-0">Mar</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="box px-1 py-4">
-                            <div class="card pointer border-0 shadow-xxs-1" data-date="March 18, 2020">
-                              <div class="card-body p-1 text-center">
-                                <p class="day fs-12 text-muted lh-2 mb-0">Wed</p>
-                                <p class="date fs-18 text-heading lh-173 mb-0 font-weight-bold">18</p>
-                                <p class="month fs-13 letter-spacing-087 mb-0">Mar</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="box px-1 py-4">
-                            <div class="card pointer border-0 shadow-xxs-1" data-date="March 19, 2020">
-                              <div class="card-body p-1 text-center">
-                                <p class="day fs-12 text-muted lh-2 mb-0">Thur</p>
-                                <p class="date fs-18 text-heading lh-173 mb-0 font-weight-bold">19</p>
-                                <p class="month fs-13 letter-spacing-087 mb-0">Mar</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="box px-1 py-4">
-                            <div class="card pointer border-0 shadow-xxs-1" data-date="March 20, 2020">
-                              <div class="card-body p-1 text-center">
-                                <p class="day fs-12 text-muted lh-2 mb-0">Fri</p>
-                                <p class="date fs-18 text-heading lh-173 mb-0 font-weight-bold">20</p>
-                                <p class="month fs-13 letter-spacing-087 mb-0">Mar</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="box px-1 py-4">
-                            <div class="card pointer border-0 shadow-xxs-1" data-date="March 21, 2020">
-                              <div class="card-body p-1 text-center">
-                                <p class="day fs-12 text-muted lh-2 mb-0">Sat</p>
-                                <p class="date fs-18 text-heading lh-173 mb-0 font-weight-bold">21</p>
-                                <p class="month fs-13 letter-spacing-087 mb-0">Mar</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="box px-1 py-4">
-                            <div class="card pointer border-0 shadow-xxs-1" data-date="March 22, 2020">
-                              <div class="card-body p-1 text-center">
-                                <p class="day fs-12 text-muted lh-2 mb-0">Sun</p>
-                                <p class="date fs-18 text-heading lh-173 mb-0 font-weight-bold">22</p>
-                                <p class="month fs-13 letter-spacing-087 mb-0">Mar</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="box px-1 py-4">
-                            <div class="card pointer border-0 shadow-xxs-1" data-date="March 23, 2020">
-                              <div class="card-body p-1 text-center">
-                                <p class="day fs-12 text-muted lh-2 mb-0">Mon</p>
-                                <p class="date fs-18 text-heading lh-173 mb-0 font-weight-bold">23</p>
-                                <p class="month fs-13 letter-spacing-087 mb-0">Mar</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <input type="hidden" class="date" name="date" value="March 17, 2020">
-                        <div class="form-group mb-2">
-                          <div class="input-group input-group-lg bootstrap-timepicker timepicker">
-                            <input type="text" class="form-control border-0 text-body shadow-none"
-											       placeholder="Choose a time">
-                            <div class="input-group-append input-group-addon">
-                              <button class="btn bg-input shadow-none fs-18 lh-1" type="button"><i
-														class="fal fa-angle-down"></i></button>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="form-group mb-2">
-                          <input type="text" class="form-control form-control-lg border-0"
-										       placeholder="First Name, Last Name">
-                        </div>
-                        <div class="form-group mb-2">
-                          <input type="email" class="form-control form-control-lg border-0" placeholder="Your Email">
-                        </div>
-                        <div class="form-group mb-4">
-                          <input type="tel" class="form-control form-control-lg border-0" placeholder="Your phone">
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-lg btn-block rounded">Schedule A Tour</button>
-                        <div class="form-group form-check mt-2 mb-0">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label fs-13" for="exampleCheck1">Egestas fringilla phasellus
-                            faucibus
-                            scelerisque
-                            eleifend donec.</label>
-                        </div>
+                <h2 class="fs-22 text-heading pt-2">Villa Called Archangel</h2>
+                <p class="mb-2"><i class="fal fa-map-marker-alt mr-1"></i>398 Pete Pascale Pl, New York</p>
+                <div class="d-flex align-items-center">
+                  <p class="fs-22 text-heading font-weight-bold mb-0 mr-6">$1.250.000</p>
+                  <p class="mb-0">$9350/SqFt</p>
+                </div>
+                <div class="row mt-5">
+                  <div class="col-6 mb-3">
+                    <div class="media">
+                      <div class="p-2 shadow-xxs-1 rounded-lg mr-2 lh-1">
+                        <svg class="icon icon-bedroom fs-18 text-primary"><use xlink:href="#icon-bedroom"></use></svg>
                       </div>
-                      <div class="tab-pane fade pt-5" id="request-info" role="tabpanel">
-                        <div class="form-check d-flex align-items-center border-bottom pb-3 mb-3">
-                          <input class="form-check-input" type="radio" name="agent" value="option1">
-                          <div class="form-check-label ml-2">
-                            <div class="d-flex align-items-center">
-                              <a href="agent-details-1.html" class="d-block w-60px h-60 mr-3">
-                                <img src="images/agent-2.jpg"
-													     class="rounded-circle" alt="Oliver Beddows">
-                              </a>
-                              <div>
-                                <a href="agent-details-1.html"
-													   class="d-block text-dark font-weight-500 lh-15 hover-primary">Oliver
-                                  Beddows</a>
-                                <p class="mb-0 fs-13 mb-0 lh-17">Sales Excutive</p>
-                                <p class="mb-0 fs-13 mb-0 lh-17"><span>(+123)</span><span
-															class="text-heading d-inline-block ml-2">1900 68668</span>
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="form-check d-flex align-items-center mb-6">
-                          <input class="form-check-input" type="radio" name="agent" id="inlineRadio2"
-										       value="option2">
-                          <div class="form-check-label ml-2">
-                            <div class="d-flex align-items-center">
-                              <a href="agent-details-1.html" class="d-block w-60px h-60 mr-3">
-                                <img src="images/agent-1.jpg"
-													     class="rounded-circle" alt="Max Kordex">
-                              </a>
-                              <div>
-                                <a href="agent-details-1.html"
-													   class="d-block text-dark font-weight-500 lh-15 hover-primary">Max Kordex</a>
-                                <p class="mb-0 fs-13 mb-0 lh-17">Real estate broker</p>
-                                <p class="mb-0 fs-13 mb-0 lh-17"><span>(+123)</span><span
-															class="text-heading d-inline-block ml-2">1900 68668</span>
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="form-group mb-2">
-                          <input type="text" class="form-control form-control-lg border-0"
-										       placeholder="First Name, Last Name">
-                        </div>
-                        <div class="form-group mb-2">
-                          <input type="email" class="form-control form-control-lg border-0" placeholder="Your Email">
-                        </div>
-                        <div class="form-group mb-2">
-                          <input type="tel" class="form-control form-control-lg border-0" placeholder="Your phone">
-                        </div>
-                        <div class="form-group mb-4">
-                          <textarea class="form-control border-0" rows="4">Hello, I'm interested in Villa Called Archangel</textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-lg btn-block rounded">Request Info</button>
-                        <div class="form-group form-check mt-2 mb-0">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck2">
-                          <label class="form-check-label fs-13" for="exampleCheck2">Egestas fringilla phasellus
-                            faucibus
-                            scelerisque
-                            eleifend donec.</label>
-                        </div>
+                      <div class="media-body">
+                        <h5 class="fs-13 font-weight-normal mb-0">Bedrooms</h5>
+                        <p class="mb-0 fs-13 font-weight-bold text-dark">3</p>
                       </div>
                     </div>
-                  </form>
+                  </div>
+                  <div class="col-6 mb-3">
+                    <div class="media">
+                      <div class="p-2 shadow-xxs-1 rounded-lg mr-2 lh-1">
+                        <svg class="icon icon-shower fs-18 text-primary"><use xlink:href="#icon-shower"></use></svg>
+                      </div>
+                      <div class="media-body">
+                        <h5 class="fs-13 font-weight-normal mb-0">Bathrooms</h5>
+                        <p class="mb-0 fs-13 font-weight-bold text-dark">2</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 mb-3">
+                    <div class="media">
+                      <div class="p-2 shadow-xxs-1 rounded-lg mr-2 lh-1">
+                        <svg class="icon icon-square fs-18 text-primary"><use xlink:href="#icon-square"></use></svg>
+                      </div>
+                      <div class="media-body">
+                        <h5 class="fs-13 font-weight-normal mb-0">Area</h5>
+                        <p class="mb-0 fs-13 font-weight-bold text-dark">3.6k SqFt</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 mb-3">
+                    <div class="media">
+                      <div class="p-2 shadow-xxs-1 rounded-lg mr-2 lh-1">
+                        <svg class="icon icon-Garage fs-18 text-primary"><use xlink:href="#icon-Garage"></use></svg>
+                      </div>
+                      <div class="media-body">
+                        <h5 class="fs-13 font-weight-normal mb-0">Garage</h5>
+                        <p class="mb-0 fs-13 font-weight-bold text-dark">1</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="mb-6 mt-1">Villa Called Archangel is now available to buy off plan in New Islington in Australia.</p>
+                <div class="mr-xl-2">
+                  <a href="#" class="btn btn-outline-primary btn-lg btn-block rounded border text-body border-hover-primary hover-white">Schedule a Tour</a>
+                  <a href="#" class="btn btn-outline-primary btn-lg btn-block rounded border text-body border-hover-primary hover-white mt-4">Request Info</a>
                 </div>
               </div>
             </div>

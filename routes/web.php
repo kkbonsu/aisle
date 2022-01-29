@@ -24,12 +24,25 @@ Route::get('/', function () {
     return view('pages.home-01');
 });
 
+
+Route::get('/single-property-1', function () {
+    return view('pages.single-properties-for-sale.single-property-1');
+});
+
+Route::get('/all-properties-for-rent', function () {
+    return view('pages.all-properties-for-rent');
+});
+
+Route::get('/all-properties-for-sale', function () {
+    return view('pages.all-properties-for-sale');
+});
+
 Route::middleware(['auth:sanctum', 'auth'])->get('/dashboard', function () {
     return view('pages.dashboard');
 })->name('dashboard');
 
 
-Route::group(['middleware' => ['auth']], function() {
+Route::group(['middleware' => ['auth']], function () {
     Route::resource('properties', PropertyController::class);
     Route::resource('categories', CategoryController::class);
     Route::resource('amenities', AmenityController::class);
