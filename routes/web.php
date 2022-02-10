@@ -24,7 +24,6 @@ Route::get('/', function () {
     return view('pages.home-01');
 });
 
-
 Route::get('/single-property-1', function () {
     return view('pages.single-properties-for-sale.single-property-1');
 });

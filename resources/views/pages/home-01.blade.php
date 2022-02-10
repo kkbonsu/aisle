@@ -141,14 +141,50 @@
                   </ul>
                 </li>
 
-
+                
                 <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
+        class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
+                  <a class="nav-link dropdown-toggle p-0"
+           href="index.html" data-toggle="dropdown" >
+                Land
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu pt-3 pb-0 pb-lg-3" aria-labelledby="navbar-item-home">
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-01"
+                   class="dropdown-link"
+                   href="home-01.html" >
+                   Residential                     </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-02"
+                   class="dropdown-link"
+                   href="home-02.html" >
+                   Commercial                    </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-03"
+                   class="dropdown-link"
+                   href="home-03.html" >
+                   Industrial                     </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-04"
+                   class="dropdown-link"
+                   href="home-04.html" >
+                   Farmland
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                {{-- <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
                 class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
                           <a class="nav-link  p-0"
                    href="land.html" data-toggle="dropdown" >
                    Land
                           </a>
-                </li>
+                </li> --}}
 
                 <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
                 class="nav-item  py-2 py-lg-5 px-0 px-lg-4">
@@ -156,6 +192,36 @@
                    href="investment.html" data-toggle="dropdown" >
                    Investment</a>
                 </li>
+
+                <li id="navbar-item-docs" aria-haspopup="true" aria-expanded="false"
+                class="nav-item dropdown py-2 py-xl-5 px-0 px-xl-4">
+                            <a class="nav-link dropdown-toggle p-0"
+                   href="#" data-toggle="dropdown" >
+                   Property Management
+                              <span class="caret"></span>
+                            </a>
+                            <div class="dropdown-menu px-0 pt-3 dropdown-menu-docs">
+                              <div class="dropdown-body">
+                                <a class="dropdown-item py-1"
+                                    href="docs/getting-started/dev-environment-setup.html">
+                                  <div class="media">
+                                    <div class="fs-20 mr-3">
+                                      <i class="fal fa-file-alt"></i>
+                                    </div>
+                                    <div class="media-body">
+                                      <span class="d-block lh-15"> Properties under our management are <br>  given topnotch attention with the single <br>
+                                        aim of boosting their desirability and<br>marketability for our clients.</span>
+                                      <div class="dropdown-divider m-0"></div>
+                                      {{-- <small class="d-block lh-15">Properties under our management are <br>  given topnotch attention with the single <br>
+                                           aim of boosting their desirability and<br>marketability for our clients.</small> --}}
+                                    </div>
+                                  </div>
+                                </a>
+                                <div class="dropdown-divider m-0"></div>
+                              </div>
+                            </div>
+                          </li>
+
 
 
               </ul>
