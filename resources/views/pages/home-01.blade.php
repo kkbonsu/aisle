@@ -740,19 +740,19 @@
                           <svg class="icon icon-bedroom fs-18 text-primary mr-2">
                             <use xlink:href="#icon-bedroom"></use>
                           </svg>
-                          {{$property->bedrooms}}
+                          {{$property->bedrooms}} bedrooms
                         </li>
                         <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-2" data-toggle="tooltip" title="{{$property->bathrooms}}">
                           <svg class="icon icon-shower fs-18 text-primary mr-2">
                             <use xlink:href="#icon-shower"></use>
                           </svg>
-                          {{$property->bathrooms}}
+                          {{$property->bathrooms}} bathrooms
                         </li>
                         <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-2" data-toggle="tooltip" title="{{$property->garages}}">
                           <svg class="icon icon-square fs-18 text-primary mr-2">
                             <use xlink:href="#icon-square"></use>
                           </svg>
-                          {{$property->garages}}
+                          {{$property->garages}} garages
                         </li>
                       </ul>
                     </div>
