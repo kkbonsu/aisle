@@ -123,6 +123,17 @@
                         </a>
                       </li> --}}
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
+                        <a href="{{ route('lands.index') }}"
+                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
+                            <svg class="icon icon-my-properties"><use
+                                            xlink:href="#icon-my-properties"></use></svg>
+                          </span>
+                          <span class="sidebar-item-text">Lands</span>
+                          {{-- <span class="sidebar-item-number ml-auto text-primary fs-15 font-weight-bold">29</span> --}}
+                        </a>
+                      </li>
+                      <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('properties.index') }}"
                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
@@ -374,7 +385,7 @@
                   </div>
                 </form> --}}
               </div>
-              {!! Form::open(array('route' => 'properties.store', 'method' => 'POST')) !!}
+              {!! Form::open(array('route' => 'properties.store', 'method' => 'POST', 'files' => true, 'enctype' => 'multipart/form-data')) !!}
               <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-6">
                     <div class="form-group">
@@ -448,6 +459,12 @@
                       <div class="form-group">
                           <strong>Negotiable (Yes/No):</strong>
                           {!! Form::select('negotiable', ['Yes' => 'Yes', 'No' => 'No']); !!}
+                      </div>
+                  </div>
+                  <div class="col-xs-6 col-sm-6 col-md-6">
+                      <div class="form-group">
+                          <strong>Property Photos:</strong>
+                          {!! Form::file('photo_id[]', ['multiple' => 'multiple'], array('class' => 'form-control')); !!}
                       </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 text-center">

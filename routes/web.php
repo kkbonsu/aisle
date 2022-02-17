@@ -8,6 +8,8 @@ use App\Http\Controllers\PropertyController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\TypeController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\LandController;
+use App\Models\Property;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,9 +23,55 @@ use App\Http\Controllers\UserController;
 */
 
 Route::get('/', function () {
+    $properties = Property::
     return view('pages.home-01');
 });
 
+Route::get('/rent-apartments', function () {
+    $properties = Property::where('category_id', 2)->get();
+    return view('pages.home-01');
+});
+Route::get('/rent-houses', function () {
+    $properties = Property::where('category_id', 1)->get();
+    return view('pages.home-01');
+});
+Route::get('/rent-offices', function () {
+    $properties = Property::where('category_id', 3)->get();
+    return view('pages.home-01');
+});
+Route::get('/rented-properties', function () {
+    return view('pages.home-01');
+});
+
+Route::get('/sale-apartments', function () {
+    return view('pages.home-01');
+});
+Route::get('/sale-houses', function () {
+    return view('pages.home-01');
+});
+Route::get('/sale-offices', function () {
+    return view('pages.home-01');
+});
+Route::get('/sold-properties', function () {
+    return view('pages.home-01');
+});
+
+Route::get('/lands-residential', function () {
+    return view('pages.home-01');
+});
+Route::get('/lands-industrial', function () {
+    return view('pages.home-01');
+});
+Route::get('/lands-commercial', function () {
+    return view('pages.home-01');
+});
+Route::get('/lands-farmland', function () {
+    return view('pages.home-01');
+});
+
+Route::get('/investments', function () {
+    return view('pages.home-01');
+});
 Route::get('/single-property-1', function () {
     return view('pages.single-properties-for-sale.single-property-1');
 });
@@ -31,7 +79,6 @@ Route::get('/single-property-1', function () {
 Route::get('/all-properties-for-rent', function () {
     return view('pages.all-properties-for-rent');
 });
-
 Route::get('/all-properties-for-sale', function () {
     return view('pages.all-properties-for-sale');
 });
@@ -42,6 +89,7 @@ Route::middleware(['auth:sanctum', 'auth'])->get('/dashboard', function () {
 
 
 Route::group(['middleware' => ['auth']], function () {
+    Route::resource('lands', LandController::class);
     Route::resource('properties', PropertyController::class);
     Route::resource('categories', CategoryController::class);
     Route::resource('amenities', AmenityController::class);

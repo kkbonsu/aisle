@@ -56,6 +56,16 @@ class PropertyController extends Controller
         $input = $request->all();
     
         $property = Property::create($input);
+
+        if ($request->hasFile('photo_id')) {
+            $files = $request->file('photo_id');
+            foreach ($files as $file) {
+                $name = time().'-'.$file->getClientOriginalName();
+                $name = str_replace(' ', '-', $name);
+                $file->move('property_pictures', $name);
+                $property->pictures()->create(['name' => $name]);
+            }
+        }
     
         return redirect()->route('properties.index')
                         ->with('success','Property created successfully');
@@ -107,6 +117,16 @@ class PropertyController extends Controller
         
         $property = Property::find($id);
         $property->update($input);
+
+        if ($request->hasFile('photo_id')) {
+            $files = $request->file('photo_id');
+            foreach ($files as $file) {
+                $name = time().'-'.$file->getClientOriginalName();
+                $name = str_replace(' ', '-', $name);
+                $file->move('property_pictures', $name);
+                $property->pictures()->create(['name' => $name]);
+            }
+        }
     
         return redirect()->route('properties.index')
                         ->with('success','Property updated successfully');

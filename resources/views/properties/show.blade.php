@@ -123,6 +123,17 @@
                         </a>
                       </li> --}}
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
+                        <a href="{{ route('lands.index') }}"
+                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
+                            <svg class="icon icon-my-properties"><use
+                                            xlink:href="#icon-my-properties"></use></svg>
+                          </span>
+                          <span class="sidebar-item-text">Lands</span>
+                          {{-- <span class="sidebar-item-number ml-auto text-primary fs-15 font-weight-bold">29</span> --}}
+                        </a>
+                      </li>
+                      <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('properties.index') }}"
                                class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
@@ -440,12 +451,12 @@
                     </div>
                 </div> --}}
                 <div class="row">
-                  <div class="col-md-12">
-                    <div class="form-gorup">
-                      <strong>Pictures:</strong>
-                      <img src="" alt="">
-                    </div>
+                  <strong>Pictures:</strong>
+                  @foreach ($property->pictures as $picture)
+                  <div class="col-md-4">
+                    <img src="{{asset('/property_pictures/'.$picture->name)}}" alt="Picture of property" class="img-thumbnail" style="width: 4000px; height: 200px">
                   </div>
+                  @endforeach
                 </div>
             </div>
           </main>

@@ -13,4 +13,6 @@ class Picture extends Model
     {
         return $this->belongsTo(Property::class);
     }
+    
+    protected $fillable = array('name');
 }

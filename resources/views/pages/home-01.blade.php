@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Real Estate Html Template">
+    <meta name="description" content="Aisle Properties">
     <meta name="author" content="">
     <meta name="generator" content="Jekyll">
-    <title>AISLA || Official Website</title>
+    <title>AISLE || Official Website</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
@@ -31,12 +31,12 @@
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@">
     <meta name="twitter:title" content="Home 01">
-    <meta name="twitter:description" content="Real Estate Html Template">
+    <meta name="twitter:description" content="Aisle Properties">
     <meta name="twitter:image" content="images/homeid-social-logo.png">
     <!-- Facebook -->
     <meta property="og:url" content="home-01.html">
     <meta property="og:title" content="Home 01">
-    <meta property="og:description" content="Real Estate Html Template">
+    <meta property="og:description" content="Aisle Properties">
     <meta property="og:type" content="website">
     <meta property="og:image" content="images/homeid-social.png">
     <meta property="og:image:type" content="image/png">
@@ -48,8 +48,8 @@
       <div class="sticky-area bg-secondary">
         <div class="container">
           <nav class="navbar navbar-expand-lg bg-transparent px-0">
-            <a class="navbar-brand" href="index.html">
-              <img src="images/logo-white.png" alt="HomeID">
+            <a class="navbar-brand" href="/">
+              <img src="images/logo-white.png" alt="Logo">
             </a>
             <div class="d-flex d-lg-none ml-auto">
              
@@ -67,7 +67,7 @@
                 <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
         class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
                   <a class="nav-link dropdown-toggle p-0"
-           href="index.html" data-toggle="dropdown" >
+           href="#" data-toggle="dropdown" >
            For Rent
                     <span class="caret"></span>
                   </a>
@@ -75,28 +75,28 @@
                     <li class="dropdown-item">
                       <a id="navbar-link-home-01"
                    class="dropdown-link"
-                   href="home-01.html" >
+                   href="/rent-apartments" >
                    Apartments For Rent
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="home-02.html" >
+                   href="/rent-houses" >
                    Houses For Rent
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="home-03.html" >
+                   href="/rent-offices" >
                    Office Spaces For Rent
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-04"
                    class="dropdown-link"
-                   href="home-04.html" >
+                   href="/rented-properties" >
                    Rented Properties
                       </a>
                     </li>
@@ -108,7 +108,7 @@
                 <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
         class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
                   <a class="nav-link dropdown-toggle p-0"
-           href="index.html" data-toggle="dropdown" >
+           href="#" data-toggle="dropdown" >
            For Sale
                     <span class="caret"></span>
                   </a>
@@ -116,27 +116,26 @@
                     <li class="dropdown-item">
                       <a id="navbar-link-home-01"
                    class="dropdown-link"
-                   href="home-01.html" >
-                   Apartments For Sale                     </a>
+                   href="/sale-apartments" >
+                   Apartments For Sale</a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="home-02.html" >
-                   Houses For Sale                     </a>
+                   href="/sale-houses" >
+                   Houses For Sale</a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="home-03.html" >
-                   Office Spaces For Sale                     </a>
+                   href="/sale-offices" >
+                   Office Spaces For Sale</a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-04"
                    class="dropdown-link"
-                   href="home-04.html" >
-                   Sold Properties
-                      </a>
+                   href="/sold-properties" >
+                   Sold Properties</a>
                     </li>
                   </ul>
                 </li>
@@ -145,7 +144,7 @@
                 <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
         class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
                   <a class="nav-link dropdown-toggle p-0"
-           href="index.html" data-toggle="dropdown" >
+           href="#" data-toggle="dropdown">
                 Land
                     <span class="caret"></span>
                   </a>
@@ -153,25 +152,25 @@
                     <li class="dropdown-item">
                       <a id="navbar-link-home-01"
                    class="dropdown-link"
-                   href="home-01.html" >
+                   href="/lands-residential" >
                    Residential                     </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="home-02.html" >
+                   href="/lands-commercial" >
                    Commercial                    </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="home-03.html" >
+                   href="/lands-industrial" >
                    Industrial                     </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-04"
                    class="dropdown-link"
-                   href="home-04.html" >
+                   href="/lands-farmland" >
                    Farmland
                       </a>
                     </li>
@@ -189,8 +188,8 @@
                 <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
                 class="nav-item  py-2 py-lg-5 px-0 px-lg-4">
                           <a class="nav-link  p-0"
-                   href="investment.html" data-toggle="dropdown" >
-                   Investment</a>
+                   href="/investments" data-toggle="dropdown" >
+                   Investments</a>
                 </li>
 
                 <li id="navbar-item-docs" aria-haspopup="true" aria-expanded="false"
@@ -203,7 +202,7 @@
                             <div class="dropdown-menu px-0 pt-3 dropdown-menu-docs">
                               <div class="dropdown-body">
                                 <a class="dropdown-item py-1"
-                                    href="docs/getting-started/dev-environment-setup.html">
+                                    href="#">
                                   <div class="media">
                                     <div class="fs-20 mr-3">
                                       <i class="fal fa-file-alt"></i>
@@ -221,9 +220,6 @@
                               </div>
                             </div>
                           </li>
-
-
-
               </ul>
               <div class="d-block d-lg-none">
                 <ul class="navbar-nav flex-row ml-auto align-items-center justify-content-lg-end flex-wrap py-2">
@@ -286,8 +282,6 @@
                   <option>Warehouse</option>
                   <option>Guest House</option>
                   <option>Shop</option>
-                  <option>Commercial Space</option>
-                  <option>Land</option>
                 </select>
                 </div>
 
@@ -500,8 +494,6 @@
                                class="form-control form-control-lg border-0 shadow-none pr-9 pl-11 bg-white placeholder-muted"
                                name="key-word"
                                placeholder= "Expand to search ..."disabled>
-                               
-                  
                 </div>
               </div>
               <div id="advanced-search-filters-2-mobile" class="col-12 pt-2 collapse"
@@ -524,14 +516,11 @@
                       <option>Warehouse</option>
                       <option>Guest House</option>
                       <option>Shop</option>
-                      <option>Commercial Space</option>
-                      <option>Land</option>
                     </select>
                   </div>
 
                   <div class="col-sm-6 pt-4 px-2">
-                    <select class="form-control border-0 shadow-none form-control-lg selectpicker bg-white"
-                                    title="All Cities" data-style="btn-lg py-2 h-52 bg-white" name="city">
+                    <select class="form-control border-0 shadow-none form-control-lg selectpicker bg-white" title="All Cities" data-style="btn-lg py-2 h-52 bg-white" name="city">
                       <option disabled>Location</option>
                       <option>Osu</option>
                       <option>Tema</option>
@@ -550,9 +539,7 @@
                   </div>
 
                   <div class="col-sm-6 pt-4 px-2">
-                    <select class="form-control border-0 shadow-none form-control-lg selectpicker bg-white"
-                                    name="bedroom"
-                                    title="Bedrooms" data-style="btn-lg py-2 h-52 bg-white">
+                    <select class="form-control border-0 shadow-none form-control-lg selectpicker bg-white" name="bedroom" title="Bedrooms" data-style="btn-lg py-2 h-52 bg-white">
                       <option>All Bedrooms</option>
                       <option>1</option>
                       <option>2</option>
@@ -567,9 +554,7 @@
                     </select>
                   </div>
                   <div class="col-sm-6 pt-4 px-2">
-                    <select class="form-control border-0 shadow-none form-control-lg selectpicker bg-white"
-                                    name="bathrooms"
-                                    title="Bathrooms" data-style="btn-lg py-2 h-52 bg-white">
+                    <select class="form-control border-0 shadow-none form-control-lg selectpicker bg-white" name="bathrooms" title="Bathrooms" data-style="btn-lg py-2 h-52 bg-white">
                       <option>All Bathrooms</option>
                       <option>1</option>
                       <option>2</option>
@@ -1877,12 +1862,9 @@
                   </div>
                   <div class="col-sm-9">
                     <div class="card-body p-0 pl-0 pl-sm-5 pt-5 pt-sm-0">
-                      <a href="single-property-1.html"
-								   class="d-flex align-items-center text-dark hover-secondary"><h4
-										class="fs-20 lh-1625 mb-1">Sell a home </h4>
+                      <a href="single-property-1.html" class="d-flex align-items-center text-dark hover-secondary"><h4 class="fs-20 lh-1625 mb-1">Sell a home </h4>
                         <span class="ml-2 text-primary fs-42 lh-1 hover-image d-inline-flex align-items-center">
-                          <svg class="icon icon-long-arrow"><use
-		                                    xlink:href="#icon-long-arrow"></use></svg>
+                          <svg class="icon icon-long-arrow"><use xlink:href="#icon-long-arrow"></use></svg>
                         </span>
                       </a>
                       <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
@@ -1895,17 +1877,14 @@
               <div class="card border-hover shadow-2 shadow-hover-lg-1 pl-5 pr-6 py-6 h-100 hover-change-image">
                 <div class="row no-gutters">
                   <div class="col-sm-3">
-                    <img src="images/group-21.png"
-							     alt="Rent a home">
+                    <img src="images/group-21.png" alt="Rent a home">
                   </div>
                   <div class="col-sm-9">
                     <div class="card-body p-0 pl-0 pl-sm-5 pt-5 pt-sm-0">
-                      <a href="single-property-1.html"
-								   class="d-flex align-items-center text-dark hover-secondary"><h4
-										class="fs-20 lh-1625 mb-1">Rent a home </h4>
+                      <a href="single-property-1.html" class="d-flex align-items-center text-dark hover-secondary">
+                        <h4 class="fs-20 lh-1625 mb-1">Rent a home</h4>
                         <span class="ml-2 text-primary fs-42 lh-1 hover-image d-inline-flex align-items-center">
-                          <svg class="icon icon-long-arrow"><use
-		                                    xlink:href="#icon-long-arrow"></use></svg>
+                          <svg class="icon icon-long-arrow"><use xlink:href="#icon-long-arrow"></use></svg>
                         </span>
                       </a>
                       <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
@@ -2014,14 +1993,13 @@
         <div class="row">
           <div class="col-md-6 col-lg-4 mb-6 mb-md-0">
             <a class="d-block mb-2" href="#">
-              <img src="images/logo-white-primary.png" alt="HomeID">
+              <img src="images/logo-white-primary.png" alt="">
             </a>
             <div class="lh-26 font-weight-500">
               <p class="mb-0">58 Howard Street #2 San Francisco</p>
-              <a class="d-block text-muted hover-white" href="mailto:contact@homeid.com">contact@homeid.com</a>
+              <a class="d-block text-muted hover-white" href="mailto:contact@homeid.com">contact@aisle.com</a>
               <a class="d-block text-lighter font-weight-bold fs-15 hover-white"
-                       href="tel:(+68)122109876">(+68)1221
-                09876</a>
+                       href="tel:(+68)122109876">(+68)122109876</a>
               <a class="d-block text-muted hover-white" href=".">www.homeid.com</a>
             </div>
           </div>
@@ -2102,7 +2080,7 @@
             </li>
           </ul>
           <p class="col-md-auto mb-0 text-muted">
-            © 2022 AISLA All Rights Reserved
+            © 2022 AISLE All Rights Reserved
           </p>
         </div>
       </div>
@@ -2149,21 +2127,17 @@
           </div>
           <div class="modal-body p-4 py-sm-7 px-sm-8">
             <div class="tab-content shadow-none p-0" id="myTabContent">
-              <div class="tab-pane fade show active" id="login" role="tabpanel"
-                         aria-labelledby="login-tab">
+              <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
                 <form class="form" method="POST" action="{{ route('login') }}">
                   @csrf
                   <div class="form-group mb-4">
                     <label for="email" value="{{ __('Email') }}" class="sr-only">Email</label>
                     <div class="input-group input-group-lg">
                       <div class="input-group-prepend ">
-                        <span class="input-group-text bg-gray-01 border-0 text-muted fs-18"
-                                                      id="inputGroup-sizing-lg">
+                        <span class="input-group-text bg-gray-01 border-0 text-muted fs-18" id="inputGroup-sizing-lg">
                           <i class="far fa-user"></i></span>
                       </div>
-                      <input type="text" class="form-control border-0 shadow-none fs-13"
-                                           id="email" name="email" required
-                                           placeholder="Your email">
+                      <input type="text" class="form-control border-0 shadow-none fs-13" id="email" name="email" required placeholder="Your email">
                     </div>
                   </div>
                   <div class="form-group mb-4">
@@ -2174,9 +2148,7 @@
                           <i class="far fa-lock"></i>
                         </span>
                       </div>
-                      <input type="text" class="form-control border-0 shadow-none fs-13"
-                                           id="password" name="password" required
-                                           placeholder="Password">
+                      <input type="password" class="form-control border-0 shadow-none fs-13" id="password" name="password" required placeholder="Password">
                       <div class="input-group-append">
                         <span class="input-group-text bg-gray-01 border-0 text-body fs-18">
                           <i class="far fa-eye-slash"></i>
@@ -2197,41 +2169,8 @@
                     </a>
                     @endif
                   </div>
-                  {{-- <div class="d-flex p-2 border re-capchar align-items-center mb-4">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="verify" name="verify">
-                      <label class="form-check-label" for="verify">
-                        I'm not a robot
-                      </label>
-                    </div>
-                    <a href="#" class="d-inline-block ml-auto">
-                      <img src="images/re-captcha.png" alt="Re-capcha">
-                    </a>
-                  </div> --}}
                   <button type="submit" class="btn btn-primary btn-lg btn-block">Log In</button>
                 </form>
-                {{-- <div class="divider text-center my-2">
-                  <span class="px-4 bg-white lh-17 text">
-                    or continue with
-                  </span>
-                </div> --}}
-                {{-- <div class="row no-gutters mx-n2">
-                  <div class="col-4 px-2 mb-4">
-                    <a href="#" class="btn btn-lg btn-block facebook text-white px-0">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                  </div>
-                  <div class="col-4 px-2 mb-4">
-                    <a href="#" class="btn btn-lg btn-block google px-0">
-                      <img src="images/google.png" alt="Google">
-                    </a>
-                  </div>
-                  <div class="col-4 px-2 mb-4">
-                    <a href="#" class="btn btn-lg btn-block twitter text-white px-0">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </div>
-                </div> --}}
               </div>
               <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
                 <form class="form" method="POST" action="{{ route('register') }}">
@@ -2273,7 +2212,6 @@
                                            placeholder="Password">
                       <div class="input-group-append">
                         <span class="input-group-text bg-gray-01 border-0 text-body fs-18">
-                          {{-- <i class="far fa-eye-slash"></i> --}}
                         </span>
                       </div>
                     </div>
@@ -2291,7 +2229,6 @@
                                            placeholder="Confirm Password">
                       <div class="input-group-append">
                         <span class="input-group-text bg-gray-01 border-0 text-body fs-18">
-                          {{-- <i class="far fa-eye-slash"></i> --}}
                         </span>
                       </div>
                     </div>
@@ -2299,32 +2236,6 @@
                   </div>
                   <button type="submit" class="btn btn-primary btn-lg btn-block">Sign Up</button>
                 </form>
-                {{-- <div class="divider text-center my-2">
-                  <span class="px-4 bg-white lh-17 text">
-                    or continue with
-                  </span>
-                </div> --}}
-                {{-- <div class="row no-gutters mx-n2">
-                  <div class="col-4 px-2 mb-4">
-                    <a href="#" class="btn btn-lg btn-block facebook text-white px-0">
-                      <i class="fab fa-facebook-f"></i>
-                    </a>
-                  </div>
-                  <div class="col-4 px-2 mb-4">
-                    <a href="#" class="btn btn-lg btn-block google px-0">
-                      <img src="images/google.png" alt="Google">
-                    </a>
-                  </div>
-                  <div class="col-4 px-2 mb-4">
-                    <a href="#" class="btn btn-lg btn-block twitter text-white px-0">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </div>
-                </div> --}}
-                {{-- <div class="mt-2">By creating an account, you agree to HomeID
-                  <a class="text-heading" href="#"><u>Terms of Use</u> </a> and
-                  <a class="text-heading" href="#"><u>Privacy Policy</u></a>.
-                </div> --}}
               </div>
             </div>
           </div>

@@ -123,6 +123,17 @@
                         </a>
                       </li> --}}
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
+                        <a href="{{ route('lands.index') }}"
+                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                          <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
+                            <svg class="icon icon-my-properties"><use
+                                            xlink:href="#icon-my-properties"></use></svg>
+                          </span>
+                          <span class="sidebar-item-text">Lands</span>
+                          {{-- <span class="sidebar-item-number ml-auto text-primary fs-15 font-weight-bold">29</span> --}}
+                        </a>
+                      </li>
+                      <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('properties.index') }}"
                                class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
@@ -390,8 +401,11 @@
                           <div class="media">
                             <div class="w-120px mr-4 position-relative">
                               <a href="#">
-                                <img src="/images/my-properties-01.jpg"
-                                           alt="{{ $property->address }}">
+                                @foreach ($property->pictures as $picture)
+                                @if ($loop->first)
+                                  <img src="{{asset('/property_pictures/'.$picture->name)}}" alt="{{ $property->name }}">
+                                @endif
+                                @endforeach
                               </a>
                               <span class="badge badge-indigo position-absolute pos-fixed-top">
                                 {{ $property->category->name }}</span>
