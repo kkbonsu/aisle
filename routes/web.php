@@ -9,6 +9,7 @@ use App\Http\Controllers\RoleController;
 use App\Http\Controllers\TypeController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\LandController;
+use App\Models\Land;
 use App\Models\Property;
 
 /*
@@ -23,50 +24,57 @@ use App\Models\Property;
 */
 
 Route::get('/', function () {
-    $properties = Property::
-    return view('pages.home-01');
+    $properties = Property::all();
+    return view('pages.home-01')->with('properties', $properties);
 });
 
 Route::get('/rent-apartments', function () {
     $properties = Property::where('category_id', 2)->get();
-    return view('pages.home-01');
+    return view('pages.home-01')->with('properties', $properties);
 });
 Route::get('/rent-houses', function () {
     $properties = Property::where('category_id', 1)->get();
-    return view('pages.home-01');
+    return view('pages.home-01')->with('properties', $properties);
 });
 Route::get('/rent-offices', function () {
     $properties = Property::where('category_id', 3)->get();
-    return view('pages.home-01');
+    return view('pages.home-01')->with('properties', $properties);
 });
 Route::get('/rented-properties', function () {
     return view('pages.home-01');
 });
 
 Route::get('/sale-apartments', function () {
-    return view('pages.home-01');
+    $properties = Property::where('category_id', 2)->get();
+    return view('pages.home-01')->with('properties', $properties);
 });
 Route::get('/sale-houses', function () {
-    return view('pages.home-01');
+    $properties = Property::where('category_id', 1)->get();
+    return view('pages.home-01')->with('properties', $properties);
 });
 Route::get('/sale-offices', function () {
-    return view('pages.home-01');
+    $properties = Property::where('category_id', 3)->get();
+    return view('pages.home-01')->with('properties', $properties);
 });
 Route::get('/sold-properties', function () {
     return view('pages.home-01');
 });
 
 Route::get('/lands-residential', function () {
-    return view('pages.home-01');
+    $lands = Land::where('type', 'Residential')->get();
+    return view('pages.home-01')->with('lands', $lands);
 });
 Route::get('/lands-industrial', function () {
-    return view('pages.home-01');
+    $lands = Land::where('type', 'Industrial')->get();
+    return view('pages.home-01')->with('lands', $lands);
 });
 Route::get('/lands-commercial', function () {
-    return view('pages.home-01');
+    $lands = Land::where('type', 'Commercial')->get();
+    return view('pages.home-01')->with('lands', $lands);
 });
 Route::get('/lands-farmland', function () {
-    return view('pages.home-01');
+    $lands = Land::where('type', 'Farmland')->get();
+    return view('pages.home-01')->with('lands', $lands);
 });
 
 Route::get('/investments', function () {
