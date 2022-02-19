@@ -422,13 +422,12 @@
                         </td>
                         <td class="align-middle">{{ $property->created_at }}</td>
                         <td class="align-middle">
-                          <span
-                                  class="badge text-capitalize font-weight-normal fs-12 badge-yellow">{{ $property->type->name }}</span>
+                          <span class="badge text-capitalize font-weight-normal fs-12 badge-yellow">{{ $property->type->name }}</span>
                         </td>
                         <td class="align-middle">
                             <a class="btn btn-info" href="{{ route('properties.show', $property->id) }}">Show</a>
                             <a class="btn btn-primary" href="{{ route('properties.edit',$property->id) }}">Edit</a>
-                            {!! Form::open(['method' => 'DELETE','route' => ['properties.destroy', $property->id],'style'=>'display:inline']) !!}
+                            {!! Form::open(['method' => 'DELETE','route' => ['properties.destroy', $property->id], 'style'=>'display:inline']) !!}
                                 {!! Form::submit('Delete', ['class' => 'btn btn-danger']) !!}
                             {!! Form::close() !!}
                         </td>

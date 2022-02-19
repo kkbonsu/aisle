@@ -11,21 +11,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="vendors/fontawesome-pro-5/css/all.css">
-    <link rel="stylesheet" href="vendors/bootstrap-select/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="vendors/slick/slick.min.css">
-    <link rel="stylesheet" href="vendors/magnific-popup/magnific-popup.min.css">
-    <link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.min.css">
-    <link rel="stylesheet" href="vendors/chartjs/Chart.min.css">
-    <link rel="stylesheet" href="vendors/dropzone/css/dropzone.min.css">
-    <link rel="stylesheet" href="vendors/animate.css">
-    <link rel="stylesheet" href="vendors/timepicker/bootstrap-timepicker.min.css">
-    <link rel="stylesheet" href="vendors/mapbox-gl/mapbox-gl.min.css">
-    <link rel="stylesheet" href="vendors/dataTables/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="/vendors/fontawesome-pro-5/css/all.css">
+    <link rel="stylesheet" href="/vendors/bootstrap-select/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="/vendors/slick/slick.min.css">
+    <link rel="stylesheet" href="/vendors/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" href="/vendors/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="/vendors/chartjs/Chart.min.css">
+    <link rel="stylesheet" href="/vendors/dropzone/css/dropzone.min.css">
+    <link rel="stylesheet" href="/vendors/animate.css">
+    <link rel="stylesheet" href="/vendors/timepicker/bootstrap-timepicker.min.css">
+    <link rel="stylesheet" href="/vendors/mapbox-gl/mapbox-gl.min.css">
+    <link rel="stylesheet" href="/vendors/dataTables/jquery.dataTables.min.css">
     <!-- Themes core CSS -->
-    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="/css/themes.css">
     <!-- Favicons -->
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="/images/favicon.ico">
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@">
@@ -49,9 +49,9 @@
         <div class="container">
           <nav class="navbar navbar-expand-lg px-0">
             <a class="navbar-brand" href="index.html">
-              <img src="images/logo.png" alt="HomeID"
+              <img src="/images/logo.png" alt="HomeID"
                          class="d-none d-lg-inline-block">
-              <img src="images/logo-white.png" alt="HomeID"
+              <img src="/images/logo-white.png" alt="HomeID"
                          class="d-inline-block d-lg-none">
             </a>
             <div class="d-flex d-lg-none ml-auto">
@@ -70,7 +70,7 @@
                 <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
         class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
                   <a class="nav-link dropdown-toggle p-0"
-           href="index.html" data-toggle="dropdown" >
+           href="/" data-toggle="dropdown" >
                     Home
                     <span class="caret"></span>
                   </a>
@@ -78,7 +78,7 @@
                     <li class="dropdown-item">
                       <a id="navbar-link-home-01"
                    class="dropdown-link"
-                   href="home-01.html" >
+                   href="/" >
                         Home 01
                       </a>
                     </li>
@@ -92,42 +92,42 @@
                     <li class="dropdown-item">
                       <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="home-03.html" >
+                   href="/" >
                         Home 03
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-04"
                    class="dropdown-link"
-                   href="home-04.html" >
+                   href="/" >
                         Home 04
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-05"
                    class="dropdown-link"
-                   href="home-05.html" >
+                   href="/" >
                         Home 05
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-06"
                    class="dropdown-link"
-                   href="home-06.html" >
+                   href="/" >
                         Home 06
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-07"
                    class="dropdown-link"
-                   href="home-07.html" >
+                   href="/" >
                         Home 07
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-08"
                    class="dropdown-link"
-                   href="home-08.html" >
+                   href="/" >
                         Home 08
                       </a>
                     </li>
@@ -136,7 +136,7 @@
                 <li id="navbar-item-property" aria-haspopup="true" aria-expanded="false"
         class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
                   <a class="nav-link dropdown-toggle p-0"
-           href="listing.html" data-toggle="dropdown" >
+           href="" data-toggle="dropdown" >
                     Property
                     <span class="caret"></span>
                   </a>

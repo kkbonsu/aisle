@@ -9,6 +9,7 @@ use App\Http\Controllers\RoleController;
 use App\Http\Controllers\TypeController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\LandController;
+use App\Http\Controllers\PageController;
 use App\Models\Land;
 use App\Models\Property;
 
@@ -24,8 +25,16 @@ use App\Models\Property;
 */
 
 Route::get('/', function () {
+    
     $properties = Property::all();
-    return view('pages.home-01')->with('properties', $properties);
+    $sales = Property::where('category_id', 2)->get()->take(8);
+    $rents = Property::where('category_id', 1)->get()->take(8);
+
+    return view('pages.home-01')->with([
+        'properties' => $properties,
+        'sales' => $sales,
+        'rents' => $rents
+    ]);
 });
 
 Route::get('/rent-apartments', function () {
@@ -80,8 +89,11 @@ Route::get('/lands-farmland', function () {
 Route::get('/investments', function () {
     return view('pages.home-01');
 });
-Route::get('/single-property-1', function () {
-    return view('pages.single-properties-for-sale.single-property-1');
+Route::get('/single-property-1/{$id}', function ($id) {
+    $property = Property::find($id);
+    return view('pages.single-properties-for-sale.single-property-1')->with([
+        'property' => $property
+    ]);
 });
 
 Route::get('/all-properties-for-rent', function () {
@@ -106,3 +118,5 @@ Route::group(['middleware' => ['auth']], function () {
     Route::resource('roles', RoleController::class);
     Route::resource('options', OptionController::class);
 });
+
+Route::resource('pages', PageController::class);

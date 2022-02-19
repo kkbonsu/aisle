@@ -386,6 +386,7 @@
                 </form> --}}
               </div>
               {!! Form::open(array('route' => 'properties.store', 'method' => 'POST', 'files' => true, 'enctype' => 'multipart/form-data')) !!}
+              @csrf
               <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-6">
                     <div class="form-group">

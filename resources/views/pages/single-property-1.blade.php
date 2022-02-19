@@ -6,39 +6,39 @@
     <meta name="description" content="Real Estate Html Template">
     <meta name="author" content="">
     <meta name="generator" content="Jekyll">
-    <title>Single Property 1 - HomeID</title>
+    <title>AISLE PROPERTIES</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="vendors/fontawesome-pro-5/css/all.css">
-    <link rel="stylesheet" href="vendors/bootstrap-select/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="vendors/slick/slick.min.css">
-    <link rel="stylesheet" href="vendors/magnific-popup/magnific-popup.min.css">
-    <link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.min.css">
-    <link rel="stylesheet" href="vendors/chartjs/Chart.min.css">
-    <link rel="stylesheet" href="vendors/dropzone/css/dropzone.min.css">
-    <link rel="stylesheet" href="vendors/animate.css">
-    <link rel="stylesheet" href="vendors/timepicker/bootstrap-timepicker.min.css">
-    <link rel="stylesheet" href="vendors/mapbox-gl/mapbox-gl.min.css">
-    <link rel="stylesheet" href="vendors/dataTables/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="/vendors/fontawesome-pro-5/css/all.css">
+    <link rel="stylesheet" href="/vendors/bootstrap-select/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="/vendors/slick/slick.min.css">
+    <link rel="stylesheet" href="/vendors/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" href="/vendors/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="/vendors/chartjs/Chart.min.css">
+    <link rel="stylesheet" href="/vendors/dropzone/css/dropzone.min.css">
+    <link rel="stylesheet" href="/vendors/animate.css">
+    <link rel="stylesheet" href="/vendors/timepicker/bootstrap-timepicker.min.css">
+    <link rel="stylesheet" href="/vendors/mapbox-gl/mapbox-gl.min.css">
+    <link rel="stylesheet" href="/vendors/dataTables/jquery.dataTables.min.css">
     <!-- Themes core CSS -->
-    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="/css/themes.css">
     <!-- Favicons -->
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="/images/favicon.ico">
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@">
     <meta name="twitter:title" content="Single Property 1">
     <meta name="twitter:description" content="Real Estate Html Template">
-    <meta name="twitter:image" content="images/homeid-social-logo.png">
+    <meta name="twitter:image" content="/images/homeid-social-logo.png">
     <!-- Facebook -->
     <meta property="og:url" content="single-property-1.html">
     <meta property="og:title" content="Single Property 1">
     <meta property="og:description" content="Real Estate Html Template">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="images/homeid-social.png">
+    <meta property="og:image" content="/images/homeid-social.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -49,9 +49,9 @@
         <div class="container">
           <nav class="navbar navbar-expand-lg px-0">
             <a class="navbar-brand" href="index.html">
-              <img src="images/logo.png" alt="HomeID"
+              <img src="/images/logo.png" alt="HomeID"
                          class="d-none d-lg-inline-block">
-              <img src="images/logo-white.png" alt="HomeID"
+              <img src="/images/logo-white.png" alt="HomeID"
                          class="d-inline-block d-lg-none">
             </a>
             <div class="d-flex d-lg-none ml-auto">
@@ -518,7 +518,7 @@
                   <div class="dropdown-menu px-0 pt-3 dropdown-menu-docs">
                     <div class="dropdown-body">
                       <a class="dropdown-item py-1"
-           href="docs/getting-started/dev-environment-setup.html">
+           href="/docs/getting-started/dev-environment-setup.html">
                         <div class="media">
                           <div class="fs-20 mr-3">
                             <i class="fal fa-file-alt"></i>
@@ -531,7 +531,7 @@
                       </a>
                       <div class="dropdown-divider m-0"></div>
                       <a class="dropdown-item py-1"
-           href="docs/content/typography.html">
+           href="/docs/content/typography.html">
                         <div class="media">
                           <div class="fs-20 mr-3">
                             <i class="fal fa-layer-group"></i>
@@ -545,7 +545,7 @@
                       </a>
                       <div class="dropdown-divider m-0"></div>
                       <a class="dropdown-item py-1"
-           href="docs/getting-started/changelog.html">
+           href="/docs/getting-started/changelog.html">
                         <div class="media">
                           <div class="fs-20 mr-3">
                             <i class="fal fa-edit"></i>
@@ -688,11 +688,15 @@
             <div class="col-lg-6 p-1">
               <div class="item item-size-4-3">
                 <div class="card p-0 hover-zoom-in">
-                  <a href="images/single-property-lg-1.jpg" class="card-img"
+                  @foreach ($property->pictures as $picture)
+                  @if ($loop->first)
+                  <a href="{{asset('/property_pictures/'.$picture->name)}}" class="card-img"
                                data-gtf-mfp="true"
                                data-gallery-id="01"
-                               style="background-image:url('images/single-property-2.jpg')">
+                               style="background-image:url('{{asset('/property_pictures/'.$picture->name)}}')">
                   </a>
+                  @endif
+                  @endforeach
                 </div>
               </div>
             </div>
@@ -701,10 +705,10 @@
                 <div class="col-md-6 p-1">
                   <div class="item item-size-4-3">
                     <div class="card p-0 hover-zoom-in">
-                      <a href="images/single-property-lg-2.jpg" class="card-img"
+                      <a href="{{asset('/property_pictures/'.$picture->name)}}" class="card-img"
                                        data-gtf-mfp="true"
                                        data-gallery-id="01"
-                                       style="background-image:url('images/single-property-22.jpg')">
+                                       style="background-image:url('{{asset('/property_pictures/'.$picture->name)}}')">
                       </a>
                     </div>
                   </div>
@@ -712,10 +716,10 @@
                 <div class="col-md-6 p-1">
                   <div class="item item-size-4-3">
                     <div class="card p-0 hover-zoom-in">
-                      <a href="images/single-property-lg-3.jpg" class="card-img"
+                      <a href="{{asset('/property_pictures/'.$picture->name)}}" class="card-img"
                                        data-gtf-mfp="true"
                                        data-gallery-id="01"
-                                       style="background-image:url('images/single-property-3.jpg')">
+                                       style="background-image:url('{{asset('/property_pictures/'.$picture->name)}}')">
                       </a>
                     </div>
                   </div>
@@ -723,10 +727,10 @@
                 <div class="col-md-6 p-1">
                   <div class="item item-size-4-3">
                     <div class="card p-0 hover-zoom-in">
-                      <a href="images/single-property-lg-4.jpg" class="card-img"
+                      <a href="{{asset('/property_pictures/'.$picture->name)}}" class="card-img"
                                        data-gtf-mfp="true"
                                        data-gallery-id="01"
-                                       style="background-image:url('images/single-property-4.jpg')">
+                                       style="background-image:url('{{asset('/property_pictures/'.$picture->name)}}')">
                       </a>
                     </div>
                   </div>
@@ -734,10 +738,10 @@
                 <div class="col-md-6 p-1">
                   <div class="item item-size-4-3">
                     <div class="card p-0 hover-zoom-in">
-                      <a href="images/single-property-lg-5.jpg" class="card-img"
+                      <a href="{{asset('/property_pictures/'.$picture->name)}}" class="card-img"
                                        data-gtf-mfp="true"
                                        data-gallery-id="01"
-                                       style="background-image:url('images/single-property-5.jpg')">
+                                       style="background-image:url('{{asset('/property_pictures/'.$picture->name)}}')">
                       </a>
                       <a href="#"
                                        class="card-img-overlay d-flex flex-column align-items-center justify-content-center hover-image bg-dark-opacity-04">
@@ -761,19 +765,16 @@
             <section class="pb-7 border-bottom">
               <ul class="list-inline d-sm-flex align-items-sm-center mb-2">
                 <li class="list-inline-item badge badge-orange mr-2">Featured</li>
-                <li class="list-inline-item badge badge-primary mr-3">For Sale</li>
-                <li class="list-inline-item mr-2 mt-2 mt-sm-0"><i class="fal fa-clock mr-1"></i>2 months ago
-                </li>
-                <li class="list-inline-item mt-2 mt-sm-0"><i class="fal fa-eye mr-1"></i>1039 views</li>
+                <li class="list-inline-item badge badge-primary mr-3">{{$property->category->name}}</li>
               </ul>
               <div class="d-sm-flex justify-content-sm-between">
                 <div>
-                  <h2 class="fs-35 font-weight-600 lh-15 text-heading">Villa on Hollywood Boulevard</h2>
-                  <p class="mb-0"><i class="fal fa-map-marker-alt mr-2"></i>398 Pete Pascale Pl, New York</p>
+                  <h2 class="fs-35 font-weight-600 lh-15 text-heading">{{$property->name}}</h2>
+                  <p class="mb-0"><i class="fal fa-map-marker-alt mr-2"></i>{{$property->address}}</p>
                 </div>
                 <div class="mt-2 text-lg-right">
-                  <p class="fs-22 text-heading font-weight-bold mb-0">$1.250.000</p>
-                  <p class="mb-0">$9350/SqFt</p>
+                  <p class="fs-22 text-heading font-weight-bold mb-0">${{$property->price}}</p>
+                  {{-- <p class="mb-0">$9350/SqFt</p> --}}
                 </div>
               </div>
               <h4 class="fs-22 text-heading mt-6 mb-2">Description</h4>
@@ -798,7 +799,7 @@
                     </div>
                     <div class="media-body">
                       <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Type</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">Single Family</p>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{$property->type->name}}</p>
                     </div>
                   </div>
                 </div>
@@ -850,7 +851,7 @@
                     </div>
                     <div class="media-body">
                       <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Bedrooms</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">3</p>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{$property->bedrooms}}</p>
                     </div>
                   </div>
                 </div>
@@ -862,8 +863,8 @@
                       </svg>
                     </div>
                     <div class="media-body">
-                      <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">bathrooms</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">2</p>
+                      <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">BATHROOMS</h5>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{$property->bathrooms}}</p>
                     </div>
                   </div>
                 </div>
@@ -876,7 +877,7 @@
                     </div>
                     <div class="media-body">
                       <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">GARAGE</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">1</p>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{$property->garages}}</p>
                     </div>
                   </div>
                 </div>
@@ -900,56 +901,56 @@
               <div class="row">
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Property ID</dt>
-                  <dd>AD-2910</dd>
+                  <dd>PROP-{{$property->id}}</dd>
                 </dl>
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Price</dt>
-                  <dd>$890.000</dd>
+                  <dd>{{$property->price}}</dd>
                 </dl>
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Property type</dt>
-                  <dd>Apartment, bar, cafe, villa</dd>
+                  <dd>{{$property->type->name}}</dd>
                 </dl>
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Property status</dt>
-                  <dd>For Sale</dd>
+                  <dd>{{$property->category->name}}</dd>
                 </dl>
-                <dl class="col-sm-6 mb-0 d-flex">
+                {{-- <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Rooms</dt>
                   <dd>4</dd>
-                </dl>
+                </dl> --}}
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Bedrooms</dt>
-                  <dd>3</dd>
+                  <dd>{{$property->bedrooms}}</dd>
                 </dl>
-                <dl class="col-sm-6 mb-0 d-flex">
+                {{-- <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Size</dt>
                   <dd>900SqFt</dd>
-                </dl>
+                </dl> --}}
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Bathrooms</dt>
-                  <dd>2</dd>
+                  <dd>{{$property->bathrooms}}</dd>
                 </dl>
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Garage</dt>
-                  <dd>1</dd>
+                  <dd>{{$property->garages}}</dd>
                 </dl>
-                <dl class="col-sm-6 mb-0 d-flex">
+                {{-- <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Bathrooms</dt>
                   <dd>2000 SqFt</dd>
-                </dl>
-                <dl class="col-sm-6 mb-0 d-flex">
+                </dl> --}}
+                {{-- <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Garage size</dt>
                   <dd>50 SqFt</dd>
-                </dl>
-                <dl class="col-sm-6 mb-0 d-flex">
+                </dl> --}}
+                {{-- <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Year build</dt>
                   <dd>2020</dd>
                 </dl>
                 <dl class="offset-sm-6 col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Label</dt>
                   <dd>Bestseller</dd>
-                </dl>
+                </dl> --}}
               </div>
             </section>
             <section class="pt-6 border-bottom pb-4">
@@ -962,22 +963,6 @@
                 <li class="col-sm-3 col-6 mb-2"><i class="far fa-check mr-2 text-primary"></i>Balcony
                 </li>
                 <li class="col-sm-3 col-6 mb-2"><i class="far fa-check mr-2 text-primary"></i>Fireplace
-                </li>
-                <li class="col-sm-3 col-6 mb-2"><i class="far fa-check mr-2 text-primary"></i>Basement
-                </li>
-                <li class="col-sm-3 col-6 mb-2"><i class="far fa-check mr-2 text-primary"></i>Cooling
-                </li>
-                <li class="col-sm-3 col-6 mb-2"><i class="far fa-check mr-2 text-primary"></i>Basement
-                </li>
-                <li class="col-sm-3 col-6 mb-2"><i class="far fa-check mr-2 text-primary"></i>Cooling
-                </li>
-                <li class="col-sm-3 col-6 mb-2"><i class="far fa-check mr-2 text-primary"></i>Dining room
-                </li>
-                <li class="col-sm-3 col-6 mb-2"><i class="far fa-check mr-2 text-primary"></i>Dishwasher
-                </li>
-                <li class="col-sm-3 col-6 mb-2"><i class="far fa-check mr-2 text-primary"></i>Dining room
-                </li>
-                <li class="col-sm-3 col-6 mb-2"><i class="far fa-check mr-2 text-primary"></i>Dishwasher
                 </li>
               </ul>
             </section>
@@ -1006,7 +991,7 @@
                                  aria-labelledby="floor-plans-01"
                                  data-parent="#accordion-01">
                     <div class="card-body card-body col-sm-6 offset-sm-3 mb-3">
-                      <img src="images/single-detail-property-01.jpg" class="card-img" alt="Floor Plans">
+                      <img src="/images/single-detail-property-01.jpg" class="card-img" alt="Floor Plans">
                     </div>
                   </div>
                 </div>
@@ -1034,7 +1019,7 @@
                                  aria-labelledby="floor-plans-02"
                                  data-parent="#accordion-02">
                     <div class="card-body card-body col-sm-6 offset-sm-3 mb-3">
-                      <img src="images/single-detail-property-01.jpg" class="card-img" alt="Floor Plans">
+                      <img src="/images/single-detail-property-01.jpg" class="card-img" alt="Floor Plans">
                     </div>
                   </div>
                 </div>
@@ -1062,7 +1047,7 @@
                                  aria-labelledby="floor-plans-03"
                                  data-parent="#accordion-03">
                     <div class="card-body card-body col-sm-6 offset-sm-3 mb-3">
-                      <img src="images/single-detail-property-01.jpg" class="card-img" alt="Floor Plans">
+                      <img src="/images/single-detail-property-01.jpg" class="card-img" alt="Floor Plans">
                     </div>
                   </div>
                 </div>
@@ -1246,7 +1231,7 @@
                   <h3 class="fs-16 lh-2 text-heading mb-0 d-inline-block pr-4 border-bottom border-primary">5
                     Reviews</h3>
                   <div class="media border-top pt-7 pb-6 d-sm-flex d-block text-sm-left text-center">
-                    <img src="images/review-07.jpg" alt="Danny Fox"
+                    <img src="/images/review-07.jpg" alt="Danny Fox"
                                      class="mr-sm-8 mb-4 mb-sm-0">
                     <div class="media-body">
                       <div class="row mb-1 align-items-center">
@@ -1290,7 +1275,7 @@
                     </div>
                   </div>
                   <div class="media border-top py-6 d-sm-flex d-block text-sm-left text-center">
-                    <img src="images/review-08.jpg" alt="Viola Austin"
+                    <img src="/images/review-08.jpg" alt="Viola Austin"
                                      class="mr-sm-8 mb-4 mb-sm-0">
                     <div class="media-body">
                       <div class="row mb-1 align-items-center">
@@ -1334,7 +1319,7 @@
                     </div>
                   </div>
                   <div class="media border-top py-6 d-sm-flex d-block text-sm-left text-center">
-                    <img src="images/review-09.jpg" alt="Nettie Singleton"
+                    <img src="/images/review-09.jpg" alt="Nettie Singleton"
                                      class="mr-sm-8 mb-4 mb-sm-0">
                     <div class="media-body">
                       <div class="row mb-1 align-items-center">
@@ -1378,7 +1363,7 @@
                     </div>
                   </div>
                   <div class="media border-top py-6 d-sm-flex d-block text-sm-left text-center">
-                    <img src="images/review-07.jpg" alt="Vernon Fisher"
+                    <img src="/images/review-07.jpg" alt="Vernon Fisher"
                                      class="mr-sm-8 mb-4 mb-sm-0">
                     <div class="media-body">
                       <div class="row mb-1 align-items-center">
@@ -1530,7 +1515,7 @@
                   <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
                     <div class="media align-items-sm-center d-sm-flex d-block">
                       <a href="#" class="hover-shine">
-                        <img src="images/single-detail-property-02.jpg"
+                        <img src="/images/single-detail-property-02.jpg"
                                              class="mr-sm-4 rounded-lg w-sm-90"
                                              alt="Bacchanal Buffet-Temporarily Closed">
                       </a>
@@ -1551,7 +1536,7 @@
                   <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
                     <div class="media align-items-sm-center d-sm-flex d-block">
                       <a href="#" class="hover-shine">
-                        <img src="images/single-detail-property-03.jpg"
+                        <img src="/images/single-detail-property-03.jpg"
                                              class="mr-sm-4 rounded-lg w-sm-90"
                                              alt="Bacchanal Buffet-Temporarily Closed">
                       </a>
@@ -1574,7 +1559,7 @@
                   <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
                     <div class="media align-items-sm-center d-sm-flex d-block">
                       <a href="#" class="hover-shine">
-                        <img src="images/single-detail-property-04.jpg"
+                        <img src="/images/single-detail-property-04.jpg"
                                              class="mr-sm-4 rounded-lg w-sm-90"
                                              alt="Bacchanal Buffet-Temporarily Closed">
                       </a>
@@ -1599,7 +1584,7 @@
                   <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
                     <div class="media align-items-sm-center d-sm-flex d-block">
                       <a href="#" class="hover-shine">
-                        <img src="images/single-detail-property-07.jpg"
+                        <img src="/images/single-detail-property-07.jpg"
                                              class="mr-sm-4 rounded-lg w-sm-90"
                                              alt="Bacchanal Buffet-Temporarily Closed">
                       </a>
@@ -1620,7 +1605,7 @@
                   <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
                     <div class="media align-items-sm-center d-sm-flex d-block">
                       <a href="#" class="hover-shine">
-                        <img src="images/single-detail-property-08.jpg"
+                        <img src="/images/single-detail-property-08.jpg"
                                              class="mr-sm-4 rounded-lg w-sm-90"
                                              alt="Bacchanal Buffet-Temporarily Closed">
                       </a>
@@ -1643,7 +1628,7 @@
                   <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
                     <div class="media align-items-sm-center d-sm-flex d-block">
                       <a href="#" class="hover-shine">
-                        <img src="images/single-detail-property-09.jpg"
+                        <img src="/images/single-detail-property-09.jpg"
                                              class="mr-sm-4 rounded-lg w-sm-90"
                                              alt="Bacchanal Buffet-Temporarily Closed">
                       </a>
@@ -1668,7 +1653,7 @@
                   <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
                     <div class="media align-items-sm-center d-sm-flex d-block">
                       <a href="#" class="hover-shine">
-                        <img src="images/single-detail-property-10.jpg"
+                        <img src="/images/single-detail-property-10.jpg"
                                              class="mr-sm-4 rounded-lg w-sm-90"
                                              alt="Bacchanal Buffet-Temporarily Closed">
                       </a>
@@ -1689,7 +1674,7 @@
                   <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
                     <div class="media align-items-sm-center d-sm-flex d-block">
                       <a href="#" class="hover-shine">
-                        <img src="images/single-detail-property-11.jpg"
+                        <img src="/images/single-detail-property-11.jpg"
                                              class="mr-sm-4 rounded-lg w-sm-90"
                                              alt="Bacchanal Buffet-Temporarily Closed">
                       </a>
@@ -1717,7 +1702,7 @@
               <div class="d-sm-flex">
                 <div class="w-sm-170 mb-sm-0 mb-6 mr-sm-6">
                   <div class="card text-center pt-4">
-                    <img src="images/single-detail-property-05.png" class="card-img card-img w-78px mx-auto"
+                    <img src="/images/single-detail-property-05.png" class="card-img card-img w-78px mx-auto"
                                      alt="Villa Called Archangel Word Document">
                     <div class="card-body p-0 mt-4">
                       <p class="fs-13 lh-2  mb-0 py-0 px-2">Villa Called Archangel Word Document</p>
@@ -1729,7 +1714,7 @@
                 </div>
                 <div class="w-sm-170 mb-sm-0 mb-6 mr-sm-6">
                   <div class="card text-center pt-4">
-                    <img src="images/single-detail-property-06.png" class="card-img card-img w-78px mx-auto"
+                    <img src="/images/single-detail-property-06.png" class="card-img card-img w-78px mx-auto"
                                      alt="Villa Called Archangel PDF Document">
                     <div class="card-body p-0 mt-4">
                       <p class="fs-13 lh-2  mb-0 py-0 px-2">Villa Called Archangel PDF Document</p>

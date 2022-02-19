@@ -386,6 +386,7 @@
                 </form> --}}
               </div>
               {!! Form::model($property, ['method' => 'PATCH', 'files' => true, 'enctype' => 'multipart/form-data', 'route' => ['properties.update', $property->id]]) !!}
+              @csrf
               <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-6">
                     <div class="form-group">
