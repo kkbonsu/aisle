@@ -75,28 +75,28 @@
                     <li class="dropdown-item">
                       <a id="navbar-link-home-01"
                    class="dropdown-link"
-                   href="/rent-apartments" >
+                   href="apartments-for-rent">
                    Apartments For Rent
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="/rent-houses" >
+                   href="houses-for-rent" >
                    Houses For Rent
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="/rent-offices" >
+                   href="offices-for-rent" >
                    Office Spaces For Rent
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-04"
                    class="dropdown-link"
-                   href="/rented-properties" >
+                   href="rented-properties" >
                    Rented Properties
                       </a>
                     </li>
@@ -116,25 +116,25 @@
                     <li class="dropdown-item">
                       <a id="navbar-link-home-01"
                    class="dropdown-link"
-                   href="/sale-apartments" >
+                   href="/apartment-for-sale" >
                    Apartments For Sale</a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="/sale-houses" >
+                   href="houses-for-sale" >
                    Houses For Sale</a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="/sale-offices" >
+                   href="offices-for-sale" >
                    Office Spaces For Sale</a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-04"
                    class="dropdown-link"
-                   href="/sold-properties" >
+                   href="sold-properties" >
                    Sold Properties</a>
                     </li>
                   </ul>
@@ -152,25 +152,25 @@
                     <li class="dropdown-item">
                       <a id="navbar-link-home-01"
                    class="dropdown-link"
-                   href="/lands-residential" >
+                   href="residential" >
                    Residential                     </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="/lands-commercial" >
+                   href="commercial" >
                    Commercial                    </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="/lands-industrial" >
+                   href="industrial" >
                    Industrial                     </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-04"
                    class="dropdown-link"
-                   href="/lands-farmland" >
+                   href="farmland" >
                    Farmland
                       </a>
                     </li>

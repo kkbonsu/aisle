@@ -69,23 +69,38 @@ Route::get('/sold-properties', function () {
     return view('pages.home-01');
 });
 
-Route::get('/lands-residential', function () {
-    $lands = Land::where('type', 'Residential')->get();
-    return view('pages.home-01')->with('lands', $lands);
-});
-Route::get('/lands-industrial', function () {
-    $lands = Land::where('type', 'Industrial')->get();
-    return view('pages.home-01')->with('lands', $lands);
-});
-Route::get('/lands-commercial', function () {
-    $lands = Land::where('type', 'Commercial')->get();
-    return view('pages.home-01')->with('lands', $lands);
-});
-Route::get('/lands-farmland', function () {
-    $lands = Land::where('type', 'Farmland')->get();
-    return view('pages.home-01')->with('lands', $lands);
+// Route::get('/lands-residential', function () {
+//     $lands = Land::where('type', 'Residential')->get();
+//     return view('pages.home-01')->with('lands', $lands);
+// });
+// Route::get('/lands-industrial', function () {
+//     $lands = Land::where('type', 'Industrial')->get();
+//     return view('pages.home-01')->with('lands', $lands);
+// });
+// Route::get('/lands-commercial', function () {
+//     $lands = Land::where('type', 'Commercial')->get();
+//     return view('pages.home-01')->with('lands', $lands);
+// });
+// Route::get('/lands-farmland', function () {
+//     $lands = Land::where('type', 'Farmland')->get();
+//     return view('pages.home-01')->with('lands', $lands);
+// });
+
+// routes for land dropdown items
+
+Route::get('/commercial', function () {
+    return view('pages.land.commercial');
 });
 
+Route::get('/farmland', function () {
+    return view('pages.land.farmland');
+});
+Route::get('/industrial', function () {
+    return view('pages.land.industrial');
+});
+Route::get('/residential', function () {
+    return view('pages.land.residential');
+});
 Route::get('/investments', function () {
     return view('pages.home-01');
 });
@@ -96,11 +111,47 @@ Route::get('/single-property-1/{$id}', function ($id) {
     ]);
 });
 
+// for rent
 Route::get('/all-properties-for-rent', function () {
     return view('pages.all-properties-for-rent');
 });
+
+Route::get('/apartments-for-rent', function () {
+    return view('pages.for-rent.apartments-for-rent');
+});
+
+Route::get('/houses-for-rent', function () {
+    return view('pages.for-rent.houses-for-rent');
+});
+
+Route::get('/offices-for-rent', function () {
+    return view('pages.for-rent.offices-for-rent');
+});
+
+Route::get('/rented-properties', function () {
+    return view('pages.for-rent.rented-properties');
+});
+// end for rent
+
+// for sale
 Route::get('/all-properties-for-sale', function () {
     return view('pages.all-properties-for-sale');
+});
+
+Route::get('/apartment-for-sale', function () {
+    return view('pages.for-sale.apartment-for-sale');
+});
+
+Route::get('/houses-for-sale', function () {
+    return view('pages.for-sale.houses-for-sale');
+});
+
+Route::get('/offices-for-sale', function () {
+    return view('pages.for-sale.offices-for-sale');
+});
+
+Route::get('/sold-properties', function () {
+    return view('pages.for-sale.sold-properties');
 });
 
 Route::middleware(['auth:sanctum', 'auth'])->get('/dashboard', function () {

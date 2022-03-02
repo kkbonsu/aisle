@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Real Estate Html Template">
+    <meta name="description" content="Aisle Properties">
     <meta name="author" content="">
     <meta name="generator" content="Jekyll">
-    <title>Listing With Left Filter - HomeID</title>
+    <title>AISLE || Official Website</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
@@ -23,20 +23,20 @@
     <link rel="stylesheet" href="vendors/mapbox-gl/mapbox-gl.min.css">
     <link rel="stylesheet" href="vendors/dataTables/jquery.dataTables.min.css">
     <!-- Themes core CSS -->
-    <link rel="stylesheet" href="css/themes.css">..
+    <link rel="stylesheet" href="css/themes.css">
     <!-- Favicons -->
     <link rel="icon" href="images/favicon.ico">
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@">
-    <meta name="twitter:title" content="Listing With Left Filter">
-    <meta name="twitter:description" content="Real Estate Html Template">
+    <meta name="twitter:title" content="Home 01">
+    <meta name="twitter:description" content="Aisle Properties">
     <meta name="twitter:image" content="images/homeid-social-logo.png">
     <!-- Facebook -->
-    <meta property="og:url" content="listing-with-left-filter.html">
-    <meta property="og:title" content="Listing With Left Filter">
-    <meta property="og:description" content="Real Estate Html Template">
+    <meta property="og:url" content="home-01.html">
+    <meta property="og:title" content="Home 01">
+    <meta property="og:description" content="Aisle Properties">
     <meta property="og:type" content="website">
     <meta property="og:image" content="images/homeid-social.png">
     <meta property="og:image:type" content="image/png">
@@ -44,12 +44,12 @@
     <meta property="og:image:height" content="630">
   </head>
   <body>
-    <header class="main-header navbar-dark bg-secondary pb-lg-9 header-sticky header-sticky-smart header-mobile-lg">
+     <header class="main-header navbar-dark bg-secondary pb-lg-9 header-sticky header-sticky-smart header-mobile-lg">
       <div class="sticky-area bg-secondary">
         <div class="container">
           <nav class="navbar navbar-expand-lg bg-transparent px-0">
-            <a class="navbar-brand" href="index.html">
-              <img src="images/logo-white.png" alt="HomeID">
+            <a class="navbar-brand" href="/">
+              <img src="images/logo-white.png" alt="Logo">
             </a>
             <div class="d-flex d-lg-none ml-auto">
              
@@ -67,7 +67,7 @@
                 <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
         class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
                   <a class="nav-link dropdown-toggle p-0"
-           href="index.html" data-toggle="dropdown" >
+           href="#" data-toggle="dropdown" >
            For Rent
                     <span class="caret"></span>
                   </a>
@@ -75,28 +75,28 @@
                     <li class="dropdown-item">
                       <a id="navbar-link-home-01"
                    class="dropdown-link"
-                   href="home-01.html" >
+                   href="apartments-for-rent">
                    Apartments For Rent
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="home-02.html" >
+                   href="houses-for-rent" >
                    Houses For Rent
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="home-03.html" >
+                   href="offices-for-rent" >
                    Office Spaces For Rent
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-04"
                    class="dropdown-link"
-                   href="home-04.html" >
+                   href="rented-properties" >
                    Rented Properties
                       </a>
                     </li>
@@ -108,7 +108,7 @@
                 <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
         class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
                   <a class="nav-link dropdown-toggle p-0"
-           href="index.html" data-toggle="dropdown" >
+           href="#" data-toggle="dropdown" >
            For Sale
                     <span class="caret"></span>
                   </a>
@@ -116,48 +116,110 @@
                     <li class="dropdown-item">
                       <a id="navbar-link-home-01"
                    class="dropdown-link"
-                   href="home-01.html" >
-                   Apartments For Sale                     </a>
+                   href="/apartment-for-sale" >
+                   Apartments For Sale</a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="home-02.html" >
-                   Houses For Sale                     </a>
+                   href="houses-for-sale" >
+                   Houses For Sale</a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="home-03.html" >
-                   Office Spaces For Sale                     </a>
+                   href="offices-for-sale" >
+                   Office Spaces For Sale</a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-04"
                    class="dropdown-link"
-                   href="home-04.html" >
-                   Sold Properties
+                   href="sold-properties" >
+                   Sold Properties</a>
+                    </li>
+                  </ul>
+                </li>
+
+                
+                <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
+        class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
+                  <a class="nav-link dropdown-toggle p-0"
+           href="#" data-toggle="dropdown">
+                Land
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu pt-3 pb-0 pb-lg-3" aria-labelledby="navbar-item-home">
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-01"
+                   class="dropdown-link"
+                   href="residential" >
+                   Residential                     </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-02"
+                   class="dropdown-link"
+                   href="commercial" >
+                   Commercial                    </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-03"
+                   class="dropdown-link"
+                   href="industrial" >
+                   Industrial                     </a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-04"
+                   class="dropdown-link"
+                   href="farmland" >
+                   Farmland
                       </a>
                     </li>
                   </ul>
                 </li>
 
-
-                <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
+                {{-- <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
                 class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
                           <a class="nav-link  p-0"
                    href="land.html" data-toggle="dropdown" >
                    Land
                           </a>
-                </li>
+                </li> --}}
 
                 <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
                 class="nav-item  py-2 py-lg-5 px-0 px-lg-4">
                           <a class="nav-link  p-0"
-                   href="investment.html" data-toggle="dropdown" >
-                   Investment</a>
+                   href="/investments" data-toggle="dropdown" >
+                   Investments</a>
                 </li>
 
-
+                <li id="navbar-item-docs" aria-haspopup="true" aria-expanded="false"
+                class="nav-item dropdown py-2 py-xl-5 px-0 px-xl-4">
+                            <a class="nav-link dropdown-toggle p-0"
+                   href="#" data-toggle="dropdown" >
+                   Property Management
+                              <span class="caret"></span>
+                            </a>
+                            <div class="dropdown-menu px-0 pt-3 dropdown-menu-docs">
+                              <div class="dropdown-body">
+                                <a class="dropdown-item py-1"
+                                    href="#">
+                                  <div class="media">
+                                    <div class="fs-20 mr-3">
+                                      <i class="fal fa-file-alt"></i>
+                                    </div>
+                                    <div class="media-body">
+                                      <span class="d-block lh-15"> Properties under our management are <br>  given topnotch attention with the single <br>
+                                        aim of boosting their desirability and<br>marketability for our clients.</span>
+                                      <div class="dropdown-divider m-0"></div>
+                                      {{-- <small class="d-block lh-15">Properties under our management are <br>  given topnotch attention with the single <br>
+                                           aim of boosting their desirability and<br>marketability for our clients.</small> --}}
+                                    </div>
+                                  </div>
+                                </a>
+                                <div class="dropdown-divider m-0"></div>
+                              </div>
+                            </div>
+                          </li>
               </ul>
               <div class="d-block d-lg-none">
                 <ul class="navbar-nav flex-row ml-auto align-items-center justify-content-lg-end flex-wrap py-2">
