@@ -593,10 +593,14 @@
                 <div class="col-md-6 mb-6">
                   <div class="card border-0" data-animate="fadeInUp">
                     <div class="position-relative hover-change-image bg-hover-overlay rounded-lg card-img">
-                      <img src="images/properties-grid-35.jpg"
-								     alt="Home in Metric Way">
+                      @foreach ($properties as $property)
+                        @foreach ($property->pictures as $picture)
+                          @if ($loop->first)
+                          <img src="{{asset('/property_pictures/'.$picture->name)}}" class="card-img" alt="">
+                          @endif
+                        @endforeach
                       <div class="card-img-overlay d-flex flex-column">
-                        <div><span class="badge badge-primary">For Rent</span></div>
+                        <div><span class="badge badge-primary">{{$property->category->name}}</span></div>
                         <div class="mt-auto d-flex hover-image">
                           <ul class="list-inline mb-0 d-flex align-items-end mr-auto">
                             <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
@@ -628,12 +632,12 @@
                       </div>
                     </div>
                     <div class="card-body pt-3 px-0 pb-1">
-                      <h2 class="fs-16 mb-1"><a href="single-property-1.html"
-								                          class="text-dark hover-primary">Home in Metric Way</a>
+                      <h2 class="fs-16 mb-1"><a href="{{ route('pages.show', $property->id) }}"
+								                          class="text-dark hover-primary">{{$property->name}}</a>
                       </h2>
-                      <p class="font-weight-500 text-gray-light mb-0">1421 San Pedro St, Los Angeles</p>
+                      <p class="font-weight-500 text-gray-light mb-0">{{$property->area}}</p>
                       <p class="fs-17 font-weight-bold text-heading mb-0 lh-16">
-                        $1.250.000
+                        ${{$property->price}}
                       </p>
                     </div>
                     <div class="card-footer bg-transparent px-0 pb-0 pt-2">
@@ -643,14 +647,14 @@
                           <svg class="icon icon-bedroom fs-18 text-primary mr-1">
                             <use xlink:href="#icon-bedroom"></use>
                           </svg>
-                          3 Br
+                          {{$property->bedrooms}} Br
                         </li>
                         <li class="list-inline-item text-gray font-weight-500 fs-13 mr-sm-7"
 									    data-toggle="tooltip" title="3 Bathrooms">
                           <svg class="icon icon-shower fs-18 text-primary mr-1">
                             <use xlink:href="#icon-shower"></use>
                           </svg>
-                          3 Ba
+                          {{$property->bathrooms}} Ba
                         </li>
                         <li class="list-inline-item text-gray font-weight-500 fs-13" data-toggle="tooltip"
 									    title="Size">

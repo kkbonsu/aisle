@@ -87,19 +87,22 @@ Route::get('/sold-properties', function () {
 // });
 
 // routes for land dropdown items
-
 Route::get('/commercial', function () {
-    return view('pages.land.commercial');
+    $lands = Land::where('type', 'Commercial')->get();
+    return view('pages.land.commercial')->with('lands', $lands);
 });
 
 Route::get('/farmland', function () {
-    return view('pages.land.farmland');
+    $lands = Land::where('type', 'Farmland')->get();
+    return view('pages.land.farmland')->with('lands', $lands);
 });
 Route::get('/industrial', function () {
-    return view('pages.land.industrial');
+    $lands = Land::where('type', 'Industrial')->get();
+    return view('pages.land.industrial')->with('lands', $lands);
 });
 Route::get('/residential', function () {
-    return view('pages.land.residential');
+    $lands = Land::where('type', 'Residential')->get();
+    return view('pages.land.residential')->with('lands', $lands);
 });
 Route::get('/investments', function () {
     return view('pages.home-01');
@@ -113,19 +116,23 @@ Route::get('/single-property-1/{$id}', function ($id) {
 
 // for rent
 Route::get('/all-properties-for-rent', function () {
-    return view('pages.all-properties-for-rent');
+    $properties = Property::where('category_id', 1)->get();
+    return view('pages.all-properties-for-rent')->with('properties', $properties);
 });
 
 Route::get('/apartments-for-rent', function () {
-    return view('pages.for-rent.apartments-for-rent');
+    $properties = Property::where('category_id', 1)->where('type_id', 2)->get();
+    return view('pages.for-rent.apartments-for-rent')->with('properties', $properties);
 });
 
 Route::get('/houses-for-rent', function () {
-    return view('pages.for-rent.houses-for-rent');
+    $properties = Property::where('category_id', 1)->where('type_id', 1)->get();
+    return view('pages.for-rent.houses-for-rent')->with('properties', $properties);
 });
 
 Route::get('/offices-for-rent', function () {
-    return view('pages.for-rent.offices-for-rent');
+    $properties = Property::where('category_id', 1)->where('type_id', 3)->get();
+    return view('pages.for-rent.offices-for-rent')->with('properties', $properties);
 });
 
 Route::get('/rented-properties', function () {
@@ -135,19 +142,23 @@ Route::get('/rented-properties', function () {
 
 // for sale
 Route::get('/all-properties-for-sale', function () {
-    return view('pages.all-properties-for-sale');
+    $properties = Property::where('category_id', 2)->get();
+    return view('pages.all-properties-for-sale')->with('properties', $properties);
 });
 
 Route::get('/apartment-for-sale', function () {
-    return view('pages.for-sale.apartment-for-sale');
+    $properties = Property::where('category_id', 2)->where('type_id', 2)->get();
+    return view('pages.for-sale.apartment-for-sale')->with('properties', $properties);
 });
 
 Route::get('/houses-for-sale', function () {
-    return view('pages.for-sale.houses-for-sale');
+    $properties = Property::where('category_id', 2)->where('type_id', 1)->get();
+    return view('pages.for-sale.houses-for-sale')->with('properties', $properties);
 });
 
 Route::get('/offices-for-sale', function () {
-    return view('pages.for-sale.offices-for-sale');
+    $properties = Property::where('category_id', 2)->where('type_id', 3)->get();
+    return view('pages.for-sale.offices-for-sale')->with('properties', $properties);
 });
 
 Route::get('/sold-properties', function () {

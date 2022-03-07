@@ -672,19 +672,22 @@
               <div class="py-5 px-4 border rounded-lg shadow-hover-1 bg-white mb-4" data-animate="fadeInUp">
                 <div class="media flex-column flex-sm-row no-gutters">
                   <div class="col-sm-3 mr-sm-5 card border-0 hover-change-image bg-hover-overlay mb-sm-5">
-                    <img src="images/properties-list-03.jpg" class="card-img"
-							     alt="Home in Metric Way">
+                    @foreach ($property->pictures as $picture)
+                      @if ($loop->first)
+                        <img src="{{asset('/property_pictures/'.$picture->name)}}" class="card-img" alt="">
+                      @endif
+                    @endforeach
                     <div class="card-img-overlay p-2">
                       <ul class="list-inline mb-0 d-flex justify-content-center align-items-center h-100 hover-image">
                         <li class="list-inline-item">
                           <a href="#"
-										   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-heading bg-white border-white bg-hover-primary border-hover-primary hover-white">
-                            <i class="far fa-heart"></i>
+										      class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-heading bg-white border-white bg-hover-primary border-hover-primary hover-white">
+                          <i class="far fa-heart"></i>
                           </a>
                         </li>
                         <li class="list-inline-item">
                           <a href="#"
-										   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-heading bg-white border-white bg-hover-primary border-hover-primary hover-white">
+										      class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-heading bg-white border-white bg-hover-primary border-hover-primary hover-white">
                             <i class="fas fa-exchange-alt"></i>
                           </a>
                         </li>
@@ -692,12 +695,12 @@
                     </div>
                   </div>
                   <div class="media-body mt-3 mt-sm-0">
-                    <h2 class="my-0"><a href="single-property-1.html"
-							                    class="fs-16 lh-2 text-dark hover-primary d-block">Home in Metric Way</a>
+                    <h2 class="my-0"><a href="{{ route('pages.show', $property->id) }}"
+							                    class="fs-16 lh-2 text-dark hover-primary d-block">{{$property->name}}</a>
                     </h2>
-                    <p class="mb-1 font-weight-500 text-gray-light">1421 San Pedro St, Los Angeles</p>
+                    <p class="mb-1 font-weight-500 text-gray-light">{{$property->area}}</p>
                     <p class="fs-17 font-weight-bold text-heading mb-1">
-                      $1.250.000
+                      ${{$property->price}}
                     </p>
                     <p class="mb-2 ml-0">Lorem ipsum dolor sit amet, sectetur cing elit uspe ndisse suscorem ipsum dolor sitorem sit amet, sectetur cing elit uspe ndisse suscorem</p>
                   </div>
@@ -708,13 +711,13 @@
                       <svg class="icon icon-bedroom fs-18 text-primary mr-1">
                         <use xlink:href="#icon-bedroom"></use>
                       </svg>
-                      3 Br
+                      {{$property->bedrooms}} Br
                     </li>
                     <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5" data-toggle="tooltip" title="3 Bathrooms">
                       <svg class="icon icon-shower fs-18 text-primary mr-1">
                         <use xlink:href="#icon-shower"></use>
                       </svg>
-                      3 Ba
+                      {{$property->bathrooms}} Ba
                     </li>
                     <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5" data-toggle="tooltip" title="Size">
                       <svg class="icon icon-square fs-18 text-primary mr-1">
@@ -726,7 +729,7 @@
                       <svg class="icon icon-Garage fs-18 text-primary mr-1">
                         <use xlink:href="#icon-Garage"></use>
                       </svg>
-                      1 Gr
+                      {{$property->garages}} Gr
                     </li>
                     <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5" data-toggle="tooltip" title="Year">
                       <svg class="icon icon-year fs-18 text-primary mr-1">
@@ -735,9 +738,10 @@
                       2020
                     </li>
                   </ul>
-                  <span class="badge badge-primary mr-xl-2 mt-3 mt-sm-0">For Sale</span>
+                  <span class="badge badge-primary mr-xl-2 mt-3 mt-sm-0">{{$property->category->name}}</span>
                 </div>
               </div>
+            @endforeach
               <div class="py-5 px-4 border rounded-lg shadow-hover-1 bg-white mb-4" data-animate="fadeInUp">
                 <div class="media flex-column flex-sm-row no-gutters">
                   <div class="col-sm-3 mr-sm-5 card border-0 hover-change-image bg-hover-overlay mb-sm-5">
