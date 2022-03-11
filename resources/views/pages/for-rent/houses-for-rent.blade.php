@@ -669,8 +669,10 @@
                   </div>
                 </div>
               </div>
+              @foreach ($properties as $property)
               <div class="py-5 px-4 border rounded-lg shadow-hover-1 bg-white mb-4" data-animate="fadeInUp">
                 <div class="media flex-column flex-sm-row no-gutters">
+                  
                   <div class="col-sm-3 mr-sm-5 card border-0 hover-change-image bg-hover-overlay mb-sm-5">
                     @foreach ($property->pictures as $picture)
                       @if ($loop->first)
