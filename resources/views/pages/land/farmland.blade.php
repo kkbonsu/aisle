@@ -477,17 +477,21 @@
       <section class="pb-10">
         <div class="container">
           <div class="row">
+            @foreach ($lands as $land)
             <div class="col-lg-4 col-md-6 pb-6">
               <div class="card shadow-hover-xs-4" data-animate="fadeInUp">
                 <div class="card-header bg-transparent px-4 pt-4 pb-3">
                   <h2 class="fs-16 lh-2 mb-0">
-                    <a href="single-property-1.html"
-							   class="text-dark hover-primary">Home in Metric Way</a>
+                    <a href="{{ route('pages.show', $land->id) }}"
+							      class="text-dark hover-primary">{{$land->name}}</a>
                   </h2>
-                  <p class="font-weight-500 text-gray-light mb-3">1421 San Pedro St, Los Angeles</p>
+                  <p class="font-weight-500 text-gray-light mb-3">{{ $land->area }}</p>
                   <div class="position-relative d-block rounded-lg hover-change-image bg-hover-overlay card-img">
-                    <img src="images/properties-grid-31.jpg"
-							     alt="Home in Metric Way">
+                    @foreach ($land->imagess as $image)
+                      @if ($loop->first)
+                        <img src="{{asset('/land_images/'.$image->name)}}" alt="">
+                      @endif
+                    @endforeach
                     <div class="card-img-overlay d-flex flex-column">
                       <div><span class="badge badge-orange">Featured</span></div>
                       <div class="mt-auto d-flex hover-image">
@@ -520,9 +524,9 @@
                   </div>
                   <div class="d-flex justify-content-between align-items-center pt-3">
                     <p class="fs-17 font-weight-bold text-heading mb-0 lh-1">
-                      $1.250.000
+                      ${{ $land->price }}
                     </p>
-                    <span class="badge badge-primary">For Sale</span>
+                    <span class="badge badge-primary">{{ $land->type }}</span>
                   </div>
                 </div>
                 <div class="card-body py-2">
@@ -558,6 +562,7 @@
                 </div>
               </div>
             </div>
+            @endforeach
             <div class="col-lg-4 col-md-6 pb-6">
               <div class="card shadow-hover-xs-4" data-animate="fadeInUp">
                 <div class="card-header bg-transparent px-4 pt-4 pb-3">
