@@ -372,11 +372,8 @@
                 </div>
               </div>
             </div>
-<<<<<<< HEAD
             @endforeach
-=======
-          
->>>>>>> 
+
             <div class="col-lg-4 col-md-6 pb-6">
               <div class="card shadow-hover-xs-4" data-animate="fadeInUp">
                 <div class="card-header bg-transparent px-4 pt-4 pb-3">

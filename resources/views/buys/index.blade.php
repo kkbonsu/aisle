@@ -6,7 +6,7 @@
     <meta name="description" content="Aisle Properties">
     <meta name="author" content="">
     <meta name="generator" content="Jekyll">
-    <title>Lease Options Management</title>
+    <title>Buys Management</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
@@ -57,10 +57,10 @@
                   <div class="d-flex align-items-center d-xl-none">
                     <div class="dropdown px-3">
                       <a href="#" class="dropdown-toggle d-flex align-items-center text-heading"
-                          data-toggle="dropdown">
+                           data-toggle="dropdown">
                         <div class="w-48px">
                           <img src="/images/testimonial-5.jpg"
-                                    alt="{{ Auth::user()->name }}" class="rounded-circle">
+                                     alt="{{ Auth::user()->name }}" class="rounded-circle">
                         </div>
                         <span class="fs-13 font-weight-500 d-none d-sm-inline ml-2">
                           {{ Auth::user()->name }}
@@ -71,7 +71,7 @@
                           @csrf
       
                           <x-jet-responsive-nav-link href="{{ route('logout') }}"
-                                        onclick="event.preventDefault();
+                                         onclick="event.preventDefault();
                                           this.closest('form').submit();">
                               {{ __('Log Out') }}
                           </x-jet-responsive-nav-link>
@@ -94,7 +94,7 @@
                                 class="far fa-search"></i></button>
                     </div>
                     <input type="text" class="form-control border-0 form-control-lg shadow-none"
-                          placeholder="Search for..." name="search">
+                           placeholder="Search for..." name="search">
                   </div>
                 </form> --}}
                 <ul class="list-group list-group-flush w-100">
@@ -115,7 +115,7 @@
                     <ul class="list-group list-group-no-border rounded-lg">
                       {{-- <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="dashboard-add-new-property.html"
-                              class="text-heading lh-1 sidebar-link">
+                               class="text-heading lh-1 sidebar-link">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20 fs-20">
                             <svg class="icon icon-add-new"><use
                                             xlink:href="#icon-add-new"></use></svg></span>
@@ -123,19 +123,19 @@
                         </a>
                       </li> --}}
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
-                        <a href="{{ route('lands.index') }}"
+                        <a href="{{ route('buys.index') }}"
                                class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-my-properties"><use
                                             xlink:href="#icon-my-properties"></use></svg>
                           </span>
-                          <span class="sidebar-item-text">Lands</span>
+                          <span class="sidebar-item-text">Buys</span>
                           {{-- <span class="sidebar-item-number ml-auto text-primary fs-15 font-weight-bold">29</span> --}}
                         </a>
                       </li>
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('properties.index') }}"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-my-properties"><use
                                             xlink:href="#icon-my-properties"></use></svg>
@@ -146,7 +146,7 @@
                       </li>
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('categories.index') }}"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-my-properties"><use
                                             xlink:href="#icon-my-properties"></use></svg>
@@ -157,7 +157,7 @@
                       </li>
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('types.index') }}"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-my-properties"><use
                                             xlink:href="#icon-my-properties"></use></svg>
@@ -168,7 +168,7 @@
                       </li>
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('amenities.index') }}"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-my-properties"><use
                                             xlink:href="#icon-my-properties"></use></svg>
@@ -179,7 +179,7 @@
                       </li>
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('options.index') }}"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-my-properties"><use
                                             xlink:href="#icon-my-properties"></use></svg>
@@ -190,7 +190,7 @@
                       </li>
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('users.index') }}"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-my-properties"><use
                                             xlink:href="#icon-my-properties"></use></svg>
@@ -201,7 +201,7 @@
                       </li>
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('roles.index') }}"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-my-properties"><use
                                             xlink:href="#icon-my-properties"></use></svg>
@@ -210,6 +210,7 @@
                           {{-- <span class="sidebar-item-number ml-auto text-primary fs-15 font-weight-bold">29</span> --}}
                         </a>
                       </li>
+                      
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="{{ route('buys.index') }}"
                                class="text-heading lh-1 sidebar-link d-flex align-items-center">
@@ -223,7 +224,7 @@
                       </li>
                       {{-- <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="dashboard-my-favorites.html"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
                           </span>
@@ -233,7 +234,7 @@
                       </li> --}}
                       {{-- <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="dashboard-save-search.html"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-save-search"><use xlink:href="#icon-save-search"></use></svg>
                           </span>
@@ -243,7 +244,7 @@
                       </li> --}}
                       {{-- <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="dashboard-reviews.html"
-                              class="text-heading lh-1 sidebar-link d-flex align-items-center">
+                               class="text-heading lh-1 sidebar-link d-flex align-items-center">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <svg class="icon icon-review"><use xlink:href="#icon-review"></use></svg>
                           </span>
@@ -253,8 +254,8 @@
                       </li> --}}
                       <li class="list-group-item px-3 px-xl-4 py-2 sidebar-item">
                         <a href="#invoice_collapse"
-                                  class="text-heading lh-1 sidebar-link d-flex align-items-center"
-                                  data-toggle="collapse" aria-haspopup="true" aria-expanded="false">
+                                   class="text-heading lh-1 sidebar-link d-flex align-items-center"
+                                   data-toggle="collapse" aria-haspopup="true" aria-expanded="false">
                           <span class="sidebar-item-icon d-inline-block mr-3 text-muted fs-20">
                             <i class="fal fa-file-invoice"></i>
                           </span>
@@ -361,31 +362,26 @@
           </header>
           <main id="content" class="bg-gray-01">
             <div class="px-3 px-lg-6 px-xxl-13 py-5 py-lg-10">
-              @if (count($errors) > 0)
-                <div class="alert alert-danger">
-                  <strong>Whoops!</strong> There were some problems with your input.<br><br>
-                  <ul>
-                    @foreach ($errors->all() as $error)
-                      <li>{{ $error }}</li>
-                    @endforeach
-                  </ul>
-                </div>
+              @if ($message = Session::get('success'))
+              <div class="alert alert-success">
+                <p>{{ $message }}</p>
+              </div>
               @endif
               <div class="d-flex flex-wrap flex-md-nowrap mb-6">
                 <div class="mr-0 mr-md-auto">
-                  <h2 class="mb-0 text-heading fs-22 lh-15">Create Lease Option
-                      {{-- <span
-                    class="badge badge-white badge-pill text-primary fs-18 font-weight-bold ml-2">{{ $user_count }}</span> --}}
+                  <h2 class="mb-0 text-heading fs-22 lh-15">Buys
+                      <span
+                    class="badge badge-white badge-pill text-primary fs-18 font-weight-bold ml-2">{{ $buy_count }}</span>
                   </h2>
                   {{-- <p>Lorem ipsum dolor sit amet, consec tetur cing elit. Suspe ndisse suscipit</p> --}}
                 </div>
-                <div>
-                  <a href="{{ route('options.index') }}" class="btn btn-dark btn-lg">
-                    <span>Back</span>
+                {{-- <div>
+                  <a href="{{ route('categories.create') }}" class="btn btn-success btn-lg">
+                    <span>Add New Category</span>
                     <span class="d-inline-block ml-1 fs-20 lh-1"><svg class="icon icon-add-new"><use
                         xlink:href="#icon-add-new"></use></svg></span>
                   </a>
-                </div>
+                </div> --}}
                 {{-- <form class="form">
                   <div class="input-group input-group-lg bg-white border">
                     <div class="input-group-prepend">
@@ -396,19 +392,40 @@
                   </div>
                 </form> --}}
               </div>
-              {!! Form::open(array('route' => 'options.store', 'method'=>'POST')) !!}
-              <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12">
-                      <div class="form-group">
-                          <strong>Name of Lease Option:</strong>
-                          {!! Form::text('name', null, array('placeholder' => 'Name','class' => 'form-control')) !!}
-                      </div>
-                  </div>
-                  <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                      <button type="submit" class="btn btn-success">Create</button>
-                  </div>
+              <div class="table-responsive">
+                <table class="table table-hover border rounded-lg mb-6 bg-white">
+                  <thead class="thead-sm thead-black">
+                    <tr>
+                      <th scope="col" class="border-top-0 pt-5 pb-4">No.</th>
+                      <th scope="col" class="border-top-0 px-6 pt-5 pb-4">Name</th>
+                      <th scope="col" class="border-top-0 px-6 pt-5 pb-4">Phone Number</th>
+                      <th scope="col" class="border-top-0 px-6 pt-5 pb-4">Property</th>
+                      <th scope="col" class="border-top-0 pt-5 pb-4">Actions</th>
+                      {{-- <th scope="col" class="border-top-0 pt-5 pb-4">Storage Space</th>
+                      <th scope="col" class="border-top-0 pt-5 pb-4">Expiry Date</th> --}}
+                    </tr>
+                  </thead>
+                  <tbody>
+                      @foreach ($data as $key => $buy)
+                      <tr class="shadow-hover-xs-2 bg-hover-white">
+                        <td class="align-middle">{{ ++$i}}</td>
+                        <td class="align-middle p-6">
+                        <a href="#"
+                            class="text-dark font-weight-500 hover-primary pt-1">{{ $buy->name }}</a>
+                        </td>
+                        <td class="align-middle">{{$buy->phone}}</td>
+                        <td class="align-middle">{{$buy->property}}</td>
+                        <td class="align-middle">
+                            {!! Form::open(['method' => 'DELETE', 'route' => ['buys.destroy', $buy->id],'style'=>'display:inline']) !!}
+                                {!! Form::submit('Delete', ['class' => 'btn btn-danger']) !!}
+                            {!! Form::close() !!}
+                        </td>
+                      </tr>
+                      @endforeach
+                  </tbody>
+                </table>
               </div>
-              {!! Form::close() !!}
+            </div>
           </main>
         </div>
       </div>

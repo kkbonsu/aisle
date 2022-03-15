@@ -10,6 +10,7 @@ use App\Http\Controllers\TypeController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\LandController;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\BuyController;
 use App\Models\Land;
 use App\Models\Property;
 
@@ -178,6 +179,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::resource('users', UserController::class);
     Route::resource('types', TypeController::class);
     Route::resource('roles', RoleController::class);
+    Route::resource('buys', BuyController::class);
     Route::resource('options', OptionController::class);
 });
 
