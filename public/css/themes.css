@@ -7698,7 +7698,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #252525 !important;
+  background-color: #010427 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -16328,7 +16328,7 @@ a.text-indigo:hover, a.text-indigo:focus {
 }
 
 .text-muted {
-  color: #ababab !important;
+  color: #fff !important;
 }
 
 .text-black-50 {

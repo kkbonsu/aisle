@@ -44,588 +44,207 @@
     <meta property="og:image:height" content="630">
   </head>
   <body>
-    <header class="main-header navbar-light header-sticky header-sticky-smart header-mobile-lg">
-      <div class="sticky-area">
+    <header class="main-header navbar-dark bg-secondary pb-lg-9 header-sticky header-sticky-smart header-mobile-lg">
+      <div class="sticky-area bg-secondary">
         <div class="container">
-          <nav class="navbar navbar-expand-lg px-0">
-            <a class="navbar-brand" href="index.html">
-              <img src="images/logo.png" alt="HomeID"
-                         class="d-none d-lg-inline-block">
-              <img src="images/logo-white.png" alt="HomeID"
-                         class="d-inline-block d-lg-none">
+          <nav class="navbar navbar-expand-lg bg-transparent px-0">
+            <a class="navbar-brand" href="/">
+              <img src="images/logo-white.png" alt="Logo">
             </a>
             <div class="d-flex d-lg-none ml-auto">
-              <a class="mr-4 position-relative text-white p-2" href="#">
-                <i class="fal fa-heart fs-large-4"></i>
-                <span class="badge badge-primary badge-circle badge-absolute">1</span>
-              </a>
+             
               <button class="navbar-toggler border-0 px-0" type="button" data-toggle="collapse"
-                            data-target="#primaryMenu01"
-                            aria-controls="primaryMenu01" aria-expanded="false" aria-label="Toggle navigation">
+                            data-target="#primaryMenu06"
+                            aria-controls="primaryMenu06" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="text-white fs-24"><i class="fal fa-bars"></i></span>
               </button>
             </div>
-            <div class="collapse navbar-collapse mt-3 mt-lg-0 mx-auto flex-grow-0" id="primaryMenu01">
+            <div class="collapse navbar-collapse mt-3 mt-lg-0 flex-grow-0 mx-auto" id="primaryMenu06">
               <ul class="navbar-nav hover-menu main-menu px-0 mx-lg-n4">
+
+                
+
                 <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
         class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
                   <a class="nav-link dropdown-toggle p-0"
-           href="index.html" data-toggle="dropdown" >
-                    Home
+           href="#" data-toggle="dropdown" >
+           For Rent
                     <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu pt-3 pb-0 pb-lg-3" aria-labelledby="navbar-item-home">
                     <li class="dropdown-item">
                       <a id="navbar-link-home-01"
                    class="dropdown-link"
-                   href="home-01.html" >
-                        Home 01
+                   href="apartments-for-rent">
+                   Apartments For Rent
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="home-02.html" >
-                        Home 02
+                   href="houses-for-rent" >
+                   Houses For Rent
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="home-03.html" >
-                        Home 03
+                   href="offices-for-rent" >
+                   Office Spaces For Rent
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-04"
                    class="dropdown-link"
-                   href="home-04.html" >
-                        Home 04
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-home-05"
-                   class="dropdown-link"
-                   href="home-05.html" >
-                        Home 05
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-home-06"
-                   class="dropdown-link"
-                   href="home-06.html" >
-                        Home 06
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-home-07"
-                   class="dropdown-link"
-                   href="home-07.html" >
-                        Home 07
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-home-08"
-                   class="dropdown-link"
-                   href="home-08.html" >
-                        Home 08
+                   href="rented-properties" >
+                   Rented Properties
                       </a>
                     </li>
                   </ul>
                 </li>
-                <li id="navbar-item-property" aria-haspopup="true" aria-expanded="false"
-        class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
-                  <a class="nav-link dropdown-toggle p-0"
-           href="listing.html" data-toggle="dropdown" >
-                    Property
-                    <span class="caret"></span>
-                  </a>
-                  <div class="dropdown-menu dropdown-menu-xxl px-0 py-3 dropdown-menu-listing" aria-labelledby="navbar-item-property">
-                    <div class="row no-gutters">
-                      <div class="col-lg-3">
-                        <!-- Heading -->
-                        <h4 class="dropdown-header text-dark fs-16 mb-2">
-                          List view
-                        </h4>
-                        <!-- List -->
-                        <a class="dropdown-item" href="listing-full-width-list.html">
-                          Full width list
-                        </a>
-                        <a class="dropdown-item" href="listing-with-left-filter.html">
-                          List with left filter
-                        </a>
-                        <a class="dropdown-item" href="listing-with-right-filter.html">
-                          List with right filter
-                        </a>
-                        <a class="dropdown-item" href="listing-with-left-sidebar.html">
-                          List with left sidebar
-                        </a>
-                        <!-- List -->
-                        <a class="dropdown-item" href="listing-with-right-sidebar.html">
-                          List with right sidebar
-                        </a>
-                      </div>
-                      <div class="col-lg-3">
-                        <!-- Heading -->
-                        <h4 class="dropdown-header text-dark fs-16 mb-2">
-                          Grid view
-                        </h4>
-                        <!-- List -->
-                        <a class="dropdown-item" href="listing-full-width-grid-1.html">
-                          Full width grid 1
-                        </a>
-                        <a class="dropdown-item" href="listing-full-width-grid-2.html">
-                          Full width grid 2
-                        </a>
-                        <a class="dropdown-item" href="listing-full-width-grid-3.html">
-                          Full width grid 3
-                        </a>
-                        <a class="dropdown-item" href="listing-grid-with-left-filter.html">
-                          Grid with left filter
-                        </a>
-                        <a class="dropdown-item" href="listing-grid-with-right-filter.html">
-                          Grid with right filter
-                        </a>
-                        <a class="dropdown-item" href="listing-grid-with-left-sidebar.html">
-                          Grid with left sidebar
-                        </a>
-                        <a class="dropdown-item" href="listing-grid-with-right-sidebar.html">
-                          Grid with right sidebar
-                        </a>
-                      </div>
-                      <div class="col-lg-3">
-                        <!-- Heading -->
-                        <h4 class="dropdown-header text-dark fs-16 mb-2">
-                          Map style
-                        </h4>
-                        <!-- List -->
-                        <a class="dropdown-item" href="listing-half-map-list-layout-1.html">
-                          Half map list layout 1
-                        </a>
-                        <a class="dropdown-item" href="listing-half-map-list-layout-2.html">
-                          Half map list layout 2
-                        </a>
-                        <a class="dropdown-item" href="listing-half-map-grid-layout-1.html">
-                          Half map grid layout 1
-                        </a>
-                        <a class="dropdown-item" href="listing-half-map-grid-layout-2.html">
-                          Half map grid layout 2
-                        </a>
-                        <a class="dropdown-item" href="listing-full-map-1.html">
-                          Full map 1
-                        </a>
-                        <a class="dropdown-item" href="listing-full-map-2.html">
-                          Full map 2
-                        </a>
-                        <a class="dropdown-item" href="listing-full-map-with-sidebar.html">
-                          Full Map with sidebar
-                        </a>
-                      </div>
-                      <div class="col-lg-3">
-                        <!-- Heading -->
-                        <h4 class="dropdown-header text-dark fs-16 mb-2">
-                          Single Property
-                        </h4>
-                        <!-- List -->
-                        <a class="dropdown-item" href="single-property-1.html">
-                          Single Property 1
-                        </a>
-                        <a class="dropdown-item" href="single-property-2.html">
-                          Single Property 2
-                        </a>
-                        <a class="dropdown-item" href="single-property-3.html">
-                          Single Property 3
-                        </a>
-                        <a class="dropdown-item" href="single-property-4.html">
-                          Single Property 4
-                        </a>
-                        <a class="dropdown-item" href="single-property-5.html">
-                          Single Property 5
-                        </a>
-                        <a class="dropdown-item" href="single-property-6.html">
-                          Single Property 6
-                        </a>
-                        <a class="dropdown-item" href="single-property-7.html">
-                          Single Property 7
-                        </a>
-                        <a class="dropdown-item" href="single-property-8.html">
-                          Single Property 8
-                        </a>
-                        <a class="dropdown-item" href="single-property-9.html">
-                          Single Property 9
-                        </a>
-                      </div>
-                    </div>
-                     <!-- / .row -->
-                  </div>
-                </li>
-                <li id="navbar-item-dashboard" aria-haspopup="true" aria-expanded="false"
+
+
+                 
+                <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
         class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
                   <a class="nav-link dropdown-toggle p-0"
            href="#" data-toggle="dropdown" >
-                    Dashboard
+           For Sale
                     <span class="caret"></span>
                   </a>
-                  <ul class="dropdown-menu pt-3 pb-0 pb-lg-3" aria-labelledby="navbar-item-dashboard">
+                  <ul class="dropdown-menu pt-3 pb-0 pb-lg-3" aria-labelledby="navbar-item-home">
                     <li class="dropdown-item">
-                      <a id="navbar-link-dashboard"
+                      <a id="navbar-link-home-01"
                    class="dropdown-link"
-                   href="dashboard.html" >
-                        Dashboard
-                      </a>
+                   href="/apartment-for-sale" >
+                   Apartments For Sale</a>
                     </li>
                     <li class="dropdown-item">
-                      <a id="navbar-link-add-new-property"
+                      <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="dashboard-add-new-property.html" >
-                        Add New Property
-                      </a>
+                   href="houses-for-sale" >
+                   Houses For Sale</a>
                     </li>
                     <li class="dropdown-item">
-                      <a id="navbar-link-my-properties"
+                      <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="dashboard-my-properties.html" >
-                        My Properties
-                      </a>
+                   href="offices-for-sale" >
+                   Office Spaces For Sale</a>
                     </li>
                     <li class="dropdown-item">
-                      <a id="navbar-link-my-favorites"
+                      <a id="navbar-link-home-04"
                    class="dropdown-link"
-                   href="dashboard-my-favorites.html" >
-                        My Favorites
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-save-search"
-                   class="dropdown-link"
-                   href="dashboard-save-search.html" >
-                        Save Search
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-reviews"
-                   class="dropdown-link"
-                   href="dashboard-reviews.html" >
-                        Reviews
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-my-package"
-                   class="dropdown-link"
-                   href="dashboard-my-packages.html" >
-                        My Package
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-my-profile"
-                   class="dropdown-link"
-                   href="dashboard-my-profiles.html" >
-                        My Profile
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-signup-and-login"
-                   class="dropdown-link"
-                   href="signup-and-login.html" >
-                        Signup and login
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-password-recovery"
-                   class="dropdown-link"
-                   href="password-recovery.html" >
-                        Password Recovery
-                      </a>
+                   href="sold-properties" >
+                   Sold Properties</a>
                     </li>
                   </ul>
                 </li>
-                <li id="navbar-item-pages" aria-haspopup="true" aria-expanded="false"
+
+                
+                <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
         class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
                   <a class="nav-link dropdown-toggle p-0"
-           href="#" data-toggle="dropdown" >
-                    Pages
+           href="#" data-toggle="dropdown">
+                Land
                     <span class="caret"></span>
                   </a>
-                  <ul class="dropdown-menu pt-3 pb-0 pb-lg-3" aria-labelledby="navbar-item-pages">
-                    <li class="dropdown-item dropdown dropright">
-                      <a id="navbar-link-news"
-                   class="dropdown-link dropdown-toggle"
-                   href="#" data-toggle="dropdown" >
-                        News
-                      </a>
-                      <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-lg-3"
-                    aria-labelledby="navbar-link-news">
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="blog-classic.html">Blog classic</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="blog-grid.html">Blog grid</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="blog-grid-with-sidebar.html">Blog grid with sidebar</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="blog-list-width-sidebar.html">Blog list with sidebar</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="blog-details-1.html">Blog details 1</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="blog-details-2.html">Blog details 2</a>
-                        </li>
-                      </ul>
+                  <ul class="dropdown-menu pt-3 pb-0 pb-lg-3" aria-labelledby="navbar-item-home">
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-01"
+                   class="dropdown-link"
+                   href="residential" >
+                   Residential                     </a>
                     </li>
                     <li class="dropdown-item">
-                      <a id="navbar-link-about-us"
+                      <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="about-us.html" >
-                        About us
-                      </a>
-                    </li>
-                    <li class="dropdown-item dropdown dropright">
-                      <a id="navbar-link-service"
-                   class="dropdown-link dropdown-toggle"
-                   href="#" data-toggle="dropdown" >
-                        Service
-                      </a>
-                      <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-lg-3"
-                    aria-labelledby="navbar-link-service">
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="services.html">Services</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="services-with-sidebar.html">Services with sidebar</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="dropdown-item dropdown dropright">
-                      <a id="navbar-link-contact-us"
-                   class="dropdown-link dropdown-toggle"
-                   href="#" data-toggle="dropdown" >
-                        Contact us
-                      </a>
-                      <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-lg-3"
-                    aria-labelledby="navbar-link-contact-us">
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="contact-us-1.html">Contact us 1</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="contact-us-2.html">Contact us 2</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="dropdown-item dropdown dropright">
-                      <a id="navbar-link-agent"
-                   class="dropdown-link dropdown-toggle"
-                   href="#" data-toggle="dropdown" >
-                        Agent
-                      </a>
-                      <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-lg-3"
-                    aria-labelledby="navbar-link-agent">
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agents-grid-1.html">Agents grid 1</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agents-grid-2.html">Agents grid 2</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agents-grid-with-sidebar.html">Agents grid with sidebar</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agents-list.html">Agents list</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agent-details-1.html">Agent detais 1</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agent-details-2.html">Agent detais 2</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="dropdown-item dropdown dropright">
-                      <a id="navbar-link-agency"
-                   class="dropdown-link dropdown-toggle"
-                   href="#" data-toggle="dropdown" >
-                        Agency
-                      </a>
-                      <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-lg-3"
-                    aria-labelledby="navbar-link-agency">
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agency-grid.html">Agency grid</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agency-list.html">Agency list</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agency-details-1.html">Agency details 1</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agency-details-2.html">Agency details 2</a>
-                        </li>
-                      </ul>
+                   href="commercial" >
+                   Commercial                    </a>
                     </li>
                     <li class="dropdown-item">
-                      <a id="navbar-link-faqs"
+                      <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="faqs.html" >
-                        FAQs
-                      </a>
+                   href="industrial" >
+                   Industrial                     </a>
                     </li>
                     <li class="dropdown-item">
-                      <a id="navbar-link-page-404"
+                      <a id="navbar-link-home-04"
                    class="dropdown-link"
-                   href="page-404.html" >
-                        Page 404
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-checkout"
-                   class="dropdown-link"
-                   href="checkout-complete-1.html" >
-                        Checkout
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-payment-completed"
-                   class="dropdown-link"
-                   href="checkout-complete-2.html" >
-                        Payment Completed
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-compare"
-                   class="dropdown-link"
-                   href="compare-details.html" >
-                        Compare
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-packages"
-                   class="dropdown-link"
-                   href="packages.html" >
-                        Packages
+                   href="farmland" >
+                   Farmland
                       </a>
                     </li>
                   </ul>
                 </li>
+
+                {{-- <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
+                class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
+                          <a class="nav-link  p-0"
+                   href="land.html" data-toggle="dropdown" >
+                   Land
+                          </a>
+                </li> --}}
+
+                <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
+                class="nav-item  py-2 py-lg-5 px-0 px-lg-4">
+                          <a class="nav-link  p-0"
+                   href="/investments" data-toggle="dropdown" >
+                   Investments</a>
+                </li>
+
                 <li id="navbar-item-docs" aria-haspopup="true" aria-expanded="false"
-        class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
-                  <a class="nav-link dropdown-toggle p-0"
-           href="#" data-toggle="dropdown" >
-                    Docs
-                    <span class="caret"></span>
-                  </a>
-                  <div class="dropdown-menu px-0 pt-3 dropdown-menu-docs">
-                    <div class="dropdown-body">
-                      <a class="dropdown-item py-1"
-           href="docs/getting-started/dev-environment-setup.html">
-                        <div class="media">
-                          <div class="fs-20 mr-3">
-                            <i class="fal fa-file-alt"></i>
-                          </div>
-                          <div class="media-body">
-                            <span class="d-block lh-15">Documentation</span>
-                            <small class="d-block">Kick-start customization</small>
-                          </div>
-                        </div>
-                      </a>
-                      <div class="dropdown-divider m-0"></div>
-                      <a class="dropdown-item py-1"
-           href="docs/content/typography.html">
-                        <div class="media">
-                          <div class="fs-20 mr-3">
-                            <i class="fal fa-layer-group"></i>
-                          </div>
-                          <div class="media-body">
-                            <span class="d-block lh-15">UI Kit<span
-                            class="badge badge-danger ml-2">50+</span></span>
-                            <small class="d-block">Flexible components</small>
-                          </div>
-                        </div>
-                      </a>
-                      <div class="dropdown-divider m-0"></div>
-                      <a class="dropdown-item py-1"
-           href="docs/getting-started/changelog.html">
-                        <div class="media">
-                          <div class="fs-20 mr-3">
-                            <i class="fal fa-edit"></i>
-                          </div>
-                          <div class="media-body">
-                            <span class="d-block lh-15">Changelog<span
-                            class="badge badge-success ml-2">v1.0.1</span></span>
-                            <small class="d-block">Regular updates</small>
-                          </div>
-                        </div>
-                      </a>
-                      <div class="dropdown-divider m-0"></div>
-                      <a class="dropdown-item py-1"
-           href="https://sp.g5plus.net/" target="_blank">
-                        <div class="media">
-                          <div class="fs-20 mr-3">
-                            <i class="fal fa-life-ring"></i>
-                          </div>
-                          <div class="media-body">
-                            <span class="d-block lh-15">Support</span>
-                            <small class="d-block">https://sp.g5plus.net/</small>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </li>
+                class="nav-item dropdown py-2 py-xl-5 px-0 px-xl-4">
+                            <a class="nav-link dropdown-toggle p-0"
+                   href="#" data-toggle="dropdown" >
+                   Property Management
+                              <span class="caret"></span>
+                            </a>
+                            <div class="dropdown-menu px-0 pt-3 dropdown-menu-docs">
+                              <div class="dropdown-body">
+                                <a class="dropdown-item py-1"
+                                    href="#">
+                                  <div class="media">
+                                    <div class="fs-20 mr-3">
+                                      <i class="fal fa-file-alt"></i>
+                                    </div>
+                                    <div class="media-body">
+                                      <span class="d-block lh-15"> Properties under our management are <br>  given topnotch attention with the single <br>
+                                        aim of boosting their desirability and<br>marketability for our clients.</span>
+                                      <div class="dropdown-divider m-0"></div>
+                                      {{-- <small class="d-block lh-15">Properties under our management are <br>  given topnotch attention with the single <br>
+                                           aim of boosting their desirability and<br>marketability for our clients.</small> --}}
+                                    </div>
+                                  </div>
+                                </a>
+                                <div class="dropdown-divider m-0"></div>
+                              </div>
+                            </div>
+                          </li>
               </ul>
-              <div class="d-block d-lg-none">
-                <ul class="navbar-nav flex-row justify-content-lg-end d-flex flex-wrap py-2">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle mr-md-2 pr-2 pl-0 pl-lg-2"
-           href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      ENG
-                    </a>
-                    <div class="dropdown-menu dropdown-sm dropdown-menu-left">
-                      <a class="dropdown-item" href="#">VN</a>
-                      <a class="dropdown-item active" href="#">ENG</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">ARB</a>
-                      <a class="dropdown-item" href="#">KR</a>
-                      <a class="dropdown-item" href="#">JN</a>
-                    </div>
-                  </li>
+              {{-- <div class="d-block d-lg-none">
+                <ul class="navbar-nav flex-row ml-auto align-items-center justify-content-lg-end flex-wrap py-2">
+                 
+                  <li class="divider"></li>
                   <li class="nav-item">
-                    <a class="nav-link  px-2" data-toggle="modal" href="#login-register-modal">SIGN IN</a>
+                    <a class="nav-link pl-3 px-2" data-toggle="modal" href="#login-register-modal">SIGN IN</a>
                   </li>
                 </ul>
-              </div>
+              </div> --}}
             </div>
-            <div class="d-none d-lg-block">
-              <ul class="navbar-nav flex-row justify-content-lg-end d-flex flex-wrap text-body py-2">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle mr-md-2 pr-2 pl-0 pl-lg-2"
-           href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    ENG
-                  </a>
-                  <div class="dropdown-menu dropdown-sm dropdown-menu-right">
-                    <a class="dropdown-item" href="#">VN</a>
-                    <a class="dropdown-item active" href="#">ENG</a>
-                    <a class="dropdown-item" href="#">ARB</a>
-                    <a class="dropdown-item" href="#">KR</a>
-                    <a class="dropdown-item" href="#">JN</a>
-                  </div>
-                </li>
+            {{-- <div class="d-none d-lg-block">
+              <ul class="navbar-nav flex-row ml-auto align-items-center justify-content-lg-end flex-wrap py-2">
+              
+                <li class="divider"></li>
                 <li class="nav-item">
-                  <a class="nav-link  px-2" data-toggle="modal" href="#login-register-modal">SIGN IN</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-2 position-relative" href="#">
-                    <i class="fal fa-heart fs-large-4"></i>
-                    <span class="badge badge-primary badge-circle badge-absolute">1</span>
-                  </a>
+                  <a class="nav-link pl-3 px-2" data-toggle="modal" href="#login-register-modal">SIGN IN</a>
                 </li>
               </ul>
-            </div>
+            </div> --}}
           </nav>
         </div>
       </div>
     </header>
+   
     <main id="content">
       <section class="bg-secondary py-6 py-lg-0">
         <div class="container">
@@ -2237,36 +1856,35 @@
     </section>
   </main>
   <footer class="bg-dark pt-8 pb-6 footer text-muted">
-    <div class="container">
+    <div class="container container-xxl">
       <div class="row">
         <div class="col-md-6 col-lg-4 mb-6 mb-md-0">
           <a class="d-block mb-2" href="#">
-            <img src="images/logo-white-primary.png" alt="HomeID">
+            <img src="images/logo-white.png" alt="">
           </a>
           <div class="lh-26 font-weight-500">
-            <p class="mb-0">58 Howard Street #2 San Francisco</p>
-            <a class="d-block text-muted hover-white" href="mailto:contact@homeid.com">contact@homeid.com</a>
+            <p class="mb-0">Tantra Hills, Achimota 
+              Near the Goil filling station</p>
+            <a class="d-block text-muted hover-white" href="mailto:info@homeid.com">info@aisle.com</a>
             <a class="d-block text-lighter font-weight-bold fs-15 hover-white"
-                       href="tel:(+68)122109876">(+68)1221
-              09876</a>
-            <a class="d-block text-muted hover-white" href=".">www.homeid.com</a>
+                     href="tel:(+233)203901772">(+233)203901772</a>
+            <a class="d-block text-muted hover-white" href="www.aisleproperties.com">Aisle Properties</a>
           </div>
         </div>
         <div class="col-md-6 col-lg-2 mb-6 mb-md-0">
           <h4 class="text-white fs-16 my-4 font-weight-500">Popular Searches</h4>
           <ul class="list-group list-group-flush list-group-no-border">
             <li class="list-group-item bg-transparent p-0">
-              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Apartment for Rent</a>
+              <a href="house-for-rent" class="text-muted lh-26 font-weight-500 hover-white">Houses For Rent</a>
             </li>
             <li class="list-group-item bg-transparent p-0">
-              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Apartment Low to
-                hide</a>
+              <a href="house-for-sale" class="text-muted lh-26 font-weight-500 hover-white">Houses For Sale</a>
             </li>
             <li class="list-group-item bg-transparent p-0">
-              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Offices for Buy</a>
+              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">View Our Investment Plans </a>
             </li>
             <li class="list-group-item bg-transparent p-0">
-              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Offices for Rent</a>
+              <a href="apartment-for-rent" class="text-muted lh-26 font-weight-500 hover-white">Apartment For Rent</a>
             </li>
           </ul>
         </div>
@@ -2274,62 +1892,44 @@
           <h4 class="text-white fs-16 my-4 font-weight-500">Quick links</h4>
           <ul class="list-group list-group-flush list-group-no-border">
             <li class="list-group-item bg-transparent p-0">
-              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Terms of Use</a>
+              <a href="apartment-for-sale" class="text-muted lh-26 font-weight-500 hover-white">Apartment For Sale</a>
             </li>
             <li class="list-group-item bg-transparent p-0">
-              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Privacy Policy</a>
+              <a href="residential" class="text-muted lh-26 font-weight-500 hover-white">Lands at Residential Communities</a>
             </li>
             <li class="list-group-item bg-transparent p-0">
-              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Contact Support</a>
+              <a href="commercial" class="text-muted lh-26 font-weight-500 hover-white">Commercial Lands</a>
             </li>
             <li class="list-group-item bg-transparent p-0">
-              <a href="#" class="text-muted lh-26 hover-white font-weight-500">Careers</a>
+              <a href="industrial" class="text-muted lh-26 hover-white font-weight-500">Industrial Lands</a>
+            </li>
+            <li class="list-group-item bg-transparent p-0">
+              <a href="farmland" class="text-muted lh-26 hover-white font-weight-500">Farm Lands for Sale</a>
             </li>
           </ul>
         </div>
         <div class="col-md-6 col-lg-4 mb-6 mb-md-0">
-          <h4 class="text-white fs-16 my-4 font-weight-500">Sign Up for Our Newsletter</h4>
-          <p class="font-weight-500 text-muted lh-184">Lorem ipsum dolor sit amet, consecte tur cing elit.
-            Suspe ndisse suscipit sagittis </p>
-          <form>
-            <div class="input-group input-group-lg mb-6">
-              <input type="text" name="email" required class="form-control bg-white shadow-none border-0 z-index-1" placeholder="Your email">
-              <div class="input-group-append">
-                <button class="btn btn-primary" type="submit">Subscribe</button>
-              </div>
-            </div>
-          </form>
+          <h4 class="text-white fs-16 my-4 font-weight-500">Connect with us via our social media accounts</h4>
           <ul class="list-inline mb-0">
+            
             <li class="list-inline-item mr-0">
-              <a href="#" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
-                                class="fab fa-twitter"></i></a>
+              <a href="https://www.facebook.com/Aisleproperties-111047958199016/" target="_blank" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
+                              class="fab fa-facebook-f"></i></a>
             </li>
             <li class="list-inline-item mr-0">
-              <a href="#" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
-                                class="fab fa-facebook-f"></i></a>
+              <a href="https://instagram.com/aisleproperties?utm_medium=copy_link" target="_blank" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
+                              class="fab fa-instagram"></i></a>
             </li>
-            <li class="list-inline-item mr-0">
-              <a href="#" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
-                                class="fab fa-skype"></i></a>
-            </li>
-            <li class="list-inline-item mr-0">
-              <a href="#" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
-                                class="fab fa-linkedin-in"></i></a>
-            </li>
+            
           </ul>
         </div>
       </div>
       <div class="mt-0 mt-md-10 row">
         <ul class="list-inline mb-0 col-md-6 mr-auto">
-          <li class="list-inline-item mr-6">
-            <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Terms of Use</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Privacy Policy</a>
-          </li>
+          
         </ul>
         <p class="col-md-auto mb-0 text-muted">
-          © 2020 homeID. All Rights Reserved
+          © 2022 AISLE All Rights Reserved
         </p>
       </div>
     </div>

@@ -856,7 +856,7 @@
                       <img src="images/verified.png" class="card-img-top"
 								     alt="Apartment">
                       <div class="card-body px-0 pt-5 pb-0">
-                        <h4 class="card-title fs-16 lh-2 text-dark mb-0">Apartment</h4>
+                        <h4 class="card-title fs-16 lh-2 text-dark mb-0">Apartment for Sale</h4>
                       </div>
                     </a>
                   </div>
@@ -866,7 +866,7 @@
                       <img src="images/sofa.png" class="card-img-top"
 								     alt="House">
                       <div class="card-body px-0 pt-5 pb-0">
-                        <h4 class="card-title fs-16 lh-2 text-dark mb-0">House</h4>
+                        <h4 class="card-title fs-16 lh-2 text-dark mb-0">House for Rent</h4>
                       </div>
                     </a>
                   </div>
@@ -876,7 +876,7 @@
                       <img src="images/architecture-and-city.png" class="card-img-top"
 								     alt="Office">
                       <div class="card-body px-0 pt-5 pb-0">
-                        <h4 class="card-title fs-16 lh-2 text-dark mb-0">Office</h4>
+                        <h4 class="card-title fs-16 lh-2 text-dark mb-0">Offices for Rent</h4>
                       </div>
                     </a>
                   </div>
@@ -886,7 +886,7 @@
                       <img src="images/eco-house.png" class="card-img-top"
 								     alt="Villa">
                       <div class="card-body px-0 pt-5 pb-0">
-                        <h4 class="card-title fs-16 lh-2 text-dark mb-0">Land</h4>
+                        <h4 class="card-title fs-16 lh-2 text-dark mb-0">Land for Sale</h4>
                       </div>
                     </a>
                   </div>
@@ -896,7 +896,7 @@
                       <img src="images/verified.png" class="card-img-top"
 								     alt="Apartment">
                       <div class="card-body px-0 pt-5 pb-0">
-                        <h4 class="card-title fs-16 lh-2 text-dark mb-0">Warehouse</h4>
+                        <h4 class="card-title fs-16 lh-2 text-dark mb-0">Warehouse for Rent</h4>
                       </div>
                     </a>
                   </div>
@@ -1075,7 +1075,7 @@
           <span class="heading-divider mx-auto"></span>
         </div>
       </section>
-      <section>
+      {{-- <section>
         <div class="container container-xxl">
           <div class="py-lg-8 py-6 border-top">
             <div class="slick-slider mx-0 partners"
@@ -1127,7 +1127,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> --}}
       <div id="compare" class="compare">
         <button class="btn shadow btn-open bg-white bg-hover-accent text-secondary rounded-right-0 d-flex justify-content-center align-items-center w-30px h-140 p-0">
         </button>
@@ -1175,24 +1175,28 @@
               <img src="images/logo-white.png" alt="">
             </a>
             <div class="lh-26 font-weight-500">
-              <p class="mb-0">Pawpaw Street, East Legon</p>
-              <a class="d-block text-muted hover-white" href="mailto:contact@homeid.com">contact@aisle.com</a>
+              <p class="mb-0">Tantra Hills, Achimota 
+                Near the Goil filling station</p>
+              <a class="d-block text-muted hover-white" href="mailto:info@homeid.com">info@aisle.com</a>
               <a class="d-block text-lighter font-weight-bold fs-15 hover-white"
                        href="tel:(+233)203901772">(+233)203901772</a>
-              <a class="d-block text-muted hover-white" href=".">www.aisleproperties.com</a>
+              <a class="d-block text-muted hover-white" href="www.aisleproperties.com">Aisle Properties</a>
             </div>
           </div>
           <div class="col-md-6 col-lg-2 mb-6 mb-md-0">
             <h4 class="text-white fs-16 my-4 font-weight-500">Popular Searches</h4>
             <ul class="list-group list-group-flush list-group-no-border">
               <li class="list-group-item bg-transparent p-0">
-                <a href="#" class="text-muted lh-26 font-weight-500 hover-white">For Rent</a>
+                <a href="house-for-rent" class="text-muted lh-26 font-weight-500 hover-white">Houses For Rent</a>
               </li>
               <li class="list-group-item bg-transparent p-0">
-                <a href="#" class="text-muted lh-26 font-weight-500 hover-white">For Sale</a>
+                <a href="house-for-sale" class="text-muted lh-26 font-weight-500 hover-white">Houses For Sale</a>
               </li>
               <li class="list-group-item bg-transparent p-0">
-                <a href="#" class="text-muted lh-26 font-weight-500 hover-white">For Lease</a>
+                <a href="#" class="text-muted lh-26 font-weight-500 hover-white">View Our Investment Plans </a>
+              </li>
+              <li class="list-group-item bg-transparent p-0">
+                <a href="apartment-for-rent" class="text-muted lh-26 font-weight-500 hover-white">Apartment For Rent</a>
               </li>
             </ul>
           </div>
@@ -1200,38 +1204,35 @@
             <h4 class="text-white fs-16 my-4 font-weight-500">Quick links</h4>
             <ul class="list-group list-group-flush list-group-no-border">
               <li class="list-group-item bg-transparent p-0">
-                <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Terms of Use</a>
+                <a href="apartment-for-sale" class="text-muted lh-26 font-weight-500 hover-white">Apartment For Sale</a>
               </li>
               <li class="list-group-item bg-transparent p-0">
-                <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Privacy Policy</a>
+                <a href="residential" class="text-muted lh-26 font-weight-500 hover-white">Lands at Residential Communities</a>
               </li>
               <li class="list-group-item bg-transparent p-0">
-                <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Contact Support</a>
+                <a href="commercial" class="text-muted lh-26 font-weight-500 hover-white">Commercial Lands</a>
               </li>
               <li class="list-group-item bg-transparent p-0">
-                <a href="#" class="text-muted lh-26 hover-white font-weight-500">Careers</a>
+                <a href="industrial" class="text-muted lh-26 hover-white font-weight-500">Industrial Lands</a>
+              </li>
+              <li class="list-group-item bg-transparent p-0">
+                <a href="farmland" class="text-muted lh-26 hover-white font-weight-500">Farm Lands for Sale</a>
               </li>
             </ul>
           </div>
           <div class="col-md-6 col-lg-4 mb-6 mb-md-0">
             <h4 class="text-white fs-16 my-4 font-weight-500">Connect with us via our social media accounts</h4>
             <ul class="list-inline mb-0">
+              
               <li class="list-inline-item mr-0">
-                <a href="#" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
-                                class="fab fa-twitter"></i></a>
-              </li>
-              <li class="list-inline-item mr-0">
-                <a href="#" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
+                <a href="https://www.facebook.com/Aisleproperties-111047958199016/" target="_blank" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
                                 class="fab fa-facebook-f"></i></a>
               </li>
               <li class="list-inline-item mr-0">
-                <a href="#" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
-                                class="fab fa-skype"></i></a>
+                <a href="https://instagram.com/aisleproperties?utm_medium=copy_link" target="_blank" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
+                                class="fab fa-instagram"></i></a>
               </li>
-              <li class="list-inline-item mr-0">
-                <a href="#" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
-                                class="fab fa-linkedin-in"></i></a>
-              </li>
+              
             </ul>
           </div>
         </div>
