@@ -297,7 +297,7 @@
                   </h2>
                   <p class="font-weight-500 text-gray-light mb-3">{{ $land->area }}</p>
                   <div class="position-relative d-block rounded-lg hover-change-image bg-hover-overlay card-img">
-                    @foreach ($land->imagess as $image)
+                    @foreach ($land->images as $image)
                       @if ($loop->first)
                         <img src="{{asset('/land_images/'.$image->name)}}" alt="">
                       @endif

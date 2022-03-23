@@ -297,7 +297,7 @@
                   </h2>
                   <p class="font-weight-500 text-gray-light mb-3">{{ $land->area }}</p>
                   <div class="position-relative d-block rounded-lg hover-change-image bg-hover-overlay card-img">
-                    @foreach ($land->imagess as $image)
+                    @foreach ($land->images as $image)
                       @if ($loop->first)
                         <img src="{{asset('/land_images/'.$image->name)}}" alt="">
                       @endif
@@ -307,7 +307,7 @@
                       <div class="mt-auto d-flex hover-image">
                         <ul class="list-inline mb-0 d-flex align-items-end mr-auto">
                           <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
-                            <a href="#" class="text-white hover-primary">
+                            <a href="single-land-properties" class="text-white hover-primary">
                               <i class="far fa-images"></i><span class="pl-1">9</span>
                             </a>
                           </li>
@@ -378,7 +378,7 @@
               <div class="card shadow-hover-xs-4" data-animate="fadeInUp">
                 <div class="card-header bg-transparent px-4 pt-4 pb-3">
                   <h2 class="fs-16 lh-2 mb-0">
-                    <a href="single-property-1.html"
+                    <a href="single-land-properties"
 							   class="text-dark hover-primary">Home in Metric Way</a>
                   </h2>
                   <p class="font-weight-500 text-gray-light mb-3">1421 San Pedro St, Los Angeles</p>

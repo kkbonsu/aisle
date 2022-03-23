@@ -108,6 +108,13 @@ Route::get('/residential', function () {
 Route::get('/investments', function () {
     return view('pages.home-01');
 });
+
+// single land
+Route::get('/single-land-properties', function() {
+    return view('pages.land.single-land-properties');
+});
+
+
 Route::get('/single-property-1/{$id}', function ($id) {
     $property = Property::find($id);
     return view('pages.single-properties-for-sale.single-property-1')->with([
