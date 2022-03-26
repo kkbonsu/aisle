@@ -11,6 +11,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\LandController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\BuyController;
+use App\Http\Controllers\PaperController;
 use App\Models\Land;
 use App\Models\Property;
 
@@ -191,3 +192,4 @@ Route::group(['middleware' => ['auth']], function () {
 });
 
 Route::resource('pages', PageController::class);
+Route::resource('papers', PaperController::class);

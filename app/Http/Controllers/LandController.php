@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Models\Land;
+use Illuminate\Support\Facades\Validator;
 
 class LandController extends Controller
 {
@@ -49,6 +50,9 @@ class LandController extends Controller
         ]);
     
         $input = $request->all();
+        $validator = Validator::make($request->all(), [
+            'file' => 'max:300',
+        ]);
     
         $land = Land::create($input);
         

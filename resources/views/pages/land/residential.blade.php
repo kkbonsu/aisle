@@ -482,7 +482,7 @@
               <div class="card shadow-hover-xs-4" data-animate="fadeInUp">
                 <div class="card-header bg-transparent px-4 pt-4 pb-3">
                   <h2 class="fs-16 lh-2 mb-0">
-                    <a href="{{ route('pages.show', $land->id) }}"
+                    <a href="{{ route('papers.show', $land->id) }}"
 							      class="text-dark hover-primary">{{$land->name}}</a>
                   </h2>
                   <p class="font-weight-500 text-gray-light mb-3">{{ $land->area }}</p>

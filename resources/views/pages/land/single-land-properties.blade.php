@@ -11,34 +11,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="vendors/fontawesome-pro-5/css/all.css">
-    <link rel="stylesheet" href="vendors/bootstrap-select/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="vendors/slick/slick.min.css">
-    <link rel="stylesheet" href="vendors/magnific-popup/magnific-popup.min.css">
-    <link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.min.css">
-    <link rel="stylesheet" href="vendors/chartjs/Chart.min.css">
-    <link rel="stylesheet" href="vendors/dropzone/css/dropzone.min.css">
-    <link rel="stylesheet" href="vendors/animate.css">
-    <link rel="stylesheet" href="vendors/timepicker/bootstrap-timepicker.min.css">
-    <link rel="stylesheet" href="vendors/mapbox-gl/mapbox-gl.min.css">
-    <link rel="stylesheet" href="vendors/dataTables/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="/vendors/fontawesome-pro-5/css/all.css">
+    <link rel="stylesheet" href="/vendors/bootstrap-select/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="/vendors/slick/slick.min.css">
+    <link rel="stylesheet" href="/vendors/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" href="/vendors/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="/vendors/chartjs/Chart.min.css">
+    <link rel="stylesheet" href="/vendors/dropzone/css/dropzone.min.css">
+    <link rel="stylesheet" href="/vendors/animate.css">
+    <link rel="stylesheet" href="/vendors/timepicker/bootstrap-timepicker.min.css">
+    <link rel="stylesheet" href="/vendors/mapbox-gl/mapbox-gl.min.css">
+    <link rel="stylesheet" href="/vendors/dataTables/jquery.dataTables.min.css">
     <!-- Themes core CSS -->
-    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="/css/themes.css">
     <!-- Favicons -->
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="/images/favicon.ico">
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@">
     <meta name="twitter:title" content="Single Property 6">
     <meta name="twitter:description" content="Real Estate Html Template">
-    <meta name="twitter:image" content="images/homeid-social-logo.png">
+    <meta name="twitter:image" content="/images/homeid-social-logo.png">
     <!-- Facebook -->
     <meta property="og:url" content="single-property-6.html">
     <meta property="og:title" content="Single Property 6">
     <meta property="og:description" content="Real Estate Html Template">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="images/homeid-social.png">
+    <meta property="og:image" content="/images/homeid-social.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -49,7 +49,7 @@
         <div class="container">
           <nav class="navbar navbar-expand-lg bg-transparent px-0">
             <a class="navbar-brand" href="/">
-              <img src="images/logo-white.png" alt="Logo">
+              <img src="/images/logo-white.png" alt="Logo">
             </a>
             <div class="d-flex d-lg-none ml-auto">
              
@@ -346,7 +346,7 @@
           </form>
         </div>
       </section> --}}
-      <section class="bg-gray-01 py-8 py-lg-0">
+      {{-- <section class="bg-gray-01 py-8 py-lg-0">
         <div class="container">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb py-3">
@@ -360,7 +360,7 @@
             </ol>
           </nav>
         </div>
-      </section>
+      </section> --}}
       <div class="primary-content bg-gray-01 pb-12">
         <div class="container">
           <div class="row">
@@ -408,15 +408,29 @@
                     </li>
                   </ul>
                 </div>
+                
                 <div class="slick-slider slider-for-01 arrow-haft-inner mx-0"
 						     data-slick-options='{"slidesToShow": 1, "autoplay":false,"dots":false,"arrows":false,"asNavFor": ".slider-nav-01"}'>
+                 @foreach ($land->images as $image)
+                 <div class="box px-0">
+                    <div class="item item-size-3-2">
+                      <div class="card p-0 hover-change-image">
+                        <a href="{{asset('/land_images/'.$image->name)}}" class="card-img"
+										   data-gtf-mfp="true"
+										   data-gallery-id="04"
+										   style="background-image:url('{{asset('/land_images/'.$image->name)}}')">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  @endforeach
                   <div class="box px-0">
                     <div class="item item-size-3-2">
                       <div class="card p-0 hover-change-image">
-                        <a href="images/single-property-lg-1.jpg" class="card-img"
+                        <a href="/images/single-property-lg-4.jpg" class="card-img"
 										   data-gtf-mfp="true"
 										   data-gallery-id="04"
-										   style="background-image:url('images/single-property-lg-1.jpg')">
+										   style="background-image:url('/images/single-property-lg-4.jpg')">
                         </a>
                       </div>
                     </div>
@@ -424,10 +438,10 @@
                   <div class="box px-0">
                     <div class="item item-size-3-2">
                       <div class="card p-0 hover-change-image">
-                        <a href="images/single-property-lg-4.jpg" class="card-img"
+                        <a href="/images/single-property-lg-3.jpg" class="card-img"
 										   data-gtf-mfp="true"
 										   data-gallery-id="04"
-										   style="background-image:url('images/single-property-lg-4.jpg')">
+										   style="background-image:url('/images/single-property-lg-3.jpg')">
                         </a>
                       </div>
                     </div>
@@ -435,10 +449,10 @@
                   <div class="box px-0">
                     <div class="item item-size-3-2">
                       <div class="card p-0 hover-change-image">
-                        <a href="images/single-property-lg-3.jpg" class="card-img"
+                        <a href="/images/single-property-lg-2.jpg" class="card-img"
 										   data-gtf-mfp="true"
 										   data-gallery-id="04"
-										   style="background-image:url('images/single-property-lg-3.jpg')">
+										   style="background-image:url('/images/single-property-lg-2.jpg')">
                         </a>
                       </div>
                     </div>
@@ -446,10 +460,10 @@
                   <div class="box px-0">
                     <div class="item item-size-3-2">
                       <div class="card p-0 hover-change-image">
-                        <a href="images/single-property-lg-2.jpg" class="card-img"
+                        <a href="/images/single-property-lg-9.jpg" class="card-img"
 										   data-gtf-mfp="true"
 										   data-gallery-id="04"
-										   style="background-image:url('images/single-property-lg-2.jpg')">
+										   style="background-image:url('/images/single-property-lg-9.jpg')">
                         </a>
                       </div>
                     </div>
@@ -457,21 +471,10 @@
                   <div class="box px-0">
                     <div class="item item-size-3-2">
                       <div class="card p-0 hover-change-image">
-                        <a href="images/single-property-lg-9.jpg" class="card-img"
+                        <a href="/images/single-property-lg-10.jpg" class="card-img"
 										   data-gtf-mfp="true"
 										   data-gallery-id="04"
-										   style="background-image:url('images/single-property-lg-9.jpg')">
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="box px-0">
-                    <div class="item item-size-3-2">
-                      <div class="card p-0 hover-change-image">
-                        <a href="images/single-property-lg-10.jpg" class="card-img"
-										   data-gtf-mfp="true"
-										   data-gallery-id="04"
-										   style="background-image:url('images/single-property-lg-10.jpg')">
+										   style="background-image:url('/images/single-property-lg-10.jpg')">
                         </a>
                       </div>
                     </div>
@@ -481,37 +484,37 @@
 						     data-slick-options='{"slidesToShow": 5, "autoplay":false,"dots":false,"arrows":false,"asNavFor": ".slider-for-01","focusOnSelect": true,"responsive":[{"breakpoint": 768,"settings": {"slidesToShow": 4}},{"breakpoint": 576,"settings": {"slidesToShow": 2}}]}'>
                   <div class="box pb-6 px-0">
                     <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
-                      <img src="images/single-property-sm-7.jpg" alt="Gallery 01"
+                      <img src="/images/single-property-sm-7.jpg" alt="Gallery 01"
 									     class="h-100 w-100 rounded-lg">
                     </div>
                   </div>
                   <div class="box pb-6 px-0">
                     <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
-                      <img src="images/single-property-sm-2.jpg" alt="Gallery 02"
+                      <img src="/images/single-property-sm-2.jpg" alt="Gallery 02"
 									     class="h-100 w-100 rounded-lg">
                     </div>
                   </div>
                   <div class="box pb-6 px-0">
                     <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
-                      <img src="images/single-property-sm-4.jpg" alt="Gallery 03"
+                      <img src="/images/single-property-sm-4.jpg" alt="Gallery 03"
 									     class="h-100 w-100 rounded-lg">
                     </div>
                   </div>
                   <div class="box pb-6 px-0">
                     <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
-                      <img src="images/single-property-sm-1.jpg" alt="Gallery 04"
+                      <img src="/images/single-property-sm-1.jpg" alt="Gallery 04"
 									     class="h-100 w-100 rounded-lg">
                     </div>
                   </div>
                   <div class="box pb-6 px-0">
                     <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
-                      <img src="images/single-property-9.jpg" alt="Gallery 05"
+                      <img src="/images/single-property-9.jpg" alt="Gallery 05"
 									     class="h-100 w-100 rounded-lg">
                     </div>
                   </div>
                   <div class="box pb-6 px-0">
                     <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
-                      <img src="images/single-property-1.jpg" alt="Gallery 06"
+                      <img src="/images/single-property-1.jpg" alt="Gallery 06"
 									     class="h-100 w-100 rounded-lg">
                     </div>
                   </div>
@@ -538,7 +541,7 @@
                     </div>
                     <div class="media-body">
                       <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Type</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">Single Family</p>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $land->type }}</p>
                     </div>
                   </div>
                 </div>
@@ -548,8 +551,8 @@
                       <svg class="icon icon-year fs-32 text-primary"><use xlink:href="#icon-year"></use></svg>
                     </div>
                     <div class="media-body">
-                      <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">year built</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">2020</p>
+                      <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Name</h5>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $land->name }}</p>
                     </div>
                   </div>
                 </div>
@@ -559,8 +562,8 @@
                       <svg class="icon icon-heating fs-32 text-primary"><use xlink:href="#icon-heating"></use></svg>
                     </div>
                     <div class="media-body">
-                      <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">heating</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">Radiant</p>
+                      <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Price</h5>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $land->price }}</p>
                     </div>
                   </div>
                 </div>
@@ -570,8 +573,8 @@
                       <svg class="icon icon-price fs-32 text-primary"><use xlink:href="#icon-price"></use></svg>
                     </div>
                     <div class="media-body">
-                      <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">SQFT</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">979.0</p>
+                      <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Area</h5>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $land->area }}</p>
                     </div>
                   </div>
                 </div>
@@ -693,7 +696,7 @@
                 <div class="box">
                   <div class="card shadow-hover-2 =">
                     <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
-                      <img src="images/properties-grid-38.jpg"
+                      <img src="/images/properties-grid-38.jpg"
 									     alt="Home in Metric Way">
                       <div class="card-img-overlay p-2 d-flex flex-column">
                         <div>
@@ -751,7 +754,7 @@
                 <div class="box">
                   <div class="card shadow-hover-2 =">
                     <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
-                      <img src="images/properties-grid-01.jpg"
+                      <img src="/images/properties-grid-01.jpg"
 									     alt="Garden Gingerbread House">
                       <div class="card-img-overlay p-2 d-flex flex-column">
                         <div>
@@ -810,7 +813,7 @@
                 <div class="box">
                   <div class="card shadow-hover-2 =">
                     <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
-                      <img src="images/properties-grid-02.jpg"
+                      <img src="/images/properties-grid-02.jpg"
 									     alt="Affordable Urban House">
                       <div class="card-img-overlay p-2 d-flex flex-column">
                         <div>
@@ -875,10 +878,10 @@
                   <li class="list-inline-item badge badge-orange mr-2">Featured</li>
                   <li class="list-inline-item badge badge-primary mr-3">For Sale</li>
                 </ul>
-                <h2 class="fs-22 text-heading pt-2">Villa Called Archangel</h2>
-                <p class="mb-2"><i class="fal fa-map-marker-alt mr-1"></i>398 Pete Pascale Pl, New York</p>
+                <h2 class="fs-22 text-heading pt-2">{{ $land->name }}</h2>
+                <p class="mb-2"><i class="fal fa-map-marker-alt mr-1"></i>{{ $land->area }}</p>
                 <div class="d-flex align-items-center">
-                  <p class="fs-22 text-heading font-weight-bold mb-0 mr-6">$1.250.000</p>
+                  <p class="fs-22 text-heading font-weight-bold mb-0 mr-6">${{ $land->price }}</p>
                   <p class="mb-0">$9350/SqFt</p>
                 </div>
                 <div class="row mt-5">
@@ -941,7 +944,7 @@
     <section>
       <div class="d-flex bottom-bar-action bottom-bar-action-01 py-2 px-4 bg-gray-01 align-items-center position-fixed fixed-bottom d-sm-none">
         <div class="media align-items-center">
-          <img src="images/irene-wallace.png" alt="Irene Wallace" class="mr-4 rounded-circle">
+          <img src="/images/irene-wallace.png" alt="Irene Wallace" class="mr-4 rounded-circle">
           <div class="media-body">
             <a href="#" class="d-block text-dark fs-15 font-weight-500 lh-15">Irene Wallace</a>
             <span class="fs-13 lh-2">Sales Excutive</span>
@@ -990,7 +993,7 @@
       <div class="row">
         <div class="col-md-6 col-lg-4 mb-6 mb-md-0">
           <a class="d-block mb-2" href="#">
-            <img src="images/logo-white.png" alt="">
+            <img src="/images/logo-white.png" alt="">
           </a>
           <div class="lh-26 font-weight-500">
             <p class="mb-0">Tantra Hills, Achimota 
@@ -1065,23 +1068,23 @@
     </div>
   </footer>
   <!-- Vendors scripts -->
-  <script src="vendors/jquery.min.js"></script>
-  <script src="vendors/jquery-ui/jquery-ui.min.js"></script>
-  <script src="vendors/bootstrap/bootstrap.bundle.js"></script>
-  <script src="vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
-  <script src="vendors/slick/slick.min.js"></script>
-  <script src="vendors/waypoints/jquery.waypoints.min.js"></script>
-  <script src="vendors/counter/countUp.js"></script>
-  <script src="vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
-  <script src="vendors/chartjs/Chart.min.js"></script>
-  <script src="vendors/dropzone/js/dropzone.min.js"></script>
-  <script src="vendors/timepicker/bootstrap-timepicker.min.js"></script>
-  <script src="vendors/hc-sticky/hc-sticky.min.js"></script>
-  <script src="vendors/jparallax/TweenMax.min.js"></script>
-  <script src="vendors/mapbox-gl/mapbox-gl.js"></script>
-  <script src="vendors/dataTables/jquery.dataTables.min.js"></script>
+  <script src="/vendors/jquery.min.js"></script>
+  <script src="/vendors/jquery-ui/jquery-ui.min.js"></script>
+  <script src="/vendors/bootstrap/bootstrap.bundle.js"></script>
+  <script src="/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+  <script src="/vendors/slick/slick.min.js"></script>
+  <script src="/vendors/waypoints/jquery.waypoints.min.js"></script>
+  <script src="/vendors/counter/countUp.js"></script>
+  <script src="/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="/vendors/chartjs/Chart.min.js"></script>
+  <script src="/vendors/dropzone/js/dropzone.min.js"></script>
+  <script src="/vendors/timepicker/bootstrap-timepicker.min.js"></script>
+  <script src="/vendors/hc-sticky/hc-sticky.min.js"></script>
+  <script src="/vendors/jparallax/TweenMax.min.js"></script>
+  <script src="/vendors/mapbox-gl/mapbox-gl.js"></script>
+  <script src="/vendors/dataTables/jquery.dataTables.min.js"></script>
   <!-- Theme scripts -->
-  <script src="js/theme.js"></script>
+  <script src="/js/theme.js"></script>
   <div class="modal fade login-register login-register-modal" id="login-register-modal" tabindex="-1" role="dialog"
      aria-labelledby="login-register-modal" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered mxw-571" role="document">
@@ -1159,7 +1162,7 @@
                     </label>
                   </div>
                   <a href="#" class="d-inline-block ml-auto">
-                    <img src="images/re-captcha.png" alt="Re-capcha">
+                    <img src="/images/re-captcha.png" alt="Re-capcha">
                   </a>
                 </div>
                 <button type="submit" class="btn btn-primary btn-lg btn-block">Log in</button>
@@ -1177,7 +1180,7 @@
                 </div>
                 <div class="col-4 px-2 mb-4">
                   <a href="#" class="btn btn-lg btn-block google px-0">
-                    <img src="images/google.png" alt="Google">
+                    <img src="/images/google.png" alt="Google">
                   </a>
                 </div>
                 <div class="col-4 px-2 mb-4">

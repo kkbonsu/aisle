@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use App\Models\Property;
 use App\Models\Type;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Validator;
 
 class PropertyController extends Controller
 {
@@ -54,6 +55,9 @@ class PropertyController extends Controller
         ]);
     
         $input = $request->all();
+        $validator = Validator::make($request->all(), [
+            'file' => 'max:300',
+        ]);
     
         $property = Property::create($input);
 
