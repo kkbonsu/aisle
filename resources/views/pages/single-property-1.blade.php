@@ -689,14 +689,29 @@
               <div class="item item-size-4-3">
                 <div class="card p-0 hover-zoom-in">
                   @foreach ($property->pictures as $picture)
-                  @if ($loop->first)
+                  {{-- @if ($loop->first) --}}
                   <a href="{{asset('/property_pictures/'.$picture->name)}}" class="card-img"
                                data-gtf-mfp="true"
                                data-gallery-id="01"
                                style="background-image:url('{{asset('/property_pictures/'.$picture->name)}}')">
                   </a>
-                  @endif
+                  {{-- @endif --}}
                   @endforeach
+
+                  {{-- @foreach ($property->pictures as $picture)
+                  <div class="box px-0">
+                     <div class="item item-size-3-2">
+                       <div class="card p-0 hover-change-image">
+                         <a href="{{asset('/property_pictures/'.$picture->name)}}" class="card-img"
+                        data-gtf-mfp="true"
+                        data-gallery-id="04"
+                        style="background-image:url('{{asset('/property_pictures/'.$picture->name)}}')">
+                         </a>
+                       </div>
+                     </div>
+                   </div>
+                   @endforeach --}}
+
                 </div>
               </div>
             </div>
