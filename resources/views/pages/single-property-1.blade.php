@@ -687,21 +687,21 @@
           <div class="row galleries m-n1">
             <div class="col-lg-6 p-1">
               <div class="item item-size-4-3">
-                <div class="card p-0 hover-change-image">
-                  @foreach ($property->pictures as $picture)
-                  {{-- @if ($loop->first) --}}
+                <div class="card p-0 hover-zoom-in">
+                  {{-- @foreach ($property->pictures as $picture)
+                  @if ($loop->first)
                   <a href="{{asset('/property_pictures/'.$picture->name)}}" class="card-img"
                                data-gtf-mfp="true"
                                data-gallery-id="01"
                                style="background-image:url('{{asset('/property_pictures/'.$picture->name)}}')">
                   </a>
-                  {{-- @endif --}}
-                  @endforeach
+                  @endif
+                  @endforeach --}}
 
-                  {{-- @foreach ($property->pictures as $picture)
+                  @foreach ($property->pictures as $picture)
                   <div class="box px-0">
                      <div class="item item-size-3-2">
-                       <div class="card p-0 hover-change-image">
+                       <div class="card p-0 hover-zoom-in">
                          <a href="{{asset('/property_pictures/'.$picture->name)}}" class="card-img"
                         data-gtf-mfp="true"
                         data-gallery-id="04"
@@ -710,7 +710,7 @@
                        </div>
                      </div>
                    </div>
-                   @endforeach --}}
+                   @endforeach
 
                 </div>
               </div>

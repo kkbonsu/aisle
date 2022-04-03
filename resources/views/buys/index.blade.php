@@ -218,7 +218,7 @@
                             <svg class="icon icon-my-properties"><use
                                             xlink:href="#icon-my-properties"></use></svg>
                           </span>
-                          <span class="sidebar-item-text">Buys</span>
+                          <span class="sidebar-item-text">Contact List</span>
                           {{-- <span class="sidebar-item-number ml-auto text-primary fs-15 font-weight-bold">29</span> --}}
                         </a>
                       </li>
