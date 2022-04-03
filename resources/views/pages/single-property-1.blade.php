@@ -687,7 +687,7 @@
           <div class="row galleries m-n1">
             <div class="col-lg-6 p-1">
               <div class="item item-size-4-3">
-                <div class="card p-0 hover-zoom-in">
+                <div class="card p-0 hover-change-image">
                   @foreach ($property->pictures as $picture)
                   {{-- @if ($loop->first) --}}
                   <a href="{{asset('/property_pictures/'.$picture->name)}}" class="card-img"
