@@ -411,14 +411,14 @@
                 
                 <div class="slick-slider slider-for-01 arrow-haft-inner mx-0"
 						     data-slick-options='{"slidesToShow": 1, "autoplay":false,"dots":false,"arrows":false,"asNavFor": ".slider-nav-01"}'>
-                 @foreach ($land->images as $image)
+                 @foreach ($property->pictures as $picture)
                  <div class="box px-0">
                     <div class="item item-size-3-2">
                       <div class="card p-0 hover-change-image">
-                        <a href="{{asset('/land_images/'.$image->name)}}" class="card-img"
+                        <a href="{{asset('/property_pictures/'.$picture->name)}}" class="card-img"
 										   data-gtf-mfp="true"
 										   data-gallery-id="04"
-										   style="background-image:url('{{asset('/land_images/'.$image->name)}}')">
+										   style="background-image:url('{{asset('/property_pictures/'.$picture->name)}}')">
                         </a>
                       </div>
                     </div>
@@ -541,7 +541,7 @@
                     </div>
                     <div class="media-body">
                       <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Type</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $land->type }}</p>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $property->type->name }}</p>
                     </div>
                   </div>
                 </div>
@@ -552,7 +552,7 @@
                     </div>
                     <div class="media-body">
                       <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Name</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $land->name }}</p>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $property->name }}</p>
                     </div>
                   </div>
                 </div>
@@ -563,7 +563,7 @@
                     </div>
                     <div class="media-body">
                       <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Price</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $land->price }}</p>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $property->price }}</p>
                     </div>
                   </div>
                 </div>
@@ -574,7 +574,7 @@
                     </div>
                     <div class="media-body">
                       <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Area</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $land->area }}</p>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $property->area }}</p>
                     </div>
                   </div>
                 </div>
@@ -585,7 +585,7 @@
                     </div>
                     <div class="media-body">
                       <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Bedrooms</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">3</p>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $property->bedrooms }}</p>
                     </div>
                   </div>
                 </div>
@@ -596,7 +596,7 @@
                     </div>
                     <div class="media-body">
                       <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">bathrooms</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">2</p>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $property->bathrooms }}</p>
                     </div>
                   </div>
                 </div>
@@ -607,7 +607,7 @@
                     </div>
                     <div class="media-body">
                       <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">GARAGE</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">1</p>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $property->garages }}</p>
                     </div>
                   </div>
                 </div>
@@ -629,15 +629,15 @@
               <div class="row">
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Property ID</dt>
-                  <dd>AD-2910</dd>
+                  <dd></dd>
                 </dl>
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Price</dt>
-                  <dd>$890.000</dd>
+                  <dd>GHS {{ $property->price }}</dd>
                 </dl>
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Property type</dt>
-                  <dd>Apartment, bar, cafe, villa</dd>
+                  <dd>{{ $property->type->name }}</dd>
                 </dl>
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Property status</dt>
@@ -878,10 +878,10 @@
                   <li class="list-inline-item badge badge-orange mr-2">Featured</li>
                   <li class="list-inline-item badge badge-primary mr-3">For Sale</li>
                 </ul>
-                <h2 class="fs-22 text-heading pt-2">{{ $land->name }}</h2>
-                <p class="mb-2"><i class="fal fa-map-marker-alt mr-1"></i>{{ $land->area }}</p>
+                <h2 class="fs-22 text-heading pt-2">{{ $property->name }}</h2>
+                <p class="mb-2"><i class="fal fa-map-marker-alt mr-1"></i>{{ $property->area }}</p>
                 <div class="d-flex align-items-center">
-                  <p class="fs-22 text-heading font-weight-bold mb-0 mr-6">${{ $land->price }}</p>
+                  <p class="fs-22 text-heading font-weight-bold mb-0 mr-6">${{ $property->price }}</p>
                   <p class="mb-0">$9350/SqFt</p>
                 </div>
                 <div class="row mt-5">
@@ -892,7 +892,7 @@
                       </div>
                       <div class="media-body">
                         <h5 class="fs-13 font-weight-normal mb-0">Bedrooms</h5>
-                        <p class="mb-0 fs-13 font-weight-bold text-dark">3</p>
+                        <p class="mb-0 fs-13 font-weight-bold text-dark">{{ $property->bedrooms }}</p>
                       </div>
                     </div>
                   </div>
@@ -903,7 +903,7 @@
                       </div>
                       <div class="media-body">
                         <h5 class="fs-13 font-weight-normal mb-0">Bathrooms</h5>
-                        <p class="mb-0 fs-13 font-weight-bold text-dark">2</p>
+                        <p class="mb-0 fs-13 font-weight-bold text-dark">{{ $property->bathrooms }}</p>
                       </div>
                     </div>
                   </div>
@@ -925,7 +925,7 @@
                       </div>
                       <div class="media-body">
                         <h5 class="fs-13 font-weight-normal mb-0">Garage</h5>
-                        <p class="mb-0 fs-13 font-weight-bold text-dark">1</p>
+                        <p class="mb-0 fs-13 font-weight-bold text-dark">{{ $property->garages }}</p>
                       </div>
                     </div>
                   </div>
