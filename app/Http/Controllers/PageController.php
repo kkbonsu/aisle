@@ -47,9 +47,11 @@ class PageController extends Controller
     public function show($id)
     {
         $property = Property::find($id);
+        $properties = Property::all();
 
         return view('pages.single-property-1')->with([
             'property' => $property,
+            'properties' => $properties
         ]);
     }
 

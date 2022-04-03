@@ -117,9 +117,11 @@ Route::get('/single-land-properties', function() {
 
 
 Route::get('/single-property-1/{$id}', function ($id) {
+    $properties = Property::all();
     $property = Property::find($id);
     return view('pages.single-properties-for-sale.single-property-1')->with([
-        'property' => $property
+        'property' => $property,
+        'properties' => $properties
     ]);
 });
 

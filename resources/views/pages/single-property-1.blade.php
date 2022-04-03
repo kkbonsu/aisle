@@ -684,14 +684,20 @@
               <h4 class="fs-22 text-heading mb-6">Similar Homes You May Like</h4>
               <div class="slick-slider"
 					     data-slick-options='{"slidesToShow": 2, "dots":false,"responsive":[{"breakpoint": 1200,"settings": {"slidesToShow":2,"arrows":false}},{"breakpoint": 992,"settings": {"slidesToShow":2}},{"breakpoint": 768,"settings": {"slidesToShow": 1}},{"breakpoint": 576,"settings": {"slidesToShow": 1}}]}'>
-                <div class="box">
+               @foreach ($properties as $property)
+               <div class="box">
                   <div class="card shadow-hover-2 =">
                     <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
-                      <img src="/images/properties-grid-38.jpg"
+                      @foreach ($property->pictures as $picture)
+                      @if($loop->first)
+                      <img src="{{asset('/property_pictures/'.$picture->name)}}"
 									     alt="Home in Metric Way">
+                      @endif
+                      @endforeach
                       <div class="card-img-overlay p-2 d-flex flex-column">
                         <div>
-                          <span class="badge mr-2 badge-primary">for Sale</span>
+                          <span class="badge mr-2 badge-primary">for {{ $property->category->name }}</span>
+                          <span class="badge mr-2 badge-orange">featured</span>
                         </div>
                         <ul class="list-inline mb-0 mt-auto hover-image">
                           <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
@@ -708,25 +714,25 @@
                       </div>
                     </div>
                     <div class="card-body pt-3">
-                      <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html" class="text-dark hover-primary">Home in Metric Way</a></h2>
-                      <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St, Los Angeles</p>
+                      <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html" class="text-dark hover-primary">{{ $property->name }}</a></h2>
+                      <p class="card-text font-weight-500 text-gray-light mb-2">{{ $property->area }}</p>
                       <ul class="list-inline d-flex mb-0 flex-wrap mr-n4">
                         <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="3 Bedroom">
-                          <svg class="icon icon-bedroom fs-18 text-primary mr-1"><use xlink:href="#icon-bedroom"></use></svg>3 Br
+                          <svg class="icon icon-bedroom fs-18 text-primary mr-1"><use xlink:href="#icon-bedroom"></use></svg>{{ $property->bedrooms }} Br
                         </li>
                         <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="3 Bathrooms">
-                          <svg class="icon icon-shower fs-18 text-primary mr-1"><use xlink:href="#icon-shower"></use></svg>3 Ba
+                          <svg class="icon icon-shower fs-18 text-primary mr-1"><use xlink:href="#icon-shower"></use></svg>{{ $property->bathrooms }} Ba
                         </li>
                         <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="Size">
                           <svg class="icon icon-square fs-18 text-primary mr-1"><use xlink:href="#icon-square"></use></svg>2300 Sq.Ft
                         </li>
                         <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="1 Garage">
-                          <svg class="icon icon-Garage fs-18 text-primary mr-1"><use xlink:href="#icon-Garage"></use></svg>1 Gr
+                          <svg class="icon icon-Garage fs-18 text-primary mr-1"><use xlink:href="#icon-Garage"></use></svg>{{ $property->garages }} Gr
                         </li>
                       </ul>
                     </div>
                     <div class="card-footer bg-transparent d-flex justify-content-between align-items-center py-3">
-                      <p class="fs-17 font-weight-bold text-heading mb-0">$1.250.000</p>
+                      <p class="fs-17 font-weight-bold text-heading mb-0">GHS {{ $property->price }}</p>
                       <ul class="list-inline mb-0">
                         <li class="list-inline-item">
                           <a href="#"
@@ -742,6 +748,7 @@
                     </div>
                   </div>
                 </div>
+                @endforeach
                 <div class="box">
                   <div class="card shadow-hover-2 =">
                     <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
