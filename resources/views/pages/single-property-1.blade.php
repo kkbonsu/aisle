@@ -6,7 +6,7 @@
     <meta name="description" content="Real Estate Html Template">
     <meta name="author" content="">
     <meta name="generator" content="Jekyll">
-    <title>AISLE PROPERTIES</title>
+    <title>Aisle || Land</title>
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet">
@@ -30,12 +30,12 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@">
-    <meta name="twitter:title" content="Single Property 1">
+    <meta name="twitter:title" content="Single Property 6">
     <meta name="twitter:description" content="Real Estate Html Template">
     <meta name="twitter:image" content="/images/homeid-social-logo.png">
     <!-- Facebook -->
-    <meta property="og:url" content="single-property-1.html">
-    <meta property="og:title" content="Single Property 1">
+    <meta property="og:url" content="single-property-6.html">
+    <meta property="og:title" content="Single Property 6">
     <meta property="og:description" content="Real Estate Html Template">
     <meta property="og:type" content="website">
     <meta property="og:image" content="/images/homeid-social.png">
@@ -44,810 +44,577 @@
     <meta property="og:image:height" content="630">
   </head>
   <body>
-    <header class="main-header navbar-light header-sticky header-sticky-smart header-mobile-lg">
-      <div class="sticky-area">
+    <header class="main-header navbar-dark bg-secondary pb-lg-9 header-sticky header-sticky-smart header-mobile-lg">
+      <div class="sticky-area bg-secondary">
         <div class="container">
-          <nav class="navbar navbar-expand-lg px-0">
-            <a class="navbar-brand" href="index.html">
-              <img src="/images/logo.png" alt="HomeID"
-                         class="d-none d-lg-inline-block">
-              <img src="/images/logo-white.png" alt="HomeID"
-                         class="d-inline-block d-lg-none">
+          <nav class="navbar navbar-expand-lg bg-transparent px-0">
+            <a class="navbar-brand" href="/">
+              <img src="/images/logo-white.png" alt="Logo">
             </a>
             <div class="d-flex d-lg-none ml-auto">
-              <a class="mr-4 position-relative text-white p-2" href="#">
-                <i class="fal fa-heart fs-large-4"></i>
-                <span class="badge badge-primary badge-circle badge-absolute">1</span>
-              </a>
+             
               <button class="navbar-toggler border-0 px-0" type="button" data-toggle="collapse"
-                            data-target="#primaryMenu01"
-                            aria-controls="primaryMenu01" aria-expanded="false" aria-label="Toggle navigation">
+                            data-target="#primaryMenu06"
+                            aria-controls="primaryMenu06" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="text-white fs-24"><i class="fal fa-bars"></i></span>
               </button>
             </div>
-            <div class="collapse navbar-collapse mt-3 mt-lg-0 mx-auto flex-grow-0" id="primaryMenu01">
+            <div class="collapse navbar-collapse mt-3 mt-lg-0 flex-grow-0 mx-auto" id="primaryMenu06">
               <ul class="navbar-nav hover-menu main-menu px-0 mx-lg-n4">
+
+                
+
                 <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
         class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
                   <a class="nav-link dropdown-toggle p-0"
-           href="index.html" data-toggle="dropdown" >
-                    Home
+           href="#" data-toggle="dropdown" >
+           For Rent
                     <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu pt-3 pb-0 pb-lg-3" aria-labelledby="navbar-item-home">
                     <li class="dropdown-item">
                       <a id="navbar-link-home-01"
                    class="dropdown-link"
-                   href="home-01.html" >
-                        Home 01
+                   href="apartments-for-rent">
+                   Apartments For Rent
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="home-02.html" >
-                        Home 02
+                   href="houses-for-rent" >
+                   Houses For Rent
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="home-03.html" >
-                        Home 03
+                   href="offices-for-rent" >
+                   Office Spaces For Rent
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-04"
                    class="dropdown-link"
-                   href="home-04.html" >
-                        Home 04
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-home-05"
-                   class="dropdown-link"
-                   href="home-05.html" >
-                        Home 05
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-home-06"
-                   class="dropdown-link"
-                   href="home-06.html" >
-                        Home 06
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-home-07"
-                   class="dropdown-link"
-                   href="home-07.html" >
-                        Home 07
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-home-08"
-                   class="dropdown-link"
-                   href="home-08.html" >
-                        Home 08
+                   href="rented-properties" >
+                   Rented Properties
                       </a>
                     </li>
                   </ul>
                 </li>
-                <li id="navbar-item-property" aria-haspopup="true" aria-expanded="false"
-        class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
-                  <a class="nav-link dropdown-toggle p-0"
-           href="listing.html" data-toggle="dropdown" >
-                    Property
-                    <span class="caret"></span>
-                  </a>
-                  <div class="dropdown-menu dropdown-menu-xxl px-0 py-3 dropdown-menu-listing" aria-labelledby="navbar-item-property">
-                    <div class="row no-gutters">
-                      <div class="col-lg-3">
-                        <!-- Heading -->
-                        <h4 class="dropdown-header text-dark fs-16 mb-2">
-                          List view
-                        </h4>
-                        <!-- List -->
-                        <a class="dropdown-item" href="listing-full-width-list.html">
-                          Full width list
-                        </a>
-                        <a class="dropdown-item" href="listing-with-left-filter.html">
-                          List with left filter
-                        </a>
-                        <a class="dropdown-item" href="listing-with-right-filter.html">
-                          List with right filter
-                        </a>
-                        <a class="dropdown-item" href="listing-with-left-sidebar.html">
-                          List with left sidebar
-                        </a>
-                        <!-- List -->
-                        <a class="dropdown-item" href="listing-with-right-sidebar.html">
-                          List with right sidebar
-                        </a>
-                      </div>
-                      <div class="col-lg-3">
-                        <!-- Heading -->
-                        <h4 class="dropdown-header text-dark fs-16 mb-2">
-                          Grid view
-                        </h4>
-                        <!-- List -->
-                        <a class="dropdown-item" href="listing-full-width-grid-1.html">
-                          Full width grid 1
-                        </a>
-                        <a class="dropdown-item" href="listing-full-width-grid-2.html">
-                          Full width grid 2
-                        </a>
-                        <a class="dropdown-item" href="listing-full-width-grid-3.html">
-                          Full width grid 3
-                        </a>
-                        <a class="dropdown-item" href="listing-grid-with-left-filter.html">
-                          Grid with left filter
-                        </a>
-                        <a class="dropdown-item" href="listing-grid-with-right-filter.html">
-                          Grid with right filter
-                        </a>
-                        <a class="dropdown-item" href="listing-grid-with-left-sidebar.html">
-                          Grid with left sidebar
-                        </a>
-                        <a class="dropdown-item" href="listing-grid-with-right-sidebar.html">
-                          Grid with right sidebar
-                        </a>
-                      </div>
-                      <div class="col-lg-3">
-                        <!-- Heading -->
-                        <h4 class="dropdown-header text-dark fs-16 mb-2">
-                          Map style
-                        </h4>
-                        <!-- List -->
-                        <a class="dropdown-item" href="listing-half-map-list-layout-1.html">
-                          Half map list layout 1
-                        </a>
-                        <a class="dropdown-item" href="listing-half-map-list-layout-2.html">
-                          Half map list layout 2
-                        </a>
-                        <a class="dropdown-item" href="listing-half-map-grid-layout-1.html">
-                          Half map grid layout 1
-                        </a>
-                        <a class="dropdown-item" href="listing-half-map-grid-layout-2.html">
-                          Half map grid layout 2
-                        </a>
-                        <a class="dropdown-item" href="listing-full-map-1.html">
-                          Full map 1
-                        </a>
-                        <a class="dropdown-item" href="listing-full-map-2.html">
-                          Full map 2
-                        </a>
-                        <a class="dropdown-item" href="listing-full-map-with-sidebar.html">
-                          Full Map with sidebar
-                        </a>
-                      </div>
-                      <div class="col-lg-3">
-                        <!-- Heading -->
-                        <h4 class="dropdown-header text-dark fs-16 mb-2">
-                          Single Property
-                        </h4>
-                        <!-- List -->
-                        <a class="dropdown-item" href="single-property-1.html">
-                          Single Property 1
-                        </a>
-                        <a class="dropdown-item" href="single-property-2.html">
-                          Single Property 2
-                        </a>
-                        <a class="dropdown-item" href="single-property-3.html">
-                          Single Property 3
-                        </a>
-                        <a class="dropdown-item" href="single-property-4.html">
-                          Single Property 4
-                        </a>
-                        <a class="dropdown-item" href="single-property-5.html">
-                          Single Property 5
-                        </a>
-                        <a class="dropdown-item" href="single-property-6.html">
-                          Single Property 6
-                        </a>
-                        <a class="dropdown-item" href="single-property-7.html">
-                          Single Property 7
-                        </a>
-                        <a class="dropdown-item" href="single-property-8.html">
-                          Single Property 8
-                        </a>
-                        <a class="dropdown-item" href="single-property-9.html">
-                          Single Property 9
-                        </a>
-                      </div>
-                    </div>
-                     <!-- / .row -->
-                  </div>
-                </li>
-                <li id="navbar-item-dashboard" aria-haspopup="true" aria-expanded="false"
+
+
+                 
+                <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
         class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
                   <a class="nav-link dropdown-toggle p-0"
            href="#" data-toggle="dropdown" >
-                    Dashboard
+           For Sale
                     <span class="caret"></span>
                   </a>
-                  <ul class="dropdown-menu pt-3 pb-0 pb-lg-3" aria-labelledby="navbar-item-dashboard">
+                  <ul class="dropdown-menu pt-3 pb-0 pb-lg-3" aria-labelledby="navbar-item-home">
                     <li class="dropdown-item">
-                      <a id="navbar-link-dashboard"
+                      <a id="navbar-link-home-01"
                    class="dropdown-link"
-                   href="dashboard.html" >
-                        Dashboard
-                      </a>
+                   href="/apartment-for-sale" >
+                   Apartments For Sale</a>
                     </li>
                     <li class="dropdown-item">
-                      <a id="navbar-link-add-new-property"
+                      <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="dashboard-add-new-property.html" >
-                        Add New Property
-                      </a>
+                   href="houses-for-sale" >
+                   Houses For Sale</a>
                     </li>
                     <li class="dropdown-item">
-                      <a id="navbar-link-my-properties"
+                      <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="dashboard-my-properties.html" >
-                        My Properties
-                      </a>
+                   href="offices-for-sale" >
+                   Office Spaces For Sale</a>
                     </li>
                     <li class="dropdown-item">
-                      <a id="navbar-link-my-favorites"
+                      <a id="navbar-link-home-04"
                    class="dropdown-link"
-                   href="dashboard-my-favorites.html" >
-                        My Favorites
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-save-search"
-                   class="dropdown-link"
-                   href="dashboard-save-search.html" >
-                        Save Search
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-reviews"
-                   class="dropdown-link"
-                   href="dashboard-reviews.html" >
-                        Reviews
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-my-package"
-                   class="dropdown-link"
-                   href="dashboard-my-packages.html" >
-                        My Package
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-my-profile"
-                   class="dropdown-link"
-                   href="dashboard-my-profiles.html" >
-                        My Profile
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-signup-and-login"
-                   class="dropdown-link"
-                   href="signup-and-login.html" >
-                        Signup and login
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-password-recovery"
-                   class="dropdown-link"
-                   href="password-recovery.html" >
-                        Password Recovery
-                      </a>
+                   href="sold-properties" >
+                   Sold Properties</a>
                     </li>
                   </ul>
                 </li>
-                <li id="navbar-item-pages" aria-haspopup="true" aria-expanded="false"
+
+                
+                <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
         class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
                   <a class="nav-link dropdown-toggle p-0"
-           href="#" data-toggle="dropdown" >
-                    Pages
+           href="#" data-toggle="dropdown">
+                Land
                     <span class="caret"></span>
                   </a>
-                  <ul class="dropdown-menu pt-3 pb-0 pb-lg-3" aria-labelledby="navbar-item-pages">
-                    <li class="dropdown-item dropdown dropright">
-                      <a id="navbar-link-news"
-                   class="dropdown-link dropdown-toggle"
-                   href="#" data-toggle="dropdown" >
-                        News
-                      </a>
-                      <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-lg-3"
-                    aria-labelledby="navbar-link-news">
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="blog-classic.html">Blog classic</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="blog-grid.html">Blog grid</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="blog-grid-with-sidebar.html">Blog grid with sidebar</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="blog-list-width-sidebar.html">Blog list with sidebar</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="blog-details-1.html">Blog details 1</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="blog-details-2.html">Blog details 2</a>
-                        </li>
-                      </ul>
+                  <ul class="dropdown-menu pt-3 pb-0 pb-lg-3" aria-labelledby="navbar-item-home">
+                    <li class="dropdown-item">
+                      <a id="navbar-link-home-01"
+                   class="dropdown-link"
+                   href="residential" >
+                   Residential                     </a>
                     </li>
                     <li class="dropdown-item">
-                      <a id="navbar-link-about-us"
+                      <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="about-us.html" >
-                        About us
-                      </a>
-                    </li>
-                    <li class="dropdown-item dropdown dropright">
-                      <a id="navbar-link-service"
-                   class="dropdown-link dropdown-toggle"
-                   href="#" data-toggle="dropdown" >
-                        Service
-                      </a>
-                      <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-lg-3"
-                    aria-labelledby="navbar-link-service">
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="services.html">Services</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="services-with-sidebar.html">Services with sidebar</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="dropdown-item dropdown dropright">
-                      <a id="navbar-link-contact-us"
-                   class="dropdown-link dropdown-toggle"
-                   href="#" data-toggle="dropdown" >
-                        Contact us
-                      </a>
-                      <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-lg-3"
-                    aria-labelledby="navbar-link-contact-us">
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="contact-us-1.html">Contact us 1</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="contact-us-2.html">Contact us 2</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="dropdown-item dropdown dropright">
-                      <a id="navbar-link-agent"
-                   class="dropdown-link dropdown-toggle"
-                   href="#" data-toggle="dropdown" >
-                        Agent
-                      </a>
-                      <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-lg-3"
-                    aria-labelledby="navbar-link-agent">
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agents-grid-1.html">Agents grid 1</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agents-grid-2.html">Agents grid 2</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agents-grid-with-sidebar.html">Agents grid with sidebar</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agents-list.html">Agents list</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agent-details-1.html">Agent detais 1</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agent-details-2.html">Agent detais 2</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="dropdown-item dropdown dropright">
-                      <a id="navbar-link-agency"
-                   class="dropdown-link dropdown-toggle"
-                   href="#" data-toggle="dropdown" >
-                        Agency
-                      </a>
-                      <ul class="dropdown-menu dropdown-submenu pt-3 pb-0 pb-lg-3"
-                    aria-labelledby="navbar-link-agency">
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agency-grid.html">Agency grid</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agency-list.html">Agency list</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agency-details-1.html">Agency details 1</a>
-                        </li>
-                        <li class="dropdown-item">
-                          <a class="dropdown-link" href="agency-details-2.html">Agency details 2</a>
-                        </li>
-                      </ul>
+                   href="commercial" >
+                   Commercial                    </a>
                     </li>
                     <li class="dropdown-item">
-                      <a id="navbar-link-faqs"
+                      <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="faqs.html" >
-                        FAQs
-                      </a>
+                   href="industrial" >
+                   Industrial                     </a>
                     </li>
                     <li class="dropdown-item">
-                      <a id="navbar-link-page-404"
+                      <a id="navbar-link-home-04"
                    class="dropdown-link"
-                   href="page-404.html" >
-                        Page 404
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-checkout"
-                   class="dropdown-link"
-                   href="checkout-complete-1.html" >
-                        Checkout
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-payment-completed"
-                   class="dropdown-link"
-                   href="checkout-complete-2.html" >
-                        Payment Completed
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-compare"
-                   class="dropdown-link"
-                   href="compare-details.html" >
-                        Compare
-                      </a>
-                    </li>
-                    <li class="dropdown-item">
-                      <a id="navbar-link-packages"
-                   class="dropdown-link"
-                   href="packages.html" >
-                        Packages
+                   href="farmland" >
+                   Farmland
                       </a>
                     </li>
                   </ul>
                 </li>
+
+                {{-- <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
+                class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
+                          <a class="nav-link  p-0"
+                   href="land.html" data-toggle="dropdown" >
+                   Land
+                          </a>
+                </li> --}}
+
+                <li id="navbar-item-home" aria-haspopup="true" aria-expanded="false"
+                class="nav-item  py-2 py-lg-5 px-0 px-lg-4">
+                          <a class="nav-link  p-0"
+                   href="/investments" data-toggle="dropdown" >
+                   Investments</a>
+                </li>
+
                 <li id="navbar-item-docs" aria-haspopup="true" aria-expanded="false"
-        class="nav-item dropdown py-2 py-lg-5 px-0 px-lg-4">
-                  <a class="nav-link dropdown-toggle p-0"
-           href="#" data-toggle="dropdown" >
-                    Docs
-                    <span class="caret"></span>
-                  </a>
-                  <div class="dropdown-menu px-0 pt-3 dropdown-menu-docs">
-                    <div class="dropdown-body">
-                      <a class="dropdown-item py-1"
-           href="/docs/getting-started/dev-environment-setup.html">
-                        <div class="media">
-                          <div class="fs-20 mr-3">
-                            <i class="fal fa-file-alt"></i>
-                          </div>
-                          <div class="media-body">
-                            <span class="d-block lh-15">Documentation</span>
-                            <small class="d-block">Kick-start customization</small>
-                          </div>
-                        </div>
-                      </a>
-                      <div class="dropdown-divider m-0"></div>
-                      <a class="dropdown-item py-1"
-           href="/docs/content/typography.html">
-                        <div class="media">
-                          <div class="fs-20 mr-3">
-                            <i class="fal fa-layer-group"></i>
-                          </div>
-                          <div class="media-body">
-                            <span class="d-block lh-15">UI Kit<span
-                            class="badge badge-danger ml-2">50+</span></span>
-                            <small class="d-block">Flexible components</small>
-                          </div>
-                        </div>
-                      </a>
-                      <div class="dropdown-divider m-0"></div>
-                      <a class="dropdown-item py-1"
-           href="/docs/getting-started/changelog.html">
-                        <div class="media">
-                          <div class="fs-20 mr-3">
-                            <i class="fal fa-edit"></i>
-                          </div>
-                          <div class="media-body">
-                            <span class="d-block lh-15">Changelog<span
-                            class="badge badge-success ml-2">v1.0.1</span></span>
-                            <small class="d-block">Regular updates</small>
-                          </div>
-                        </div>
-                      </a>
-                      <div class="dropdown-divider m-0"></div>
-                      <a class="dropdown-item py-1"
-           href="https://sp.g5plus.net/" target="_blank">
-                        <div class="media">
-                          <div class="fs-20 mr-3">
-                            <i class="fal fa-life-ring"></i>
-                          </div>
-                          <div class="media-body">
-                            <span class="d-block lh-15">Support</span>
-                            <small class="d-block">https://sp.g5plus.net/</small>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </li>
+                class="nav-item dropdown py-2 py-xl-5 px-0 px-xl-4">
+                            <a class="nav-link dropdown-toggle p-0"
+                   href="#" data-toggle="dropdown" >
+                   Property Management
+                              <span class="caret"></span>
+                            </a>
+                            <div class="dropdown-menu px-0 pt-3 dropdown-menu-docs">
+                              <div class="dropdown-body">
+                                <a class="dropdown-item py-1"
+                                    href="#">
+                                  <div class="media">
+                                    <div class="fs-20 mr-3">
+                                      <i class="fal fa-file-alt"></i>
+                                    </div>
+                                    <div class="media-body">
+                                      <span class="d-block lh-15"> Properties under our management are <br>  given topnotch attention with the single <br>
+                                        aim of boosting their desirability and<br>marketability for our clients.</span>
+                                      <div class="dropdown-divider m-0"></div>
+                                      {{-- <small class="d-block lh-15">Properties under our management are <br>  given topnotch attention with the single <br>
+                                           aim of boosting their desirability and<br>marketability for our clients.</small> --}}
+                                    </div>
+                                  </div>
+                                </a>
+                                <div class="dropdown-divider m-0"></div>
+                              </div>
+                            </div>
+                          </li>
               </ul>
-              <div class="d-block d-lg-none">
-                <ul class="navbar-nav flex-row justify-content-lg-end d-flex flex-wrap py-2">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle mr-md-2 pr-2 pl-0 pl-lg-2"
-           href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      ENG
-                    </a>
-                    <div class="dropdown-menu dropdown-sm dropdown-menu-left">
-                      <a class="dropdown-item" href="#">VN</a>
-                      <a class="dropdown-item active" href="#">ENG</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">ARB</a>
-                      <a class="dropdown-item" href="#">KR</a>
-                      <a class="dropdown-item" href="#">JN</a>
-                    </div>
-                  </li>
+              {{-- <div class="d-block d-lg-none">
+                <ul class="navbar-nav flex-row ml-auto align-items-center justify-content-lg-end flex-wrap py-2">
+                 
+                  <li class="divider"></li>
                   <li class="nav-item">
-                    <a class="nav-link  px-2" data-toggle="modal" href="#login-register-modal">SIGN IN</a>
+                    <a class="nav-link pl-3 px-2" data-toggle="modal" href="#login-register-modal">SIGN IN</a>
                   </li>
                 </ul>
-              </div>
+              </div> --}}
             </div>
-            <div class="d-none d-lg-block">
-              <ul class="navbar-nav flex-row justify-content-lg-end d-flex flex-wrap text-body py-2">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle mr-md-2 pr-2 pl-0 pl-lg-2"
-           href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    ENG
-                  </a>
-                  <div class="dropdown-menu dropdown-sm dropdown-menu-right">
-                    <a class="dropdown-item" href="#">VN</a>
-                    <a class="dropdown-item active" href="#">ENG</a>
-                    <a class="dropdown-item" href="#">ARB</a>
-                    <a class="dropdown-item" href="#">KR</a>
-                    <a class="dropdown-item" href="#">JN</a>
-                  </div>
-                </li>
+            {{-- <div class="d-none d-lg-block">
+              <ul class="navbar-nav flex-row ml-auto align-items-center justify-content-lg-end flex-wrap py-2">
+              
+                <li class="divider"></li>
                 <li class="nav-item">
-                  <a class="nav-link  px-2" data-toggle="modal" href="#login-register-modal">SIGN IN</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-2 position-relative" href="#">
-                    <i class="fal fa-heart fs-large-4"></i>
-                    <span class="badge badge-primary badge-circle badge-absolute">1</span>
-                  </a>
+                  <a class="nav-link pl-3 px-2" data-toggle="modal" href="#login-register-modal">SIGN IN</a>
                 </li>
               </ul>
-            </div>
+            </div> --}}
           </nav>
         </div>
       </div>
     </header>
+   
     <main id="content">
-      <section>
+      {{-- <section class="bg-secondary py-6 py-lg-0">
         <div class="container">
-          <nav aria-label="breadcrumb">
-            <ol class="breadcrumb pt-lg-0 pb-3">
-              <li class="breadcrumb-item fs-12 letter-spacing-087">
-                <a href=".">Home</a>
-              </li>
-              <li class="breadcrumb-item fs-12 letter-spacing-087">
-                <a href="listing-grid-with-left-filter.html">Listing</a>
-              </li>
-              <li class="breadcrumb-item fs-12 letter-spacing-087 active">Villa on Hollywood Boulevard</li>
-            </ol>
-          </nav>
-        </div>
-        <div class="container-fluid">
-          <div class="position-relative" data-animate="zoomIn">
-            <div class="position-absolute pos-fixed-top-right z-index-3">
-              <ul class="list-inline pt-4 pr-5">
-                <li class="list-inline-item mr-2">
-                  <a href="#" data-toggle="tooltip" title="Favourite"
-                           class="d-flex align-items-center justify-content-center w-40px h-40 bg-white text-heading bg-hover-primary hover-white rounded-circle">
-                    <i class="far fa-heart"></i></a>
-                </li>
-                <li class="list-inline-item mr-2">
-                  <button type="button"
-                                class="btn btn-white p-0 d-flex align-items-center justify-content-center w-40px h-40 text-heading bg-hover-primary hover-white rounded-circle border-0 shadow-none"
-                                data-container="body"
-                                data-toggle="popover" data-placement="top" data-html="true" data-content=' <ul class="list-inline mb-0">
-                    <li class="list-inline-item">
-                      <a href="#" class="text-muted fs-15 hover-dark lh-1 px-2"><i
-                                                        class="fab fa-twitter"></i></a>
-                    </li>
-                    <li class="list-inline-item ">
-                      <a href="#" class="text-muted fs-15 hover-dark lh-1 px-2"><i
-                                                        class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="#" class="text-muted fs-15 hover-dark lh-1 px-2"><i
-                                                        class="fab fa-instagram"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="#" class="text-muted fs-15 hover-dark lh-1 px-2"><i
-                                                        class="fab fa-youtube"></i></a>
-                    </li>
-                  </ul>
-                  '>
-                  <i class="far fa-share-alt"></i>
+          <form class="search-form d-none d-lg-block">
+            <div class="row align-items-center">
+              <div class="col-lg-5">
+                <div class="row">
+                  <div class="col-md-6">
+                    <label class="text-uppercase font-weight-500 opacity-7 text-white letter-spacing-093 mb-1">Home
+                      Type</label>
+                    <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-input-opacity-02" name="type"
+							        title="Select" data-style="p-0 h-24 lh-17 text-white">
+                      <option>Condominium</option>
+                      <option>Single-Family Home</option>
+                      <option>Townhouse</option>
+                      <option>Multi-Family Home</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6 pl-md-3 pt-md-0 pt-6">
+                    <label class="text-uppercase font-weight-500 opacity-7 text-white letter-spacing-093 mb-1">Location</label>
+                    <select class="form-control selectpicker bg-transparent border-bottom rounded-0 border-input-opacity-02" name="location"
+							        title="Select" data-style="p-0 h-24 lh-17 text-white">
+                      <option>Austin</option>
+                      <option>Boston</option>
+                      <option>Chicago</option>
+                      <option>Denver</option>
+                      <option>Los Angeles</option>
+                      <option>New York</option>
+                      <option>San Francisco</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-5 pt-lg-0 pt-6">
+                <label class="text-uppercase font-weight-500 opacity-7 text-white letter-spacing-093">Search</label>
+                <div class="position-relative">
+                  <input type="text" name="search"
+						       class="form-control bg-transparent shadow-none border-top-0 border-right-0 border-left-0 border-bottom rounded-0 h-24 lh-17 p-0 pr-md-5 text-white placeholder-light font-weight-500 border-input-opacity-02"
+						       placeholder="Enter an address, neighbourhood...">
+                  <i class="far fa-search position-absolute pos-fixed-right-center pr-0 fs-18 text-white pb-2 d-none d-md-block"></i>
+                </div>
+              </div>
+              <div class="col-12 col-lg-2 pt-lg-0 pt-7">
+                <button type="submit"
+					        class="btn bg-white-opacity-01 bg-white-hover-opacity-03 h-lg-100 w-100 shadow-none text-white rounded-0 fs-16 font-weight-600">
+                  Search
                 </button>
-              </li>
-              <li class="list-inline-item">
-                <a href="#" data-toggle="tooltip" title="Print"
-                           class="d-flex align-items-center justify-content-center w-40px h-40 bg-white text-heading bg-hover-primary hover-white rounded-circle">
-                  <i class="far fa-print"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="row galleries m-n1">
-            <div class="col-lg-6 p-1">
-              <div class="item item-size-4-3">
-                <div class="card p-0 hover-zoom-in">
-                  {{-- @foreach ($property->pictures as $picture)
-                  @if ($loop->first)
-                  <a href="{{asset('/property_pictures/'.$picture->name)}}" class="card-img"
-                               data-gtf-mfp="true"
-                               data-gallery-id="01"
-                               style="background-image:url('{{asset('/property_pictures/'.$picture->name)}}')">
+              </div>
+            </div>
+          </form>
+          <form class="property-search property-search-mobile d-lg-none">
+            <div class="row align-items-lg-center" id="accordion-mobile">
+              <div class="col-12">
+                <div class="form-group mb-0 position-relative">
+                  <a href="#advanced-search-filters-mobile"
+						   class="icon-primary btn advanced-search shadow-none pr-3 pl-0 d-flex align-items-center position-absolute pos-fixed-left-center py-0 h-100 border-right collapsed"
+						   data-toggle="collapse" data-target="#advanced-search-filters-mobile"
+						   aria-expanded="true"
+						   aria-controls="advanced-search-filters-mobile">
                   </a>
-                  @endif
-                  @endforeach --}}
-
-                  @foreach ($property->pictures as $picture)
-                  <div class="box px-0">
-                     <div class="item item-size-3-2">
-                       <div class="card p-0 hover-zoom-in">
-                         <a href="{{asset('/property_pictures/'.$picture->name)}}" class="card-img"
-                        data-gtf-mfp="true"
-                        data-gallery-id="04"
-                        style="background-image:url('{{asset('/property_pictures/'.$picture->name)}}')">
-                         </a>
-                       </div>
-                     </div>
-                   </div>
-                   @endforeach
-
+                  <input type="text"
+						       class="form-control form-control-lg border-0 shadow-none pr-9 pl-11 bg-white placeholder-muted"
+						       name="key-word"
+						       placeholder="Search...">
+                  <button type="submit"
+						        class="btn position-absolute pos-fixed-right-center p-0 text-heading fs-20 px-3 shadow-none h-100 border-left bg-white">
+                    <i class="far fa-search"></i>
+                  </button>
+                </div>
+              </div>
+              <div id="advanced-search-filters-mobile" class="col-12 pt-2 collapse"
+				     data-parent="#accordion-mobile">
+                <div class="row mx-n2">
+                  <div class="col-sm-6 pt-4 px-2">
+                    <select class="form-control border-0 shadow-none form-control-lg selectpicker bg-white"
+							        title="Home Types" data-style="btn-lg py-2 h-52 bg-white" name="type">
+                      <option>Condominium</option>
+                      <option>Single-Family Home</option>
+                      <option>Townhouse</option>
+                      <option>Multi-Family Home</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6 pt-4 px-2">
+                    <select class="form-control border-0 shadow-none form-control-lg selectpicker bg-white"
+							        name="bedroom"
+							        title="Location" data-style="btn-lg py-2 h-52 bg-white">
+                      <option>Austin</option>
+                      <option>Boston</option>
+                      <option>Chicago</option>
+                      <option>Denver</option>
+                      <option>Los Angeles</option>
+                      <option>New York</option>
+                      <option>San Francisco</option>
+                    </select>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          </form>
         </div>
-      </div>
-    </section>
-    <div class="primary-content pt-8">
-      <div class="container">
-        <div class="row">
-          <article class="col-lg-8 pr-xl-7">
-            <section class="pb-7 border-bottom">
-              <ul class="list-inline d-sm-flex align-items-sm-center mb-2">
-                <li class="list-inline-item badge badge-orange mr-2">Featured</li>
-                <li class="list-inline-item badge badge-primary mr-3">{{$property->category->name}}</li>
-              </ul>
-              <div class="d-sm-flex justify-content-sm-between">
-                <div>
-                  <h2 class="fs-35 font-weight-600 lh-15 text-heading">{{$property->name}}</h2>
-                  <p class="mb-0"><i class="fal fa-map-marker-alt mr-2"></i>{{$property->address}}</p>
+      </section> --}}
+      {{-- <section class="bg-gray-01 py-8 py-lg-0">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb py-3">
+              <li class="breadcrumb-item letter-spacing-1">
+                <a href=".">Home</a>
+              </li>
+              <li class="breadcrumb-item letter-spacing-1">
+                <a href="listing-grid-with-left-filter.html">Listing</a>
+              </li>
+              <li class="breadcrumb-item letter-spacing-1 active">Villa on Hollywood Boulevard</li>
+            </ol>
+          </nav>
+        </div>
+      </section> --}}
+      <div class="primary-content bg-gray-01 pb-12">
+        <div class="container">
+          <div class="row">
+            <article class="col-lg-8">
+              <section>
+                <div class="galleries position-relative">
+                  <div class="position-absolute pos-fixed-top-right z-index-3">
+                    <ul class="list-inline pt-4 pr-5">
+                      <li class="list-inline-item mr-2">
+                        <a href="#" data-toggle="tooltip" title="Favourite"
+									   class="d-flex align-items-center justify-content-center w-40px h-40 bg-white text-heading bg-hover-primary hover-white rounded-circle">
+                          <i class="far fa-heart"></i></a>
+                      </li>
+                      <li class="list-inline-item mr-2">
+                        <button type="button"
+									        class="btn btn-white p-0 d-flex align-items-center justify-content-center w-40px h-40 text-heading bg-hover-primary hover-white rounded-circle border-0 shadow-none"
+									        data-container="body"
+									        data-toggle="popover" data-placement="top" data-html="true" data-content=' <ul class="list-inline mb-0">
+                          <li class="list-inline-item">
+                            <a href="#" class="text-muted fs-15 hover-dark lh-1 px-2"><i
+	                                                        class="fab fa-twitter"></i></a>
+                          </li>
+                          <li class="list-inline-item ">
+                            <a href="#" class="text-muted fs-15 hover-dark lh-1 px-2"><i
+	                                                        class="fab fa-facebook-f"></i></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="#" class="text-muted fs-15 hover-dark lh-1 px-2"><i
+	                                                        class="fab fa-instagram"></i></a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="#" class="text-muted fs-15 hover-dark lh-1 px-2"><i
+	                                                        class="fab fa-youtube"></i></a>
+                          </li>
+                        </ul>
+                        '>
+                        <i class="far fa-share-alt"></i>
+                      </button>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" data-toggle="tooltip" title="Print"
+									   class="d-flex align-items-center justify-content-center w-40px h-40 bg-white text-heading bg-hover-primary hover-white rounded-circle">
+                        <i class="far fa-print"></i>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="mt-2 text-lg-right">
-                  <p class="fs-22 text-heading font-weight-bold mb-0">${{$property->price}}</p>
-                  {{-- <p class="mb-0">$9350/SqFt</p> --}}
+                
+                <div class="slick-slider slider-for-01 arrow-haft-inner mx-0"
+						     data-slick-options='{"slidesToShow": 1, "autoplay":false,"dots":false,"arrows":false,"asNavFor": ".slider-nav-01"}'>
+                 @foreach ($land->images as $image)
+                 <div class="box px-0">
+                    <div class="item item-size-3-2">
+                      <div class="card p-0 hover-change-image">
+                        <a href="{{asset('/land_images/'.$image->name)}}" class="card-img"
+										   data-gtf-mfp="true"
+										   data-gallery-id="04"
+										   style="background-image:url('{{asset('/land_images/'.$image->name)}}')">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  @endforeach
+                  <div class="box px-0">
+                    <div class="item item-size-3-2">
+                      <div class="card p-0 hover-change-image">
+                        <a href="/images/single-property-lg-4.jpg" class="card-img"
+										   data-gtf-mfp="true"
+										   data-gallery-id="04"
+										   style="background-image:url('/images/single-property-lg-4.jpg')">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box px-0">
+                    <div class="item item-size-3-2">
+                      <div class="card p-0 hover-change-image">
+                        <a href="/images/single-property-lg-3.jpg" class="card-img"
+										   data-gtf-mfp="true"
+										   data-gallery-id="04"
+										   style="background-image:url('/images/single-property-lg-3.jpg')">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box px-0">
+                    <div class="item item-size-3-2">
+                      <div class="card p-0 hover-change-image">
+                        <a href="/images/single-property-lg-2.jpg" class="card-img"
+										   data-gtf-mfp="true"
+										   data-gallery-id="04"
+										   style="background-image:url('/images/single-property-lg-2.jpg')">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box px-0">
+                    <div class="item item-size-3-2">
+                      <div class="card p-0 hover-change-image">
+                        <a href="/images/single-property-lg-9.jpg" class="card-img"
+										   data-gtf-mfp="true"
+										   data-gallery-id="04"
+										   style="background-image:url('/images/single-property-lg-9.jpg')">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box px-0">
+                    <div class="item item-size-3-2">
+                      <div class="card p-0 hover-change-image">
+                        <a href="/images/single-property-lg-10.jpg" class="card-img"
+										   data-gtf-mfp="true"
+										   data-gallery-id="04"
+										   style="background-image:url('/images/single-property-lg-10.jpg')">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slick-slider slider-nav-01 mt-4 mx-n1 arrow-haft-inner"
+						     data-slick-options='{"slidesToShow": 5, "autoplay":false,"dots":false,"arrows":false,"asNavFor": ".slider-for-01","focusOnSelect": true,"responsive":[{"breakpoint": 768,"settings": {"slidesToShow": 4}},{"breakpoint": 576,"settings": {"slidesToShow": 2}}]}'>
+                  <div class="box pb-6 px-0">
+                    <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
+                      <img src="/images/single-property-sm-7.jpg" alt="Gallery 01"
+									     class="h-100 w-100 rounded-lg">
+                    </div>
+                  </div>
+                  <div class="box pb-6 px-0">
+                    <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
+                      <img src="/images/single-property-sm-2.jpg" alt="Gallery 02"
+									     class="h-100 w-100 rounded-lg">
+                    </div>
+                  </div>
+                  <div class="box pb-6 px-0">
+                    <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
+                      <img src="/images/single-property-sm-4.jpg" alt="Gallery 03"
+									     class="h-100 w-100 rounded-lg">
+                    </div>
+                  </div>
+                  <div class="box pb-6 px-0">
+                    <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
+                      <img src="/images/single-property-sm-1.jpg" alt="Gallery 04"
+									     class="h-100 w-100 rounded-lg">
+                    </div>
+                  </div>
+                  <div class="box pb-6 px-0">
+                    <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
+                      <img src="/images/single-property-9.jpg" alt="Gallery 05"
+									     class="h-100 w-100 rounded-lg">
+                    </div>
+                  </div>
+                  <div class="box pb-6 px-0">
+                    <div class="bg-hover-white p-1 shadow-hover-xs-3 h-100 rounded-lg">
+                      <img src="/images/single-property-1.jpg" alt="Gallery 06"
+									     class="h-100 w-100 rounded-lg">
+                    </div>
+                  </div>
                 </div>
               </div>
-              <h4 class="fs-22 text-heading mt-6 mb-2">Description</h4>
+            </section>
+            <section class="pb-8 px-6 pt-5 bg-white rounded-lg">
+              <h4 class="fs-22 text-heading mb-3">Description</h4>
               <p class="mb-0 lh-214">Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus
                 scelerisque eleifend donec.
                 Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper
                 quis lectus. Turpis in eu mi bibendum neque
-                egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim
-                sodales
+                egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales
                 ut eu sem. Nibh mauris cursus mattis molestie a
                 iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.</p>
             </section>
-            <section class="pt-6 border-bottom">
+            <section class="mt-2 pb-3 px-6 pt-5 bg-white rounded-lg">
               <h4 class="fs-22 text-heading mb-6">Facts and Features</h4>
               <div class="row">
                 <div class="col-lg-3 col-sm-4 mb-6">
                   <div class="media">
                     <div class="p-2 shadow-xxs-1 rounded-lg mr-2">
-                      <svg class="icon icon-family fs-32 text-primary">
-                        <use xlink:href="#icon-family"></use>
-                      </svg>
+                      <svg class="icon icon-family fs-32 text-primary"><use xlink:href="#icon-family"></use></svg>
                     </div>
                     <div class="media-body">
                       <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Type</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{$property->type->name}}</p>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $land->type }}</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-3 col-sm-4 mb-6">
                   <div class="media">
                     <div class="p-2 shadow-xxs-1 rounded-lg mr-2">
-                      <svg class="icon icon-year fs-32 text-primary">
-                        <use xlink:href="#icon-year"></use>
-                      </svg>
+                      <svg class="icon icon-year fs-32 text-primary"><use xlink:href="#icon-year"></use></svg>
                     </div>
                     <div class="media-body">
-                      <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">year built</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">2020</p>
+                      <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Name</h5>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $land->name }}</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-3 col-sm-4 mb-6">
                   <div class="media">
                     <div class="p-2 shadow-xxs-1 rounded-lg mr-2">
-                      <svg class="icon icon-heating fs-32 text-primary">
-                        <use xlink:href="#icon-heating"></use>
-                      </svg>
+                      <svg class="icon icon-heating fs-32 text-primary"><use xlink:href="#icon-heating"></use></svg>
                     </div>
                     <div class="media-body">
-                      <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">heating</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">Radiant</p>
+                      <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Price</h5>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $land->price }}</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-3 col-sm-4 mb-6">
                   <div class="media">
                     <div class="p-2 shadow-xxs-1 rounded-lg mr-2">
-                      <svg class="icon icon-price fs-32 text-primary">
-                        <use xlink:href="#icon-price"></use>
-                      </svg>
+                      <svg class="icon icon-price fs-32 text-primary"><use xlink:href="#icon-price"></use></svg>
                     </div>
                     <div class="media-body">
-                      <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">SQFT</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">979.0</p>
+                      <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Area</h5>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{ $land->area }}</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-3 col-sm-4 mb-6">
                   <div class="media">
                     <div class="p-2 shadow-xxs-1 rounded-lg mr-2">
-                      <svg class="icon icon-bedroom fs-32 text-primary">
-                        <use xlink:href="#icon-bedroom"></use>
-                      </svg>
+                      <svg class="icon icon-bedroom fs-32 text-primary"><use xlink:href="#icon-bedroom"></use></svg>
                     </div>
                     <div class="media-body">
                       <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Bedrooms</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{$property->bedrooms}}</p>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">3</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-3 col-sm-4 mb-6">
                   <div class="media">
                     <div class="p-2 shadow-xxs-1 rounded-lg mr-2">
-                      <svg class="icon icon-sofa fs-32 text-primary">
-                        <use xlink:href="#icon-sofa"></use>
-                      </svg>
+                      <svg class="icon icon-sofa fs-32 text-primary"><use xlink:href="#icon-sofa"></use></svg>
                     </div>
                     <div class="media-body">
-                      <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">BATHROOMS</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{$property->bathrooms}}</p>
+                      <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">bathrooms</h5>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">2</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-3 col-sm-4 mb-6">
                   <div class="media">
                     <div class="p-2 shadow-xxs-1 rounded-lg mr-2">
-                      <svg class="icon icon-Garage fs-32 text-primary">
-                        <use xlink:href="#icon-Garage"></use>
-                      </svg>
+                      <svg class="icon icon-Garage fs-32 text-primary"><use xlink:href="#icon-Garage"></use></svg>
                     </div>
                     <div class="media-body">
                       <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">GARAGE</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">{{$property->garages}}</p>
+                      <p class="mb-0 fs-13 font-weight-bold text-heading">1</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-3 col-sm-4 mb-6">
                   <div class="media">
                     <div class="p-2 shadow-xxs-1 rounded-lg mr-2">
-                      <svg class="icon icon-status fs-32 text-primary">
-                        <use xlink:href="#icon-status"></use>
-                      </svg>
+                      <svg class="icon icon-status fs-32 text-primary"><use xlink:href="#icon-status"></use></svg>
                     </div>
                     <div class="media-body">
                       <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Status</h5>
@@ -857,1042 +624,247 @@
                 </div>
               </div>
             </section>
-            <section class="pt-6 border-bottom pb-4">
+            <section class="mt-2 pb-6 px-6 pt-5 bg-white rounded-lg">
               <h4 class="fs-22 text-heading mb-4">Additional Details</h4>
               <div class="row">
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Property ID</dt>
-                  <dd>PROP-{{$property->id}}</dd>
+                  <dd>AD-2910</dd>
                 </dl>
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Price</dt>
-                  <dd>{{$property->price}}</dd>
+                  <dd>$890.000</dd>
                 </dl>
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Property type</dt>
-                  <dd>{{$property->type->name}}</dd>
+                  <dd>Apartment, bar, cafe, villa</dd>
                 </dl>
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Property status</dt>
-                  <dd>{{$property->category->name}}</dd>
+                  <dd>For Sale</dd>
                 </dl>
-                {{-- <dl class="col-sm-6 mb-0 d-flex">
+                <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Rooms</dt>
                   <dd>4</dd>
-                </dl> --}}
+                </dl>
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Bedrooms</dt>
-                  <dd>{{$property->bedrooms}}</dd>
+                  <dd>3</dd>
                 </dl>
-                {{-- <dl class="col-sm-6 mb-0 d-flex">
+                <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Size</dt>
                   <dd>900SqFt</dd>
-                </dl> --}}
+                </dl>
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Bathrooms</dt>
-                  <dd>{{$property->bathrooms}}</dd>
+                  <dd>2</dd>
                 </dl>
                 <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Garage</dt>
-                  <dd>{{$property->garages}}</dd>
+                  <dd>1</dd>
                 </dl>
-                {{-- <dl class="col-sm-6 mb-0 d-flex">
+                <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Bathrooms</dt>
                   <dd>2000 SqFt</dd>
-                </dl> --}}
-                {{-- <dl class="col-sm-6 mb-0 d-flex">
+                </dl>
+                <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Garage size</dt>
                   <dd>50 SqFt</dd>
-                </dl> --}}
-                {{-- <dl class="col-sm-6 mb-0 d-flex">
+                </dl>
+                <dl class="col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Year build</dt>
                   <dd>2020</dd>
                 </dl>
                 <dl class="offset-sm-6 col-sm-6 mb-0 d-flex">
                   <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Label</dt>
                   <dd>Bestseller</dd>
-                </dl> --}}
+                </dl>
               </div>
             </section>
-            <section class="pt-6 border-bottom pb-4">
-              <h4 class="fs-22 text-heading mb-4">Offices Amenities</h4>
-              <ul class="list-unstyled mb-0 row no-gutters">
-                <li class="col-sm-3 col-6 mb-2"><i class="far fa-check mr-2 text-primary"></i>Balcony
-                </li>
-                <li class="col-sm-3 col-6 mb-2"><i class="far fa-check mr-2 text-primary"></i>Fireplace
-                </li>
-                <li class="col-sm-3 col-6 mb-2"><i class="far fa-check mr-2 text-primary"></i>Balcony
-                </li>
-                <li class="col-sm-3 col-6 mb-2"><i class="far fa-check mr-2 text-primary"></i>Fireplace
-                </li>
-              </ul>
-            </section>
-            <section class="py-6">
-              <h4 class="fs-22 text-heading mb-6">Floor Plans</h4>
-              <div class="accordion accordion-03 mb-3" id="accordion-01">
-                <div class="card border-0 shadow-xxs-2">
-                  <div class="card-header bg-gray-01 border-gray border-0 p-0"
-                                 id="floor-plans-01">
-                    <div class="heading d-flex justify-content-between align-items-center px-6"
-                                     data-toggle="collapse" data-target="#collapse-01" aria-expanded="true"
-                                     aria-controls="collapse-01" role="button">
-                      <h2 class="mb-0 fs-16 text-heading font-weight-500 py-4 lh-13">First Floor</h2>
-                      <ul class="list-inline mb-0 d-none d-sm-block pr-2">
-                        <li class=" list-inline-item text-muted mr-4">Beds : <span
-                                                class="font-weight-500 text-heading">2</span></li>
-                        <li class=" list-inline-item text-muted mr-4">Bath : <span
-                                                class="font-weight-500 text-heading">2</span></li>
-                        <li class=" list-inline-item text-muted mr-4">Sqft : <span
-                                                class="font-weight-500 text-heading">900</span></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div id="collapse-01"
-                                 class="collapse show"
-                                 aria-labelledby="floor-plans-01"
-                                 data-parent="#accordion-01">
-                    <div class="card-body card-body col-sm-6 offset-sm-3 mb-3">
-                      <img src="/images/single-detail-property-01.jpg" class="card-img" alt="Floor Plans">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion accordion-03 mb-3" id="accordion-02">
-                <div class="card border-0 shadow-xxs-2">
-                  <div class="card-header bg-gray-01 border-gray border-0 p-0"
-                                 id="floor-plans-02">
-                    <div class="heading d-flex justify-content-between align-items-center px-6 collapsed "
-                                     data-toggle="collapse" data-target="#collapse-02" aria-expanded="true"
-                                     aria-controls="collapse-02" role="button">
-                      <h2 class="mb-0 fs-16 text-heading font-weight-500 py-4 lh-13">Second Floor</h2>
-                      <ul class="list-inline mb-0 d-none d-sm-block pr-2">
-                        <li class=" list-inline-item text-muted mr-4">Beds : <span
-                                                class="font-weight-500 text-heading">2</span></li>
-                        <li class=" list-inline-item text-muted mr-4">Bath : <span
-                                                class="font-weight-500 text-heading">2</span></li>
-                        <li class=" list-inline-item text-muted mr-4">Sqft : <span
-                                                class="font-weight-500 text-heading">900</span></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div id="collapse-02"
-                                 class="collapse "
-                                 aria-labelledby="floor-plans-02"
-                                 data-parent="#accordion-02">
-                    <div class="card-body card-body col-sm-6 offset-sm-3 mb-3">
-                      <img src="/images/single-detail-property-01.jpg" class="card-img" alt="Floor Plans">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion accordion-03 mb-3" id="accordion-03">
-                <div class="card border-0 shadow-xxs-2">
-                  <div class="card-header bg-gray-01 border-gray border-0 p-0"
-                                 id="floor-plans-03">
-                    <div class="heading d-flex justify-content-between align-items-center px-6 collapsed "
-                                     data-toggle="collapse" data-target="#collapse-03" aria-expanded="true"
-                                     aria-controls="collapse-03" role="button">
-                      <h2 class="mb-0 fs-16 text-heading font-weight-500 py-4 lh-13">Third Floor</h2>
-                      <ul class="list-inline mb-0 d-none d-sm-block pr-2">
-                        <li class=" list-inline-item text-muted mr-4">Beds : <span
-                                                class="font-weight-500 text-heading">2</span></li>
-                        <li class=" list-inline-item text-muted mr-4">Bath : <span
-                                                class="font-weight-500 text-heading">2</span></li>
-                        <li class=" list-inline-item text-muted mr-4">Sqft : <span
-                                                class="font-weight-500 text-heading">900</span></li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div id="collapse-03"
-                                 class="collapse "
-                                 aria-labelledby="floor-plans-03"
-                                 data-parent="#accordion-03">
-                    <div class="card-body card-body col-sm-6 offset-sm-3 mb-3">
-                      <img src="/images/single-detail-property-01.jpg" class="card-img" alt="Floor Plans">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section>
-              <h4 class="fs-22 text-heading lh-15 mb-5 pt-3">Rating & Reviews</h4>
-              <div class="card border-0 mb-4">
-                <div class="card-body p-0">
-                  <div class="row">
-                    <div class="col-sm-6 mb-6 mb-sm-0">
-                      <div class="bg-gray-01 rounded-lg pt-2 px-6 pb-6">
-                        <h5 class="fs-16 lh-2 text-heading mb-6">
-                          Avarage User Rating
-                        </h5>
-                        <p class="fs-40 text-heading font-weight-bold mb-6 lh-1">4.6 <span
-                                                class="fs-18 text-gray-light font-weight-normal">/5</span></p>
-                        <ul class="list-inline">
-                          <li class="list-inline-item bg-warning text-white w-46px h-46 rounded-lg d-inline-flex align-items-center justify-content-center fs-18 mb-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item bg-warning text-white w-46px h-46 rounded-lg d-inline-flex align-items-center justify-content-center fs-18 mb-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item bg-warning text-white w-46px h-46 rounded-lg d-inline-flex align-items-center justify-content-center fs-18 mb-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item bg-warning text-white w-46px h-46 rounded-lg d-inline-flex align-items-center justify-content-center fs-18 mb-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item bg-gray-04 text-white w-46px h-46 rounded-lg d-inline-flex align-items-center justify-content-center fs-18 mb-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="col-sm-6 pt-3">
-                      <h5 class="fs-16 lh-2 text-heading mb-5">
-                        Rating Breakdown
-                      </h5>
-                      <div class="d-flex align-items-center mx-n1">
-                        <ul class="list-inline d-flex px-1 mb-0">
-                          <li class="list-inline-item text-warning mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-warning mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-warning mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-warning mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-warning mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                        </ul>
-                        <div class="d-block w-100 px-1">
-                          <div class="progress rating-progress">
-                            <div class="progress-bar bg-warning" role="progressbar"
-                                                     style="width: 60%" aria-valuenow="60" aria-valuemin="0"
-                                                     aria-valuemax="100"></div>
-                          </div>
-                        </div>
-                        <div class="text-muted px-1">60%</div>
-                      </div>
-                      <div class="d-flex align-items-center mx-n1">
-                        <ul class="list-inline d-flex px-1 mb-0">
-                          <li class="list-inline-item text-warning mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-warning mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-warning mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-warning mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-border mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                        </ul>
-                        <div class="d-block w-100 px-1">
-                          <div class="progress rating-progress">
-                            <div class="progress-bar bg-warning" role="progressbar"
-                                                     style="width: 40%" aria-valuenow="40" aria-valuemin="0"
-                                                     aria-valuemax="100"></div>
-                          </div>
-                        </div>
-                        <div class="text-muted px-1">40%</div>
-                      </div>
-                      <div class="d-flex align-items-center mx-n1">
-                        <ul class="list-inline d-flex px-1 mb-0">
-                          <li class="list-inline-item text-warning mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-warning mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-warning mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-border mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-border mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                        </ul>
-                        <div class="d-block w-100 px-1">
-                          <div class="progress rating-progress">
-                            <div class="progress-bar bg-warning" role="progressbar"
-                                                     aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                        </div>
-                        <div class="text-muted px-1">0%</div>
-                      </div>
-                      <div class="d-flex align-items-center mx-n1">
-                        <ul class="list-inline d-flex px-1 mb-0">
-                          <li class="list-inline-item text-warning mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-warning mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-border mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-border mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-border mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                        </ul>
-                        <div class="d-block w-100 px-1">
-                          <div class="progress rating-progress">
-                            <div class="progress-bar bg-warning" role="progressbar"
-                                                     aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                        </div>
-                        <div class="text-muted px-1">0%</div>
-                      </div>
-                      <div class="d-flex align-items-center mx-n1">
-                        <ul class="list-inline d-flex px-1 mb-0">
-                          <li class="list-inline-item text-warning mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-border mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-border mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-border mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                          <li class="list-inline-item text-border mr-1">
-                            <i class="fas fa-star"></i>
-                          </li>
-                        </ul>
-                        <div class="d-block w-100 px-1">
-                          <div class="progress rating-progress">
-                            <div class="progress-bar bg-warning" role="progressbar"
-                                                     aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                        </div>
-                        <div class="text-muted px-1">0%</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="pt-5">
-              <div class="card border-0 mb-4">
-                <div class="card-body p-0">
-                  <h3 class="fs-16 lh-2 text-heading mb-0 d-inline-block pr-4 border-bottom border-primary">5
-                    Reviews</h3>
-                  <div class="media border-top pt-7 pb-6 d-sm-flex d-block text-sm-left text-center">
-                    <img src="/images/review-07.jpg" alt="Danny Fox"
-                                     class="mr-sm-8 mb-4 mb-sm-0">
-                    <div class="media-body">
-                      <div class="row mb-1 align-items-center">
-                        <div class="col-sm-6 mb-2 mb-sm-0">
-                          <h4 class="mb-0 text-heading fs-14">Danny Fox</h4>
-                        </div>
-                        <div class="col-sm-6">
-                          <ul class="list-inline d-flex justify-content-sm-end justify-content-center mb-0">
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <p class="mb-3 pr-xl-17">Very good and fast support during the week. Thanks for
-                        always
-                        keeping your WordPress themes up to date. Your level of support and dedication
-                        is second to none.</p>
-                      <div class="d-flex justify-content-sm-start justify-content-center">
-                        <p class="mb-0 text-muted fs-13 lh-1">02 Dec 2020 at 2:40pm</p>
-                        <a href="#"
-                                           class="mb-0 text-heading border-left border-dark hover-primary lh-1 ml-2 pl-2">Reply</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="media border-top py-6 d-sm-flex d-block text-sm-left text-center">
-                    <img src="/images/review-08.jpg" alt="Viola Austin"
-                                     class="mr-sm-8 mb-4 mb-sm-0">
-                    <div class="media-body">
-                      <div class="row mb-1 align-items-center">
-                        <div class="col-sm-6 mb-2 mb-sm-0">
-                          <h4 class="mb-0 text-heading fs-14">Viola Austin</h4>
-                        </div>
-                        <div class="col-sm-6 ">
-                          <ul class="list-inline d-flex justify-content-sm-end justify-content-center mb-0">
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <p class="mb-3 pr-xl-17">Very good and fast support during the week. Thanks for
-                        always
-                        keeping your WordPress themes up to date. Your level of support and dedication
-                        is second to none.</p>
-                      <div class="d-flex justify-content-sm-start justify-content-center">
-                        <p class="mb-0 text-muted fs-13 lh-1">02 Dec 2020 at 2:40pm</p>
-                        <a href="#"
-                                           class="mb-0 text-heading border-left border-dark hover-primary lh-1 ml-2 pl-2">Reply</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="media border-top py-6 d-sm-flex d-block text-sm-left text-center">
-                    <img src="/images/review-09.jpg" alt="Nettie Singleton"
-                                     class="mr-sm-8 mb-4 mb-sm-0">
-                    <div class="media-body">
-                      <div class="row mb-1 align-items-center">
-                        <div class="col-sm-6 mb-2 mb-sm-0">
-                          <h4 class="mb-0 text-heading fs-14">Nettie Singleton</h4>
-                        </div>
-                        <div class="col-sm-6 ">
-                          <ul class="list-inline d-flex justify-content-sm-end justify-content-center mb-0">
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <p class="mb-3 pr-xl-17">Very good and fast support during the week. Thanks for
-                        always
-                        keeping your WordPress themes up to date. Your level of support and dedication
-                        is second to none.</p>
-                      <div class="d-flex justify-content-sm-start justify-content-center">
-                        <p class="mb-0 text-muted fs-13 lh-1">02 Dec 2020 at 2:40pm</p>
-                        <a href="#"
-                                           class="mb-0 text-heading border-left border-dark hover-primary lh-1 ml-2 pl-2">Reply</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="media border-top py-6 d-sm-flex d-block text-sm-left text-center">
-                    <img src="/images/review-07.jpg" alt="Vernon Fisher"
-                                     class="mr-sm-8 mb-4 mb-sm-0">
-                    <div class="media-body">
-                      <div class="row mb-1 align-items-center">
-                        <div class="col-sm-6 mb-2 mb-sm-0">
-                          <h4 class="mb-0 text-heading fs-14">Vernon Fisher</h4>
-                        </div>
-                        <div class="col-sm-6">
-                          <ul class="list-inline d-flex justify-content-sm-end justify-content-center mb-0">
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-border fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <p class="mb-3 pr-xl-17">Very good and fast support during the week. Thanks for
-                        always
-                        keeping your WordPress themes up to date. Your level of support and dedication
-                        is second to none.</p>
-                      <div class="d-flex justify-content-sm-start justify-content-center">
-                        <p class="mb-0 text-muted fs-13 lh-1">02 Dec 2020 at 2:40pm</p>
-                        <a href="#"
-                                           class="mb-0 text-heading border-left border-dark hover-primary lh-1 ml-2 pl-2">Reply</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="media border-top py-6 d-sm-flex d-block text-sm-left text-center">
-                    <div class="w-82px h-82 mr-2 bg-gray-01 rounded-circle fs-25 font-weight-500 text-muted d-flex align-items-center justify-content-center text-uppercase mr-sm-8 mb-4 mb-sm-0 mx-auto">
-                      HI
-                    </div>
-                    <div class="media-body">
-                      <div class="row mb-1 align-items-center">
-                        <div class="col-sm-6 mb-2 mb-sm-0">
-                          <h4 class="mb-0 text-heading fs-14">Harry Iglesias</h4>
-                        </div>
-                        <div class="col-sm-6">
-                          <ul class="list-inline d-flex justify-content-sm-end justify-content-center mb-0">
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-warning fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                            <li class="list-inline-item mr-1">
-                              <span class="text-border fs-12 lh-2"><i
-                                                            class="fas fa-star"></i></span>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <p class="mb-3 pr-xl-17">Very good and fast support during the week. Thanks for
-                        always
-                        keeping your WordPress themes up to date. Your level of support and dedication
-                        is second to none.</p>
-                      <div class="d-flex justify-content-sm-start justify-content-center">
-                        <p class="mb-0 text-muted fs-13 lh-1">02 Dec 2020 at 2:40pm</p>
-                        <a href="#"
-                                           class="mb-0 text-heading border-left border-dark hover-primary lh-1 ml-2 pl-2">Reply</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section>
-              <div class="card border-0">
-                <div class="card-body p-0">
-                  <h3 class="fs-16 lh-2 text-heading mb-4">Write A Review</h3>
-                  <form>
-                    <div class="form-group mb-4 d-flex justify-content-start">
-                      <div class="rate-input">
-                        <input type="radio" id="star5" name="rate" value="5">
-                        <label for="star5" title="text" class="mb-0 mr-1 lh-1">
-                          <i class="fas fa-star"></i>
-                        </label>
-                        <input type="radio" id="star4" name="rate" value="4">
-                        <label for="star4" title="text" class="mb-0 mr-1 lh-1">
-                          <i class="fas fa-star"></i>
-                        </label>
-                        <input type="radio" id="star3" name="rate" value="3">
-                        <label for="star3" title="text" class="mb-0 mr-1 lh-1">
-                          <i class="fas fa-star"></i>
-                        </label>
-                        <input type="radio" id="star2" name="rate" value="2">
-                        <label for="star2" title="text" class="mb-0 mr-1 lh-1">
-                          <i class="fas fa-star"></i>
-                        </label>
-                        <input type="radio" id="star1" name="rate" value="1">
-                        <label for="star1" title="text" class="mb-0 mr-1 lh-1">
-                          <i class="fas fa-star"></i>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-sm-6">
-                        <div class="form-group mb-4">
-                          <input placeholder="Your Name" class="form-control form-control-lg border-0"
-                                                   type="text" name="name">
-                        </div>
-                      </div>
-                      <div class="col-sm-6">
-                        <div class="form-group mb-4">
-                          <input type="email" placeholder="Email" name="email"
-                                                   class="form-control form-control-lg border-0">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="form-group mb-6">
-                      <textarea class="form-control form-control-lg border-0" placeholder="Your Review"
-                                              name="message" rows="5"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-lg btn-primary px-10 mb-2">Submit</button>
-                  </form>
-                </div>
-              </div>
-            </section>
-            <section class="pt-6">
-              <h4 class="fs-22 text-heading mb-5">What is Nearby?</h4>
-              <div class="mt-4">
-                <h6 class="mb-0 mt-5"><a href="#"
-                                                 class="fs-16 lh-2 text-heading border-bottom border-primary pb-1">Restaurants</a></h6>
-                <div class="border-top pt-2">
-                  <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
-                    <div class="media align-items-sm-center d-sm-flex d-block">
-                      <a href="#" class="hover-shine">
-                        <img src="/images/single-detail-property-02.jpg"
-                                             class="mr-sm-4 rounded-lg w-sm-90"
-                                             alt="Bacchanal Buffet-Temporarily Closed">
-                      </a>
-                      <div class="mt-sm-0 mt-2">
-                        <h4 class="my-0"><a href="#" class="lh-186 fs-15 text-heading hover-primary">Bacchanal Buffet-Temporarily Closed</a></h4>
-                        <p class="lh-186 fs-15 font-weight-500 mb-0">3570 S Las Vegas BlvdLas Vegas, NV 89109</p>
-                      </div>
-                    </div>
-                    <div class="text-lg-right mt-lg-0 mt-2">
-                      <p class="mb-2 mb-0 lh-13">120 Reviews</p>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                    </div>
-                  </div>
-                  <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
-                    <div class="media align-items-sm-center d-sm-flex d-block">
-                      <a href="#" class="hover-shine">
-                        <img src="/images/single-detail-property-03.jpg"
-                                             class="mr-sm-4 rounded-lg w-sm-90"
-                                             alt="Bacchanal Buffet-Temporarily Closed">
-                      </a>
-                      <div class="mt-sm-0 mt-2">
-                        <h4 class="my-0"><a href="#" class="lh-186 fs-15 text-heading hover-primary">Bacchanal Buffet-Temporarily Closed</a></h4>
-                        <p class="lh-186 fs-15 font-weight-500 mb-0">3084 S Highland DrSte C</p>
-                      </div>
-                    </div>
-                    <div class="text-lg-right mt-lg-0 mt-2">
-                      <p class="mb-2 mb-0 lh-13">120 Reviews</p>
-                      <div class="text-lg-right mt-lg-0 mt-2">
-                        <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
-                        <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
-                        <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
-                        <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
-                        <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-1"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
-                    <div class="media align-items-sm-center d-sm-flex d-block">
-                      <a href="#" class="hover-shine">
-                        <img src="/images/single-detail-property-04.jpg"
-                                             class="mr-sm-4 rounded-lg w-sm-90"
-                                             alt="Bacchanal Buffet-Temporarily Closed">
-                      </a>
-                      <div class="mt-sm-0 mt-2">
-                        <h4 class="my-0"><a href="#" class="lh-186 fs-15 text-heading hover-primary">Bacchanal Buffet-Temporarily Closed</a></h4>
-                        <p class="lh-186 fs-15 font-weight-500 mb-0">3570 S Las Vegas BlvdLas Vegas, NV 89109</p>
-                      </div>
-                    </div>
-                    <div class="text-lg-right mt-lg-0 mt-2">
-                      <p class="mb-2 mb-0 lh-13">120 Reviews</p>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                    </div>
-                  </div>
-                </div>
-                <h6 class="mb-0 mt-5"><a href="#"
-                                                 class="fs-16 lh-2 text-heading border-bottom border-primary pb-1">Education</a></h6>
-                <div class="border-top pt-2">
-                  <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
-                    <div class="media align-items-sm-center d-sm-flex d-block">
-                      <a href="#" class="hover-shine">
-                        <img src="/images/single-detail-property-07.jpg"
-                                             class="mr-sm-4 rounded-lg w-sm-90"
-                                             alt="Bacchanal Buffet-Temporarily Closed">
-                      </a>
-                      <div class="mt-sm-0 mt-2">
-                        <h4 class="my-0"><a href="#" class="lh-186 fs-15 text-heading hover-primary">Safe Direction Firearms Training</a></h4>
-                        <p class="lh-186 fs-15 font-weight-500 mb-0">3570 S Las Vegas BlvdLas Vegas, NV 89109</p>
-                      </div>
-                    </div>
-                    <div class="text-lg-right mt-lg-0 mt-2">
-                      <p class="mb-2 mb-0 lh-13">120 Reviews</p>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                    </div>
-                  </div>
-                  <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
-                    <div class="media align-items-sm-center d-sm-flex d-block">
-                      <a href="#" class="hover-shine">
-                        <img src="/images/single-detail-property-08.jpg"
-                                             class="mr-sm-4 rounded-lg w-sm-90"
-                                             alt="Bacchanal Buffet-Temporarily Closed">
-                      </a>
-                      <div class="mt-sm-0 mt-2">
-                        <h4 class="my-0"><a href="#" class="lh-186 fs-15 text-heading hover-primary">Rabbi Shai Specht-Sandler</a></h4>
-                        <p class="lh-186 fs-15 font-weight-500 mb-0">3084 S Highland DrSte C</p>
-                      </div>
-                    </div>
-                    <div class="text-lg-right mt-lg-0 mt-2">
-                      <p class="mb-2 mb-0 lh-13">120 Reviews</p>
-                      <div class="text-lg-right mt-lg-0 mt-2">
-                        <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
-                        <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
-                        <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
-                        <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
-                        <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-1"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
-                    <div class="media align-items-sm-center d-sm-flex d-block">
-                      <a href="#" class="hover-shine">
-                        <img src="/images/single-detail-property-09.jpg"
-                                             class="mr-sm-4 rounded-lg w-sm-90"
-                                             alt="Bacchanal Buffet-Temporarily Closed">
-                      </a>
-                      <div class="mt-sm-0 mt-2">
-                        <h4 class="my-0"><a href="#" class="lh-186 fs-15 text-heading hover-primary">Safe Direction Firearms Training</a></h4>
-                        <p class="lh-186 fs-15 font-weight-500 mb-0">3570 S Las Vegas BlvdLas Vegas, NV 89109</p>
-                      </div>
-                    </div>
-                    <div class="text-lg-right mt-lg-0 mt-2">
-                      <p class="mb-2 mb-0 lh-13">120 Reviews</p>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                    </div>
-                  </div>
-                </div>
-                <h6 class="mb-0 mt-5"><a href="#"
-                                                 class="fs-16 lh-2 text-heading border-bottom border-primary pb-1">Health & Medical</a></h6>
-                <div class="border-top pt-2">
-                  <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
-                    <div class="media align-items-sm-center d-sm-flex d-block">
-                      <a href="#" class="hover-shine">
-                        <img src="/images/single-detail-property-10.jpg"
-                                             class="mr-sm-4 rounded-lg w-sm-90"
-                                             alt="Bacchanal Buffet-Temporarily Closed">
-                      </a>
-                      <div class="mt-sm-0 mt-2">
-                        <h4 class="my-0"><a href="#" class="lh-186 fs-15 text-heading hover-primary">Coppola David F DC & Assoc</a></h4>
-                        <p class="lh-186 fs-15 font-weight-500 mb-0">3570 S Las Vegas BlvdLas Vegas, NV 89109</p>
-                      </div>
-                    </div>
-                    <div class="text-lg-right mt-lg-0 mt-2">
-                      <p class="mb-2 mb-0 lh-13">120 Reviews</p>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                      <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm"></i>
-                    </div>
-                  </div>
-                  <div class="py-3 border-bottom d-sm-flex justify-content-sm-between">
-                    <div class="media align-items-sm-center d-sm-flex d-block">
-                      <a href="#" class="hover-shine">
-                        <img src="/images/single-detail-property-11.jpg"
-                                             class="mr-sm-4 rounded-lg w-sm-90"
-                                             alt="Bacchanal Buffet-Temporarily Closed">
-                      </a>
-                      <div class="mt-sm-0 mt-2">
-                        <h4 class="my-0"><a href="#" class="lh-186 fs-15 text-heading hover-primary">Elite Medical Center</a></h4>
-                        <p class="lh-186 fs-15 font-weight-500 mb-0">3084 S Highland DrSte C</p>
-                      </div>
-                    </div>
-                    <div class="text-lg-right mt-lg-0 mt-2">
-                      <p class="mb-2 mb-0 lh-13">120 Reviews</p>
-                      <div class="text-lg-right mt-lg-0 mt-2">
-                        <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
-                        <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
-                        <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
-                        <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-7"></i>
-                        <i class="fas fa-star w-18px h-18 d-inline-flex justify-content-center align-items-center rate-bg-blue text-white fs-12 rounded-sm opacity-1"></i>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="py-6 border-bottom">
-              <h4 class="fs-22 text-heading mb-6">Property Attachments</h4>
-              <div class="d-sm-flex">
-                <div class="w-sm-170 mb-sm-0 mb-6 mr-sm-6">
-                  <div class="card text-center pt-4">
-                    <img src="/images/single-detail-property-05.png" class="card-img card-img w-78px mx-auto"
-                                     alt="Villa Called Archangel Word Document">
-                    <div class="card-body p-0 mt-4">
-                      <p class="fs-13 lh-2  mb-0 py-0 px-2">Villa Called Archangel Word Document</p>
-                      <a href="#"
-                                       class="btn btn-block bg-gray-01 border-0 fs-14 text-heading">Download<i
-                                            class="far fa-arrow-alt-circle-down ml-1 text-primary"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-sm-170 mb-sm-0 mb-6 mr-sm-6">
-                  <div class="card text-center pt-4">
-                    <img src="/images/single-detail-property-06.png" class="card-img card-img w-78px mx-auto"
-                                     alt="Villa Called Archangel PDF Document">
-                    <div class="card-body p-0 mt-4">
-                      <p class="fs-13 lh-2  mb-0 py-0 px-2">Villa Called Archangel PDF Document</p>
-                      <a href="#"
-                                       class="btn btn-block bg-gray-01 border-0 fs-14 text-heading">Download<i
-                                            class="far fa-arrow-alt-circle-down ml-1 text-primary"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="py-6 border-bottom">
+          
+      
+            {{-- <section class="mt-2 pb-6 px-6 pt-6 bg-white rounded-lg">
               <h4 class="fs-22 text-heading mb-6">Virtual Tour</h4>
-              <iframe height="430"
-                            src="https://my.matterport.com/show/?m=wWcGxjuUuSb&amp;utm_source=hit-content-embed"
-                            allowfullscreen="" class="w-100"></iframe>
-            </section>
-            <section class="py-6 border-bottom">
-              <h4 class="fs-22 text-heading mb-6">Location</h4>
-              <div class="position-relative">
-                <div id="map" class="mapbox-gl map-point-animate"
-                             data-mapbox-access-token="pk.eyJ1IjoiZHVvbmdsaCIsImEiOiJjanJnNHQ4czExMzhyNDVwdWo5bW13ZmtnIn0.f1bmXQsS6o4bzFFJc8RCcQ"
-                             data-mapbox-options='{"center":[-73.9927227, 40.6741035],"setLngLat":[-73.9927227, 40.6741035]}'
-                             data-mapbox-marker='[{"position":[-73.9927227, 40.6741035],"className":"marker","backgroundImage":"images/googlle-market-01.png","backgroundRepeat":"no-repeat","width":"30px","height":"40px"}]'>
-                </div>
-                <p class="mb-0 p-3 bg-white shadow rounded-lg position-absolute pos-fixed-bottom mb-4 ml-4 lh-17 z-index-2">
-                  62 Gresham St, Victoria Park <br/>
-                   WA 6100, Australia</p>
-              </div>
-            </section>
-            <section class="py-6 border-bottom">
-              <h4 class="fs-22 text-heading mb-5">Mortgage calculator</h4>
-              <form>
-                <div class="row">
-                  <div class="col-md-6 mb-4">
-                    <label>Total Amount</label>
-                    <div class="position-relative">
-                      <input type="number" class="form-control border-0 pr-3 h-52 pl-7" value="345"
-                                           name="total-amount">
-                      <span class="position-absolute pl-3 pos-fixed-left-center fs-13 font-weight-600">$</span>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-4">
-                    <label>Down Payment</label>
-                    <div class="position-relative">
-                      <input type="number" class="form-control border-0 pr-3 h-52 pl-7" value="0"
-                                           name="down-payment">
-                      <span class="position-absolute pl-3 pos-fixed-left-center fs-13 font-weight-600">$</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-6 mb-4">
-                    <label>Interest Rate</label>
-                    <div class="position-relative">
-                      <input type="number" class="form-control border-0 pr-3 h-52 pl-7" value="2.500"
-                                           step="0.25" name="interest-rate">
-                      <span class="position-absolute pl-3 pos-fixed-left-center fs-13 font-weight-600">%</span>
-                    </div>
-                  </div>
-                  <div class="col-md-6 mb-4">
-                    <label>Number of years</label>
-                    <input type="number" class="form-control border-0 px-3 h-52" value="25" name="years">
-                  </div>
-                </div>
-                <div class="form-group mb-6">
-                  <label>Payment Period</label>
-                  <select class="form-control selectpicker" data-style="btn-lg h-52 px-3"
-                                    name="payment-period">
-                    <option selected>Monthly</option>
-                    <option>Yearly</option>
-                  </select>
-                </div>
-                <div class="row">
-                  <div class="col-lg-6">
-                    <button class="btn btn-primary fs-14 h-52 px-8" type="submit">Caculate</button>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="shadow-xxs-2 pt-1 pb-2 px-6 border-bottom border-primary border-5x rounded-lg">
-                      <dl class="d-flex mb-0 justify-content-between py-2">
-                        <dt class="font-weight-normal">Monthly Payment</dt>
-                        <dd class="font-weight-500 text-heading mb-0">$33</dd>
-                      </dl>
-                      <dl class="d-flex mb-0 justify-content-between border-top py-2">
-                        <dt class="font-weight-normal">Total Cost of Loan</dt>
-                        <dd class="font-weight-500 text-heading mb-0">$464</dd>
-                      </dl>
-                      <dl class="d-flex mb-0 justify-content-between border-top py-2">
-                        <dt class="font-weight-normal">Total interest Paid</dt>
-                        <dd class="font-weight-500 text-heading mb-0">$119</dd>
-                      </dl>
-                      <dl class="d-flex mb-0 justify-content-between border-top py-2">
-                        <dt class="font-weight-normal">Mortgage Payment</dt>
-                        <dd class="font-weight-500 text-heading mb-0">$1.55</dd>
-                      </dl>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </section>
-            <section class="pt-6 border-bottom chart">
-              <div class="card border-0 mb-6">
-                <div class="card-body p-0 collapse-tabs">
-                  <div class="d-flex align-items-center mb-5">
-                    <h2 class="mb-0 text-heading fs-22 lh-15 mr-auto">Page statistics</h2>
-                    <ul class="nav nav-pills nav-pills-01 justify-content-end d-none d-sm-flex"
-                                    role="tablist">
-                      <li class="nav-item px-5 py-1">
-                        <a class="nav-link active bg-transparent shadow-none p-0 letter-spacing-1"
-                                           id="hours-tab" data-toggle="tab"
-                                           href="#hours"
-                                           role="tab"
-                                           aria-controls="hours" aria-selected="true">Hours</a>
-                      </li>
-                      <li class="nav-item px-5 py-1">
-                        <a class="nav-link bg-transparent shadow-none p-0 letter-spacing-1"
-                                           id="weekly-tab"
-                                           data-toggle="tab"
-                                           href="#weekly"
-                                           role="tab"
-                                           aria-controls="weekly" aria-selected="false">Weekly</a>
-                      </li>
-                      <li class="nav-item px-5 py-1">
-                        <a class="nav-link bg-transparent shadow-none p-0 letter-spacing-1"
-                                           id="monthly-tab"
-                                           data-toggle="tab"
-                                           href="#monthly"
-                                           role="tab"
-                                           aria-controls="monthly" aria-selected="false">Monthly</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="tab-content shadow-none p-0">
-                    <div id="collapse-tabs-accordion">
-                      <div class="tab-pane tab-pane-parent fade show active px-0" id="hours"
-                                         role="tabpanel"
-                                         aria-labelledby="hours-tab">
-                        <div class="card bg-transparent mb-sm-0 border-0">
-                          <div class="card-header d-block d-sm-none bg-transparent px-0 py-1 border-bottom-0"
-                                                 id="headingHours">
-                            <h5 class="mb-0">
-                              <button class="btn collapse-parent font-size-h5 btn-block border shadow-none"
-                                                            data-toggle="collapse"
-                                                            data-target="#hours-collapse"
-                                                            aria-expanded="true"
-                                                            aria-controls="hours-collapse">
-                                Hours
-                              </button>
-                            </h5>
-                          </div>
-                          <div id="hours-collapse" class="collapse show collapsible"
-
-                                                 data-parent="#collapse-tabs-accordion">
-                            <div class="card-body p-0 py-4">
-                              <canvas class="chartjs" data-chart-options="[]"
-                                                            data-chart-labels='["05h","08h","11h","14h","17h","20h","23h"]'
-                                                            data-chart-datasets='[{"label":"Clicked","data":[0,7,10,3,15,30,10],"backgroundColor":"rgba(105, 105, 235, 0.1)","borderColor":"#6969eb","borderWidth":3,"fill":true},{"label":"View","data":[10,9,18,20,28,40,27],"backgroundColor":"rgba(254, 91, 52, 0.1)","borderColor":"#ff6935","borderWidth":3,"fill":true}]'>
-                              </canvas>
-                            </div>
-                          </div>
+              <iframe height="430" src="https://my.matterport.com/show/?m=wWcGxjuUuSb&amp;utm_source=hit-content-embed" allowfullscreen="" class="w-100"></iframe>
+            </section> --}}
+           
+          
+            <section class="mt-2 pb-7 px-6 pt-6 bg-white rounded-lg">
+              <h4 class="fs-22 text-heading mb-6">Similar Homes You May Like</h4>
+              <div class="slick-slider"
+					     data-slick-options='{"slidesToShow": 2, "dots":false,"responsive":[{"breakpoint": 1200,"settings": {"slidesToShow":2,"arrows":false}},{"breakpoint": 992,"settings": {"slidesToShow":2}},{"breakpoint": 768,"settings": {"slidesToShow": 1}},{"breakpoint": 576,"settings": {"slidesToShow": 1}}]}'>
+                <div class="box">
+                  <div class="card shadow-hover-2 =">
+                    <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
+                      <img src="/images/properties-grid-38.jpg"
+									     alt="Home in Metric Way">
+                      <div class="card-img-overlay p-2 d-flex flex-column">
+                        <div>
+                          <span class="badge mr-2 badge-primary">for Sale</span>
                         </div>
+                        <ul class="list-inline mb-0 mt-auto hover-image">
+                          <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
+                            <a href="#" class="text-white hover-primary">
+                              <i class="far fa-images"></i><span class="pl-1">9</span>
+                            </a>
+                          </li>
+                          <li class="list-inline-item" data-toggle="tooltip" title="2 Video">
+                            <a href="#" class="text-white hover-primary">
+                              <i class="far fa-play-circle"></i><span class="pl-1">2</span>
+                            </a>
+                          </li>
+                        </ul>
                       </div>
-                      <div class="tab-pane tab-pane-parent fade px-0" id="weekly"
-                                         role="tabpanel"
-                                         aria-labelledby="weekly-tab">
-                        <div class="card bg-transparent mb-sm-0 border-0">
-                          <div class="card-header d-block d-sm-none bg-transparent px-0 py-1 border-bottom-0"
-                                                 id="headingWeekly">
-                            <h5 class="mb-0">
-                              <button class="btn collapse-parent font-size-h5 btn-block collapsed border shadow-none"
-                                                            data-toggle="collapse"
-                                                            data-target="#weekly-collapse"
-                                                            aria-expanded="true"
-                                                            aria-controls="weekly-collapse">
-                                Weekly
-                              </button>
-                            </h5>
-                          </div>
-                          <div id="weekly-collapse" class="collapse collapsible"
-                                                 aria-labelledby="headingWeekly"
-                                                 data-parent="#collapse-tabs-accordion">
-                            <div class="card-body p-0 py-4">
-                              <canvas class="chartjs" data-chart-options="[]"
-                                                            data-chart-labels='["05h","08h","11h","14h","17h","20h","23h"]'
-                                                            data-chart-datasets='[{"label":"Clicked","data":[0,7,10,3,15,30,10],"backgroundColor":"rgba(105, 105, 235, 0.1)","borderColor":"#6969eb","borderWidth":3,"fill":true},{"label":"View","data":[10,9,18,20,28,40,27],"backgroundColor":"rgba(254, 91, 52, 0.1)","borderColor":"#ff6935","borderWidth":3,"fill":true}]'>
-                              </canvas>
-                            </div>
-                          </div>
+                    </div>
+                    <div class="card-body pt-3">
+                      <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html" class="text-dark hover-primary">Home in Metric Way</a></h2>
+                      <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St, Los Angeles</p>
+                      <ul class="list-inline d-flex mb-0 flex-wrap mr-n4">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="3 Bedroom">
+                          <svg class="icon icon-bedroom fs-18 text-primary mr-1"><use xlink:href="#icon-bedroom"></use></svg>3 Br
+                        </li>
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="3 Bathrooms">
+                          <svg class="icon icon-shower fs-18 text-primary mr-1"><use xlink:href="#icon-shower"></use></svg>3 Ba
+                        </li>
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="Size">
+                          <svg class="icon icon-square fs-18 text-primary mr-1"><use xlink:href="#icon-square"></use></svg>2300 Sq.Ft
+                        </li>
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="1 Garage">
+                          <svg class="icon icon-Garage fs-18 text-primary mr-1"><use xlink:href="#icon-Garage"></use></svg>1 Gr
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-footer bg-transparent d-flex justify-content-between align-items-center py-3">
+                      <p class="fs-17 font-weight-bold text-heading mb-0">$1.250.000</p>
+                      <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                          <a href="#"
+											   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-secondary bg-accent border-accent" data-toggle="tooltip" title="Wishlist"><i
+													class="fas fa-heart"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#"
+											   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-body hover-secondary bg-hover-accent border-hover-accent" data-toggle="tooltip" title="Compare"><i
+													class="fas fa-exchange-alt"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="card shadow-hover-2 =">
+                    <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
+                      <img src="/images/properties-grid-01.jpg"
+									     alt="Garden Gingerbread House">
+                      <div class="card-img-overlay p-2 d-flex flex-column">
+                        <div>
+                          <span class="badge mr-2 badge-orange">featured</span>
+                          <span class="badge mr-2 badge-indigo">for Sale</span>
                         </div>
+                        <ul class="list-inline mb-0 mt-auto hover-image">
+                          <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
+                            <a href="#" class="text-white hover-primary">
+                              <i class="far fa-images"></i><span class="pl-1">9</span>
+                            </a>
+                          </li>
+                          <li class="list-inline-item" data-toggle="tooltip" title="2 Video">
+                            <a href="#" class="text-white hover-primary">
+                              <i class="far fa-play-circle"></i><span class="pl-1">2</span>
+                            </a>
+                          </li>
+                        </ul>
                       </div>
-                      <div class="tab-pane tab-pane-parent fade px-0" id="monthly" role="tabpanel"
-                                         aria-labelledby="monthly-tab">
-                        <div class="card bg-transparent mb-sm-0 border-0">
-                          <div class="card-header d-block d-sm-none bg-transparent px-0 py-1 border-bottom-0"
-                                                 id="headingMonthly">
-                            <h5 class="mb-0">
-                              <button class="btn btn-block collapse-parent collapsed border shadow-none"
-                                                            data-toggle="collapse"
-                                                            data-target="#monthly-collapse"
-                                                            aria-expanded="true"
-                                                            aria-controls="monthly-collapse">
-                                Monthly
-                              </button>
-                            </h5>
-                          </div>
-                          <div id="monthly-collapse" class="collapse collapsible"
-                                                 aria-labelledby="headingMonthly"
-                                                 data-parent="#collapse-tabs-accordion">
-                            <div class="card-body p-0 py-4">
-                              <canvas class="chartjs" data-chart-options="[]"
-                                                            data-chart-labels='["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]'
-                                                            data-chart-datasets='[{"label":"Clicked","data":[2,15,20,10,15,20,10,0,20,30,10,0],"backgroundColor":"rgba(105, 105, 235, 0.1)","borderColor":"#6969eb","borderWidth":3,"fill":true},{"label":"View","data":[10,20,18,15,28,33,27,10,20,30,10,0],"backgroundColor":"rgba(254, 91, 52, 0.1)","borderColor":"#ff6935","borderWidth":3,"fill":true}]'>
-                              </canvas>
-                            </div>
-                          </div>
+                    </div>
+                    <div class="card-body pt-3">
+                      <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html" class="text-dark hover-primary">Garden Gingerbread House</a></h2>
+                      <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St, Los Angeles</p>
+                      <ul class="list-inline d-flex mb-0 flex-wrap mr-n4">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="3 Bedroom">
+                          <svg class="icon icon-bedroom fs-18 text-primary mr-1"><use xlink:href="#icon-bedroom"></use></svg>3 Br
+                        </li>
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="3 Bathrooms">
+                          <svg class="icon icon-shower fs-18 text-primary mr-1"><use xlink:href="#icon-shower"></use></svg>3 Ba
+                        </li>
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="Size">
+                          <svg class="icon icon-square fs-18 text-primary mr-1"><use xlink:href="#icon-square"></use></svg>2300 Sq.Ft
+                        </li>
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="1 Garage">
+                          <svg class="icon icon-Garage fs-18 text-primary mr-1"><use xlink:href="#icon-Garage"></use></svg>1 Gr
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-footer bg-transparent d-flex justify-content-between align-items-center py-3">
+                      <p class="fs-17 font-weight-bold text-heading mb-0">$550<span class="text-gray-light font-weight-500 fs-14"> / month</span></p>
+                      <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                          <a href="#"
+											   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-body hover-secondary bg-hover-accent border-hover-accent" data-toggle="tooltip" title="Wishlist"><i
+													class="far fa-heart"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#"
+											   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-body hover-secondary bg-hover-accent border-hover-accent" data-toggle="tooltip" title="Compare"><i
+													class="fas fa-exchange-alt"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="box">
+                  <div class="card shadow-hover-2 =">
+                    <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
+                      <img src="/images/properties-grid-02.jpg"
+									     alt="Affordable Urban House">
+                      <div class="card-img-overlay p-2 d-flex flex-column">
+                        <div>
+                          <span class="badge mr-2 badge-primary">for Sale</span>
                         </div>
+                        <ul class="list-inline mb-0 mt-auto hover-image">
+                          <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
+                            <a href="#" class="text-white hover-primary">
+                              <i class="far fa-images"></i><span class="pl-1">9</span>
+                            </a>
+                          </li>
+                          <li class="list-inline-item" data-toggle="tooltip" title="2 Video">
+                            <a href="#" class="text-white hover-primary">
+                              <i class="far fa-play-circle"></i><span class="pl-1">2</span>
+                            </a>
+                          </li>
+                        </ul>
                       </div>
+                    </div>
+                    <div class="card-body pt-3">
+                      <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html" class="text-dark hover-primary">Affordable Urban House</a></h2>
+                      <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St, Los Angeles</p>
+                      <ul class="list-inline d-flex mb-0 flex-wrap mr-n4">
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="3 Bedroom">
+                          <svg class="icon icon-bedroom fs-18 text-primary mr-1"><use xlink:href="#icon-bedroom"></use></svg>3 Br
+                        </li>
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="3 Bathrooms">
+                          <svg class="icon icon-shower fs-18 text-primary mr-1"><use xlink:href="#icon-shower"></use></svg>3 Ba
+                        </li>
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="Size">
+                          <svg class="icon icon-square fs-18 text-primary mr-1"><use xlink:href="#icon-square"></use></svg>2300 Sq.Ft
+                        </li>
+                        <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="1 Garage">
+                          <svg class="icon icon-Garage fs-18 text-primary mr-1"><use xlink:href="#icon-Garage"></use></svg>1 Gr
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-footer bg-transparent d-flex justify-content-between align-items-center py-3">
+                      <p class="fs-17 font-weight-bold text-heading mb-0">$1.250.000</p>
+                      <ul class="list-inline mb-0">
+                        <li class="list-inline-item">
+                          <a href="#"
+											   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-body hover-secondary bg-hover-accent border-hover-accent" data-toggle="tooltip" title="Wishlist"><i
+													class="far fa-heart"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="#"
+											   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-body hover-secondary bg-hover-accent border-hover-accent" data-toggle="tooltip" title="Compare"><i
+													class="fas fa-exchange-alt"></i></a>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -1901,52 +873,67 @@
           </article>
           <aside class="col-lg-4 pl-xl-4 primary-sidebar sidebar-sticky" id="sidebar">
             <div class="primary-sidebar-inner">
-              <div class="card border-0 widget-request-tour">
-                <ul class="nav nav-tabs d-flex" role="tablist">
-                  
-                  <li class="nav-item" role="presentation">
-                    <a class="nav-link px-3" data-toggle="tab" href="#request-info" role="tab"
-                                   aria-selected="false">Send Buy Request
-                    </a>
-                  </li>
+              <div class="bg-white rounded-lg py-lg-6 pl-lg-6 pr-lg-3 p-4">
+                <ul class="list-inline d-sm-flex align-items-sm-center mb-2">
+                  <li class="list-inline-item badge badge-orange mr-2">Featured</li>
+                  <li class="list-inline-item badge badge-primary mr-3">For Sale</li>
                 </ul>
-                <div class="card-body px-sm-6 shadow-xxs-2 pb-5 pt-0">
-                  {!! Form::open(array('route' => 'buys.store', 'method' => 'POST')) !!}
-                  
-                    <div class="tab-content pt-1 pb-0 px-0 shadow-none">
-                      <div class="tab-pane fade pt-5" id="request-info" role="tabpanel">
-                        <div class="form-check d-flex align-items-center border-bottom pb-3 mb-3">
-                        
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                          <div class="form-group">
-                              <strong>Property Title*:</strong>
-                              <select name="property" class="form-control" id="property">
-                                <option value="{{ $property->name }}">{{ $property->name }}</option>
-                              </select>
-                          </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                          <div class="form-group">
-                              <strong>Your Name*:</strong>
-                              {!! Form::text('name', null, array('placeholder' => '','class' => 'form-control')) !!}
-                          </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12">
-                          <div class="form-group">
-                              <strong>Your Phone Number*:</strong>
-                              {!! Form::text('phone', null, array('placeholder' => '','class' => 'form-control')) !!}
-                          </div>
-                        </div>
-                      <button type="submit" class="btn btn-primary btn-lg btn-block rounded">Send Buy Request
-                      </button>
+                <h2 class="fs-22 text-heading pt-2">{{ $land->name }}</h2>
+                <p class="mb-2"><i class="fal fa-map-marker-alt mr-1"></i>{{ $land->area }}</p>
+                <div class="d-flex align-items-center">
+                  <p class="fs-22 text-heading font-weight-bold mb-0 mr-6">${{ $land->price }}</p>
+                  <p class="mb-0">$9350/SqFt</p>
+                </div>
+                <div class="row mt-5">
+                  <div class="col-6 mb-3">
+                    <div class="media">
+                      <div class="p-2 shadow-xxs-1 rounded-lg mr-2 lh-1">
+                        <svg class="icon icon-bedroom fs-18 text-primary"><use xlink:href="#icon-bedroom"></use></svg>
+                      </div>
+                      <div class="media-body">
+                        <h5 class="fs-13 font-weight-normal mb-0">Bedrooms</h5>
+                        <p class="mb-0 fs-13 font-weight-bold text-dark">3</p>
                       </div>
                     </div>
-                  </form>
-                  @if ($message = Session::get('success'))
-                  <div class="alert alert-success">
-                    <p>{{ $message }}</p>
                   </div>
-                  @endif
+                  <div class="col-6 mb-3">
+                    <div class="media">
+                      <div class="p-2 shadow-xxs-1 rounded-lg mr-2 lh-1">
+                        <svg class="icon icon-shower fs-18 text-primary"><use xlink:href="#icon-shower"></use></svg>
+                      </div>
+                      <div class="media-body">
+                        <h5 class="fs-13 font-weight-normal mb-0">Bathrooms</h5>
+                        <p class="mb-0 fs-13 font-weight-bold text-dark">2</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 mb-3">
+                    <div class="media">
+                      <div class="p-2 shadow-xxs-1 rounded-lg mr-2 lh-1">
+                        <svg class="icon icon-square fs-18 text-primary"><use xlink:href="#icon-square"></use></svg>
+                      </div>
+                      <div class="media-body">
+                        <h5 class="fs-13 font-weight-normal mb-0">Area</h5>
+                        <p class="mb-0 fs-13 font-weight-bold text-dark">3.6k SqFt</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 mb-3">
+                    <div class="media">
+                      <div class="p-2 shadow-xxs-1 rounded-lg mr-2 lh-1">
+                        <svg class="icon icon-Garage fs-18 text-primary"><use xlink:href="#icon-Garage"></use></svg>
+                      </div>
+                      <div class="media-body">
+                        <h5 class="fs-13 font-weight-normal mb-0">Garage</h5>
+                        <p class="mb-0 fs-13 font-weight-bold text-dark">1</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="mb-6 mt-1">Villa Called Archangel is now available to buy off plan in New Islington in Australia.</p>
+                <div class="mr-xl-2">
+                  <a href="#" class="btn btn-outline-primary btn-lg btn-block rounded border text-body border-hover-primary hover-white">Schedule a Tour</a>
+                  <a href="#" class="btn btn-outline-primary btn-lg btn-block rounded border text-body border-hover-primary hover-white mt-4">Request Info</a>
                 </div>
               </div>
             </div>
@@ -1954,501 +941,18 @@
         </div>
       </div>
     </div>
-    <section class="pt-6 pb-8">
-      <div class="container">
-        <h4 class="fs-22 text-heading mb-6">Similar Homes You May Like</h4>
-        <div class="slick-slider"
-             data-slick-options='{"slidesToShow": 3, "dots":false,"arrows":false,"responsive":[{"breakpoint": 1200,"settings": {"slidesToShow":3,"arrows":false}},{"breakpoint": 992,"settings": {"slidesToShow":2}},{"breakpoint": 768,"settings": {"slidesToShow": 1}},{"breakpoint": 576,"settings": {"slidesToShow": 1}}]}'>
-          <div class="box">
-            <div class="card shadow-hover-2">
-              <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
-                <img src="images/properties-grid-38.jpg"
-                             alt="Home in Metric Way">
-                <div class="card-img-overlay p-2 d-flex flex-column">
-                  <div>
-                    <span class="badge mr-2 badge-primary">for Sale</span>
-                  </div>
-                  <ul class="list-inline mb-0 mt-auto hover-image">
-                    <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
-                      <a href="#" class="text-white hover-primary">
-                        <i class="far fa-images"></i><span class="pl-1">9</span>
-                      </a>
-                    </li>
-                    <li class="list-inline-item" data-toggle="tooltip" title="2 Video">
-                      <a href="#" class="text-white hover-primary">
-                        <i class="far fa-play-circle"></i><span class="pl-1">2</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card-body pt-3">
-                <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html"
-                                                                  class="text-dark hover-primary">Home in Metric Way</a></h2>
-                <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St, Los Angeles</p>
-                <ul class="list-inline d-flex mb-0 flex-wrap mr-n5">
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="3 Bedroom">
-                    <svg class="icon icon-bedroom fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-bedroom"></use>
-                    </svg>
-                    3 Br
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="3 Bathrooms">
-                    <svg class="icon icon-shower fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-shower"></use>
-                    </svg>
-                    3 Ba
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="Size">
-                    <svg class="icon icon-square fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-square"></use>
-                    </svg>
-                    2300 Sq.Ft
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="1 Garage">
-                    <svg class="icon icon-Garage fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-Garage"></use>
-                    </svg>
-                    1 Gr
-                  </li>
-                </ul>
-              </div>
-              <div class="card-footer bg-transparent d-flex justify-content-between align-items-center py-3">
-                <p class="fs-17 font-weight-bold text-heading mb-0">$1.250.000</p>
-                <ul class="list-inline mb-0">
-                  <li class="list-inline-item">
-                    <a href="#"
-                                   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-secondary bg-accent border-accent"
-                                   data-toggle="tooltip" title="Wishlist"><i
-                                        class="fas fa-heart"></i></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"
-                                   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-body hover-secondary bg-hover-accent border-hover-accent"
-                                   data-toggle="tooltip" title="Compare"><i
-                                        class="fas fa-exchange-alt"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="box">
-            <div class="card shadow-hover-2">
-              <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
-                <img src="images/properties-grid-01.jpg"
-                             alt="Garden Gingerbread House">
-                <div class="card-img-overlay p-2 d-flex flex-column">
-                  <div>
-                    <span class="badge mr-2 badge-orange">featured</span>
-                    <span class="badge mr-2 badge-indigo">for Sale</span>
-                  </div>
-                  <ul class="list-inline mb-0 mt-auto hover-image">
-                    <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
-                      <a href="#" class="text-white hover-primary">
-                        <i class="far fa-images"></i><span class="pl-1">9</span>
-                      </a>
-                    </li>
-                    <li class="list-inline-item" data-toggle="tooltip" title="2 Video">
-                      <a href="#" class="text-white hover-primary">
-                        <i class="far fa-play-circle"></i><span class="pl-1">2</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card-body pt-3">
-                <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html"
-                                                                  class="text-dark hover-primary">Garden Gingerbread House</a></h2>
-                <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St, Los Angeles</p>
-                <ul class="list-inline d-flex mb-0 flex-wrap mr-n5">
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="3 Bedroom">
-                    <svg class="icon icon-bedroom fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-bedroom"></use>
-                    </svg>
-                    3 Br
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="3 Bathrooms">
-                    <svg class="icon icon-shower fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-shower"></use>
-                    </svg>
-                    3 Ba
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="Size">
-                    <svg class="icon icon-square fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-square"></use>
-                    </svg>
-                    2300 Sq.Ft
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="1 Garage">
-                    <svg class="icon icon-Garage fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-Garage"></use>
-                    </svg>
-                    1 Gr
-                  </li>
-                </ul>
-              </div>
-              <div class="card-footer bg-transparent d-flex justify-content-between align-items-center py-3">
-                <p class="fs-17 font-weight-bold text-heading mb-0">$550<span
-                                class="text-gray-light font-weight-500 fs-14"> / month</span></p>
-                <ul class="list-inline mb-0">
-                  <li class="list-inline-item">
-                    <a href="#"
-                                   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-body hover-secondary bg-hover-accent border-hover-accent"
-                                   data-toggle="tooltip" title="Wishlist"><i
-                                        class="far fa-heart"></i></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"
-                                   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-body hover-secondary bg-hover-accent border-hover-accent"
-                                   data-toggle="tooltip" title="Compare"><i
-                                        class="fas fa-exchange-alt"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="box">
-            <div class="card shadow-hover-2">
-              <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
-                <img src="images/properties-grid-02.jpg"
-                             alt="Affordable Urban House">
-                <div class="card-img-overlay p-2 d-flex flex-column">
-                  <div>
-                    <span class="badge mr-2 badge-primary">for Sale</span>
-                  </div>
-                  <ul class="list-inline mb-0 mt-auto hover-image">
-                    <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
-                      <a href="#" class="text-white hover-primary">
-                        <i class="far fa-images"></i><span class="pl-1">9</span>
-                      </a>
-                    </li>
-                    <li class="list-inline-item" data-toggle="tooltip" title="2 Video">
-                      <a href="#" class="text-white hover-primary">
-                        <i class="far fa-play-circle"></i><span class="pl-1">2</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card-body pt-3">
-                <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html"
-                                                                  class="text-dark hover-primary">Affordable Urban House</a></h2>
-                <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St, Los Angeles</p>
-                <ul class="list-inline d-flex mb-0 flex-wrap mr-n5">
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="3 Bedroom">
-                    <svg class="icon icon-bedroom fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-bedroom"></use>
-                    </svg>
-                    3 Br
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="3 Bathrooms">
-                    <svg class="icon icon-shower fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-shower"></use>
-                    </svg>
-                    3 Ba
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="Size">
-                    <svg class="icon icon-square fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-square"></use>
-                    </svg>
-                    2300 Sq.Ft
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="1 Garage">
-                    <svg class="icon icon-Garage fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-Garage"></use>
-                    </svg>
-                    1 Gr
-                  </li>
-                </ul>
-              </div>
-              <div class="card-footer bg-transparent d-flex justify-content-between align-items-center py-3">
-                <p class="fs-17 font-weight-bold text-heading mb-0">$1.250.000</p>
-                <ul class="list-inline mb-0">
-                  <li class="list-inline-item">
-                    <a href="#"
-                                   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-body hover-secondary bg-hover-accent border-hover-accent"
-                                   data-toggle="tooltip" title="Wishlist"><i
-                                        class="far fa-heart"></i></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"
-                                   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-body hover-secondary bg-hover-accent border-hover-accent"
-                                   data-toggle="tooltip" title="Compare"><i
-                                        class="fas fa-exchange-alt"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="pb-12">
-      <div class="container">
-        <h4 class="fs-22 text-heading mb-6">Listings near 1135 Clayton St</h4>
-        <div class="slick-slider"
-             data-slick-options='{"slidesToShow": 3, "dots":false,"arrows":false,"responsive":[{"breakpoint": 1200,"settings": {"slidesToShow":3,"arrows":false}},{"breakpoint": 992,"settings": {"slidesToShow":2}},{"breakpoint": 768,"settings": {"slidesToShow": 1}},{"breakpoint": 576,"settings": {"slidesToShow": 1}}]}'>
-          <div class="box">
-            <div class="card shadow-hover-2">
-              <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
-                <img src="images/properties-grid-07.jpg"
-                             alt="Home in Metric Way">
-                <div class="card-img-overlay p-2 d-flex flex-column">
-                  <div>
-                    <span class="badge mr-2 badge-primary">for Sale</span>
-                  </div>
-                  <ul class="list-inline mb-0 mt-auto hover-image">
-                    <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
-                      <a href="#" class="text-white hover-primary">
-                        <i class="far fa-images"></i><span class="pl-1">9</span>
-                      </a>
-                    </li>
-                    <li class="list-inline-item" data-toggle="tooltip" title="2 Video">
-                      <a href="#" class="text-white hover-primary">
-                        <i class="far fa-play-circle"></i><span class="pl-1">2</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card-body pt-3">
-                <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html"
-                                                                  class="text-dark hover-primary">Home in Metric Way</a></h2>
-                <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St, Los Angeles</p>
-                <ul class="list-inline d-flex mb-0 flex-wrap mr-n5">
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="3 Bedroom">
-                    <svg class="icon icon-bedroom fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-bedroom"></use>
-                    </svg>
-                    3 Br
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="3 Bathrooms">
-                    <svg class="icon icon-shower fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-shower"></use>
-                    </svg>
-                    3 Ba
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="Size">
-                    <svg class="icon icon-square fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-square"></use>
-                    </svg>
-                    2300 Sq.Ft
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="1 Garage">
-                    <svg class="icon icon-Garage fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-Garage"></use>
-                    </svg>
-                    1 Gr
-                  </li>
-                </ul>
-              </div>
-              <div class="card-footer bg-transparent d-flex justify-content-between align-items-center py-3">
-                <p class="fs-17 font-weight-bold text-heading mb-0">$1.250.000</p>
-                <ul class="list-inline mb-0">
-                  <li class="list-inline-item">
-                    <a href="#"
-                                   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-secondary bg-accent border-accent"
-                                   data-toggle="tooltip" title="Wishlist"><i
-                                        class="fas fa-heart"></i></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"
-                                   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-body hover-secondary bg-hover-accent border-hover-accent"
-                                   data-toggle="tooltip" title="Compare"><i
-                                        class="fas fa-exchange-alt"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="box">
-            <div class="card shadow-hover-2">
-              <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
-                <img src="images/properties-grid-05.jpg"
-                             alt="Garden Gingerbread House">
-                <div class="card-img-overlay p-2 d-flex flex-column">
-                  <div>
-                    <span class="badge mr-2 badge-indigo">for Sale</span>
-                  </div>
-                  <ul class="list-inline mb-0 mt-auto hover-image">
-                    <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
-                      <a href="#" class="text-white hover-primary">
-                        <i class="far fa-images"></i><span class="pl-1">9</span>
-                      </a>
-                    </li>
-                    <li class="list-inline-item" data-toggle="tooltip" title="2 Video">
-                      <a href="#" class="text-white hover-primary">
-                        <i class="far fa-play-circle"></i><span class="pl-1">2</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card-body pt-3">
-                <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html"
-                                                                  class="text-dark hover-primary">Garden Gingerbread House</a></h2>
-                <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St, Los Angeles</p>
-                <ul class="list-inline d-flex mb-0 flex-wrap mr-n5">
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="3 Bedroom">
-                    <svg class="icon icon-bedroom fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-bedroom"></use>
-                    </svg>
-                    3 Br
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="3 Bathrooms">
-                    <svg class="icon icon-shower fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-shower"></use>
-                    </svg>
-                    3 Ba
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="Size">
-                    <svg class="icon icon-square fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-square"></use>
-                    </svg>
-                    2300 Sq.Ft
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="1 Garage">
-                    <svg class="icon icon-Garage fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-Garage"></use>
-                    </svg>
-                    1 Gr
-                  </li>
-                </ul>
-              </div>
-              <div class="card-footer bg-transparent d-flex justify-content-between align-items-center py-3">
-                <p class="fs-17 font-weight-bold text-heading mb-0">$550<span
-                                class="text-gray-light font-weight-500 fs-14"> / month</span></p>
-                <ul class="list-inline mb-0">
-                  <li class="list-inline-item">
-                    <a href="#"
-                                   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-body hover-secondary bg-hover-accent border-hover-accent"
-                                   data-toggle="tooltip" title="Wishlist"><i
-                                        class="far fa-heart"></i></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"
-                                   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-body hover-secondary bg-hover-accent border-hover-accent"
-                                   data-toggle="tooltip" title="Compare"><i
-                                        class="fas fa-exchange-alt"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="box">
-            <div class="card shadow-hover-2">
-              <div class="hover-change-image bg-hover-overlay rounded-lg card-img-top">
-                <img src="images/properties-grid-06.jpg"
-                             alt="Affordable Urban House">
-                <div class="card-img-overlay p-2 d-flex flex-column">
-                  <div>
-                    <span class="badge mr-2 badge-primary">for Sale</span>
-                  </div>
-                  <ul class="list-inline mb-0 mt-auto hover-image">
-                    <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
-                      <a href="#" class="text-white hover-primary">
-                        <i class="far fa-images"></i><span class="pl-1">9</span>
-                      </a>
-                    </li>
-                    <li class="list-inline-item" data-toggle="tooltip" title="2 Video">
-                      <a href="#" class="text-white hover-primary">
-                        <i class="far fa-play-circle"></i><span class="pl-1">2</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card-body pt-3">
-                <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html"
-                                                                  class="text-dark hover-primary">Affordable Urban House</a></h2>
-                <p class="card-text font-weight-500 text-gray-light mb-2">1421 San Pedro St, Los Angeles</p>
-                <ul class="list-inline d-flex mb-0 flex-wrap mr-n5">
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="3 Bedroom">
-                    <svg class="icon icon-bedroom fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-bedroom"></use>
-                    </svg>
-                    3 Br
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="3 Bathrooms">
-                    <svg class="icon icon-shower fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-shower"></use>
-                    </svg>
-                    3 Ba
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="Size">
-                    <svg class="icon icon-square fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-square"></use>
-                    </svg>
-                    2300 Sq.Ft
-                  </li>
-                  <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5"
-                                data-toggle="tooltip" title="1 Garage">
-                    <svg class="icon icon-Garage fs-18 text-primary mr-1">
-                      <use xlink:href="#icon-Garage"></use>
-                    </svg>
-                    1 Gr
-                  </li>
-                </ul>
-              </div>
-              <div class="card-footer bg-transparent d-flex justify-content-between align-items-center py-3">
-                <p class="fs-17 font-weight-bold text-heading mb-0">$1.250.000</p>
-                <ul class="list-inline mb-0">
-                  <li class="list-inline-item">
-                    <a href="#"
-                                   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-body hover-secondary bg-hover-accent border-hover-accent"
-                                   data-toggle="tooltip" title="Wishlist"><i
-                                        class="far fa-heart"></i></a>
-                  </li>
-                  <li class="list-inline-item">
-                    <a href="#"
-                                   class="w-40px h-40 border rounded-circle d-inline-flex align-items-center justify-content-center text-body hover-secondary bg-hover-accent border-hover-accent"
-                                   data-toggle="tooltip" title="Compare"><i
-                                        class="fas fa-exchange-alt"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <section>
       <div class="d-flex bottom-bar-action bottom-bar-action-01 py-2 px-4 bg-gray-01 align-items-center position-fixed fixed-bottom d-sm-none">
         <div class="media align-items-center">
-          <img src="images/irene-wallace.png" alt="Irene Wallace" class="mr-4 rounded-circle">
+          <img src="/images/irene-wallace.png" alt="Irene Wallace" class="mr-4 rounded-circle">
           <div class="media-body">
             <a href="#" class="d-block text-dark fs-15 font-weight-500 lh-15">Irene Wallace</a>
             <span class="fs-13 lh-2">Sales Excutive</span>
           </div>
         </div>
         <div class="ml-auto">
-          <button type="button" class="btn btn-primary fs-18 p-2 lh-1 mr-1 mb-1 shadow-none" data-toggle="modal"
-                    data-target="#modal-messenger"><i class="fal fa-comment"></i></button>
-          <a href="tel:(+84)2388-969-888" class="btn btn-primary fs-18 p-2 lh-1 mb-1 shadow-none" target="_blank"><i
-                    class="fal fa-phone"></i></a>
+          <button type="button" class="btn btn-primary fs-18 p-2 lh-1 mr-1 mb-1 shadow-none" data-toggle="modal" data-target="#modal-messenger"><i class="fal fa-comment"></i></button>
+          <a href="tel:(+84)2388-969-888" class="btn btn-primary fs-18 p-2 lh-1 mb-1 shadow-none" target ="_blank"><i class="fal fa-phone"></i></a>
         </div>
       </div>
       <div class="modal fade" id="modal-messenger" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -2462,8 +966,7 @@
             </div>
             <div class="modal-body pb-6">
               <div class="form-group mb-2">
-                <input type="text" class="form-control form-control-lg border-0"
-                               placeholder="First Name, Last Name">
+                <input type="text" class="form-control form-control-lg border-0" placeholder="First Name, Last Name">
               </div>
               <div class="form-group mb-2">
                 <input type="email" class="form-control form-control-lg border-0" placeholder="Your Email">
@@ -2472,13 +975,11 @@
                 <input type="tel" class="form-control form-control-lg border-0" placeholder="Your phone">
               </div>
               <div class="form-group mb-2">
-                <textarea class="form-control border-0"
-                                  rows="4">Hello, I'm interested in Villa Called Archangel</textarea>
+                <textarea class="form-control border-0" rows="4">Hello, I'm interested in Villa Called Archangel</textarea>
               </div>
               <div class="form-group form-check mb-4">
                 <input type="checkbox" class="form-check-input" id="exampleCheck3">
-                <label class="form-check-label fs-13" for="exampleCheck3">Egestas fringilla phasellus faucibus
-                  scelerisque eleifend donec.</label>
+                <label class="form-check-label fs-13" for="exampleCheck3">Egestas fringilla phasellus faucibus scelerisque eleifend donec.</label>
               </div>
               <button type="submit" class="btn btn-primary btn-lg btn-block rounded">Request Info</button>
             </div>
@@ -2488,36 +989,35 @@
     </section>
   </main>
   <footer class="bg-dark pt-8 pb-6 footer text-muted">
-    <div class="container">
+    <div class="container container-xxl">
       <div class="row">
         <div class="col-md-6 col-lg-4 mb-6 mb-md-0">
           <a class="d-block mb-2" href="#">
-            <img src="images/logo-white-primary.png" alt="HomeID">
+            <img src="/images/logo-white.png" alt="">
           </a>
           <div class="lh-26 font-weight-500">
-            <p class="mb-0">58 Howard Street #2 San Francisco</p>
-            <a class="d-block text-muted hover-white" href="mailto:contact@homeid.com">contact@homeid.com</a>
+            <p class="mb-0">Tantra Hills, Achimota 
+              Near the Goil filling station</p>
+            <a class="d-block text-muted hover-white" href="mailto:info@homeid.com">info@aisle.com</a>
             <a class="d-block text-lighter font-weight-bold fs-15 hover-white"
-                       href="tel:(+68)122109876">(+68)1221
-              09876</a>
-            <a class="d-block text-muted hover-white" href=".">www.homeid.com</a>
+                     href="tel:(+233)203901772">(+233)203901772</a>
+            <a class="d-block text-muted hover-white" href="www.aisleproperties.com">Aisle Properties</a>
           </div>
         </div>
         <div class="col-md-6 col-lg-2 mb-6 mb-md-0">
           <h4 class="text-white fs-16 my-4 font-weight-500">Popular Searches</h4>
           <ul class="list-group list-group-flush list-group-no-border">
             <li class="list-group-item bg-transparent p-0">
-              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Apartment for Rent</a>
+              <a href="house-for-rent" class="text-muted lh-26 font-weight-500 hover-white">Houses For Rent</a>
             </li>
             <li class="list-group-item bg-transparent p-0">
-              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Apartment Low to
-                hide</a>
+              <a href="house-for-sale" class="text-muted lh-26 font-weight-500 hover-white">Houses For Sale</a>
             </li>
             <li class="list-group-item bg-transparent p-0">
-              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Offices for Buy</a>
+              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">View Our Investment Plans </a>
             </li>
             <li class="list-group-item bg-transparent p-0">
-              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Offices for Rent</a>
+              <a href="apartment-for-rent" class="text-muted lh-26 font-weight-500 hover-white">Apartment For Rent</a>
             </li>
           </ul>
         </div>
@@ -2525,62 +1025,44 @@
           <h4 class="text-white fs-16 my-4 font-weight-500">Quick links</h4>
           <ul class="list-group list-group-flush list-group-no-border">
             <li class="list-group-item bg-transparent p-0">
-              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Terms of Use</a>
+              <a href="apartment-for-sale" class="text-muted lh-26 font-weight-500 hover-white">Apartment For Sale</a>
             </li>
             <li class="list-group-item bg-transparent p-0">
-              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Privacy Policy</a>
+              <a href="residential" class="text-muted lh-26 font-weight-500 hover-white">Lands at Residential Communities</a>
             </li>
             <li class="list-group-item bg-transparent p-0">
-              <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Contact Support</a>
+              <a href="commercial" class="text-muted lh-26 font-weight-500 hover-white">Commercial Lands</a>
             </li>
             <li class="list-group-item bg-transparent p-0">
-              <a href="#" class="text-muted lh-26 hover-white font-weight-500">Careers</a>
+              <a href="industrial" class="text-muted lh-26 hover-white font-weight-500">Industrial Lands</a>
+            </li>
+            <li class="list-group-item bg-transparent p-0">
+              <a href="farmland" class="text-muted lh-26 hover-white font-weight-500">Farm Lands for Sale</a>
             </li>
           </ul>
         </div>
         <div class="col-md-6 col-lg-4 mb-6 mb-md-0">
-          <h4 class="text-white fs-16 my-4 font-weight-500">Sign Up for Our Newsletter</h4>
-          <p class="font-weight-500 text-muted lh-184">Lorem ipsum dolor sit amet, consecte tur cing elit.
-            Suspe ndisse suscipit sagittis </p>
-          <form>
-            <div class="input-group input-group-lg mb-6">
-              <input type="text" name="email" required class="form-control bg-white shadow-none border-0 z-index-1" placeholder="Your email">
-              <div class="input-group-append">
-                <button class="btn btn-primary" type="submit">Subscribe</button>
-              </div>
-            </div>
-          </form>
+          <h4 class="text-white fs-16 my-4 font-weight-500">Connect with us via our social media accounts</h4>
           <ul class="list-inline mb-0">
+            
             <li class="list-inline-item mr-0">
-              <a href="#" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
-                                class="fab fa-twitter"></i></a>
+              <a href="https://www.facebook.com/Aisleproperties-111047958199016/" target="_blank" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
+                              class="fab fa-facebook-f"></i></a>
             </li>
             <li class="list-inline-item mr-0">
-              <a href="#" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
-                                class="fab fa-facebook-f"></i></a>
+              <a href="https://instagram.com/aisleproperties?utm_medium=copy_link" target="_blank" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
+                              class="fab fa-instagram"></i></a>
             </li>
-            <li class="list-inline-item mr-0">
-              <a href="#" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
-                                class="fab fa-skype"></i></a>
-            </li>
-            <li class="list-inline-item mr-0">
-              <a href="#" class="text-white opacity-3 fs-25 px-4 opacity-hover-10"><i
-                                class="fab fa-linkedin-in"></i></a>
-            </li>
+            
           </ul>
         </div>
       </div>
       <div class="mt-0 mt-md-10 row">
         <ul class="list-inline mb-0 col-md-6 mr-auto">
-          <li class="list-inline-item mr-6">
-            <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Terms of Use</a>
-          </li>
-          <li class="list-inline-item">
-            <a href="#" class="text-muted lh-26 font-weight-500 hover-white">Privacy Policy</a>
-          </li>
+          
         </ul>
         <p class="col-md-auto mb-0 text-muted">
-          © 2020 homeID. All Rights Reserved
+          © 2022 AISLE All Rights Reserved
         </p>
       </div>
     </div>
@@ -2768,7 +1250,7 @@
                 </div>
                 <div class="col-4 px-2 mb-4">
                   <a href="#" class="btn btn-lg btn-block google px-0">
-                    <img src="/images/google.png" alt="Google">
+                    <img src="images/google.png" alt="Google">
                   </a>
                 </div>
                 <div class="col-4 px-2 mb-4">
