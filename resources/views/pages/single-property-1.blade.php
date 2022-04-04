@@ -827,7 +827,7 @@
                   </li> --}}
                   <li class="nav-item" role="presentation">
                     <a class="nav-link px-3" data-toggle="tab" role="tab"
-							   aria-selected="false">Request
+							   aria-selected="false">SEND A MESSAGE
                       Info</a>
                   </li>
                 </ul>
@@ -845,16 +845,14 @@
                           <input type="text" class="form-control form-control-lg border-0"
 										       placeholder="First Name, Last Name">
                         </div>
-                        <div class="form-group mb-2">
-                          <input type="email" class="form-control form-control-lg border-0" placeholder="Your Email">
-                        </div>
+                        
                         <div class="form-group mb-2">
                           <input type="tel" class="form-control form-control-lg border-0" placeholder="Your phone">
                         </div>
                         <div class="form-group mb-4">
                           <textarea class="form-control border-0" rows="4" placeholder="Hello, I'm interested in the 3 Bedroom at East Legon"> </textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-lg btn-block rounded">Request Info</button>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block rounded">SEND MESSAGE</button>
                       
                       </div>
                     </div>
