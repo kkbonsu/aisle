@@ -832,7 +832,7 @@
                   </li>
                 </ul>
                 <div class="card-body px-sm-6 shadow-xxs-2 pb-5 pt-0 bg-white">
-                  <form>
+                  {!! Form::open(array('route' => 'buys.store', 'method' => 'POST')) !!}
                     <div class="pt-1 pb-0 px-0 shadow-none">
                       
                       {{-- <div class="tab-pane fade pt-5" id="request-info" role="tabpanel>
@@ -842,15 +842,15 @@
                         </div> --}}
                        <p style="color: red; font-size:16px;">Fill the form below and we will get back to you </p>
                         <div class="form-group mb-2">
-                          <input type="text" class="form-control form-control-lg border-0"
+                          <input type="text" name="name" class="form-control form-control-lg border-0"
 										       placeholder="First Name, Last Name">
                         </div>
                         
                         <div class="form-group mb-2">
-                          <input type="tel" class="form-control form-control-lg border-0" placeholder="Your phone">
+                          <input type="tel" name="phone" class="form-control form-control-lg border-0" placeholder="Your phone">
                         </div>
                         <div class="form-group mb-4">
-                          <textarea class="form-control border-0" rows="4" placeholder="Hello, I'm interested in the 3 Bedroom at East Legon"> </textarea>
+                          <textarea class="form-control border-0" name="property" rows="4" placeholder="Hello, I'm interested in the 3 Bedroom at East Legon"> </textarea>
                         </div>
                         <button type="submit" class="btn btn-primary btn-lg btn-block rounded">SEND MESSAGE</button>
                       
