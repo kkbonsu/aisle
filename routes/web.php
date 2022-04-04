@@ -71,23 +71,6 @@ Route::get('/sold-properties', function () {
     return view('pages.home-01');
 });
 
-// Route::get('/lands-residential', function () {
-//     $lands = Land::where('type', 'Residential')->get();
-//     return view('pages.home-01')->with('lands', $lands);
-// });
-// Route::get('/lands-industrial', function () {
-//     $lands = Land::where('type', 'Industrial')->get();
-//     return view('pages.home-01')->with('lands', $lands);
-// });
-// Route::get('/lands-commercial', function () {
-//     $lands = Land::where('type', 'Commercial')->get();
-//     return view('pages.home-01')->with('lands', $lands);
-// });
-// Route::get('/lands-farmland', function () {
-//     $lands = Land::where('type', 'Farmland')->get();
-//     return view('pages.home-01')->with('lands', $lands);
-// });
-
 // routes for land dropdown items
 Route::get('/commercial', function () {
     $lands = Land::where('type', 'Commercial')->get();
