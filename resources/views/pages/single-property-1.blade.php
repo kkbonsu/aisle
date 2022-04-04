@@ -832,6 +832,36 @@
                   </li>
                 </ul>
                 <div class="card-body px-sm-6 shadow-xxs-2 pb-5 pt-0 bg-white">
+<<<<<<< HEAD
+                  {!! Form::open(array('route' => 'buys.store', 'method' => 'POST')) !!}
+                  
+                    <div class="tab-content pt-1 pb-0 px-0 shadow-none">
+                      <div class="tab-pane fade pt-5" id="request-info" role="tabpanel">
+                        <div class="form-check d-flex align-items-center border-bottom pb-3 mb-3">
+                        
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                          <div class="form-group">
+                              <strong>Property Title*:</strong>
+                              <select name="property" class="form-control" id="property">
+                                <option value="{{ $property->name }}">{{ $property->name }}</option>
+                              </select>
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                          <div class="form-group">
+                              <strong>Your Name*:</strong>
+                              {!! Form::text('name', null, array('placeholder' => '','class' => 'form-control')) !!}
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                          <div class="form-group">
+                              <strong>Your Phone Number*:</strong>
+                              {!! Form::text('phone', null, array('placeholder' => '','class' => 'form-control')) !!}
+                          </div>
+                        </div>
+                      <button type="submit" class="btn btn-primary btn-lg btn-block rounded">Send Buy Request
+                      </button>
+=======
                   <form>
                     <div class="pt-1 pb-0 px-0 shadow-none">
                       
@@ -854,9 +884,15 @@
                         </div>
                         <button type="submit" class="btn btn-primary btn-lg btn-block rounded">SEND MESSAGE</button>
                       
+>>>>>>> 1eb179b4f65cb20786d539e6ae4068b07bb06279
                       </div>
                     </div>
-                  </form>
+                {!! Form::close() !!}
+                  @if ($message = Session::get('success'))
+                  <div class="alert alert-success">
+                    <p>{{ $message }}</p>
+                  </div>
+                  @endif
                 </div>
               </div>
             </div>
