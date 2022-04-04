@@ -52,12 +52,10 @@ class PropertyController extends Controller
     {
         $this->validate($request, [
             'name' => 'required',
+            'photo_id' => 'max:300',
         ]);
     
         $input = $request->all();
-        $validator = Validator::make($request->all(), [
-            'file' => 'max:300',
-        ]);
     
         $property = Property::create($input);
 
