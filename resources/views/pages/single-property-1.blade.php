@@ -1102,23 +1102,42 @@
               </button>
             </div>
             <div class="modal-body pb-6">
-              <div class="form-group mb-2">
-                <input type="text" class="form-control form-control-lg border-0" placeholder="First Name, Last Name">
-              </div>
-              <div class="form-group mb-2">
-                <input type="email" class="form-control form-control-lg border-0" placeholder="Your Email">
-              </div>
-              <div class="form-group mb-2">
-                <input type="tel" class="form-control form-control-lg border-0" placeholder="Your phone">
-              </div>
-              <div class="form-group mb-2">
-                <textarea class="form-control border-0" rows="4">Hello, I'm interested in Villa Called Archangel</textarea>
-              </div>
-              <div class="form-group form-check mb-4">
-                <input type="checkbox" class="form-check-input" id="exampleCheck3">
-                <label class="form-check-label fs-13" for="exampleCheck3">Egestas fringilla phasellus faucibus scelerisque eleifend donec.</label>
-              </div>
-              <button type="submit" class="btn btn-primary btn-lg btn-block rounded">Request Info</button>
+              {!! Form::open(array('route' => 'buys.store', 'method' => 'POST')) !!}
+                  
+                    <div class="tab-content pt-1 pb-0 px-0 shadow-none">
+                      <div class="tab-pane fade pt-5" id="request-info" role="tabpanel">
+                        <div class="form-check d-flex align-items-center border-bottom pb-3 mb-3">
+                        
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                          <div class="form-group">
+                              <strong>Property Title*:</strong>
+                              <select name="property" class="form-control" id="property">
+                                <option value="{{ $property->name }}">{{ $property->name }}</option>
+                              </select>
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                          <div class="form-group">
+                              <strong>Your Name*:</strong>
+                              {!! Form::text('name', null, array('placeholder' => '','class' => 'form-control')) !!}
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                          <div class="form-group">
+                              <strong>Your Phone Number*:</strong>
+                              {!! Form::text('phone', null, array('placeholder' => '','class' => 'form-control')) !!}
+                          </div>
+                        </div>
+                      <button type="submit" class="btn btn-primary btn-lg btn-block rounded">Send Buy Request
+                      </button>
+                      </div>
+                    </div>
+                {!! Form::close() !!}
+                  @if ($message = Session::get('success'))
+                  <div class="alert alert-success">
+                    <p>{{ $message }}</p>
+                  </div>
+                  @endif
             </div>
           </div>
         </div>
