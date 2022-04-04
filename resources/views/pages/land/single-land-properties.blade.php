@@ -521,16 +521,7 @@
                 </div>
               </div>
             </section>
-            <section class="pb-8 px-6 pt-5 bg-white rounded-lg">
-              <h4 class="fs-22 text-heading mb-3">Description</h4>
-              <p class="mb-0 lh-214">Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus
-                scelerisque eleifend donec.
-                Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper
-                quis lectus. Turpis in eu mi bibendum neque
-                egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales
-                ut eu sem. Nibh mauris cursus mattis molestie a
-                iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.</p>
-            </section>
+           
             <section class="mt-2 pb-3 px-6 pt-5 bg-white rounded-lg">
               <h4 class="fs-22 text-heading mb-6">Facts and Features</h4>
               <div class="row">
@@ -624,63 +615,7 @@
                 </div>
               </div>
             </section>
-            <section class="mt-2 pb-6 px-6 pt-5 bg-white rounded-lg">
-              <h4 class="fs-22 text-heading mb-4">Additional Details</h4>
-              <div class="row">
-                <dl class="col-sm-6 mb-0 d-flex">
-                  <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Property ID</dt>
-                  <dd>AD-2910</dd>
-                </dl>
-                <dl class="col-sm-6 mb-0 d-flex">
-                  <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Price</dt>
-                  <dd>$890.000</dd>
-                </dl>
-                <dl class="col-sm-6 mb-0 d-flex">
-                  <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Property type</dt>
-                  <dd>Apartment, bar, cafe, villa</dd>
-                </dl>
-                <dl class="col-sm-6 mb-0 d-flex">
-                  <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Property status</dt>
-                  <dd>For Sale</dd>
-                </dl>
-                <dl class="col-sm-6 mb-0 d-flex">
-                  <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Rooms</dt>
-                  <dd>4</dd>
-                </dl>
-                <dl class="col-sm-6 mb-0 d-flex">
-                  <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Bedrooms</dt>
-                  <dd>3</dd>
-                </dl>
-                <dl class="col-sm-6 mb-0 d-flex">
-                  <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Size</dt>
-                  <dd>900SqFt</dd>
-                </dl>
-                <dl class="col-sm-6 mb-0 d-flex">
-                  <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Bathrooms</dt>
-                  <dd>2</dd>
-                </dl>
-                <dl class="col-sm-6 mb-0 d-flex">
-                  <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Garage</dt>
-                  <dd>1</dd>
-                </dl>
-                <dl class="col-sm-6 mb-0 d-flex">
-                  <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Bathrooms</dt>
-                  <dd>2000 SqFt</dd>
-                </dl>
-                <dl class="col-sm-6 mb-0 d-flex">
-                  <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Garage size</dt>
-                  <dd>50 SqFt</dd>
-                </dl>
-                <dl class="col-sm-6 mb-0 d-flex">
-                  <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Year build</dt>
-                  <dd>2020</dd>
-                </dl>
-                <dl class="offset-sm-6 col-sm-6 mb-0 d-flex">
-                  <dt class="w-110px fs-14 font-weight-500 text-heading pr-2">Label</dt>
-                  <dd>Bestseller</dd>
-                </dl>
-              </div>
-            </section>
+           
           
       
             {{-- <section class="mt-2 pb-6 px-6 pt-6 bg-white rounded-lg">
