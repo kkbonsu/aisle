@@ -820,18 +820,19 @@
             <div class="primary-sidebar-inner">
               <div class="card border-0 widget-request-tour bg-transparent">
                 <ul class="nav nav-tabs d-flex" role="tablist">
-                  <li class="nav-item">
+                  {{-- <li class="nav-item">
                     <a class="nav-link active px-3" data-toggle="tab" href="#schedule" role="tab"
 							   aria-selected="true">Schedule
                       A Tour</a>
-                  </li>
+                  </li> --}}
                   <li class="nav-item" role="presentation">
-                    <a class="nav-link px-3" data-toggle="tab" href="#request-info" role="tab"
+                    <a class="nav-link px-3" data-toggle="tab" role="tab"
 							   aria-selected="false">Request
                       Info</a>
                   </li>
                 </ul>
                 <div class="card-body px-sm-6 shadow-xxs-2 pb-5 pt-0 bg-white">
+<<<<<<< HEAD
                   {!! Form::open(array('route' => 'buys.store', 'method' => 'POST')) !!}
                   
                     <div class="tab-content pt-1 pb-0 px-0 shadow-none">
@@ -860,6 +861,32 @@
                         </div>
                       <button type="submit" class="btn btn-primary btn-lg btn-block rounded">Send Buy Request
                       </button>
+=======
+                  <form>
+                    <div class="pt-1 pb-0 px-0 shadow-none">
+                      
+                      {{-- <div class="tab-pane fade pt-5" id="request-info" role="tabpanel>
+                        <div class="form-check d-flex align-items-center border-bottom pb-3 mb-3">
+                          <input class="form-check-input" type="radio" name="agent" value="option1">
+                        
+                        </div> --}}
+                       <p style="color: red; font-size:16px;">Fill the form below and we will get back to you </p>
+                        <div class="form-group mb-2">
+                          <input type="text" class="form-control form-control-lg border-0"
+										       placeholder="First Name, Last Name">
+                        </div>
+                        <div class="form-group mb-2">
+                          <input type="email" class="form-control form-control-lg border-0" placeholder="Your Email">
+                        </div>
+                        <div class="form-group mb-2">
+                          <input type="tel" class="form-control form-control-lg border-0" placeholder="Your phone">
+                        </div>
+                        <div class="form-group mb-4">
+                          <textarea class="form-control border-0" rows="4" placeholder="Hello, I'm interested in the 3 Bedroom at East Legon"> </textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block rounded">Request Info</button>
+                      
+>>>>>>> 1eb179b4f65cb20786d539e6ae4068b07bb06279
                       </div>
                     </div>
                 {!! Form::close() !!}
