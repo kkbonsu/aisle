@@ -522,6 +522,30 @@
               </div>
             </section>
            
+
+            <section class="pb-8 px-6 pt-6 bg-white rounded-lg">
+              <ul class="list-inline d-sm-flex align-items-sm-center mb-2">
+                <li class="list-inline-item badge badge-orange mr-2">Featured</li>
+                <li class="list-inline-item badge badge-primary mr-3">For Sale</li>
+                <li class="list-inline-item mr-2 mt-2 mt-sm-0"><i class="fal fa-clock mr-1"></i>2 months ago</li>
+                <li class="list-inline-item mt-2 mt-sm-0"><i class="fal fa-eye mr-1"></i>1039 views</li>
+              </ul>
+              <div class="d-sm-flex justify-content-sm-between">
+                <div>
+                  <h2 class="fs-35 font-weight-600 lh-15 text-heading">{{ $property->name }}</h2>
+                  <p class="mb-0"><i class="fal fa-map-marker-alt mr-2"></i>{{ $property->area }}</p>
+                </div>
+                <div class="mt-2 text-lg-right">
+                  <p class="fs-22 text-heading font-weight-bold mb-0">${{ $property->price }}</p>
+                  <p class="mb-0">$9350/SqFt</p>
+                </div>
+              </div>
+              <h4 class="fs-22 text-heading mt-6 mb-2">Description</h4>
+              <p class="mb-0 lh-214">{{ $property->description }}</p>
+            </section>
+
+
+
             <section class="mt-2 pb-3 px-6 pt-5 bg-white rounded-lg">
               <h4 class="fs-22 text-heading mb-6">Facts and Features</h4>
               <div class="row">
@@ -814,6 +838,7 @@
             </section>
           </article>
 
+          
           {{-- new form --}}
 
           <aside class="col-lg-4 pl-xl-4 primary-sidebar sidebar-sticky" id="sidebar">
@@ -827,8 +852,7 @@
                   </li> --}}
                   <li class="nav-item" role="presentation">
                     <a class="nav-link px-3" data-toggle="tab" role="tab"
-							   aria-selected="false">SEND A MESSAGE
-                      Info</a>
+							   aria-selected="false">SEND A MESSAGE</a>
                   </li>
                 </ul>
                 <div class="card-body px-sm-6 shadow-xxs-2 pb-5 pt-0 bg-white">
@@ -871,73 +895,7 @@
 
 
           {{-- old form --}}
-          <aside class="col-lg-4 pl-xl-4 primary-sidebar sidebar-sticky" id="sidebar">
-            <div class="primary-sidebar-inner">
-              <div class="bg-white rounded-lg py-lg-6 pl-lg-6 pr-lg-3 p-4">
-                <ul class="list-inline d-sm-flex align-items-sm-center mb-2">
-                  <li class="list-inline-item badge badge-orange mr-2">Featured</li>
-                  <li class="list-inline-item badge badge-primary mr-3">For Sale</li>
-                </ul>
-                <h2 class="fs-22 text-heading pt-2">{{ $property->name }}</h2>
-                <p class="mb-2"><i class="fal fa-map-marker-alt mr-1"></i>{{ $property->area }}</p>
-                <div class="d-flex align-items-center">
-                  <p class="fs-22 text-heading font-weight-bold mb-0 mr-6">${{ $property->price }}</p>
-                  <p class="mb-0">$9350/SqFt</p>
-                </div>
-                <div class="row mt-5">
-                  <div class="col-6 mb-3">
-                    <div class="media">
-                      <div class="p-2 shadow-xxs-1 rounded-lg mr-2 lh-1">
-                        <svg class="icon icon-bedroom fs-18 text-primary"><use xlink:href="#icon-bedroom"></use></svg>
-                      </div>
-                      <div class="media-body">
-                        <h5 class="fs-13 font-weight-normal mb-0">Bedrooms</h5>
-                        <p class="mb-0 fs-13 font-weight-bold text-dark">{{ $property->bedrooms }}</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-6 mb-3">
-                    <div class="media">
-                      <div class="p-2 shadow-xxs-1 rounded-lg mr-2 lh-1">
-                        <svg class="icon icon-shower fs-18 text-primary"><use xlink:href="#icon-shower"></use></svg>
-                      </div>
-                      <div class="media-body">
-                        <h5 class="fs-13 font-weight-normal mb-0">Bathrooms</h5>
-                        <p class="mb-0 fs-13 font-weight-bold text-dark">{{ $property->bathrooms }}</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-6 mb-3">
-                    <div class="media">
-                      <div class="p-2 shadow-xxs-1 rounded-lg mr-2 lh-1">
-                        <svg class="icon icon-square fs-18 text-primary"><use xlink:href="#icon-square"></use></svg>
-                      </div>
-                      <div class="media-body">
-                        <h5 class="fs-13 font-weight-normal mb-0">Area</h5>
-                        <p class="mb-0 fs-13 font-weight-bold text-dark">3.6k SqFt</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-6 mb-3">
-                    <div class="media">
-                      <div class="p-2 shadow-xxs-1 rounded-lg mr-2 lh-1">
-                        <svg class="icon icon-Garage fs-18 text-primary"><use xlink:href="#icon-Garage"></use></svg>
-                      </div>
-                      <div class="media-body">
-                        <h5 class="fs-13 font-weight-normal mb-0">Garage</h5>
-                        <p class="mb-0 fs-13 font-weight-bold text-dark">{{ $property->garages }}</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <p class="mb-6 mt-1">Villa Called Archangel is now available to buy off plan in New Islington in Australia.</p>
-                <div class="mr-xl-2">
-                  <a href="#" class="btn btn-outline-primary btn-lg btn-block rounded border text-body border-hover-primary hover-white">Schedule a Tour</a>
-                  <a href="#" class="btn btn-outline-primary btn-lg btn-block rounded border text-body border-hover-primary hover-white mt-4">Request Info</a>
-                </div>
-              </div>
-            </div>
-          </aside>
+     
 
           {{-- end old form --}}
 

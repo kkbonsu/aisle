@@ -49,7 +49,7 @@ class BuyController extends Controller
     
         $buy = Buy::create($input);
     
-        return redirect()->back()->with('success', 'Buy Request Sent');
+        return redirect()->back()->with('success', 'Request Sent. One of our agents will get back to you shortly.');
     }
 
     /**

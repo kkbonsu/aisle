@@ -413,6 +413,12 @@
                           {!! Form::number('price', null, array('placeholder' => '', 'class' => 'form-control')) !!}
                       </div>
                   </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>Land Description:</strong>
+                        {!! Form::text('description', null, array('placeholder' => '', 'class' => 'form-control')) !!}
+                    </div>
+                </div>
                   <div class="col-xs-6 col-sm-6 col-md-6">
                       <div class="form-group">
                           <strong>Negotiable (Yes/No):</strong>
