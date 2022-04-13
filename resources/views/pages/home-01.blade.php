@@ -1187,16 +1187,16 @@
             <h4 class="text-white fs-16 my-4 font-weight-500">Popular Searches</h4>
             <ul class="list-group list-group-flush list-group-no-border">
               <li class="list-group-item bg-transparent p-0">
-                <a href="house-for-rent" class="text-muted lh-26 font-weight-500 hover-white">Houses For Rent</a>
+                <a href="/house-for-rent" class="text-muted lh-26 font-weight-500 hover-white">Houses For Rent</a>
               </li>
               <li class="list-group-item bg-transparent p-0">
-                <a href="house-for-sale" class="text-muted lh-26 font-weight-500 hover-white">Houses For Sale</a>
+                <a href="/house-for-sale" class="text-muted lh-26 font-weight-500 hover-white">Houses For Sale</a>
               </li>
               <li class="list-group-item bg-transparent p-0">
                 <a href="#" class="text-muted lh-26 font-weight-500 hover-white">View Our Investment Plans </a>
               </li>
               <li class="list-group-item bg-transparent p-0">
-                <a href="apartment-for-rent" class="text-muted lh-26 font-weight-500 hover-white">Apartment For Rent</a>
+                <a href="/apartment-for-rent" class="text-muted lh-26 font-weight-500 hover-white">Apartment For Rent</a>
               </li>
             </ul>
           </div>
@@ -1204,19 +1204,19 @@
             <h4 class="text-white fs-16 my-4 font-weight-500">Quick links</h4>
             <ul class="list-group list-group-flush list-group-no-border">
               <li class="list-group-item bg-transparent p-0">
-                <a href="apartment-for-sale" class="text-muted lh-26 font-weight-500 hover-white">Apartment For Sale</a>
+                <a href="/apartment-for-sale" class="text-muted lh-26 font-weight-500 hover-white">Apartment For Sale</a>
               </li>
               <li class="list-group-item bg-transparent p-0">
                 <a href="residential" class="text-muted lh-26 font-weight-500 hover-white">Lands at Residential Communities</a>
               </li>
               <li class="list-group-item bg-transparent p-0">
-                <a href="commercial" class="text-muted lh-26 font-weight-500 hover-white">Commercial Lands</a>
+                <a href="/commercial" class="text-muted lh-26 font-weight-500 hover-white">Commercial Lands</a>
               </li>
               <li class="list-group-item bg-transparent p-0">
-                <a href="industrial" class="text-muted lh-26 hover-white font-weight-500">Industrial Lands</a>
+                <a href="/industrial" class="text-muted lh-26 hover-white font-weight-500">Industrial Lands</a>
               </li>
               <li class="list-group-item bg-transparent p-0">
-                <a href="farmland" class="text-muted lh-26 hover-white font-weight-500">Farm Lands for Sale</a>
+                <a href="/farmland" class="text-muted lh-26 hover-white font-weight-500">Farm Lands for Sale</a>
               </li>
             </ul>
           </div>
