@@ -263,9 +263,7 @@
         <div class="container">
           <div class="row align-items-sm-center">
             <div class="col-md-6">
-              <h2 class="fs-15 text-dark mb-0">We found <span class="text-primary">5</span> properties
-                available for
-                you
+              <h2 class="fs-15 text-dark mb-0">We found <span class="text-primary"></span> properties available for you
               </h2>
             </div>
             <div class="col-md-6 mt-6 mt-md-0">
@@ -339,10 +337,10 @@
                     <span class="badge badge-primary">{{ $land->type }}</span>
                   </div>
                 </div>
-                <div class="card-body py-2">
+                {{-- <div class="card-body py-2">
                   <p class="mb-0">Lorem ipsum dolor sit amet, sectetur cing elit uspe ndisse suscorem ipsum dolor sitorem sit amet, sectetur cing elit uspe ndisse suscorem ipsum dolor sitorem</p>
-                </div>
-                <div class="card-footer bg-transparent pt-3 pb-4 pb-3">
+                </div> --}}
+                {{-- <div class="card-footer bg-transparent pt-3 pb-4 pb-3">
                   <ul class="list-inline d-flex mb-0 flex-wrap mr-n5">
                     <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5" data-toggle="tooltip" title="3 Bedroom">
                       <svg class="icon icon-bedroom fs-18 text-primary mr-1">
@@ -369,96 +367,15 @@
                       1 Gr
                     </li>
                   </ul>
-                </div>
+                </div> --}}
               </div>
             </div>
-            @endforeach
-            <div class="col-lg-4 col-md-6 pb-6">
-              <div class="card shadow-hover-xs-4" data-animate="fadeInUp">
-                <div class="card-header bg-transparent px-4 pt-4 pb-3">
-                  <h2 class="fs-16 lh-2 mb-0">
-                    <a href="single-property-1.html"
-							   class="text-dark hover-primary">Home in Metric Way</a>
-                  </h2>
-                  <p class="font-weight-500 text-gray-light mb-3">1421 San Pedro St, Los Angeles</p>
-                  <div class="position-relative d-block rounded-lg hover-change-image bg-hover-overlay card-img">
-                    <img src="images/properties-grid-32.jpg"
-							     alt="Home in Metric Way">
-                    <div class="card-img-overlay d-flex flex-column">
-                      <div class="mt-auto d-flex hover-image">
-                        <ul class="list-inline mb-0 d-flex align-items-end mr-auto">
-                          <li class="list-inline-item mr-2" data-toggle="tooltip" title="9 Images">
-                            <a href="#" class="text-white hover-primary">
-                              <i class="far fa-images"></i><span class="pl-1">9</span>
-                            </a>
-                          </li>
-                          <li class="list-inline-item" data-toggle="tooltip" title="2 Video">
-                            <a href="#" class="text-white hover-primary">
-                              <i class="far fa-play-circle"></i><span class="pl-1">2</span>
-                            </a>
-                          </li>
-                        </ul>
-                        <ul class="list-inline mb-0 d-flex align-items-end mr-n3">
-                          <li class="list-inline-item mr-3 h-32" data-toggle="tooltip" title="Wishlist">
-                            <a href="#" class="text-white fs-20 hover-primary">
-                              <i class="far fa-heart"></i>
-                            </a>
-                          </li>
-                          <li class="list-inline-item mr-3 h-32" data-toggle="tooltip" title="Compare">
-                            <a href="#" class="text-white fs-20 hover-primary">
-                              <i class="fas fa-exchange-alt"></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="d-flex justify-content-between align-items-center pt-3">
-                    <p class="fs-17 font-weight-bold text-heading mb-0 lh-1">
-                      $1.250.000
-                    </p>
-                    <span class="badge badge-primary">For Sale</span>
-                  </div>
-                </div>
-                <div class="card-body py-2">
-                  <p class="mb-0">Lorem ipsum dolor sit amet, sectetur cing elit uspe ndisse suscorem ipsum dolor sitorem sit amet, sectetur cing elit uspe ndisse suscorem ipsum dolor sitorem</p>
-                </div>
-                <div class="card-footer bg-transparent pt-3 pb-4 pb-3">
-                  <ul class="list-inline d-flex mb-0 flex-wrap mr-n5">
-                    <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5" data-toggle="tooltip" title="3 Bedroom">
-                      <svg class="icon icon-bedroom fs-18 text-primary mr-1">
-                        <use xlink:href="#icon-bedroom"></use>
-                      </svg>
-                      3 Br
-                    </li>
-                    <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5" data-toggle="tooltip" title="3 Bathrooms">
-                      <svg class="icon icon-shower fs-18 text-primary mr-1">
-                        <use xlink:href="#icon-shower"></use>
-                      </svg>
-                      3 Ba
-                    </li>
-                    <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5" data-toggle="tooltip" title="Size">
-                      <svg class="icon icon-square fs-18 text-primary mr-1">
-                        <use xlink:href="#icon-square"></use>
-                      </svg>
-                      2300 Sq.Ft
-                    </li>
-                    <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-5" data-toggle="tooltip" title="1 Garage">
-                      <svg class="icon icon-Garage fs-18 text-primary mr-1">
-                        <use xlink:href="#icon-Garage"></use>
-                      </svg>
-                      1 Gr
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-           
+            @endforeach           
           </div>
        
         </div>
       </section>
-      <div id="compare" class="compare">
+      {{-- <div id="compare" class="compare">
         <button class="btn shadow btn-open bg-white bg-hover-accent text-secondary rounded-right-0 d-flex justify-content-center align-items-center w-30px h-140 p-0">
         </button>
         <div class="list-group list-group-no-border bg-dark py-3">
@@ -495,7 +412,7 @@
             </a>
           </div>
         </div>
-      </div>
+      </div> --}}
     </main>
     <footer class="bg-dark pt-8 pb-6 footer text-muted">
       <div class="container container-xxl">
@@ -517,16 +434,16 @@
             <h4 class="text-white fs-16 my-4 font-weight-500">Popular Searches</h4>
             <ul class="list-group list-group-flush list-group-no-border">
               <li class="list-group-item bg-transparent p-0">
-                <a href="house-for-rent" class="text-muted lh-26 font-weight-500 hover-white">Houses For Rent</a>
+                <a href="/house-for-rent" class="text-muted lh-26 font-weight-500 hover-white">Houses For Rent</a>
               </li>
               <li class="list-group-item bg-transparent p-0">
-                <a href="house-for-sale" class="text-muted lh-26 font-weight-500 hover-white">Houses For Sale</a>
+                <a href="/house-for-sale" class="text-muted lh-26 font-weight-500 hover-white">Houses For Sale</a>
               </li>
               <li class="list-group-item bg-transparent p-0">
                 <a href="#" class="text-muted lh-26 font-weight-500 hover-white">View Our Investment Plans </a>
               </li>
               <li class="list-group-item bg-transparent p-0">
-                <a href="apartment-for-rent" class="text-muted lh-26 font-weight-500 hover-white">Apartment For Rent</a>
+                <a href="/apartment-for-rent" class="text-muted lh-26 font-weight-500 hover-white">Apartment For Rent</a>
               </li>
             </ul>
           </div>
@@ -534,19 +451,19 @@
             <h4 class="text-white fs-16 my-4 font-weight-500">Quick links</h4>
             <ul class="list-group list-group-flush list-group-no-border">
               <li class="list-group-item bg-transparent p-0">
-                <a href="apartment-for-sale" class="text-muted lh-26 font-weight-500 hover-white">Apartment For Sale</a>
+                <a href="/apartment-for-sale" class="text-muted lh-26 font-weight-500 hover-white">Apartment For Sale</a>
               </li>
               <li class="list-group-item bg-transparent p-0">
-                <a href="residential" class="text-muted lh-26 font-weight-500 hover-white">Lands at Residential Communities</a>
+                <a href="/residential" class="text-muted lh-26 font-weight-500 hover-white">Lands at Residential Communities</a>
               </li>
               <li class="list-group-item bg-transparent p-0">
-                <a href="commercial" class="text-muted lh-26 font-weight-500 hover-white">Commercial Lands</a>
+                <a href="/commercial" class="text-muted lh-26 font-weight-500 hover-white">Commercial Lands</a>
               </li>
               <li class="list-group-item bg-transparent p-0">
-                <a href="industrial" class="text-muted lh-26 hover-white font-weight-500">Industrial Lands</a>
+                <a href="/industrial" class="text-muted lh-26 hover-white font-weight-500">Industrial Lands</a>
               </li>
               <li class="list-group-item bg-transparent p-0">
-                <a href="farmland" class="text-muted lh-26 hover-white font-weight-500">Farm Lands for Sale</a>
+                <a href="/farmland" class="text-muted lh-26 hover-white font-weight-500">Farm Lands for Sale</a>
               </li>
             </ul>
           </div>
@@ -768,10 +685,10 @@
                     </a>
                   </div>
                 </div>
-                <div class="mt-2">By creating an account, you agree to HomeID
+                {{-- <div class="mt-2">By creating an account, you agree to HomeID
                   <a class="text-heading" href="#"><u>Terms of Use</u> </a> and
                   <a class="text-heading" href="#"><u>Privacy Policy</u></a>.
-                </div>
+                </div> --}}
               </div>
             </div>
           </div>

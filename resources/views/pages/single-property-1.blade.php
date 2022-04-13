@@ -75,31 +75,31 @@
                     <li class="dropdown-item">
                       <a id="navbar-link-home-01"
                    class="dropdown-link"
-                   href="apartments-for-rent">
+                   href="/apartments-for-rent">
                    Apartments For Rent
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="houses-for-rent" >
+                   href="/houses-for-rent" >
                    Houses For Rent
                       </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="offices-for-rent" >
+                   href="/offices-for-rent" >
                    Office Spaces For Rent
                       </a>
                     </li>
-                    <li class="dropdown-item">
+                    {{-- <li class="dropdown-item">
                       <a id="navbar-link-home-04"
                    class="dropdown-link"
                    href="rented-properties" >
                    Rented Properties
                       </a>
-                    </li>
+                    </li> --}}
                   </ul>
                 </li>
 
@@ -122,21 +122,21 @@
                     <li class="dropdown-item">
                       <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="houses-for-sale" >
+                   href="/houses-for-sale" >
                    Houses For Sale</a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="offices-for-sale" >
+                   href="/offices-for-sale" >
                    Office Spaces For Sale</a>
                     </li>
-                    <li class="dropdown-item">
+                    {{-- <li class="dropdown-item">
                       <a id="navbar-link-home-04"
                    class="dropdown-link"
                    href="sold-properties" >
                    Sold Properties</a>
-                    </li>
+                    </li> --}}
                   </ul>
                 </li>
 
@@ -152,25 +152,25 @@
                     <li class="dropdown-item">
                       <a id="navbar-link-home-01"
                    class="dropdown-link"
-                   href="residential" >
+                   href="/residential" >
                    Residential                     </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="commercial" >
+                   href="/commercial" >
                    Commercial                    </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="industrial" >
+                   href="/industrial" >
                    Industrial                     </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-04"
                    class="dropdown-link"
-                   href="farmland" >
+                   href="/farmland" >
                    Farmland
                       </a>
                     </li>
@@ -527,8 +527,8 @@
               <ul class="list-inline d-sm-flex align-items-sm-center mb-2">
                 <li class="list-inline-item badge badge-orange mr-2">Featured</li>
                 <li class="list-inline-item badge badge-primary mr-3">For Sale</li>
-                <li class="list-inline-item mr-2 mt-2 mt-sm-0"><i class="fal fa-clock mr-1"></i>2 months ago</li>
-                <li class="list-inline-item mt-2 mt-sm-0"><i class="fal fa-eye mr-1"></i>1039 views</li>
+                {{-- <li class="list-inline-item mr-2 mt-2 mt-sm-0"><i class="fal fa-clock mr-1"></i>2 months ago</li>
+                <li class="list-inline-item mt-2 mt-sm-0"><i class="fal fa-eye mr-1"></i>1039 views</li> --}}
               </ul>
               <div class="d-sm-flex justify-content-sm-between">
                 <div>
@@ -626,17 +626,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-sm-4 mb-6">
-                  <div class="media">
-                    <div class="p-2 shadow-xxs-1 rounded-lg mr-2">
-                      <svg class="icon icon-status fs-32 text-primary"><use xlink:href="#icon-status"></use></svg>
-                    </div>
-                    <div class="media-body">
-                      <h5 class="my-1 fs-14 text-uppercase letter-spacing-093 font-weight-normal">Status</h5>
-                      <p class="mb-0 fs-13 font-weight-bold text-heading">Active</p>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </section>
            
