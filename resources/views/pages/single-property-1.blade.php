@@ -672,7 +672,7 @@
                       </div>
                     </div>
                     <div class="card-body pt-3">
-                      <h2 class="card-title fs-16 lh-2 mb-0"><a href="single-property-1.html" class="text-dark hover-primary">{{ $property->name }}</a></h2>
+                      <h2 class="card-title fs-16 lh-2 mb-0"><a href="{{ route('pages.show', $property->id) }}" class="text-dark hover-primary">{{ $property->name }}</a></h2>
                       <p class="card-text font-weight-500 text-gray-light mb-2">{{ $property->area }}</p>
                       <ul class="list-inline d-flex mb-0 flex-wrap mr-n4">
                         <li class="list-inline-item text-gray font-weight-500 fs-13 d-flex align-items-center mr-4" data-toggle="tooltip" title="3 Bedroom">

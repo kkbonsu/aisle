@@ -152,25 +152,25 @@
                     <li class="dropdown-item">
                       <a id="navbar-link-home-01"
                    class="dropdown-link"
-                   href="/residential" >
+                   href="residential" >
                    Residential                     </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-02"
                    class="dropdown-link"
-                   href="/commercial" >
+                   href="commercial" >
                    Commercial                    </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-03"
                    class="dropdown-link"
-                   href="/industrial" >
+                   href="industrial" >
                    Industrial                     </a>
                     </li>
                     <li class="dropdown-item">
                       <a id="navbar-link-home-04"
                    class="dropdown-link"
-                   href="/farmland" >
+                   href="farmland" >
                    Farmland
                       </a>
                     </li>
@@ -522,27 +522,6 @@
               </div>
             </section>
            
-            <section class="pb-8 px-6 pt-6 bg-white rounded-lg">
-              <ul class="list-inline d-sm-flex align-items-sm-center mb-2">
-                <li class="list-inline-item badge badge-orange mr-2">Featured</li>
-                <li class="list-inline-item badge badge-primary mr-3">For Sale</li>
-                <li class="list-inline-item mr-2 mt-2 mt-sm-0"><i class="fal fa-clock mr-1"></i>2 months ago</li>
-                <li class="list-inline-item mt-2 mt-sm-0"><i class="fal fa-eye mr-1"></i>1039 views</li>
-              </ul>
-              <div class="d-sm-flex justify-content-sm-between">
-                <div>
-                  <h2 class="fs-35 font-weight-600 lh-15 text-heading">{{ $land->name }}</h2>
-                  <p class="mb-0"><i class="fal fa-map-marker-alt mr-2"></i>{{ $land->area }}</p>
-                </div>
-                <div class="mt-2 text-lg-right">
-                  <p class="fs-22 text-heading font-weight-bold mb-0">${{ $land->price }}</p>
-                  <p class="mb-0">$9350/SqFt</p>
-                </div>
-              </div>
-              <h4 class="fs-22 text-heading mt-6 mb-2">Description</h4>
-              <p class="mb-0 lh-214">{{ $lands->description }}</p>
-            </section>
-  
             <section class="mt-2 pb-3 px-6 pt-5 bg-white rounded-lg">
               <h4 class="fs-22 text-heading mb-6">Facts and Features</h4>
               <div class="row">
@@ -827,61 +806,73 @@
               </div>
             </section>
           </article>
-
-
-           <aside class="col-lg-4 pl-xl-4 primary-sidebar sidebar-sticky" id="sidebar">
+          <aside class="col-lg-4 pl-xl-4 primary-sidebar sidebar-sticky" id="sidebar">
             <div class="primary-sidebar-inner">
-              <div class="card border-0 widget-request-tour bg-transparent">
-                <ul class="nav nav-tabs d-flex" role="tablist">
-                  {{-- <li class="nav-item">
-                    <a class="nav-link active px-3" data-toggle="tab" href="#schedule" role="tab"
-							   aria-selected="true">Schedule
-                      A Tour</a>
-                  </li> --}}
-                  <li class="nav-item" role="presentation">
-                    <a class="nav-link px-3" data-toggle="tab" role="tab"
-							   aria-selected="false">SEND A MESSAGE</a>
-                  </li>
+              <div class="bg-white rounded-lg py-lg-6 pl-lg-6 pr-lg-3 p-4">
+                <ul class="list-inline d-sm-flex align-items-sm-center mb-2">
+                  <li class="list-inline-item badge badge-orange mr-2">Featured</li>
+                  <li class="list-inline-item badge badge-primary mr-3">For Sale</li>
                 </ul>
-                <div class="card-body px-sm-6 shadow-xxs-2 pb-5 pt-0 bg-white">
-                  {!! Form::open(array('route' => 'buys.store', 'method' => 'POST')) !!}
-                    <div class="pt-1 pb-0 px-0 shadow-none">
-                      
-                      {{-- <div class="tab-pane fade pt-5" id="request-info" role="tabpanel>
-                        <div class="form-check d-flex align-items-center border-bottom pb-3 mb-3">
-                          <input class="form-check-input" type="radio" name="agent" value="option1">
-                        
-                        </div> --}}
-                       <p style="color: red; font-size:16px;">Fill the form below and we will get back to you </p>
-                        <div class="form-group mb-2">
-                          <input type="text" name="name" class="form-control form-control-lg border-0"
-										       placeholder="First Name, Last Name">
-                        </div>
-                        
-                        <div class="form-group mb-2">
-                          <input type="tel" name="phone" class="form-control form-control-lg border-0" placeholder="Your phone">
-                        </div>
-                        <div class="form-group mb-4">
-                          <textarea class="form-control border-0" name="property" rows="4" placeholder="Hello, I'm interested in the 3 Bedroom at East Legon"> </textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-lg btn-block rounded">SEND MESSAGE</button>
-                      
+                <h2 class="fs-22 text-heading pt-2">{{ $land->name }}</h2>
+                <p class="mb-2"><i class="fal fa-map-marker-alt mr-1"></i>{{ $land->area }}</p>
+                <div class="d-flex align-items-center">
+                  <p class="fs-22 text-heading font-weight-bold mb-0 mr-6">${{ $land->price }}</p>
+                  <p class="mb-0">$9350/SqFt</p>
+                </div>
+                <div class="row mt-5">
+                  <div class="col-6 mb-3">
+                    <div class="media">
+                      <div class="p-2 shadow-xxs-1 rounded-lg mr-2 lh-1">
+                        <svg class="icon icon-bedroom fs-18 text-primary"><use xlink:href="#icon-bedroom"></use></svg>
+                      </div>
+                      <div class="media-body">
+                        <h5 class="fs-13 font-weight-normal mb-0">Bedrooms</h5>
+                        <p class="mb-0 fs-13 font-weight-bold text-dark">3</p>
                       </div>
                     </div>
-                {!! Form::close() !!}
-                  @if ($message = Session::get('success'))
-                  <div class="alert alert-success">
-                    <p>{{ $message }}</p>
                   </div>
-                  @endif
+                  <div class="col-6 mb-3">
+                    <div class="media">
+                      <div class="p-2 shadow-xxs-1 rounded-lg mr-2 lh-1">
+                        <svg class="icon icon-shower fs-18 text-primary"><use xlink:href="#icon-shower"></use></svg>
+                      </div>
+                      <div class="media-body">
+                        <h5 class="fs-13 font-weight-normal mb-0">Bathrooms</h5>
+                        <p class="mb-0 fs-13 font-weight-bold text-dark">2</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 mb-3">
+                    <div class="media">
+                      <div class="p-2 shadow-xxs-1 rounded-lg mr-2 lh-1">
+                        <svg class="icon icon-square fs-18 text-primary"><use xlink:href="#icon-square"></use></svg>
+                      </div>
+                      <div class="media-body">
+                        <h5 class="fs-13 font-weight-normal mb-0">Area</h5>
+                        <p class="mb-0 fs-13 font-weight-bold text-dark">3.6k SqFt</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 mb-3">
+                    <div class="media">
+                      <div class="p-2 shadow-xxs-1 rounded-lg mr-2 lh-1">
+                        <svg class="icon icon-Garage fs-18 text-primary"><use xlink:href="#icon-Garage"></use></svg>
+                      </div>
+                      <div class="media-body">
+                        <h5 class="fs-13 font-weight-normal mb-0">Garage</h5>
+                        <p class="mb-0 fs-13 font-weight-bold text-dark">1</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="mb-6 mt-1">Villa Called Archangel is now available to buy off plan in New Islington in Australia.</p>
+                <div class="mr-xl-2">
+                  <a href="#" class="btn btn-outline-primary btn-lg btn-block rounded border text-body border-hover-primary hover-white">Schedule a Tour</a>
+                  <a href="#" class="btn btn-outline-primary btn-lg btn-block rounded border text-body border-hover-primary hover-white mt-4">Request Info</a>
                 </div>
               </div>
             </div>
           </aside>
-
-
-         
-         
         </div>
       </div>
     </div>
@@ -909,37 +900,23 @@
               </button>
             </div>
             <div class="modal-body pb-6">
-              {!! Form::open(array('route' => 'buys.store', 'method' => 'POST')) !!}
-                    <div class="pt-1 pb-0 px-0 shadow-none">
-                      
-                      {{-- <div class="tab-pane fade pt-5" id="request-info" role="tabpanel>
-                        <div class="form-check d-flex align-items-center border-bottom pb-3 mb-3">
-                          <input class="form-check-input" type="radio" name="agent" value="option1">
-                        
-                        </div> --}}
-                       <p style="color: red; font-size:16px;">Fill the form below and we will get back to you </p>
-                        <div class="form-group mb-2">
-                          <input type="text" name="name" class="form-control form-control-lg border-0"
-										       placeholder="First Name, Last Name">
-                        </div>
-                        
-                        <div class="form-group mb-2">
-                          <input type="tel" name="phone" class="form-control form-control-lg border-0" placeholder="Your phone">
-                        </div>
-                        <div class="form-group mb-4">
-                          <textarea class="form-control border-0" name="property" rows="4" placeholder="Hello, I'm interested in the 3 Bedroom at East Legon"> </textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-lg btn-block rounded">SEND MESSAGE</button>
-                      
-                      </div>
-                    </div>
-                {!! Form::close() !!}
-                  @if ($message = Session::get('success'))
-                  <div class="alert alert-success">
-                    <p>{{ $message }}</p>
-                  </div>
-                  @endif
-
+              <div class="form-group mb-2">
+                <input type="text" class="form-control form-control-lg border-0" placeholder="First Name, Last Name">
+              </div>
+              <div class="form-group mb-2">
+                <input type="email" class="form-control form-control-lg border-0" placeholder="Your Email">
+              </div>
+              <div class="form-group mb-2">
+                <input type="tel" class="form-control form-control-lg border-0" placeholder="Your phone">
+              </div>
+              <div class="form-group mb-2">
+                <textarea class="form-control border-0" rows="4">Hello, I'm interested in Villa Called Archangel</textarea>
+              </div>
+              <div class="form-group form-check mb-4">
+                <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                <label class="form-check-label fs-13" for="exampleCheck3">Egestas fringilla phasellus faucibus scelerisque eleifend donec.</label>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg btn-block rounded">Request Info</button>
             </div>
           </div>
         </div>
