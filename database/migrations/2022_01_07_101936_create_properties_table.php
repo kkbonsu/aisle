@@ -26,6 +26,7 @@ class CreatePropertiesTable extends Migration
             $table->unsignedBigInteger('garages')->nullable();
             $table->unsignedBigInteger('type_id');
             $table->unsignedBigInteger('category_id');
+            $table->string('description')->nullable();
             $table->softDeletes();
             $table->timestamps();
         });
